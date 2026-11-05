@@ -1,5 +1,16 @@
 {
   "next_index": 0,
-  "pending": null,
-  "history": []
+  "pending": {
+    "index": 0,
+    "date": "2026-11-05",
+    "case_message_id": 11,
+    "poll_message_ids": [
+      13,
+      15,
+      17,
+      19
+    ]
+  },
+  "history": [],
+  "last_post_date": "2026-11-05"
 }
