@@ -2,5 +2,7 @@
   "answer_time_label": "2:00 PM",
   "anonymous_polls": true,
   "pin_case": true,
-  "skip_weekdays": []
+  "skip_weekdays": [
+    "Sun"
+  ]
 }
