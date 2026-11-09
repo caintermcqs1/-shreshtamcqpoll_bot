@@ -221,6 +221,7 @@ def do_answers():
 def do_find_id():
     updates = api("getUpdates", allowed_updates=["message", "my_chat_member", "channel_post"])
     seen = {}
+    topics = {}
     for u in updates:
         msg = u.get("message") or u.get("channel_post") or (u.get("my_chat_member") or {})
         chat = msg.get("chat")
@@ -228,13 +229,16 @@ def do_find_id():
             continue
         key = (chat["id"], msg.get("message_thread_id"))
         seen[key] = (chat.get("title") or chat.get("first_name") or "", chat.get("type"))
+        ft = msg.get("forum_topic_created") or (msg.get("reply_to_message") or {}).get("forum_topic_created")
+        if ft and key[1]:
+            topics[key[1]] = ft.get("name")
     if not seen:
         print("No chats found. Send '/start' to the bot in private chat AND send any message in the group, "
               "then run this again within 24 hours.")
         return
     print("Chats the bot can see:")
     for (cid, thread), (name, typ) in seen.items():
-        extra = f"   TOPIC_ID = {thread}" if thread else ""
+        extra = f"   TOPIC_ID = {thread}  topic: {topics.get(thread, '?')}" if thread else ""
         print(f"  {typ:10} {name!r:40} CHAT_ID = {cid}{extra}")
 
 
