@@ -13,7 +13,7 @@ on:
       mode:
         description: "What to post"
         type: choice
-        options: [check, fact, promo, all]
+        options: [check, fact, promo, all, notice]
         default: check
 
 permissions:
