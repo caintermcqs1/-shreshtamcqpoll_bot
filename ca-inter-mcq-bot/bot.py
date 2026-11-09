@@ -2,7 +2,7 @@
 """CA Inter Daily MCQ bot for Telegram.
 
 Modes (first argument):
-  post     - post today's case + 4 polls (runs ~10:50 AM IST)
+  post     - post today's case + 4 polls (runs 10:30 AM IST)
   answers  - close today's polls and post answers with % correct (runs ~1:50 PM IST)
   find-id  - list chats/topics the bot can see, to get CHAT_ID / TOPIC_ID
   preview  - print the next day's messages without sending anything
@@ -119,7 +119,7 @@ def answer_message(day, results):
                   f"{NUM[i]} <b>{e(SHORT.get(q['subject'], q['subject']))}: {LETTERS[q['ans']]}) {e(q['o'][q['ans']])}</b>{e(stat)}",
                   f"<b>Why:</b> {e(q['why'])}",
                   f"⚠️ <b>Trap:</b> <i>{e(q['trap'])}</i>"]
-    lines += ["", "🔥 Next set tomorrow at 11:00 AM. Keep practising!"]
+    lines += ["", "🔥 Next set tomorrow at 10:30 AM. Keep practising!"]
     return "\n".join(lines)
 
 
