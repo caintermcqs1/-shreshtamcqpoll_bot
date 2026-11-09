@@ -48,14 +48,17 @@ def fetch(url):
         return r.read().decode("utf-8", errors="replace")
 
 
-def send(text, preview=False):
+def send(text, preview=False, where="general"):
     data = {
         "chat_id": CHAT_ID,
         "text": text,
         "parse_mode": "HTML",
         "disable_web_page_preview": "false" if preview else "true",
     }
-    if TOPIC_ID:
+    thread = (load(CFG_FILE, {}).get("topics", {}).get(CHAT_ID, {}) or {}).get(where)
+    if thread:
+        data["message_thread_id"] = thread
+    elif TOPIC_ID:
         data["message_thread_id"] = TOPIC_ID
     req = urllib.request.Request(
         f"https://api.telegram.org/bot{TOKEN}/sendMessage",
@@ -162,7 +165,7 @@ def check_icai(state, cfg):
             f'🔗 Official link: <a href="{html.escape(url)}">{html.escape(url)}</a>\n'
             "<i>Source: icai.org</i>"
         )
-        send(text)
+        send(text, where="updates")
 
 
 # ---------------- YouTube (CA Inter only) ----------------
@@ -218,12 +221,12 @@ def check_youtube(state, cfg):
     for _, vid, title in new:
         url = f"https://www.youtube.com/watch?v={vid}"
         text = (
-            "🎥 <b>New CA Inter video from Sir!</b>\n\n"
+            "🎥 <b>New CA Inter video from CA Ram Harsha Sir!</b>\n\n"
             f"{html.escape(title)}\n\n"
             f"▶️ Watch now: {url}\n"
             "👍 Like, share with your friends & subscribe for more!"
         )
-        send(text, preview=True)
+        send(text, preview=True, where="updates")
 
 
 def main():

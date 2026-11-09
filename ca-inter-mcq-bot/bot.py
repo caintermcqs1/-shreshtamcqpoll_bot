@@ -60,13 +60,18 @@ def api(method, **params):
     return res["result"]
 
 
-def target():
+def target(day=None):
     chat = os.environ.get("CHAT_ID", "").strip()
     if not chat:
         sys.exit("CHAT_ID is not set. Run the 'Find group ID' workflow first.")
     topic = os.environ.get("TOPIC_ID", "").strip()
+    thread = int(topic) if topic else None
+    if day:
+        topics = (load(CONFIG, {}) or {}).get("group_topics", {}).get(chat, {})
+        if day.get("group") in topics:
+            thread = int(topics[day["group"]])
     return {"chat_id": int(chat) if chat.lstrip("-").isdigit() else chat,
-            "message_thread_id": int(topic) if topic else None}
+            "message_thread_id": thread}
 
 
 # ---------------------------------------------------------------- formatting
@@ -167,7 +172,7 @@ def do_post():
     if day is None:
         print("All days in plan.json have been posted. Add more days to continue.")
         return
-    t = target()
+    t = target(day)
     head = api("sendMessage", **t, text=header_message(day, cfg), parse_mode="HTML")
     polls, case_ids = [], []
     for i, it in enumerate(day["items"]):
@@ -196,7 +201,7 @@ def do_answers():
         print("No open polls. Nothing to do.")
         return
     day = plan[p["index"]]
-    t = target()
+    t = target(day)
     results = []
     for i, mid in enumerate(p["poll_message_ids"]):
         try:

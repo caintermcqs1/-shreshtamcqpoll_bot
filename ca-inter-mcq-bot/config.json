@@ -4,5 +4,11 @@
   "pin_case": true,
   "skip_weekdays": [
     "Sun"
-  ]
+  ],
+  "group_topics": {
+    "-1002303769901": {
+      "Group 1": 5564,
+      "Group 2": 5566
+    }
+  }
 }
