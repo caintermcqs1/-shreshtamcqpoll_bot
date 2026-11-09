@@ -230,6 +230,12 @@ def main():
     mode = (sys.argv[1] if len(sys.argv) > 1 else "check").lower()
     state = load(STATE_FILE, {})
     cfg = load(CFG_FILE, {})
+    if mode == "youtube":
+        try:
+            check_youtube(state, cfg)
+        finally:
+            save_state(state)
+        return
     if mode == "notice":
         post_notice()
         return
