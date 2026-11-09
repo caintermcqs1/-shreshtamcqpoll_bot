@@ -100,7 +100,7 @@ def post_promo(state):
 
 # ---------------- ICAI official announcements ----------------
 ICAI_URL = "https://www.icai.org/category/announcements"
-ITEM_RE = re.compile(r'<li class="list-group-item">\s*<a href="([^"]+)"[^>]*>(.*?)</a>', re.S)
+ITEM_RE = re.compile(r'<li[^>]*class=["\'][^"\']*list-group-item[^"\']*["\'][^>]*>\s*<a[^>]*?href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', re.S | re.I)
 
 
 def clean(s):
@@ -117,7 +117,10 @@ def check_icai(state, cfg):
         return
     items = ITEM_RE.findall(page)
     if not items:
-        print("ICAI page format changed: no items found")
+        print("ICAI page format changed: no items found. Page length", len(page))
+        print("ICAI page start:", re.sub(r"\s+", " ", page[:600]))
+        i = page.find("list-group-item")
+        print("ICAI around list-group-item:", re.sub(r"\s+", " ", page[max(0, i - 100):i + 400]) if i >= 0 else "not present")
         state["icai_fail_count"] = state.get("icai_fail_count", 0) + 1
         return
     state["icai_fail_count"] = 0
