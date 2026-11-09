@@ -226,7 +226,7 @@ def check_youtube(state, cfg):
     for _, vid, title in new:
         url = f"https://www.youtube.com/watch?v={vid}"
         text = (
-            "🎥 <b>New CA Inter video from CA Ram Harsha Sir!</b>\n\n"
+            "🎥 <b>New CA Inter video from CA Ram Harsha YouTube Channel!</b>\n\n"
             f"{html.escape(title)}\n\n"
             f"▶️ Watch now: {url}\n"
             "👍 Like, share with your friends & subscribe for more!"
