@@ -118,6 +118,8 @@ def answer_message(day, results):
                   f"{NUM[i]} <b>{e(SHORT.get(q['subject'], q['subject']))}: {LETTERS[q['ans']]}) {e(q['o'][q['ans']])}</b>{e(stat)}",
                   f"<b>Why:</b> {e(q['why'])}",
                   f"⚠️ <b>Trap:</b> <i>{e(q['trap'])}</i>"]
+        if q.get("source"):
+            lines.append(f"📖 <b>Reference:</b> <i>{e(q['source'])}</i>")
     lines += ["", "🔥 Next set tomorrow at 10:30 AM. Keep practising!"]
     return "\n".join(lines)
 
