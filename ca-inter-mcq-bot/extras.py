@@ -100,7 +100,7 @@ def post_promo(state):
 
 # ---------------- ICAI official announcements ----------------
 ICAI_URL = "https://www.icai.org/category/announcements"
-ITEM_RE = re.compile(r'<li[^>]*class=["\'][^"\']*list-group-item[^"\']*["\'][^>]*>\s*<a[^>]*?href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', re.S | re.I)
+ITEM_RE = re.compile(r'<li[^>]*class=["\'][^"\']*list-group-item[^"\']*["\'][^>]*>\s*<a[^>]*?href\s*=\s*["\']([^"\']+)["\'][^>]*>(.*?)</a>', re.S | re.I)
 
 
 def clean(s):
