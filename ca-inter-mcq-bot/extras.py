@@ -21,7 +21,12 @@ IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 
 TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID = os.environ["CHAT_ID"]
+try:
+    with open(os.path.join(HERE, "config.json"), encoding="utf-8") as _f:
+        _chat = json.load(_f).get("chat_id")
+except (FileNotFoundError, ValueError):
+    _chat = None
+CHAT_ID = str(_chat or os.environ["CHAT_ID"]).strip()
 TOPIC_ID = os.environ.get("TOPIC_ID", "").strip()
 
 

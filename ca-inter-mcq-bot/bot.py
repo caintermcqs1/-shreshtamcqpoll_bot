@@ -61,7 +61,7 @@ def api(method, **params):
 
 
 def target(day=None):
-    chat = os.environ.get("CHAT_ID", "").strip()
+    chat = str((load(CONFIG, {}) or {}).get("chat_id") or os.environ.get("CHAT_ID", "")).strip()
     if not chat:
         sys.exit("CHAT_ID is not set. Run the 'Find group ID' workflow first.")
     topic = os.environ.get("TOPIC_ID", "").strip()
