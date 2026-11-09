@@ -1,0 +1,62 @@
+name: "3. Extras – facts, promos, ICAI & YouTube updates"
+
+on:
+  schedule:
+    - cron: "30 2 * * 1-6"   # 08:00 IST  check ICAI + YouTube
+    - cron: "30 6 * * 1-6"   # 12:00 IST  check
+    - cron: "30 10 * * 1-6"  # 16:00 IST  check
+    - cron: "30 12 * * 1-6"  # 18:00 IST  CA fact of the day (+ check)
+    - cron: "30 13 * * 2,4"  # 19:00 IST  promotion (Tue, Thu)
+    - cron: "30 15 * * 1-6"  # 21:00 IST  check
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to post"
+        type: choice
+        options: [check, fact, promo, all]
+        default: check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: extras-bot
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: ca-inter-mcq-bot
+
+jobs:
+  extras:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pick mode
+        id: mode
+        run: |
+          case "${{ github.event.schedule }}" in
+            "30 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT" ;;
+            "30 13 * * 2,4") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
+            "") echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
+            *) echo "mode=check" >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Run extras
+        run: python extras.py ${{ steps.mode.outputs.mode }}
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          TOPIC_ID: ${{ vars.TOPIC_ID }}
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add extras_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update extras progress"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
