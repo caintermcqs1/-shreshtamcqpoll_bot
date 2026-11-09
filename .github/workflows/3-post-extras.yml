@@ -8,12 +8,13 @@ on:
     - cron: "30 12 * * 1-6"  # 18:00 IST  CA fact of the day (+ check)
     - cron: "30 13 * * 2,4"  # 19:00 IST  promotion (Tue, Thu)
     - cron: "30 15 * * 1-6"  # 21:00 IST  check
+    - cron: "15,45 2-17 * * *"  # every 30 min, 07:45-23:15 IST, all days: Sir's YouTube
   workflow_dispatch:
     inputs:
       mode:
         description: "What to post"
         type: choice
-        options: [check, fact, promo, all, notice]
+        options: [check, fact, promo, all, notice, youtube]
         default: check
 
 permissions:
@@ -41,6 +42,7 @@ jobs:
           case "${{ github.event.schedule }}" in
             "30 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT" ;;
             "30 13 * * 2,4") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
+            "15,45 2-17 * * *") echo "mode=youtube" >> "$GITHUB_OUTPUT" ;;
             "") echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
             *) echo "mode=check" >> "$GITHUB_OUTPUT" ;;
           esac
