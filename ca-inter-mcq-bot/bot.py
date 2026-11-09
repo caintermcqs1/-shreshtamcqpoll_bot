@@ -103,7 +103,6 @@ def header_message(day, cfg):
 def item_message(i, it):
     lines = [f"{NUM[i]} <b>{e(it['subject'])}</b> – <i>{e(it['topic'])}</i>",
              f"<b>Case: {e(it['title'])}</b>"] + blocks_text(it["caseBlocks"])
-    lines += ["", f"<i>Source: {e(it['source'])}</i>"]
     return "\n".join(lines)
 
 
