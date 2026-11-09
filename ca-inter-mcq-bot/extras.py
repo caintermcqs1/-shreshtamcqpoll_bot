@@ -66,6 +66,21 @@ def send(text, preview=False):
     if not res.get("ok"):
         raise RuntimeError(res)
     print("Sent:", text.splitlines()[0][:80])
+    return res["result"]["message_id"]
+
+
+def post_notice():
+    """Post notice.txt (trusted HTML written by us) and pin it."""
+    with open(os.path.join(HERE, "notice.txt"), encoding="utf-8") as f:
+        text = f.read().strip()
+    mid = send(text)
+    req = urllib.request.Request(
+        f"https://api.telegram.org/bot{TOKEN}/pinChatMessage",
+        data=urllib.parse.urlencode({"chat_id": CHAT_ID, "message_id": mid,
+                                     "disable_notification": "true"}).encode(),
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        print("Pinned:", json.load(r).get("ok"))
 
 
 # ---------------- daily fact ----------------
@@ -215,6 +230,9 @@ def main():
     mode = (sys.argv[1] if len(sys.argv) > 1 else "check").lower()
     state = load(STATE_FILE, {})
     cfg = load(CFG_FILE, {})
+    if mode == "notice":
+        post_notice()
+        return
     try:
         if mode in ("fact", "all"):
             post_fact(state)
