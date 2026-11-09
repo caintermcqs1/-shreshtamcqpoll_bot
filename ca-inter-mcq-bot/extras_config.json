@@ -1,6 +1,6 @@
 {
   "youtube_channel_url": "https://www.youtube.com/@caramharsha",
-  "youtube_keywords": "\\binter(mediate)?\\b",
+  "youtube_keywords": "\\bCA\\s*Inter(mediate)?\\b",
   "icai_keywords": "\\binter(mediate)?\\b",
   "topics": {
     "-1002303769901": {

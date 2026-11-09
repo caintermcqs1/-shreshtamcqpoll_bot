@@ -212,7 +212,7 @@ def check_youtube(state, cfg):
         if vid in seen:
             continue
         seen.append(vid)
-        if not kw.search(title + " " + desc):
+        if not kw.search(title):  # title only: every description mentions CA Inter
             print("YouTube skip (not CA Inter):", title)
             continue
         # first run: only share a video from the last 7 days, never the old backlog
