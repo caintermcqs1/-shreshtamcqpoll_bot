@@ -108,6 +108,21 @@ def todays_group():
 
 
 MOTIVATION = [
+    "Jan 2027 is not far – every hour you study today is a mark you collect in the exam hall.",
+    "ICAI doesn't check how hard the paper was – it checks how well you prepared. Prepare well.",
+    "The pass list has room for everyone who refuses to give up.",
+    "40 in each, 50 in aggregate – one chapter at a time, one paper at a time.",
+    "Reading is learning; writing answers is passing. Practise one question today.",
+    "RTPs, MTPs and PYQs are your best teachers – don't leave them for the last week.",
+    "Three revisions turn \"I've read it\" into \"I can write it\".",
+    "Standards, sections and formats – learn them once properly, revise them many times.",
+    "Every CA was once a CA Inter student who doubted themselves – and kept going anyway.",
+    "A tough chapter is not a wall, it's a step. Climb it today.",
+    "Compare yourself with who you were yesterday, not with the topper.",
+    "Failure in a mock is free; failure in the exam is costly. Make your mistakes now.",
+    "Phone down, book open – the next 2 hours decide more than you think.",
+    "Consistency beats talent when talent doesn't stay consistent.",
+    "\"CA\" next to your name is built by small daily habits – start today's habit now.",
     "Small steps every day add up to a big result. Keep going! 💪",
     "You don't have to be perfect – just better than yesterday.",
     "Every page you revise today is one less worry in the exam hall.",
