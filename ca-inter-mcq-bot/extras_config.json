@@ -4,7 +4,9 @@
   "icai_keywords": "\\binter(mediate)?\\b",
   "topics": {
     "-1002303769901": {
-      "updates": 5568
+      "updates": 5568,
+      "g1": 5564,
+      "g2": 5566
     }
   }
 }

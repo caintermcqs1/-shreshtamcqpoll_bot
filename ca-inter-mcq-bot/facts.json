@@ -1,58 +1,163 @@
 [
   {
-    "title": "Why 1st July is special for CAs",
-    "text": "ICAI was set up on 1 July 1949 under the Chartered Accountants Act, 1949. That's why 1st July is celebrated every year as CA Day."
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "The Father of Accounting",
+    "text": "In 1494, Luca Pacioli, an Italian friar and mathematician, published 'Summa de arithmetica' in Venice. It was the first printed work on the double-entry system – the same system you use in every journal entry today.",
+    "source": "Wikipedia – Luca Pacioli"
   },
   {
-    "title": "Same birthday: CA Day & GST Day",
-    "text": "GST was launched in India on 1 July 2017 – the same date as CA Day. So 1st July is both CA Day and GST Day!"
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "Why is it called 'Audit'?",
+    "text": "The word 'audit' comes from the Latin 'audire' – to hear. In early days accounts were read out aloud and the auditor 'heard' them before approving.",
+    "source": "Wikipedia – Audit"
   },
   {
-    "title": "Your exam pattern: 30 marks MCQs",
-    "text": "Under the new scheme, CA Intermediate papers have 30 marks of case-scenario MCQs and 70 marks of descriptive questions. Daily MCQ practice in this group = practice for that 30%!"
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "150+ years and still working",
+    "text": "The Indian Contract Act was enacted on 25 April 1872 and came into force on 1 September 1872 with 266 sections. Every contract question you solve still rests on this 150-year-old law.",
+    "source": "Wikipedia – Indian Contract Act, 1872"
   },
   {
-    "title": "Exemption rule – know it!",
-    "text": "Score 60 or more in a paper but miss the group? You get an exemption in that paper for the next three consecutive attempts under the new scheme."
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Taylor + Gilbreths = Time & Motion Study",
+    "text": "Time and motion study combines Frederick Taylor's time study with Frank and Lillian Gilbreth's motion study. The Gilbreth family later became famous through the book and film 'Cheaper by the Dozen'.",
+    "source": "Wikipedia – Time and motion study"
   },
   {
-    "title": "Pass marks at CA Inter",
-    "text": "To pass a group you need at least 40 marks in each paper and 50% aggregate in that group."
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "The smoke ball that made contract law",
+    "text": "In Carlill v Carbolic Smoke Ball Co (1893), a company promised £100 to anyone who caught flu after using its smoke ball. Mrs Carlill did, sued and won – the court held the advert was a general offer to the whole world.",
+    "source": "Wikipedia – Carlill v Carbolic Smoke Ball Co"
   },
   {
-    "title": "ICAI's motto",
-    "text": "ICAI's motto is from the Kathopanishad: 'Ya Eshu Supteshu Jagarti' – one who is awake in those who sleep. A CA keeps watch on behalf of the public."
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "The Rule of 72 is 500+ years old",
+    "text": "Divide 72 by the interest rate to estimate how many years money takes to double. An early reference to this rule appears in Luca Pacioli's Summa of 1494 – the same book that gave us double-entry!",
+    "source": "Wikipedia – Rule of 72"
   },
   {
-    "title": "Where does the word 'Audit' come from?",
-    "text": "'Audit' comes from the Latin word 'audire' – to hear. In early times, accounts were read out aloud and the auditor 'heard' them."
+    "group": "Group 1",
+    "subject": "Income Tax",
+    "title": "Why income tax came to India",
+    "text": "India's first Income-tax Act was introduced in February 1860 by James Wilson, British India's first finance minister, to refill the treasury after the 1857 crisis. It received assent on 24 July 1860 and had 259 sections.",
+    "source": "Wikipedia – Income tax in India"
   },
   {
-    "title": "Father of Accounting",
-    "text": "Luca Pacioli, an Italian mathematician, described the double-entry system in his book 'Summa' in 1494. He is called the Father of Accounting."
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "The scandal that ended a Big Five firm",
+    "text": "After Enron's fraud became public in October 2001, its auditor Arthur Andersen – then one of the five largest audit firms in the world – collapsed. The USA passed the Sarbanes–Oxley Act in 2002 in response.",
+    "source": "Wikipedia – Enron scandal; Sarbanes–Oxley Act"
   },
   {
-    "title": "Taxation paper split",
-    "text": "CA Inter Paper 3 (Taxation) is 100 marks: Section A Income Tax – 50 marks, Section B GST – 50 marks. Don't neglect either half!"
+    "group": "Group 1",
+    "subject": "GST",
+    "title": "GST was born at midnight",
+    "text": "GST was launched at a special midnight session (30 June – 1 July 2017) in the Central Hall of Parliament, through the 101st Constitutional Amendment. 1 July is marked as GST Day.",
+    "source": "Wikipedia – Goods and Services Tax (India)"
   },
   {
-    "title": "Five regions of ICAI",
-    "text": "ICAI has five regional councils: Western (Mumbai), Southern (Chennai), Eastern (Kolkata), Central (Kanpur) and Northern (New Delhi)."
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Where the learning curve came from",
+    "text": "In 1936, T. P. Wright, an aircraft engineer, found that every time total aircraft production doubled, the labour time needed per aircraft fell by about 20%. This is the learning curve you study in costing.",
+    "source": "Wikipedia – Experience curve effects"
   },
   {
-    "title": "Who writes Accounting Standards?",
-    "text": "The Accounting Standards Board (ASB) of ICAI was set up in 1977 to formulate Accounting Standards in India – the AS you study in Advanced Accounting."
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "The minor who changed contract law",
+    "text": "In Mohori Bibee v Dharmodas Ghose (1903), a minor mortgaged his property to a moneylender. The Privy Council held that an agreement with a minor is totally void – the rule you apply in exams today.",
+    "source": "Wikipedia – Mohori Bibee v Dharmodas Ghose"
   },
   {
-    "title": "Articleship is now 2 years",
-    "text": "Under the new scheme of education and training, practical training (articleship) is 2 years."
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Five forces, one article",
+    "text": "Michael Porter's Five Forces framework was first published in Harvard Business Review in 1979. Over four decades later it is still the starting point for industry analysis.",
+    "source": "Wikipedia – Porter's five forces analysis"
   },
   {
-    "title": "Study tip: Revise in cycles",
-    "text": "Revise a topic after 1 day, 7 days and 30 days. Spaced revision makes concepts stick far better than one long reading."
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "Debit and Credit – the Latin roots",
+    "text": "It is said that Pacioli's Summa used the Latin words 'debere' (to owe) and 'credere' (to entrust) for the two sides of a transaction – the roots of our words Debit and Credit.",
+    "source": "Wikipedia – Debits and credits"
   },
   {
-    "title": "Study tip: MCQs = concept test",
-    "text": "When you get an MCQ wrong, don't just read the answer – find WHY your option was wrong. Traps repeat in exams."
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "A Nobel Prize for capital structure",
+    "text": "The Modigliani–Miller theorem on capital structure was first proposed in 1958. Franco Modigliani received the 1985 Nobel Prize in Economics for this and other work.",
+    "source": "Wikipedia – Modigliani–Miller theorem"
+  },
+  {
+    "group": "Group 1",
+    "subject": "Income Tax",
+    "title": "A new Income-tax Act from 2026",
+    "text": "The Income-tax Act, 2025 came into force on 1 April 2026, replacing the Income-tax Act, 1961 after more than six decades of amendments.",
+    "source": "Wikipedia – Income-tax Act, 2025"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Kodak invented the digital camera",
+    "text": "Steven Sasson built the first self-contained digital camera at Kodak in 1975. It weighed about 3.6 kg and had just 100 × 100 pixels (0.01 megapixel). A classic strategy lesson: inventing a technology is not the same as building your strategy around it.",
+    "source": "Wikipedia – Steven Sasson"
+  },
+  {
+    "group": "Group 1",
+    "subject": "GST",
+    "title": "GST's ancestor – VAT",
+    "text": "The value-added tax was devised by Maurice Lauré of the French tax authority. It was first tried in 1954 in France's Ivory Coast colony, and France introduced it at home in 1958. GST belongs to this VAT family.",
+    "source": "Wikipedia – Value-added tax"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "India's biggest wake-up call for auditors",
+    "text": "In 2009, Satyam's chairman B. Ramalinga Raju confessed that the company's accounts had been manipulated by about ₹7,000 crore. The scandal shaped many audit reforms that followed.",
+    "source": "Wikipedia – Satyam scandal"
+  },
+  {
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "1 July – a double celebration",
+    "text": "ICAI was established on 1 July 1949 under the Chartered Accountants Act, 1949. GST was also launched on 1 July (2017) – so 1 July is both CA Day and GST Day.",
+    "source": "Wikipedia – ICAI; Goods and Services Tax (India)"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "Don't put all your eggs in one basket",
+    "text": "Harry Markowitz published his portfolio theory in 1952, showing how diversification reduces risk. He received the 1990 Nobel Prize in Economics for it.",
+    "source": "Wikipedia – Harry Markowitz"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "The Gantt chart is over 100 years old",
+    "text": "Henry Gantt created the Gantt chart in the 1910s. It was later used to plan huge projects such as the Hoover Dam.",
+    "source": "Wikipedia – Henry Gantt"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Kaplan – from costing to scorecards",
+    "text": "Robin Cooper and Robert Kaplan brought Activity-Based Costing into the spotlight in the 1980s. Kaplan, with David Norton, then gave the world the Balanced Scorecard in a 1992 article.",
+    "source": "Wikipedia – Activity-based costing; Balanced scorecard"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Stars, cash cows and dogs",
+    "text": "The BCG growth-share matrix was introduced in 1970 in the Boston Consulting Group essay 'The Product Portfolio'.",
+    "source": "Wikipedia – Growth–share matrix"
   }
 ]

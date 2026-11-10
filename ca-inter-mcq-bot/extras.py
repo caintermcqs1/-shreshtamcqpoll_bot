@@ -92,6 +92,21 @@ def post_notice():
 
 
 # ---------------- daily fact ----------------
+def todays_group():
+    """Group of today's MCQ day (from the MCQ bot's state), or None."""
+    st = load(os.path.join(HERE, "state.json"), {}) or {}
+    t = today()
+    for h in reversed(st.get("history", [])):
+        if h.get("date") == t:
+            return h.get("group")
+    p = st.get("pending")
+    if p and p.get("date") == t:
+        plan = load(os.path.join(HERE, "plan.json"), []) or []
+        if p.get("index", 0) < len(plan):
+            return plan[p["index"]].get("group")
+    return None
+
+
 def post_fact(state):
     if state.get("last_fact_date") == today():
         print("Fact already posted today")
@@ -99,11 +114,21 @@ def post_fact(state):
     facts = load(os.path.join(HERE, "facts.json"), [])
     if not facts:
         return
-    i = state.get("fact_index", 0) % len(facts)
-    f = facts[i]
-    text = f"💡 <b>{html.escape(f['title'])}</b>\n\n{html.escape(f['text'])}"
-    send(text)
-    state["fact_index"] = i + 1
+    group = todays_group()
+    if group not in ("Group 1", "Group 2"):
+        alt = state.get("fact_alt", 0)
+        group = "Group 1" if alt % 2 == 0 else "Group 2"
+        state["fact_alt"] = alt + 1
+    pool = [f for f in facts if f.get("group") == group] or facts
+    key = "fact_index_g1" if group == "Group 1" else "fact_index_g2"
+    i = state.get(key, 0) % len(pool)
+    f = pool[i]
+    text = (f"💡 <b>Fun Fact – {html.escape(f.get('subject', 'CA Inter'))}</b>\n\n"
+            f"<b>{html.escape(f['title'])}</b>\n{html.escape(f['text'])}")
+    if f.get("source"):
+        text += f"\n\n<i>Source: {html.escape(f['source'])}</i>"
+    send(text, where="g1" if group == "Group 1" else "g2")
+    state[key] = i + 1
     state["last_fact_date"] = today()
 
 
