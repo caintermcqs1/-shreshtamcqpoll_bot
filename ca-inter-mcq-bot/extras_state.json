@@ -1,6 +1,6 @@
 {
   "fact_index": 1,
-  "last_fact_date": "2026-11-09",
+  "last_fact_date": "2026-11-10",
   "icai_fail_count": 0,
   "yt_channel_id": "UCWknnb47A6xz1vXUaheVm0g",
   "icai_seen": [
@@ -45,7 +45,9 @@
     "Mt9e0Jgp_EM",
     "QBMLiHNOMpY"
   ],
-  "next_kind_g1": "tip",
+  "next_kind_g1": "fact",
   "next_kind_g2": "fact",
-  "fact_cycle": 0
+  "fact_cycle": 1,
+  "motivation_index": 1,
+  "tip_index_g1": 1
 }
