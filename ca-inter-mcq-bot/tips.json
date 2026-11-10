@@ -1,0 +1,122 @@
+[
+  {
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "Working notes = step marks",
+    "text": "Show a working note for every adjustment, even a small one. If the final figure goes wrong, clear working notes still earn you step marks."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Statement first, numbers later",
+    "text": "In process costing, prepare the Statement of Equivalent Production before anything else. Once the units are right, the cost per unit and valuation follow easily."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "Provision → Facts → Conclusion",
+    "text": "Write every Law answer in three parts: the relevant provision, how it applies to the facts given, and a clear one-line conclusion. Examiners look for all three."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "Remember SAs by series",
+    "text": "Group the Standards on Auditing by series: 200s – general principles, 300s & 400s – risk assessment and response, 500s – audit evidence, 600s – using the work of others, 700s – reporting. Then learn the titles inside each series."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Income Tax",
+    "title": "Keep a one-page limits chart",
+    "text": "Make a single page with all exemption and deduction limits you study, and revise it once a week. Most marks lost in tax come from a wrong limit, not a wrong concept."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "Formula first, then figures",
+    "text": "In FM, write the formula before putting the numbers in. If there is a calculation slip, the correct formula alone can still earn marks."
+  },
+  {
+    "group": "Group 1",
+    "subject": "GST",
+    "title": "Three questions for every GST problem",
+    "text": "Before computing GST, ask: Is it a supply? Is it taxable or exempt? Where is the place of supply? The third answer tells you IGST, or CGST + SGST."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Use the case's own words",
+    "text": "In SM case answers, use the company name and the facts given in the case, and name the model you are applying (BCG, Ansoff, Porter, SWOT). Generic textbook answers score less."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "Format before figures",
+    "text": "For long questions like amalgamation or consolidation, draw the format first (headings and columns), then fill in the figures. It saves time and avoids missing items."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Know the sign of every variance",
+    "text": "For each variance, learn what Favourable and Adverse mean in words, not just the formula. Writing (F) or (A) correctly is part of the answer."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "One-line case laws",
+    "text": "Keep a list of important case laws with one line of facts and one line of the decision. Quoting a relevant case makes a Law answer stand out."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "Use audit keywords",
+    "text": "Use standard phrases like 'sufficient appropriate audit evidence', 'professional scepticism' and 'material misstatement' in audit answers – they show the examiner you know the language of the SAs."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Income Tax",
+    "title": "Always show the heads of income",
+    "text": "In computation questions, present income head by head with clear sub-totals, then deductions and tax. A well-laid-out computation is easier to mark and earns more."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "Don't miss the hidden cash flows",
+    "text": "In capital budgeting, check for the tax saving on depreciation, the working capital released at the end and the salvage value. These are the cash flows students most often forget."
+  },
+  {
+    "group": "Group 1",
+    "subject": "GST",
+    "title": "Goods vs services timing",
+    "text": "Make a side-by-side table of time of supply rules for goods and for services. Seeing them together makes the differences easy to remember."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Draw the model",
+    "text": "When a question asks about a matrix or framework, draw a small diagram (BCG boxes, Ansoff grid, Five Forces). A neat diagram explains in seconds what takes a paragraph to write."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "Read the AS question twice",
+    "text": "In Accounting Standards questions, first identify which AS applies and what the question actually asks (treatment, disclosure or both), then answer only that."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "Ratios need the right base",
+    "text": "For every ratio, be clear what goes on top and what goes below (e.g. average or closing figures). Write the formula with the figures used – half the marks are in the presentation."
+  },
+  {
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "Practise MCQs on provisions",
+    "text": "Law MCQs often test exact conditions – numbers of members, days or limits. Note such numbers in a separate list while reading."
+  },
+  {
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Classify before you calculate",
+    "text": "Before solving a costing problem, classify each cost as direct or indirect, fixed or variable. Most costing mistakes start with a wrong classification."
+  }
+]

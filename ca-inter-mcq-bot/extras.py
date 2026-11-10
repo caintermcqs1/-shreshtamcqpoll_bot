@@ -108,27 +108,36 @@ def todays_group():
 
 
 def post_fact(state):
+    """6 PM post: in each group, alternate Fun Fact and Study Tip."""
     if state.get("last_fact_date") == today():
-        print("Fact already posted today")
-        return
-    facts = load(os.path.join(HERE, "facts.json"), [])
-    if not facts:
+        print("Fact/tip already posted today")
         return
     group = todays_group()
     if group not in ("Group 1", "Group 2"):
         alt = state.get("fact_alt", 0)
         group = "Group 1" if alt % 2 == 0 else "Group 2"
         state["fact_alt"] = alt + 1
-    pool = [f for f in facts if f.get("group") == group] or facts
-    key = "fact_index_g1" if group == "Group 1" else "fact_index_g2"
+    g = "g1" if group == "Group 1" else "g2"
+    kind_key = f"next_kind_{g}"
+    kind = state.get(kind_key, "fact")
+    fname = "facts.json" if kind == "fact" else "tips.json"
+    items = load(os.path.join(HERE, fname), []) or []
+    pool = [f for f in items if f.get("group") == group] or items
+    if not pool:
+        kind, pool = "fact", [f for f in (load(os.path.join(HERE, "facts.json"), []) or []) if f.get("group") == group]
+        if not pool:
+            return
+    key = f"{kind}_index_{g}" if kind == "tip" else f"fact_index_{g}"
     i = state.get(key, 0) % len(pool)
     f = pool[i]
-    text = (f"💡 <b>Fun Fact – {html.escape(f.get('subject', 'CA Inter'))}</b>\n\n"
+    head = "💡 <b>Fun Fact" if kind == "fact" else "📚 <b>Study Tip"
+    text = (f"{head} – {html.escape(f.get('subject', 'CA Inter'))}</b>\n\n"
             f"<b>{html.escape(f['title'])}</b>\n{html.escape(f['text'])}")
     if f.get("source"):
         text += f"\n\n<i>Source: {html.escape(f['source'])}</i>"
-    send(text, where="g1" if group == "Group 1" else "g2")
+    send(text, where=g)
     state[key] = i + 1
+    state[kind_key] = "tip" if kind == "fact" else "fact"
     state["last_fact_date"] = today()
 
 
