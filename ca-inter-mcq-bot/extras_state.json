@@ -46,5 +46,6 @@
     "QBMLiHNOMpY"
   ],
   "next_kind_g1": "tip",
-  "next_kind_g2": "tip"
+  "next_kind_g2": "fact",
+  "next_fact_topic": "g1"
 }
