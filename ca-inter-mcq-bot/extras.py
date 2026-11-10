@@ -107,6 +107,30 @@ def todays_group():
     return None
 
 
+MOTIVATION = [
+    "Small steps every day add up to a big result. Keep going! 💪",
+    "You don't have to be perfect – just better than yesterday.",
+    "Every page you revise today is one less worry in the exam hall.",
+    "Discipline beats motivation. Show up, open the book, start.",
+    "The CA tag is earned one chapter at a time – today's chapter counts.",
+    "Tough syllabus, tougher you. Keep pushing! 🔥",
+    "Consistency is your superpower. One more hour today.",
+    "Don't count the days, make the days count.",
+    "Mistakes in practice mean fewer mistakes in the exam. Keep practising.",
+    "Your future self will thank you for the effort you put in today.",
+    "Revision is where marks are made. Don't skip it.",
+    "Believe in your preparation – it is stronger than you think.",
+    "Focus on progress, not perfection. 🚀",
+    "Every topper was once a beginner who refused to quit.",
+    "Study now, celebrate later. 🎯",
+    "One concept clear today = one question right in the exam.",
+    "Stay calm, stay consistent, stay confident.",
+    "The pain of discipline is lighter than the pain of regret.",
+    "Write answers, not just read them – the exam rewards practice.",
+    "You are closer to your goal than you were yesterday. Keep going! ✨",
+]
+
+
 def post_fact(state):
     """6 PM: one post a day in a 4-day cycle: G1 Study Tip, G1 Fun Fact, G2 Study Tip, G2 Fun Fact."""
     if state.get("last_fact_date") == today():
@@ -138,6 +162,10 @@ def post_fact(state):
             text += f"\n\n📌 <b>Link to your syllabus:</b> {html.escape(f['link'])}"
         if f.get("source"):
             text += f"\n\n<i>Source: {html.escape(f['source'])}</i>"
+        if kind == "tip":
+            mi = state.get("motivation_index", 0) % len(MOTIVATION)
+            text += f"\n\n🔥 <b>Today's motivation:</b> <i>{html.escape(MOTIVATION[mi])}</i>"
+            state["motivation_index"] = mi + 1
         try:
             send(text, where=g)
         except Exception as e:
