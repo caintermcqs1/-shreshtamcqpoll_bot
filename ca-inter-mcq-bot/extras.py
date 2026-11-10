@@ -129,6 +129,8 @@ def post_fact(state):
         head = "💡 <b>Fun Fact" if kind == "fact" else "📚 <b>Study Tip"
         text = (f"{head} – {html.escape(f.get('subject', 'CA Inter'))}</b>\n\n"
                 f"<b>{html.escape(f['title'])}</b>\n{html.escape(f['text'])}")
+        if f.get("link"):
+            text += f"\n\n📌 <b>Link to your syllabus:</b> {html.escape(f['link'])}"
         if f.get("source"):
             text += f"\n\n<i>Source: {html.escape(f['source'])}</i>"
         try:

@@ -3,161 +3,168 @@
     "group": "Group 1",
     "subject": "Accounts",
     "title": "The Father of Accounting",
-    "text": "In 1494, Luca Pacioli, an Italian friar and mathematician, published 'Summa de arithmetica' in Venice. It was the first printed work on the double-entry system – the same system you use in every journal entry today.",
+    "text": "In 1494, Luca Pacioli, an Italian mathematician, published 'Summa de arithmetica' in Venice – the first printed work on the double-entry system of book-keeping.",
+    "link": "Double entry gives us the dual aspect concept: every debit has an equal credit. That is why your Trial Balance must agree and Assets always equal Liabilities + Capital.",
     "source": "Wikipedia – Luca Pacioli"
   },
   {
-    "group": "Group 2",
-    "subject": "Auditing",
-    "title": "Why is it called 'Audit'?",
-    "text": "The word 'audit' comes from the Latin 'audire' – to hear. In early days accounts were read out aloud and the auditor 'heard' them before approving.",
-    "source": "Wikipedia – Audit"
-  },
-  {
     "group": "Group 1",
     "subject": "Law",
-    "title": "150+ years and still working",
-    "text": "The Indian Contract Act was enacted on 25 April 1872 and came into force on 1 September 1872 with 266 sections. Every contract question you solve still rests on this 150-year-old law.",
-    "source": "Wikipedia – Indian Contract Act, 1872"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Costing",
-    "title": "Taylor + Gilbreths = Time & Motion Study",
-    "text": "Time and motion study combines Frederick Taylor's time study with Frank and Lillian Gilbreth's motion study. The Gilbreth family later became famous through the book and film 'Cheaper by the Dozen'.",
-    "source": "Wikipedia – Time and motion study"
-  },
-  {
-    "group": "Group 1",
-    "subject": "Law",
-    "title": "The smoke ball that made contract law",
-    "text": "In Carlill v Carbolic Smoke Ball Co (1893), a company promised £100 to anyone who caught flu after using its smoke ball. Mrs Carlill did, sued and won – the court held the advert was a general offer to the whole world.",
-    "source": "Wikipedia – Carlill v Carbolic Smoke Ball Co"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Financial Management",
-    "title": "The Rule of 72 is 500+ years old",
-    "text": "Divide 72 by the interest rate to estimate how many years money takes to double. An early reference to this rule appears in Luca Pacioli's Summa of 1494 – the same book that gave us double-entry!",
-    "source": "Wikipedia – Rule of 72"
+    "title": "One Act, three laws",
+    "text": "The Indian Contract Act was enacted in 1872 with 266 sections. Its chapters on sale of goods and partnership were later taken out and made into separate laws – the Sale of Goods Act, 1930 and the Indian Partnership Act, 1932.",
+    "link": "That is why all three are read together. Sec 2(h) of the Contract Act defines a contract as 'an agreement enforceable by law', and the Sale of Goods Act uses the Contract Act's definitions wherever it has none of its own.",
+    "source": "Wikipedia – Indian Contract Act, 1872; Sale of Goods Act, 1930"
   },
   {
     "group": "Group 1",
     "subject": "Income Tax",
-    "title": "Why income tax came to India",
-    "text": "India's first Income-tax Act was introduced in February 1860 by James Wilson, British India's first finance minister, to refill the treasury after the 1857 crisis. It received assent on 24 July 1860 and had 259 sections.",
-    "source": "Wikipedia – Income tax in India"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Auditing",
-    "title": "The scandal that ended a Big Five firm",
-    "text": "After Enron's fraud became public in October 2001, its auditor Arthur Andersen – then one of the five largest audit firms in the world – collapsed. The USA passed the Sarbanes–Oxley Act in 2002 in response.",
-    "source": "Wikipedia – Enron scandal; Sarbanes–Oxley Act"
+    "title": "From 1860 to 2025",
+    "text": "India's first Income-tax Act was introduced in 1860 by James Wilson to refill the treasury after the 1857 crisis. It was followed by the Income-tax Act, 1961, which has now been replaced by the Income-tax Act, 2025, in force from 1 April 2026.",
+    "link": "Laws change, the logic stays: income is still computed head by head, deductions are allowed, and tax is charged on the total income. Master the structure and every new section becomes easy.",
+    "source": "Wikipedia – Income tax in India; Income-tax Act, 2025"
   },
   {
     "group": "Group 1",
     "subject": "GST",
-    "title": "GST was born at midnight",
-    "text": "GST was launched at a special midnight session (30 June – 1 July 2017) in the Central Hall of Parliament, through the 101st Constitutional Amendment. 1 July is marked as GST Day.",
-    "source": "Wikipedia – Goods and Services Tax (India)"
+    "title": "From VAT to GST",
+    "text": "The value-added tax (VAT) was devised by Maurice Lauré of France – tried in 1954 in the Ivory Coast colony and adopted in France in 1958. Its idea: tax only the value added at each stage. India's GST follows the same idea and replaced State VAT, central excise, service tax and several other taxes.",
+    "link": "This 'value added' idea is Input Tax Credit. Under Sec 16 of the CGST Act, a registered person sets off the tax paid on inputs against tax on output, so only the value added is taxed at each stage.",
+    "source": "Wikipedia – Value-added tax; Goods and Services Tax (India)"
   },
   {
-    "group": "Group 2",
-    "subject": "Costing",
-    "title": "Where the learning curve came from",
-    "text": "In 1936, T. P. Wright, an aircraft engineer, found that every time total aircraft production doubled, the labour time needed per aircraft fell by about 20%. This is the learning curve you study in costing.",
-    "source": "Wikipedia – Experience curve effects"
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "1 July – a day for three professions",
+    "text": "1 July is CA Day (ICAI was set up on 1 July 1949), GST Day (GST began on 1 July 2017) and National Doctors' Day (in memory of Dr B. C. Roy, born on 1 July 1882 and died on 1 July 1962). One date honours those who look after the nation's financial health and its physical health.",
+    "link": "ICAI was created by the Chartered Accountants Act, 1949 – the law that governs the profession you are preparing to join.",
+    "source": "Wikipedia – ICAI; Goods and Services Tax (India); Bidhan Chandra Roy"
   },
   {
     "group": "Group 1",
     "subject": "Law",
     "title": "The minor who changed contract law",
-    "text": "In Mohori Bibee v Dharmodas Ghose (1903), a minor mortgaged his property to a moneylender. The Privy Council held that an agreement with a minor is totally void – the rule you apply in exams today.",
-    "source": "Wikipedia – Mohori Bibee v Dharmodas Ghose"
+    "text": "In Mohori Bibee v Dharmodas Ghose (1903), a minor mortgaged his property to a moneylender. The Privy Council held that an agreement with a minor is totally void.",
+    "link": "Sec 11 of the Contract Act: a person is competent to contract only if he has attained majority, is of sound mind and is not disqualified by law. A minor's agreement is therefore void ab initio – not merely voidable.",
+    "source": "Wikipedia – Mohori Bibee v Dharmodas Ghose; Indian Contract Act, 1872"
   },
   {
-    "group": "Group 2",
-    "subject": "Strategic Management",
-    "title": "Five forces, one article",
-    "text": "Michael Porter's Five Forces framework was first published in Harvard Business Review in 1979. Over four decades later it is still the starting point for industry analysis.",
-    "source": "Wikipedia – Porter's five forces analysis"
+    "group": "Group 1",
+    "subject": "GST",
+    "title": "GST was born at midnight",
+    "text": "GST was launched at a special midnight session (30 June – 1 July 2017) in the Central Hall of Parliament, after the 101st Constitutional Amendment.",
+    "link": "The same amendment created the GST Council (Article 279A), which recommends GST rates and exemptions. In the CGST Act, Sec 9 is the charging section – the starting point for every GST computation.",
+    "source": "Wikipedia – Goods and Services Tax (India)"
+  },
+  {
+    "group": "Group 1",
+    "subject": "Accounts",
+    "title": "AS and Ind AS – same numbers, same topics",
+    "text": "Ind AS are named and numbered like the International Financial Reporting Standards (IFRS). They became mandatory from 1 April 2016 for companies with a net worth of ₹500 crore or more.",
+    "link": "In CA Inter you study AS; large and listed companies follow Ind AS. Many topics carry the same number in both – AS 2 and Ind AS 2 both deal with Inventories.",
+    "source": "Wikipedia – Indian Accounting Standards"
+  },
+  {
+    "group": "Group 1",
+    "subject": "Law",
+    "title": "India's first-of-its-kind CSR law",
+    "text": "The Companies Act, 2013 largely replaced the Companies Act, 1956. Its Section 135 made CSR spending mandatory for large companies – described as the only mandatory CSR law in the world.",
+    "link": "Sec 135 applies when a company crosses any one threshold: net worth ₹500 crore, turnover ₹1,000 crore or net profit ₹5 crore. Such a company must spend at least 2% of its average net profit of the last three years on CSR.",
+    "source": "Wikipedia – Companies Act, 2013"
   },
   {
     "group": "Group 1",
     "subject": "Accounts",
     "title": "Debit and Credit – the Latin roots",
     "text": "It is said that Pacioli's Summa used the Latin words 'debere' (to owe) and 'credere' (to entrust) for the two sides of a transaction – the roots of our words Debit and Credit.",
+    "link": "Every journal entry you pass is that 500-year-old idea in action: one account receives (debit), another gives (credit), and the two are always equal.",
     "source": "Wikipedia – Debits and credits"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "Why is it called 'Audit'?",
+    "text": "The word 'audit' comes from the Latin 'audire' – to hear. In early days accounts were read aloud and the auditor 'heard' them before approving.",
+    "link": "Hearing is still evidence today: inquiry is one of the audit procedures under SA 500 (Audit Evidence) – but inquiry alone is not enough, it must be backed by other evidence.",
+    "source": "Wikipedia – Audit"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Where 'standard time' came from",
+    "text": "Time and motion study combines Frederick Taylor's time study with Frank and Lillian Gilbreth's motion study (the family made famous by 'Cheaper by the Dozen').",
+    "link": "Their work gave us the standard time for a job – the base for standard costing and the Labour Efficiency Variance you calculate in Cost & Management Accounting.",
+    "source": "Wikipedia – Time and motion study"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Financial Management",
+    "title": "The Rule of 72 is 500+ years old",
+    "text": "Divide 72 by the interest rate to estimate how many years money takes to double. An early reference to this rule appears in Luca Pacioli's Summa of 1494 – the same book that gave us double entry.",
+    "link": "At 12% p.a. money doubles in about 6 years (72 ÷ 12). This is the time value of money – the base of NPV and IRR in Capital Budgeting.",
+    "source": "Wikipedia – Rule of 72"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Five forces, one article",
+    "text": "Michael Porter's Five Forces framework was first published in the Harvard Business Review in 1979 and is still the starting point for industry analysis.",
+    "link": "In SM answers, analyse an industry through the five forces: rivalry among competitors, threat of new entrants, threat of substitutes, bargaining power of buyers and bargaining power of suppliers.",
+    "source": "Wikipedia – Porter's five forces analysis"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "The scandal that changed audit law",
+    "text": "After Enron's fraud came out in October 2001, its auditor Arthur Andersen – one of the world's five largest audit firms – collapsed. The USA then passed the Sarbanes–Oxley Act, 2002: it created the PCAOB to regulate auditors, stopped auditors from consulting for their audit clients (Sec 201), made the CEO and CFO certify financial reports (Sec 302) and required reporting on internal controls (Sec 404).",
+    "link": "India has similar safeguards in the Companies Act, 2013: Sec 144 bars the auditor from services such as investment advisory, and Sec 143(3)(i) requires the auditor to report on internal financial controls.",
+    "source": "Wikipedia – Enron scandal; Sarbanes–Oxley Act"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Costing",
+    "title": "Overheads that follow activities",
+    "text": "Robin Cooper and Robert Kaplan brought Activity-Based Costing into the spotlight in the 1980s, as firms found that one blanket overhead rate was distorting product costs.",
+    "link": "ABC assigns overheads through cost drivers – for example, set-up cost on the number of set-ups – so each product bears the cost of the activities it actually uses.",
+    "source": "Wikipedia – Activity-based costing"
   },
   {
     "group": "Group 2",
     "subject": "Financial Management",
     "title": "A Nobel Prize for capital structure",
     "text": "The Modigliani–Miller theorem on capital structure was first proposed in 1958. Franco Modigliani received the 1985 Nobel Prize in Economics for this and other work.",
+    "link": "MM is one of the capital structure theories you study along with the Net Income and Net Operating Income approaches – learn the assumptions of each, as questions often test them.",
     "source": "Wikipedia – Modigliani–Miller theorem"
-  },
-  {
-    "group": "Group 1",
-    "subject": "Income Tax",
-    "title": "A new Income-tax Act from 2026",
-    "text": "The Income-tax Act, 2025 came into force on 1 April 2026, replacing the Income-tax Act, 1961 after more than six decades of amendments.",
-    "source": "Wikipedia – Income-tax Act, 2025"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Strategic Management",
-    "title": "Kodak invented the digital camera",
-    "text": "Steven Sasson built the first self-contained digital camera at Kodak in 1975. It weighed about 3.6 kg and had just 100 × 100 pixels (0.01 megapixel). A classic strategy lesson: inventing a technology is not the same as building your strategy around it.",
-    "source": "Wikipedia – Steven Sasson"
-  },
-  {
-    "group": "Group 1",
-    "subject": "GST",
-    "title": "GST's ancestor – VAT",
-    "text": "The value-added tax was devised by Maurice Lauré of the French tax authority. It was first tried in 1954 in France's Ivory Coast colony, and France introduced it at home in 1958. GST belongs to this VAT family.",
-    "source": "Wikipedia – Value-added tax"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Auditing",
-    "title": "India's biggest wake-up call for auditors",
-    "text": "In 2009, Satyam's chairman B. Ramalinga Raju confessed that the company's accounts had been manipulated by about ₹7,000 crore. The scandal shaped many audit reforms that followed.",
-    "source": "Wikipedia – Satyam scandal"
-  },
-  {
-    "group": "Group 1",
-    "subject": "Accounts",
-    "title": "1 July – a double celebration",
-    "text": "ICAI was established on 1 July 1949 under the Chartered Accountants Act, 1949. GST was also launched on 1 July (2017) – so 1 July is both CA Day and GST Day.",
-    "source": "Wikipedia – ICAI; Goods and Services Tax (India)"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Financial Management",
-    "title": "Don't put all your eggs in one basket",
-    "text": "Harry Markowitz published his portfolio theory in 1952, showing how diversification reduces risk. He received the 1990 Nobel Prize in Economics for it.",
-    "source": "Wikipedia – Harry Markowitz"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Costing",
-    "title": "The Gantt chart is over 100 years old",
-    "text": "Henry Gantt created the Gantt chart in the 1910s. It was later used to plan huge projects such as the Hoover Dam.",
-    "source": "Wikipedia – Henry Gantt"
-  },
-  {
-    "group": "Group 2",
-    "subject": "Strategic Management",
-    "title": "Kaplan – from costing to scorecards",
-    "text": "Robin Cooper and Robert Kaplan brought Activity-Based Costing into the spotlight in the 1980s. Kaplan, with David Norton, then gave the world the Balanced Scorecard in a 1992 article.",
-    "source": "Wikipedia – Activity-based costing; Balanced scorecard"
   },
   {
     "group": "Group 2",
     "subject": "Strategic Management",
     "title": "Stars, cash cows and dogs",
     "text": "The BCG growth-share matrix was introduced in 1970 in the Boston Consulting Group essay 'The Product Portfolio'.",
+    "link": "It classifies businesses by market growth and market share into Stars, Cash Cows, Question Marks and Dogs – cash from Cash Cows is used to build Question Marks into Stars.",
     "source": "Wikipedia – Growth–share matrix"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Auditing",
+    "title": "Satyam – India's wake-up call",
+    "text": "In 2009, Satyam's chairman B. Ramalinga Raju confessed that the company's accounts had been manipulated by about ₹7,000 crore.",
+    "link": "Stronger checks followed in the Companies Act, 2013 – mandatory rotation of auditors (Sec 139(2)) and the National Financial Reporting Authority (Sec 132), set up in October 2018 to oversee audits of listed and large companies.",
+    "source": "Wikipedia – Satyam scandal; National Financial Reporting Authority"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "Kodak invented the digital camera",
+    "text": "Steven Sasson built the first self-contained digital camera at Kodak in 1975. It weighed about 3.6 kg and had just 0.01 megapixel.",
+    "link": "A classic SM lesson: an internal strength (innovation) is wasted if strategy does not respond to changes in the external environment. Link it to SWOT and environmental scanning.",
+    "source": "Wikipedia – Steven Sasson"
+  },
+  {
+    "group": "Group 2",
+    "subject": "Strategic Management",
+    "title": "The Balanced Scorecard",
+    "text": "Robert Kaplan and David Norton described the Balanced Scorecard in a 1992 article, so that firms would measure more than just profits.",
+    "link": "It looks at performance from four perspectives – Financial, Customer, Internal Business Process, and Learning & Growth.",
+    "source": "Wikipedia – Balanced scorecard"
   }
 ]
