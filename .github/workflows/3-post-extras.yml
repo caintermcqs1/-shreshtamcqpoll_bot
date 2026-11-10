@@ -40,7 +40,7 @@ jobs:
         id: mode
         run: |
           case "${{ github.event.schedule }}" in
-            "30 12 * * 1-6") echo "mode=check" >> "$GITHUB_OUTPUT" ;;  # fun facts paused until approved (was mode=fact)
+            "30 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT" ;;  # 6 PM fun fact / study tip
             "30 13 * * 2,4") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
             "15,45 2-17 * * *") echo "mode=youtube" >> "$GITHUB_OUTPUT" ;;
             "") echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
