@@ -108,18 +108,20 @@ def todays_group():
 
 
 def post_fact(state):
-    """6 PM: one post a day, alternating topic (Group 1 one day, Group 2 the next); each topic alternates Fun Fact / Study Tip."""
+    """6 PM: one post a day in a 4-day cycle: G1 Study Tip, G1 Fun Fact, G2 Study Tip, G2 Fun Fact."""
     if state.get("last_fact_date") == today():
         print("Fact/tip already posted today")
         return
     facts = load(os.path.join(HERE, "facts.json"), []) or []
     tips = load(os.path.join(HERE, "tips.json"), []) or []
-    turn = state.get("next_fact_topic", "g1")
+    cycle = [("g1", "tip"), ("g1", "fact"), ("g2", "tip"), ("g2", "fact")]
+    step = state.get("fact_cycle", 0) % len(cycle)
+    turn, want = cycle[step]
     for group, g in (("Group 1", "g1"), ("Group 2", "g2")):
         if g != turn:
             continue
         kind_key = f"next_kind_{g}"
-        kind = state.get(kind_key, "fact")
+        kind = want
         pool = [f for f in (facts if kind == "fact" else tips) if f.get("group") == group]
         if not pool:
             kind = "fact"
@@ -143,7 +145,7 @@ def post_fact(state):
             continue
         state[key] = i + 1
         state[kind_key] = "tip" if kind == "fact" else "fact"
-        state["next_fact_topic"] = "g2" if g == "g1" else "g1"
+        state["fact_cycle"] = step + 1
     state["last_fact_date"] = today()
 
 
