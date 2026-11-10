@@ -1,16 +1,30 @@
 {
-  "next_index": 0,
-  "pending": {
-    "index": 0,
-    "date": "2026-11-10",
-    "case_message_id": 5610,
-    "poll_message_ids": [
-      5612,
-      5614,
-      5616,
-      5618
-    ]
-  },
-  "history": [],
+  "next_index": 1,
+  "pending": null,
+  "history": [
+    {
+      "date": "2026-11-10",
+      "day": 1,
+      "group": "Group 1",
+      "results": [
+        {
+          "total": 9,
+          "correct": 3
+        },
+        {
+          "total": 11,
+          "correct": 11
+        },
+        {
+          "total": 13,
+          "correct": 9
+        },
+        {
+          "total": 14,
+          "correct": 8
+        }
+      ]
+    }
+  ],
   "last_post_date": "2026-11-10"
 }
