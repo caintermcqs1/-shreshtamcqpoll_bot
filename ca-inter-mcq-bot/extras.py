@@ -234,6 +234,8 @@ def check_youtube(state, cfg):
           "media": "http://search.yahoo.com/mrss/"}
     root = ET.fromstring(feed)
     kw = re.compile(cfg.get("youtube_keywords", r"\binter(mediate)?\b"), re.I)
+    motiv = re.compile(cfg["youtube_motivation_keywords"], re.I) if cfg.get("youtube_motivation_keywords") else None
+    excl = re.compile(cfg["youtube_exclude_keywords"], re.I) if cfg.get("youtube_exclude_keywords") else None
     seen = state.setdefault("yt_seen", [])
     first_run = not seen
     now = dt.datetime.now(dt.timezone.utc)
@@ -246,21 +248,28 @@ def check_youtube(state, cfg):
         if vid in seen:
             continue
         seen.append(vid)
-        if not kw.search(title):  # title only: every description mentions CA Inter
-            print("YouTube skip (not CA Inter):", title)
+        # title only: every description mentions CA Inter
+        if kw.search(title):
+            is_motiv = False
+        elif motiv and motiv.search(title) and not (excl and excl.search(title)):
+            is_motiv = True
+        else:
+            print("YouTube skip:", title)
             continue
         # first run: only share a video from the last 7 days, never the old backlog
         if first_run and (now - published).days > 7:
             continue
-        new.append((published, vid, title))
+        new.append((published, vid, title, is_motiv))
     state["yt_seen"] = seen[-300:]
     new.sort()
     if first_run:
         new = new[-1:]
-    for _, vid, title in new:
+    for _, vid, title, is_motiv in new:
         url = f"https://www.youtube.com/watch?v={vid}"
+        head = ("🔥 <b>New video from CA Ram Harsha YouTube Channel!</b>" if is_motiv
+                else "🎥 <b>New CA Inter video from CA Ram Harsha YouTube Channel!</b>")
         text = (
-            "🎥 <b>New CA Inter video from CA Ram Harsha YouTube Channel!</b>\n\n"
+            f"{head}\n\n"
             f"{html.escape(title)}\n\n"
             f"▶️ Watch now: {url}\n"
             "👍 Like, share with your friends & subscribe for more!"

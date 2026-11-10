@@ -8,5 +8,7 @@
       "g1": 5564,
       "g2": 5566
     }
-  }
+  },
+  "youtube_motivation_keywords": "motivat|success|strateg|study\\s*tips?|exam\\s*tips?|days?\\s*left|last\\s*\\d+\\s*days|never\\s*give\\s*up|give\\s*your\\s*100|discipline|consisten|focus|how\\s*to\\s*(study|score|pass)|topper|revision\\s*plan",
+  "youtube_exclude_keywords": "\\bCA\\s*Final\\b|\\bFinal\\s*(DT|IDT|Audit|FR|AFM|SCM|IBS)\\b|\\bFoundation\\b|\\bCMA\\b|\\bCS\\b|Paper\\s*Review"
 }
