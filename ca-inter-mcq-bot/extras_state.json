@@ -49,5 +49,7 @@
   "next_kind_g2": "fact",
   "fact_cycle": 1,
   "motivation_index": 1,
-  "tip_index_g1": 1
+  "tip_index_g1": 1,
+  "promo_index": 1,
+  "last_promo_date": "2026-11-10"
 }
