@@ -108,36 +108,36 @@ def todays_group():
 
 
 def post_fact(state):
-    """6 PM post: in each group, alternate Fun Fact and Study Tip."""
+    """6 PM: post in BOTH group topics every day; each topic alternates Fun Fact / Study Tip."""
     if state.get("last_fact_date") == today():
         print("Fact/tip already posted today")
         return
-    group = todays_group()
-    if group not in ("Group 1", "Group 2"):
-        alt = state.get("fact_alt", 0)
-        group = "Group 1" if alt % 2 == 0 else "Group 2"
-        state["fact_alt"] = alt + 1
-    g = "g1" if group == "Group 1" else "g2"
-    kind_key = f"next_kind_{g}"
-    kind = state.get(kind_key, "fact")
-    fname = "facts.json" if kind == "fact" else "tips.json"
-    items = load(os.path.join(HERE, fname), []) or []
-    pool = [f for f in items if f.get("group") == group] or items
-    if not pool:
-        kind, pool = "fact", [f for f in (load(os.path.join(HERE, "facts.json"), []) or []) if f.get("group") == group]
+    facts = load(os.path.join(HERE, "facts.json"), []) or []
+    tips = load(os.path.join(HERE, "tips.json"), []) or []
+    for group, g in (("Group 1", "g1"), ("Group 2", "g2")):
+        kind_key = f"next_kind_{g}"
+        kind = state.get(kind_key, "fact")
+        pool = [f for f in (facts if kind == "fact" else tips) if f.get("group") == group]
         if not pool:
-            return
-    key = f"{kind}_index_{g}" if kind == "tip" else f"fact_index_{g}"
-    i = state.get(key, 0) % len(pool)
-    f = pool[i]
-    head = "💡 <b>Fun Fact" if kind == "fact" else "📚 <b>Study Tip"
-    text = (f"{head} – {html.escape(f.get('subject', 'CA Inter'))}</b>\n\n"
-            f"<b>{html.escape(f['title'])}</b>\n{html.escape(f['text'])}")
-    if f.get("source"):
-        text += f"\n\n<i>Source: {html.escape(f['source'])}</i>"
-    send(text, where=g)
-    state[key] = i + 1
-    state[kind_key] = "tip" if kind == "fact" else "fact"
+            kind = "fact"
+            pool = [f for f in facts if f.get("group") == group]
+            if not pool:
+                continue
+        key = f"{kind}_index_{g}"
+        i = state.get(key, 0) % len(pool)
+        f = pool[i]
+        head = "💡 <b>Fun Fact" if kind == "fact" else "📚 <b>Study Tip"
+        text = (f"{head} – {html.escape(f.get('subject', 'CA Inter'))}</b>\n\n"
+                f"<b>{html.escape(f['title'])}</b>\n{html.escape(f['text'])}")
+        if f.get("source"):
+            text += f"\n\n<i>Source: {html.escape(f['source'])}</i>"
+        try:
+            send(text, where=g)
+        except Exception as e:
+            print(f"{group}: could not send: {e}")
+            continue
+        state[key] = i + 1
+        state[kind_key] = "tip" if kind == "fact" else "fact"
     state["last_fact_date"] = today()
 
 
