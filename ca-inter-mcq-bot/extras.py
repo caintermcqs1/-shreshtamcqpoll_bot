@@ -91,6 +91,25 @@ def post_notice():
         print("Pinned:", json.load(r).get("ok"))
 
 
+def post_announce():
+    """Post announce.txt (trusted HTML written by us) in Group 1, Group 2 and General; pin the General copy."""
+    with open(os.path.join(HERE, "announce.txt"), encoding="utf-8") as f:
+        text = f.read().strip()
+    for g in ("g1", "g2"):
+        try:
+            send(text, where=g)
+        except Exception as e:
+            print(f"{g}: could not send announcement: {e}")
+    mid = send(text)
+    req = urllib.request.Request(
+        f"https://api.telegram.org/bot{TOKEN}/pinChatMessage",
+        data=urllib.parse.urlencode({"chat_id": CHAT_ID, "message_id": mid,
+                                     "disable_notification": "true"}).encode(),
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        print("Pinned:", json.load(r).get("ok"))
+
+
 # ---------------- daily fact ----------------
 def todays_group():
     """Group of today's MCQ day (from the MCQ bot's state), or None."""
@@ -366,6 +385,9 @@ def main():
         return
     if mode == "notice":
         post_notice()
+        return
+    if mode == "announce":
+        post_announce()
         return
     try:
         if mode in ("fact", "all"):
