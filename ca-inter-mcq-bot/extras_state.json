@@ -47,7 +47,7 @@
   ],
   "next_kind_g1": "fact",
   "next_kind_g2": "fact",
-  "fact_cycle": 1,
+  "fact_cycle": 0,
   "motivation_index": 1,
   "tip_index_g1": 1,
   "promo_index": 1,
