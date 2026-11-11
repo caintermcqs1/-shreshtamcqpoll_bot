@@ -14,7 +14,7 @@ on:
       mode:
         description: "What to post"
         type: choice
-        options: [check, fact, promo, all, notice, youtube]
+        options: [check, fact, study, promo, all, notice, youtube]
         default: check
 
 permissions:
