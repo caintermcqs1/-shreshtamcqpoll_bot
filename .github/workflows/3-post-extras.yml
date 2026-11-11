@@ -2,12 +2,12 @@ name: "3. Extras – facts, promos, ICAI & YouTube updates"
 
 on:
   schedule:
-    - cron: "30 2 * * 1-6"   # 08:00 IST  check ICAI + YouTube
-    - cron: "30 6 * * 1-6"   # 12:00 IST  check
-    - cron: "30 10 * * 1-6"  # 16:00 IST  check
+    - cron: "30 2 * * *"     # 08:00 IST  check ICAI + YouTube (all days)
+    - cron: "30 6 * * *"     # 12:00 IST  check (all days)
+    - cron: "30 10 * * *"    # 16:00 IST  check (all days)
     - cron: "30 12 * * 1-6"  # 18:00 IST  CA fact of the day (+ check)
     - cron: "30 13 * * 2,4"  # 19:00 IST  promotion (Tue, Thu)
-    - cron: "30 15 * * 1-6"  # 21:00 IST  check
+    - cron: "30 15 * * *"    # 21:00 IST  check (all days)
     - cron: "15,45 2-17 * * *"  # every 30 min, 07:45-23:15 IST, all days: Sir's YouTube
   workflow_dispatch:
     inputs:
