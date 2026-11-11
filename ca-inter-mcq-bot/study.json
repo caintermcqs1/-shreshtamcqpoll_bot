@@ -1,0 +1,178 @@
+{
+ "2026-11-11": {
+  "g1": {
+   "format": "1-Minute Revision",
+   "subject": "Accounts – AS 23",
+   "title": "Associates in consolidated accounts",
+   "body": "• Associate: an enterprise in which the investor has significant influence, and which is neither a subsidiary nor a joint venture.\n• Holding 20% or more of the voting power (directly, or through subsidiaries) is presumed to give significant influence, unless clearly shown otherwise.\n• In consolidated financial statements, an associate is accounted for using the equity method.\n• Equity method: start at cost (goodwill or capital reserve identified at acquisition is part of the carrying amount); add the investor's share of profit; deduct dividends received.\n• If losses reduce the carrying amount to nil, further losses are generally not recognised.\n• Equity method is NOT used if the investment is held exclusively for disposal in the near future, or the associate works under severe long-term restrictions on transferring funds – then AS 13 applies.",
+   "link": "Linked to yesterday's case MCQ: AS 23 – Associates"
+  },
+  "g2": {
+   "format": "Formula Card",
+   "subject": "FM – Cost of capital",
+   "title": "CAPM in one card",
+   "body": "Ke = Rf + β × (Rm − Rf)\nRf = risk-free rate, β = beta, Rm = market return, (Rm − Rf) = market risk premium\n\nExample: Rf 7%, Rm 13%, β 1.5\nKe = 7% + 1.5 × (13% − 7%) = 7% + 9% = 16%\n\nβ = 1 → as risky as the market; β > 1 → riskier; β < 1 → less risky.\nFor a new project with a different risk, use the PROJECT's beta, not the company's beta.\nCommon mistake: β × Rm instead of β × (Rm − Rf).",
+   "link": "Linked to today's case MCQ: CAPM – Project-specific Ke"
+  }
+ },
+ "2026-11-12": {
+  "g1": {
+   "format": "Difference Between",
+   "subject": "GST – Sec 2(30) & 2(74)",
+   "title": "Composite supply vs Mixed supply",
+   "body": "Composite supply → items NATURALLY bundled and supplied together in the ordinary course of business. Mixed supply → items NOT naturally bundled, but sold together for one price.\n\nComposite: one item is the principal supply. Mixed: no principal supply.\n\nComposite: taxed at the rate of the principal supply. Mixed: taxed at the HIGHEST rate among the items.\n\nExample – Composite: goods sent with packing, transport and insurance. Mixed: a Diwali gift box with sweets, chocolates, dry fruits and a soft drink.\n\nQuick check: 'Would a customer normally expect these together?' Yes → composite. No → mixed.",
+   "link": "Linked to today's general MCQ: Sec 8 – Mixed supply"
+  },
+  "g2": {
+   "format": "Formula Card",
+   "subject": "Costing – Material cost",
+   "title": "EOQ in one card",
+   "body": "EOQ = √(2 × A × O ÷ C)\nA = annual demand (units), O = cost per order, C = carrying cost per unit per year\n\nExample: A 10,000 units, O ₹100, C ₹2\nEOQ = √(2 × 10,000 × 100 ÷ 2) = √10,00,000 = 1,000 units\nOrders per year = 10,000 ÷ 1,000 = 10\nOrdering cost = 10 × 100 = ₹1,000; Carrying cost = 1,000 ÷ 2 × 2 = ₹1,000\n\nAt EOQ, ordering cost = carrying cost.\nIf C is given as a % of price, C = price × %.\nDemand 4 times → EOQ only 2 times (square root!).",
+   "link": "Linked to today's general MCQ: EOQ"
+  }
+ },
+ "2026-11-13": {
+  "g1": {
+   "format": "Common Mistake",
+   "subject": "Accounts – AS 2",
+   "title": "GST in the cost of inventory?",
+   "body": "❌ Raw material bought at ₹118 (₹100 + ₹18 GST). Full input tax credit is available, but the store values the stock at ₹118.\n\n✅ Correct: cost of purchase EXCLUDES taxes that are later recoverable from the tax authorities. Stock is valued at ₹100.\n\nCost of purchase INCLUDES: purchase price, import duties, non-recoverable taxes, freight inwards, handling and other costs directly linked to buying.\nDEDUCT: trade discounts and rebates.\nIf ITC is NOT available, the GST becomes part of the cost.",
+   "link": "Linked to today's case MCQ: AS 2 – Cost of inventory (GST credit)"
+  },
+  "g2": {
+   "format": "Difference Between",
+   "subject": "SM – Strategic intent",
+   "title": "Vision vs Mission vs Goals vs Objectives",
+   "body": "Vision → WHERE the organisation wants to be in the long-term future (an inspiring picture).\nMission → WHY it exists and WHAT it does now – its purpose and business.\nGoals → BROAD, open-ended outcomes it wants to achieve.\nObjectives → SPECIFIC, measurable and time-bound targets that turn goals into action.\n\nExample: Vision – 'most trusted healthcare innovator by 2045'. Goal – 'strengthen global presence'. Objective – 'enter 5 new countries and earn 20% of revenue from exports by 2028'.\n\nTrick: Vision dreams, Mission explains, Goals point the way, Objectives count.",
+   "link": "Linked to today's case MCQ: Vision, Goals, Objectives"
+  }
+ },
+ "2026-11-14": {
+  "g1": {
+   "format": "1-Minute Revision",
+   "subject": "Accounts – AS 4",
+   "title": "Events after the Balance Sheet date",
+   "body": "• Adjusting events: give more evidence about conditions that EXISTED on the B/S date → adjust the accounts. (Debtor already weak declared insolvent; court case decided.)\n• Non-adjusting events: NEW conditions after the B/S date → don't adjust; disclose if material. (Fire, flood, share issue.)\n• Going concern: if events show the business is no longer a going concern, the accounts are NOT prepared on going-concern basis – even though it is a later event.\n• Proposed dividend after the B/S date: not a liability on the B/S date – disclose in notes.\n• Period covered: B/S date to the date the Board approves the accounts.",
+   "link": "Linked to today's general MCQ: AS 4 – Events after the B/S date"
+  },
+  "g2": {
+   "format": "Memory Trick",
+   "subject": "SM – Porter's five forces",
+   "title": "The 5 forces: 'Rahul Never Skips Big Snacks'",
+   "body": "R – Rivalry among existing competitors (the centre of the model)\nN – New entrants (threat of entry)\nS – Substitutes (threat of substitute products)\nB – Buyers (bargaining power of buyers)\nS – Suppliers (bargaining power of suppliers)\n\nThe stronger the forces, the lower the industry's profit potential.\nGovernment is NOT a sixth force – it works through these five (e.g. licences raise entry barriers).",
+   "link": "Linked to today's general MCQ: Porter's five forces"
+  }
+ },
+ "2026-11-16": {
+  "g1": {
+   "format": "1-Minute Revision",
+   "subject": "Law – Sec 96",
+   "title": "AGM: all the time limits",
+   "body": "• First AGM: within 9 months from the close of the FIRST financial year. No other AGM is needed in the year of incorporation.\n• Later AGMs: within 6 months from the close of the financial year.\n• Gap between two AGMs: not more than 15 months.\n• Extension by ROC: up to 3 months for special reasons – NOT for the first AGM.\n• Time and place: business hours (9 AM–6 PM), on a day that is not a national holiday, at the registered office or in the same city, town or village.\n• One Person Company: AGM provisions do not apply.",
+   "link": "Linked to today's case MCQ: Sec 96 – AGM timeline"
+  },
+  "g2": {
+   "format": "Formula Card",
+   "subject": "Costing – Employee cost",
+   "title": "Halsey vs Rowan in one card",
+   "body": "Halsey bonus = 50% × Time saved × Rate per hour\nRowan bonus = (Time saved ÷ Time allowed) × Time taken × Rate per hour\n\nExample: Time allowed 10 hrs, time taken 8 hrs, rate ₹50/hr\nHalsey = 50% × 2 × 50 = ₹50 → earnings ₹450\nRowan = (2 ÷ 10) × 8 × 50 = ₹80 → earnings ₹480\n\nRemember: both give the SAME bonus when time saved is exactly 50% of time allowed. Below 50%, Rowan pays more; above 50%, Halsey pays more.",
+   "link": "Linked to today's case MCQ: Incentive plans – Rowan vs Halsey"
+  }
+ },
+ "2026-11-17": {
+  "g1": {
+   "format": "Memory Trick",
+   "subject": "GST – Sec 16(2)",
+   "title": "ITC conditions: 'I Received The Real Bill'",
+   "body": "I – Invoice or debit note in hand\nR – Received the goods or services\nT – Tax actually paid to the Government by the supplier\nR – Return (GSTR-3B) filed by you\nB – Bill shown in your GSTR-2B\n\nPlus: pay the supplier within 180 days of the invoice – otherwise the ITC is reversed (and can be taken again when you pay).\nPrior payment is NOT a condition to claim ITC.",
+   "link": "Linked to today's general MCQ: Sec 16 – Input tax credit"
+  },
+  "g2": {
+   "format": "Formula Card",
+   "subject": "Costing – Marginal costing",
+   "title": "BEP, Margin of Safety and Profit",
+   "body": "BEP sales = Fixed cost ÷ P/V ratio\nMargin of Safety = Actual sales − BEP sales\nProfit = Margin of Safety × P/V ratio\n\nExample: Sales ₹10 lakh, P/V ratio 40%, Fixed cost ₹2 lakh\nBEP = 2 ÷ 40% = ₹5 lakh\nMoS = 10 − 5 = ₹5 lakh\nProfit = 5 × 40% = ₹2 lakh (check: contribution 4 − fixed 2 = 2 ✔️)\n\nCommon mistake: dividing fixed cost by the variable cost ratio.",
+   "link": "Linked to today's general MCQ: Marginal costing – BEP"
+  }
+ },
+ "2026-11-18": {
+  "g1": {
+   "format": "1-Minute Revision",
+   "subject": "GST – Sec 15",
+   "title": "Value of supply: what goes in, what stays out",
+   "body": "Start with the transaction value (price actually paid, parties not related, price the sole consideration). Then ADD:\n• Taxes, duties and fees other than GST\n• Amounts the supplier owed but the buyer paid, if not already in the price\n• Incidental expenses like packing and commission charged by the supplier\n• Interest, late fee or penalty for delayed payment\n• Subsidies directly linked to the price (except Government subsidies)\n\nKEEP OUT:\n• Discount given before or at the time of supply and shown on the invoice\n• Post-supply discount – only if the conditions of Sec 15(3)(b) are met",
+   "link": "Linked to today's case MCQ: Value of outward supply"
+  },
+  "g2": {
+   "format": "Difference Between",
+   "subject": "FM – Investment decisions",
+   "title": "ARR vs Payback period",
+   "body": "ARR → uses ACCOUNTING PROFIT (after depreciation and tax). Payback → uses CASH FLOWS.\n\nARR = Average profit after tax ÷ Average (or initial) investment × 100. Payback = time taken to recover the initial investment.\n\nARR looks at profit over the WHOLE life. Payback ignores everything after the cost is recovered.\n\nBoth ignore the time value of money (use discounted payback, NPV or IRR for that).\n\nDecision: ARR → accept if above the target rate. Payback → accept if shorter than the target period.",
+   "link": "Linked to today's case MCQ: Accounting Rate of Return"
+  }
+ },
+ "2026-11-19": {
+  "g1": {
+   "format": "Difference Between",
+   "subject": "Income Tax – House property",
+   "title": "Self-occupied vs Let-out house",
+   "body": "Annual value → Self-occupied: NIL. Let-out: Gross annual value (based on expected rent or actual rent, whichever is higher, with vacancy rules) less municipal taxes paid by the owner.\n\nStandard deduction of 30% → Self-occupied: not available (annual value is nil). Let-out: 30% of net annual value.\n\nInterest on housing loan → Self-occupied: allowed within a limit, and NOT under the default (new) tax regime. Let-out: allowed in full (loss set-off is limited).\n\nTip: always find the annual value first – the rest follows from it.",
+   "link": "Linked to today's general MCQ: House property – annual value"
+  },
+  "g2": {
+   "format": "Formula Card",
+   "subject": "Costing – Employee cost",
+   "title": "Labour turnover: 3 methods",
+   "body": "Separation method = Separations ÷ Average workers × 100\nReplacement method = Replacements ÷ Average workers × 100\nFlux method = (Separations + Replacements) ÷ Average workers × 100\n\nExample: Average 500, separations 20, replacements 15\nSeparation = 4%, Replacement = 3%, Flux = 7%\n\nIf there are new joinings for expansion, flux can also be shown as (Separations + Accessions) ÷ Average × 100, where accessions = replacements + new joinings.\nAlways use the AVERAGE number of workers: (opening + closing) ÷ 2.",
+   "link": "Linked to today's general MCQ: Labour turnover"
+  }
+ },
+ "2026-11-20": {
+  "g1": {
+   "format": "1-Minute Revision",
+   "subject": "Law – LLP Act, Sec 7",
+   "title": "Designated partners",
+   "body": "• Every LLP must have at least 2 designated partners, who are individuals.\n• At least one of them must be resident in India.\n• Resident in India: stayed in India for at least 120 days during the financial year.\n• If all partners are bodies corporate, their nominees act as designated partners.\n• A designated partner needs a DPIN / DIN and must give prior consent.\n• Designated partners are responsible for compliance with the Act and are liable to penalties for default.",
+   "link": "Linked to today's case MCQ: LLP Act – Resident designated partner"
+  },
+  "g2": {
+   "format": "1-Minute Revision",
+   "subject": "Costing – Process costing",
+   "title": "Normal loss, abnormal loss, abnormal gain",
+   "body": "• Normal loss: expected → its cost is absorbed by good units; scrap value credited to the process.\n• Abnormal loss: more than normal → valued like good units, transferred to Abnormal Loss A/c → Costing P&L.\n• Abnormal gain: actual loss less than normal → valued like good units, debited to the process; credited to Abnormal Gain A/c.\n• Abnormal gain also reduces the scrap that was expected from normal loss – adjust this in the Abnormal Gain A/c.\n• Cost per unit = (Total cost − scrap value of normal loss) ÷ (Input − normal loss units).",
+   "link": "Linked to today's case MCQ: Process costing – abnormal gain"
+  }
+ },
+ "2026-11-21": {
+  "g1": {
+   "format": "Common Mistake",
+   "subject": "Income Tax – Clubbing",
+   "title": "Gift to wife – whose income?",
+   "body": "❌ Mr. A gifts ₹10 lakh to his wife. She puts it in a fixed deposit, and the interest is shown in HER return.\n\n✅ Correct: transfer of an asset to the spouse without adequate consideration → the income from it is CLUBBED with Mr. A's income.\n\nAlso remember:\n• Minor child's income → clubbed with the parent having higher income (not if from the child's own skill or manual work).\n• Income earned on the clubbed income (second-level income) is NOT clubbed – it is the wife's own income.",
+   "link": "Linked to today's general MCQ: Clubbing of income"
+  },
+  "g2": {
+   "format": "Formula Card",
+   "subject": "FM – Dividend decision",
+   "title": "Walter's model",
+   "body": "P = [D + (r ÷ k) × (E − D)] ÷ k\nP = price per share, D = dividend, E = EPS, r = return on investment, k = cost of equity\n\nExample: E ₹10, D ₹4, r 15%, k 10%\nP = [4 + 1.5 × 6] ÷ 0.10 = ₹130\nWith 0% payout: P = [0 + 1.5 × 10] ÷ 0.10 = ₹150\n\nRule: r > k → retain all (0% payout). r < k → pay all (100%). r = k → payout does not matter.",
+   "link": "Linked to today's general MCQ: Walter's model"
+  }
+ },
+ "2026-11-23": {
+  "g1": {
+   "format": "1-Minute Revision",
+   "subject": "Law – Sec 103 & 105",
+   "title": "Quorum and proxy",
+   "body": "Quorum (members personally present) – public company:\n• Up to 1,000 members → 5\n• 1,000 to 5,000 members → 15\n• More than 5,000 members → 30\nPrivate company → 2 (unless the articles say more).\n\nProxy:\n• A member can appoint a proxy, who need not be a member.\n• A proxy cannot speak and votes only on a poll.\n• Proxy form must reach the company at least 48 hours before the meeting.\n• One person can be proxy for at most 50 members holding up to 10% of the voting share capital.",
+   "link": "Linked to today's case MCQ: Sec 103 & 105 – Quorum and proxy"
+  },
+  "g2": {
+   "format": "Memory Trick",
+   "subject": "Audit – SA 315",
+   "title": "Assertions made easy",
+   "body": "Account balances at year-end – 'Every Rupee Counts, Verify':\nE – Existence\nR – Rights and obligations\nC – Completeness\nV – Valuation and allocation\n\nTransactions during the year – 'Only Clever Auditors Check Carefully':\nO – Occurrence\nC – Completeness\nA – Accuracy\nC – Cut-off\nC – Classification\n\nPlus presentation and disclosure. Tip: existence → test from records to the asset; completeness → test from the source to the records.",
+   "link": "Linked to today's case MCQ: Assertions"
+  }
+ }
+}

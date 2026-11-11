@@ -325,6 +325,35 @@ def check_youtube(state, cfg):
         send(text, preview=True, where="updates")
 
 
+STUDY_EMOJI = {"1-Minute Revision": "⏱️", "Formula Card": "🧮", "Memory Trick": "🧠",
+               "Difference Between": "⚖️", "Common Mistake": "⚠️"}
+
+
+def post_study(state):
+    """4 PM: study content linked to the day's MCQs, in BOTH group topics (study.json, keyed by date)."""
+    if state.get("study_last_date") == today():
+        print("Study content already posted today")
+        return
+    posts = (load(os.path.join(HERE, "study.json"), {}) or {}).get(today())
+    if not posts:
+        print("No study content for today")
+        return
+    for g in ("g1", "g2"):
+        p = posts.get(g)
+        if not p:
+            continue
+        emo = STUDY_EMOJI.get(p.get("format"), "📘")
+        text = (f"{emo} <b>{html.escape(p['format'])} – {html.escape(p['subject'])}</b>\n\n"
+                f"<b>{html.escape(p['title'])}</b>\n{html.escape(p['body'])}")
+        if p.get("link"):
+            text += f"\n\n🔗 <i>{html.escape(p['link'])}</i>"
+        try:
+            send(text, where=g)
+        except Exception as e:
+            print(f"{g}: could not send study post: {e}")
+    state["study_last_date"] = today()
+
+
 def main():
     mode = (sys.argv[1] if len(sys.argv) > 1 else "check").lower()
     state = load(STATE_FILE, {})
@@ -343,7 +372,9 @@ def main():
             post_fact(state)
         if mode in ("promo", "all"):
             post_promo(state)
-        if mode in ("check", "fact", "all"):
+        if mode in ("study", "all"):
+            post_study(state)
+        if mode in ("check", "fact", "study", "all"):
             check_icai(state, cfg)
             check_youtube(state, cfg)
     finally:
