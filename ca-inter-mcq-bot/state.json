@@ -1,20 +1,6 @@
 {
-  "next_index": 1,
-  "pending": {
-    "date": "2026-11-11",
-    "sets": [
-      {
-        "index": 1,
-        "case_message_id": 5697,
-        "poll_message_ids": [
-          5699,
-          5701,
-          5703,
-          5705
-        ]
-      }
-    ]
-  },
+  "next_index": 2,
+  "pending": null,
   "history": [
     {
       "date": "2026-11-10",
@@ -36,6 +22,30 @@
         {
           "total": 14,
           "correct": 8
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "day": 2,
+      "group": "Group 2",
+      "kind": "case",
+      "results": [
+        {
+          "total": 10,
+          "correct": 10
+        },
+        {
+          "total": 11,
+          "correct": 8
+        },
+        {
+          "total": 10,
+          "correct": 6
+        },
+        {
+          "total": 10,
+          "correct": 10
         }
       ]
     }
