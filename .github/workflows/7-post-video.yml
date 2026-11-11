@@ -1,0 +1,68 @@
+name: "7. Post a YouTube video now (manual)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: "YouTube video id (the part after watch?v= or /shorts/)"
+        required: true
+      title:
+        description: "Video title"
+        required: true
+
+concurrency:
+  group: extras-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    working-directory: ca-inter-mcq-bot
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post the video in SHRESHTA Updates
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          VIDEO_ID: ${{ inputs.video_id }}
+          VIDEO_TITLE: ${{ inputs.title }}
+        run: |
+          python3 - <<'EOF'
+          import html, os, sys
+          sys.argv = ["extras.py"]
+          import extras
+          vid = os.environ["VIDEO_ID"].strip()
+          title = os.environ["VIDEO_TITLE"].strip()
+          state = extras.load(extras.STATE_FILE, {})
+          seen = state.setdefault("yt_seen", [])
+          if vid in seen:
+              print("Already posted:", vid)
+          else:
+              url = f"https://www.youtube.com/watch?v={vid}"
+              text = ("🎥 <b>New CA Inter video from CA Ram Harsha YouTube Channel!</b>\n\n"
+                      f"{html.escape(title)}\n\n▶️ Watch now: {url}\n"
+                      "👍 Like, share with your friends & subscribe for more!")
+              extras.send(text, preview=True, where="updates")
+              seen.append(vid)
+              extras.save_state(state)
+          EOF
+      - name: Save progress
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add extras_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Manual video post"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
