@@ -66,6 +66,9 @@ def target(day=None):
         sys.exit("CHAT_ID is not set. Run the 'Find group ID' workflow first.")
     topic = os.environ.get("TOPIC_ID", "").strip()
     thread = int(topic) if topic else None
+    test = os.environ.get("TEST_CHAT", "").strip()
+    if test:
+        return {"chat_id": int(test), "message_thread_id": None}
     if day:
         topics = (load(CONFIG, {}) or {}).get("group_topics", {}).get(chat, {})
         if day.get("group") in topics:
@@ -97,6 +100,9 @@ def blocks_text(blocks):
     return lines
 
 
+QUIZ_LINE = "🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for a hint of why."
+
+
 def is_general(day):
     return day.get("kind") == "general"
 
@@ -107,10 +113,12 @@ def header_message(day, cfg):
     if is_general(day):
         return "\n".join([f"{g} <b>CA INTER DAILY MCQ – Day {day['day']} | {e(day['group'])} | General MCQs</b>",
                           f"📚 Today: {e(subs)}",
-                          f"👇 4 quick MCQs – answer the polls below. ⏰ Answers at {cfg['answer_time_label']}"])
+                          f"👇 4 quick MCQs – answer the polls below. ⏰ Full answers at {cfg['answer_time_label']}"]
+                         + ([QUIZ_LINE] if cfg.get("quiz_mode") else []))
     return "\n".join([f"{g} <b>CA INTER DAILY MCQ – Day {day['day']} | {e(day['group'])}</b>",
                       f"📚 Today: {e(subs)}",
-                      f"👇 4 mini-cases, each followed by its poll. ⏰ Answers at {cfg['answer_time_label']}"])
+                      f"👇 4 mini-cases, each followed by its poll. ⏰ Full answers at {cfg['answer_time_label']}"]
+                     + ([QUIZ_LINE] if cfg.get("quiz_mode") else []))
 
 
 def item_message(i, it):
@@ -198,9 +206,13 @@ def post_set(idx, day, cfg):
     for i, it in enumerate(day["items"]):
         if not general:
             api("sendMessage", **t, text=item_message(i, it), parse_mode="HTML", disable_web_page_preview=True)
+        quiz = {}
+        if cfg.get("quiz_mode"):
+            quiz = {"type": "quiz", "correct_option_id": it["ans"],
+                    "explanation": (it.get("exp") or "")[:200] or None}
         pm = api("sendPoll", **t, question=poll_question(i, it, general),
                  options=[{"text": o} for o in it["o"]], is_anonymous=cfg.get("anonymous_polls", True),
-                 allows_multiple_answers=False)
+                 allows_multiple_answers=False, **quiz)
         polls.append(pm["message_id"])
     if cfg.get("pin_case", True):
         try:
@@ -282,6 +294,24 @@ def do_answers():
     save(STATE, state)
 
 
+def do_test():
+    """Send the next MCQ day (quiz mode) plus announce.txt to TEST_CHAT only. Saves nothing."""
+    cfg, plan = load(CONFIG), load(PLAN)
+    state = load(STATE, {"next_index": 0})
+    if not os.environ.get("TEST_CHAT", "").strip():
+        sys.exit("TEST_CHAT is not set.")
+    ann = os.path.join(HERE, "announce.txt")
+    if os.path.exists(ann):
+        with open(ann, encoding="utf-8") as f:
+            api("sendMessage", **target(), text=f.read().strip(), parse_mode="HTML")
+    idx = state.get("next_index", 0)
+    if state.get("pending"):
+        idx = max(s["index"] for s in (state["pending"].get("sets") or [state["pending"]])) + 1
+    for i, d in todays_sets(plan, idx):
+        post_set(i, d, dict(cfg, pin_case=False))
+        print(f"Test: sent Day {d['day']} ({d['group']}, {d.get('kind', 'case')})")
+
+
 def do_find_id():
     updates = api("getUpdates", allowed_updates=["message", "my_chat_member", "channel_post"])
     seen = {}
@@ -331,4 +361,4 @@ def do_reset():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "preview"
-    {"post": do_post, "answers": do_answers, "find-id": do_find_id, "preview": do_preview, "reset": do_reset}[mode]()
+    {"post": do_post, "answers": do_answers, "test": do_test, "find-id": do_find_id, "preview": do_preview, "reset": do_reset}[mode]()

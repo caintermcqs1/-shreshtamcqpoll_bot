@@ -206,7 +206,8 @@
         "ans": 1,
         "why": "AS 9: revenue from sale of goods is recognised when significant risks and rewards of ownership are transferred and no significant uncertainty exists. Physical delivery is not the test.",
         "trap": "Delivery date feels natural, but the transfer of risks and rewards decides it.",
-        "source": "AS 9 – Revenue Recognition"
+        "source": "AS 9 – Revenue Recognition",
+        "exp": "AS 9: revenue from sale of goods is recognised when significant risks and rewards of ownership are transferred and no significant uncertainty exists. Physical delivery is not the test."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -221,7 +222,8 @@
         "ans": 3,
         "why": "Sec 2(68) limits a private company to 200 members, excluding present and former employee-members; joint holders count as one member.",
         "trap": "50 was the limit under the Companies Act, 1956 – it was raised to 200 in 2013.",
-        "source": "Companies Act, 2013 – Sec 2(68)"
+        "source": "Companies Act, 2013 – Sec 2(68)",
+        "exp": "Sec 2(68) limits a private company to 200 members, excluding present and former employee-members; joint holders count as one member."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -236,7 +238,8 @@
         "ans": 0,
         "why": "Residential status is tested year by year (previous year / tax year). A person can be resident in one year and non-resident in the next.",
         "trap": "Citizenship does not decide residential status – stay in India does.",
-        "source": "Income-tax law – Residential status (ICAI Study Material, Taxation Paper 3A)"
+        "source": "Income-tax law – Residential status (ICAI Study Material, Taxation Paper 3A)",
+        "exp": "Residential status is tested year by year (previous year / tax year). A person can be resident in one year and non-resident in the next."
       },
       {
         "subject": "Taxation – GST",
@@ -251,7 +254,8 @@
         "ans": 2,
         "why": "This is a mixed supply (items not naturally bundled, sold for a single price). Sec 8(b) taxes a mixed supply at the highest rate among its items.",
         "trap": "'Principal supply' rate applies to a composite supply – not to a mixed supply.",
-        "source": "CGST Act, 2017 – Sec 2(74), Sec 8(b)"
+        "source": "CGST Act, 2017 – Sec 2(74), Sec 8(b)",
+        "exp": "This is a mixed supply (items not naturally bundled, sold for a single price). Sec 8(b) taxes a mixed supply at the highest rate among its items."
       }
     ]
   },
@@ -273,7 +277,8 @@
         "ans": 1,
         "why": "EOQ = √(2AO/C). If A becomes 4A, EOQ becomes √4 = 2 times the old EOQ.",
         "trap": "EOQ moves with the SQUARE ROOT of demand, not in direct proportion.",
-        "source": "ICAI Study Material – Cost & Management Accounting, Material Cost"
+        "source": "ICAI Study Material – Cost & Management Accounting, Material Cost",
+        "exp": "EOQ = √(2AO/C). If A becomes 4A, EOQ becomes √4 = 2 times the old EOQ."
       },
       {
         "subject": "Auditing & Ethics",
@@ -288,7 +293,8 @@
         "ans": 3,
         "why": "SQC 1 sets 60 days from the date of the auditor's report as the time limit to complete the assembly of the final audit file.",
         "trap": "7 years is the retention period for audit documentation – not the assembly time.",
-        "source": "SA 230 – Audit Documentation; SQC 1"
+        "source": "SA 230 – Audit Documentation; SQC 1",
+        "exp": "SQC 1 sets 60 days from the date of the auditor's report as the time limit to complete the assembly of the final audit file."
       },
       {
         "subject": "Financial Management",
@@ -303,7 +309,8 @@
         "ans": 0,
         "why": "Wealth maximisation considers time value of money and risk through cash flows, so it is preferred over plain profit maximisation.",
         "trap": "Profit maximisation ignores timing and risk of returns – the classic weakness.",
-        "source": "ICAI Study Material – Financial Management, Scope and Objectives"
+        "source": "ICAI Study Material – Financial Management, Scope and Objectives",
+        "exp": "Wealth maximisation considers time value of money and risk through cash flows, so it is preferred over plain profit maximisation."
       },
       {
         "subject": "Strategic Management",
@@ -318,7 +325,8 @@
         "ans": 2,
         "why": "Question marks are in fast-growing markets but have a small share. They need cash and a decision: build into stars or divest.",
         "trap": "Stars have high growth AND high share.",
-        "source": "ICAI Study Material – Strategic Management, BCG Growth-Share Matrix"
+        "source": "ICAI Study Material – Strategic Management, BCG Growth-Share Matrix",
+        "exp": "Question marks are in fast-growing markets but have a small share. They need cash and a decision: build into stars or divest."
       }
     ]
   },
@@ -345,7 +353,8 @@
         ],
         "ans": 2,
         "why": "(170 − 15 GST credit) × 20,000 = 31,00,000 + transit 5,00,000 = ₹36,00,000. Recoverable taxes are excluded from cost under AS 2.",
-        "trap": "₹39,00,000 includes GST that will be recovered as ITC."
+        "trap": "₹39,00,000 includes GST that will be recovered as ITC.",
+        "exp": "(170 − 15 GST credit) × 20,000 = 31,00,000 + transit 5,00,000 = ₹36,00,000. Recoverable taxes are excluded from cost under AS 2."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -366,7 +375,8 @@
         ],
         "ans": 0,
         "why": "Sec 7 requires at least two individual designated partners, at least one of whom is resident in India, meaning a stay of 120 days or more in the financial year. Only Mr. X qualifies.",
-        "trap": "The test is 120 days (post-2021), not the 182 days used in income tax."
+        "trap": "The test is 120 days (post-2021), not the 182 days used in income tax.",
+        "exp": "Sec 7 requires at least two individual designated partners, at least one of whom is resident in India, meaning a stay of 120 days or more in the financial year. Only Mr. X qualifies."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -430,7 +440,8 @@
         ],
         "ans": 3,
         "why": "X (2017, premium 8% of sum assured, within 10%) is exempt. For policies issued on or after 1.4.2023, exemption is available only while the aggregate premium is within ₹5 lakh. Y + Z + A = ₹7.5 lakh, so the best combination within ₹5 lakh is Y + Z (highest proceeds).",
-        "trap": "Z + A (₹4.5 lakh) also fits the limit, but gives lower exempt proceeds."
+        "trap": "Z + A (₹4.5 lakh) also fits the limit, but gives lower exempt proceeds.",
+        "exp": "X (2017, premium 8% of sum assured, within 10%) is exempt. For policies issued on or after 1.4.2023, exemption is available only while the aggregate premium is within ₹5 lakh."
       },
       {
         "subject": "Taxation – GST",
@@ -451,7 +462,8 @@
         ],
         "ans": 1,
         "why": "Sec 31(6): when a service ceases under a contract before completion, the invoice is issued at the time of cessation (31-03-2025), to the extent of supply made (60% × 2,00,000 = ₹1,20,000).",
-        "trap": "The full contract value doesn't matter once the work stops midway."
+        "trap": "The full contract value doesn't matter once the work stops midway.",
+        "exp": "Sec 31(6): when a service ceases under a contract before completion, the invoice is issued at the time of cessation (31-03-2025), to the extent of supply made (60% × 2,00,000 = ₹1,20,000)."
       }
     ],
     "kind": "case"
@@ -479,7 +491,8 @@
         ],
         "ans": 0,
         "why": "Overheads = 75% of labour, so P gets 22,500. Cost = 50,000 + 38,000 + 30,000 + 22,500 = 1,40,500. Less scrap 1,000 = 1,39,500 ÷ 9,000 kg = ₹15.50.",
-        "trap": "₹15.61 ignores the scrap value of normal wastage."
+        "trap": "₹15.61 ignores the scrap value of normal wastage.",
+        "exp": "Overheads = 75% of labour, so P gets 22,500. Cost = 50,000 + 38,000 + 30,000 + 22,500 = 1,40,500. Less scrap 1,000 = 1,39,500 ÷ 9,000 kg = ₹15.50."
       },
       {
         "subject": "Auditing & Ethics",
@@ -500,7 +513,8 @@
         ],
         "ans": 2,
         "why": "Unexplained GP swings with missing primary records raise the risk of material misstatement. Extend substantive work. If issues remain unexplained, consider a modified opinion (SA 705).",
-        "trap": "Unsupported management explanations are not audit evidence."
+        "trap": "Unsupported management explanations are not audit evidence.",
+        "exp": "Unexplained GP swings with missing primary records raise the risk of material misstatement. Extend substantive work. If issues remain unexplained, consider a modified opinion (SA 705)."
       },
       {
         "subject": "Financial Management",
@@ -521,7 +535,8 @@
         ],
         "ans": 1,
         "why": "Net saving 6,45,000 − depreciation 4,00,000 = 2,45,000 − tax 73,500 = PAT 1,71,500. CFAT = 5,71,500. Payback = 20,00,000 ÷ 5,71,500 = 3.50 years.",
-        "trap": "Using pre-tax savings understates the payback."
+        "trap": "Using pre-tax savings understates the payback.",
+        "exp": "Net saving 6,45,000 − depreciation 4,00,000 = 2,45,000 − tax 73,500 = PAT 1,71,500. CFAT = 5,71,500. Payback = 20,00,000 ÷ 5,71,500 = 3.50 years."
       },
       {
         "subject": "Strategic Management",
@@ -542,7 +557,8 @@
         ],
         "ans": 3,
         "why": "Goals are broad, open-ended outcomes the organisation wants to achieve. Objectives are their specific, measurable and time-bound form.",
-        "trap": "The 2045 aspiration is the vision. The broad outcomes are goals."
+        "trap": "The 2045 aspiration is the vision. The broad outcomes are goals.",
+        "exp": "Goals are broad, open-ended outcomes the organisation wants to achieve. Objectives are their specific, measurable and time-bound form."
       }
     ],
     "kind": "case"
@@ -565,7 +581,8 @@
         "ans": 2,
         "why": "Adjusting events give more evidence about conditions that existed on the B/S date. The debtor's weak position existed at year-end, so a provision is made.",
         "trap": "Fire, share issue and later fall in value are new conditions – disclose if material, don't adjust.",
-        "source": "AS 4 – Contingencies and Events Occurring after the Balance Sheet Date"
+        "source": "AS 4 – Contingencies and Events Occurring after the Balance Sheet Date",
+        "exp": "Adjusting events give more evidence about conditions that existed on the B/S date. The debtor's weak position existed at year-end, so a provision is made."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -580,7 +597,8 @@
         "ans": 0,
         "why": "Under Sec 2(87), S is a subsidiary if H controls the composition of S's Board, or exercises or controls more than one-half of S's total voting power (alone or with its other subsidiaries).",
         "trap": "More than 20% gives 'significant influence' (associate) – not a subsidiary.",
-        "source": "Companies Act, 2013 – Sec 2(87)"
+        "source": "Companies Act, 2013 – Sec 2(87)",
+        "exp": "Under Sec 2(87), S is a subsidiary if H controls the composition of S's Board, or exercises or controls more than one-half of S's total voting power (alone or with its other subsidiaries)."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -595,7 +613,8 @@
         "ans": 3,
         "why": "Exempt agricultural income needs land situated in India. Income from foreign agricultural land is taxable, and a resident is taxed on global income.",
         "trap": "The word 'agricultural' alone does not make income exempt – the land must be in India.",
-        "source": "Income-tax law – Definition of agricultural income (ICAI Study Material, Taxation Paper 3A)"
+        "source": "Income-tax law – Definition of agricultural income (ICAI Study Material, Taxation Paper 3A)",
+        "exp": "Exempt agricultural income needs land situated in India. Income from foreign agricultural land is taxable, and a resident is taxed on global income."
       },
       {
         "subject": "Taxation – GST",
@@ -610,7 +629,8 @@
         "ans": 1,
         "why": "Schedule I treats supplies between related persons (employer–employee) without consideration as supply. But gifts up to ₹50,000 per employee per year are not treated as supply.",
         "trap": "Employer and employee ARE related persons – the ₹50,000 proviso is what saves it.",
-        "source": "CGST Act, 2017 – Schedule I, para 2 (proviso)"
+        "source": "CGST Act, 2017 – Schedule I, para 2 (proviso)",
+        "exp": "Schedule I treats supplies between related persons (employer–employee) without consideration as supply. But gifts up to ₹50,000 per employee per year are not treated as supply."
       }
     ]
   },
@@ -632,7 +652,8 @@
         "ans": 2,
         "why": "Transport services use composite cost units. Passenger-km reflects both the number of passengers carried and the distance travelled.",
         "trap": "'Per bus' ignores how far and how full the bus runs.",
-        "source": "ICAI Study Material – Cost & Management Accounting, Introduction / Service Costing"
+        "source": "ICAI Study Material – Cost & Management Accounting, Introduction / Service Costing",
+        "exp": "Transport services use composite cost units. Passenger-km reflects both the number of passengers carried and the distance travelled."
       },
       {
         "subject": "Auditing & Ethics",
@@ -647,7 +668,8 @@
         "ans": 0,
         "why": "SA 500: evidence obtained directly by the auditor is more reliable than evidence obtained indirectly or by inference. Original documents beat photocopies; documented evidence beats oral.",
         "trap": "Management representations support evidence – they don't replace it.",
-        "source": "SA 500 – Audit Evidence"
+        "source": "SA 500 – Audit Evidence",
+        "exp": "SA 500: evidence obtained directly by the auditor is more reliable than evidence obtained indirectly or by inference. Original documents beat photocopies; documented evidence beats oral."
       },
       {
         "subject": "Financial Management",
@@ -662,7 +684,8 @@
         "ans": 3,
         "why": "Ke = Rf + β(Rm − Rf) = 6% + 1.2 × (11% − 6%) = 6% + 6% = 12%.",
         "trap": "13.2% comes from multiplying beta by the full market return (1.2 × 11%).",
-        "source": "ICAI Study Material – Financial Management, Cost of Capital"
+        "source": "ICAI Study Material – Financial Management, Cost of Capital",
+        "exp": "Ke = Rf + β(Rm − Rf) = 6% + 1.2 × (11% − 6%) = 6% + 6% = 12%."
       },
       {
         "subject": "Strategic Management",
@@ -677,7 +700,8 @@
         "ans": 1,
         "why": "The five forces are: rivalry among existing firms, threat of new entrants, threat of substitutes, bargaining power of buyers and of suppliers. Government affects them but is not a separate force.",
         "trap": "Government policy influences entry barriers – but it is not counted as a sixth force.",
-        "source": "ICAI Study Material – Strategic Management, Porter's Five Forces"
+        "source": "ICAI Study Material – Strategic Management, Porter's Five Forces",
+        "exp": "The five forces are: rivalry among existing firms, threat of new entrants, threat of substitutes, bargaining power of buyers and of suppliers. Government affects them but is not a separate force."
       }
     ]
   },
@@ -704,7 +728,8 @@
         ],
         "ans": 1,
         "why": "Under AS 10, a revaluation increase is credited to P&L to the extent it reverses a decrease previously charged to P&L for the same asset (₹2,00,000). The balance (₹3,00,000) goes to Revaluation Reserve.",
-        "trap": "Crediting the full amount to reserve ignores the earlier loss that went through P&L."
+        "trap": "Crediting the full amount to reserve ignores the earlier loss that went through P&L.",
+        "exp": "Under AS 10, a revaluation increase is credited to P&L to the extent it reverses a decrease previously charged to P&L for the same asset (₹2,00,000)."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -725,7 +750,8 @@
         ],
         "ans": 0,
         "why": "Sec 96: the AGM must be held within 6 months of FY-end (30 Sept 2026), and the gap between two AGMs cannot exceed 15 months (30 Dec 2026). 31 Dec 2026 breaches both. Only the ROC can extend, by up to 3 months.",
-        "trap": "It misses the 15-month limit by just one day. Count carefully."
+        "trap": "It misses the 15-month limit by just one day. Count carefully.",
+        "exp": "Sec 96: the AGM must be held within 6 months of FY-end (30 Sept 2026), and the gap between two AGMs cannot exceed 15 months (30 Dec 2026). 31 Dec 2026 breaches both."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -746,7 +772,8 @@
         ],
         "ans": 2,
         "why": "For bonus shares acquired before 1.2.2018, the cost is the FMV on 31.1.2018: ₹10,00,000. LTCG = ₹5,00,000. Eligible derivative trading on a recognised exchange is a non-speculative business u/s 43(5), so the loss goes to PGBP.",
-        "trap": "The derivative loss looks like a capital loss, but it belongs under PGBP."
+        "trap": "The derivative loss looks like a capital loss, but it belongs under PGBP.",
+        "exp": "For bonus shares acquired before 1.2.2018, the cost is the FMV on 31.1.2018: ₹10,00,000. LTCG = ₹5,00,000."
       },
       {
         "subject": "Taxation – GST",
@@ -767,7 +794,8 @@
         ],
         "ans": 3,
         "why": "GTA services to a Government department registered only for TDS u/s 51 are exempt.",
-        "trap": "Registration for TDS alone does not make PWD a 'registered recipient' for RCM on GTA."
+        "trap": "Registration for TDS alone does not make PWD a 'registered recipient' for RCM on GTA.",
+        "exp": "GTA services to a Government department registered only for TDS u/s 51 are exempt."
       }
     ],
     "kind": "case"
@@ -795,7 +823,8 @@
         ],
         "ans": 3,
         "why": "Rowan: 112.5 = 90 + (4 − T)/4 × 90, so T = 3 hours. Halsey: 3 × 90 + 50% × 1 hour × 90 = ₹315, which is ₹105 per hour.",
-        "trap": "First find the actual time from the Rowan rate. Don't assume 4 hours."
+        "trap": "First find the actual time from the Rowan rate. Don't assume 4 hours.",
+        "exp": "Rowan: 112.5 = 90 + (4 − T)/4 × 90, so T = 3 hours. Halsey: 3 × 90 + 50% × 1 hour × 90 = ₹315, which is ₹105 per hour."
       },
       {
         "subject": "Auditing & Ethics",
@@ -816,7 +845,8 @@
         ],
         "ans": 2,
         "why": "SA 501: existence and condition of inventory; completeness of litigation and claims; presentation and disclosure of segment information.",
-        "trap": "'Valuation' sounds natural for inventory, but SA 501 targets existence and condition."
+        "trap": "'Valuation' sounds natural for inventory, but SA 501 targets existence and condition.",
+        "exp": "SA 501: existence and condition of inventory; completeness of litigation and claims; presentation and disclosure of segment information."
       },
       {
         "subject": "Financial Management",
@@ -837,7 +867,8 @@
         ],
         "ans": 0,
         "why": "0.40 × 7% (10% × 0.70) + 0.60 × 16% = 2.80% + 9.60% = 12.40%.",
-        "trap": "11.32% is the firm's existing WACC, which is wrong for a riskier project."
+        "trap": "11.32% is the firm's existing WACC, which is wrong for a riskier project.",
+        "exp": "0.40 × 7% (10% × 0.70) + 0.60 × 16% = 2.80% + 9.60% = 12.40%."
       },
       {
         "subject": "Strategic Management",
@@ -858,7 +889,8 @@
         ],
         "ans": 1,
         "why": "Existing products in new geographic markets is market development.",
-        "trap": "Market penetration means selling more in existing markets."
+        "trap": "Market penetration means selling more in existing markets.",
+        "exp": "Existing products in new geographic markets is market development."
       }
     ],
     "kind": "case"
@@ -881,7 +913,8 @@
         "ans": 0,
         "why": "Long-term investments are carried at cost; a provision is made only for a decline that is other than temporary.",
         "trap": "'Lower of cost and fair value' is the rule for CURRENT investments.",
-        "source": "AS 13 – Accounting for Investments"
+        "source": "AS 13 – Accounting for Investments",
+        "exp": "Long-term investments are carried at cost; a provision is made only for a decline that is other than temporary."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -896,7 +929,8 @@
         "ans": 1,
         "why": "Proviso to Sec 2(71): a company that is a subsidiary of a public company is deemed to be a public company, even if its articles keep private-company restrictions.",
         "trap": "The articles do not override the deeming proviso.",
-        "source": "Companies Act, 2013 – Sec 2(71), proviso"
+        "source": "Companies Act, 2013 – Sec 2(71), proviso",
+        "exp": "Proviso to Sec 2(71): a company that is a subsidiary of a public company is deemed to be a public company, even if its articles keep private-company restrictions."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -911,7 +945,8 @@
         "ans": 2,
         "why": "Casual income like lottery, crossword and game-show winnings is taxed under 'Income from Other Sources', at a special flat rate with no basic exemption benefit.",
         "trap": "It is not a capital gain – no capital asset is transferred.",
-        "source": "Income-tax law – Income from Other Sources (ICAI Study Material, Taxation Paper 3A)"
+        "source": "Income-tax law – Income from Other Sources (ICAI Study Material, Taxation Paper 3A)",
+        "exp": "Casual income like lottery, crossword and game-show winnings is taxed under 'Income from Other Sources', at a special flat rate with no basic exemption benefit."
       },
       {
         "subject": "Taxation – GST",
@@ -926,7 +961,8 @@
         "ans": 3,
         "why": "Sec 16(2) needs invoice, receipt, tax paid by supplier, invoice in GSTR-2B and return filed. Payment to the supplier is required only within 180 days of invoice – otherwise ITC is reversed.",
         "trap": "Non-payment within 180 days reverses ITC, but prior payment is not a condition to claim it.",
-        "source": "CGST Act, 2017 – Sec 16(2) and its second proviso"
+        "source": "CGST Act, 2017 – Sec 16(2) and its second proviso",
+        "exp": "Sec 16(2) needs invoice, receipt, tax paid by supplier, invoice in GSTR-2B and return filed. Payment to the supplier is required only within 180 days of invoice – otherwise ITC is reversed."
       }
     ]
   },
@@ -948,7 +984,8 @@
         "ans": 0,
         "why": "BEP sales = Fixed cost ÷ P/V ratio = ₹2,00,000 ÷ 40% = ₹5,00,000.",
         "trap": "₹3,33,333 comes from dividing by 60% (the variable cost ratio) by mistake.",
-        "source": "ICAI Study Material – Cost & Management Accounting, Marginal Costing"
+        "source": "ICAI Study Material – Cost & Management Accounting, Marginal Costing",
+        "exp": "BEP sales = Fixed cost ÷ P/V ratio = ₹2,00,000 ÷ 40% = ₹5,00,000."
       },
       {
         "subject": "Auditing & Ethics",
@@ -963,7 +1000,8 @@
         "ans": 1,
         "why": "Written representations must cover the period up to the report date, so they are dated as close to the auditor's report date as possible – never after it.",
         "trap": "Dating them at the balance sheet date misses events up to the report date.",
-        "source": "SA 580 – Written Representations"
+        "source": "SA 580 – Written Representations",
+        "exp": "Written representations must cover the period up to the report date, so they are dated as close to the auditor's report date as possible – never after it."
       },
       {
         "subject": "Financial Management",
@@ -978,7 +1016,8 @@
         "ans": 2,
         "why": "DOL = Contribution ÷ EBIT = ₹5,00,000 ÷ ₹2,00,000 = 2.5. A 1% change in sales changes EBIT by 2.5%.",
         "trap": "0.4 is EBIT ÷ Contribution – the formula turned upside down.",
-        "source": "ICAI Study Material – Financial Management, Leverages"
+        "source": "ICAI Study Material – Financial Management, Leverages",
+        "exp": "DOL = Contribution ÷ EBIT = ₹5,00,000 ÷ ₹2,00,000 = 2.5. A 1% change in sales changes EBIT by 2.5%."
       },
       {
         "subject": "Strategic Management",
@@ -993,7 +1032,8 @@
         "ans": 3,
         "why": "Threats are external and unfavourable. A strong new competitor entering is external and harmful.",
         "trap": "High debt is harmful but internal – that is a weakness, not a threat.",
-        "source": "ICAI Study Material – Strategic Management, SWOT Analysis"
+        "source": "ICAI Study Material – Strategic Management, SWOT Analysis",
+        "exp": "Threats are external and unfavourable. A strong new competitor entering is external and harmful."
       }
     ]
   },
@@ -1020,7 +1060,8 @@
         ],
         "ans": 0,
         "why": "When an investment is acquired and held exclusively with a view to its subsequent disposal in the near future, the equity method is not applied. It is accounted for under AS 13.",
-        "trap": "The 25% holding tempts you towards 'associate', but the purpose of holding decides."
+        "trap": "The 25% holding tempts you towards 'associate', but the purpose of holding decides.",
+        "exp": "When an investment is acquired and held exclusively with a view to its subsequent disposal in the near future, the equity method is not applied. It is accounted for under AS 13."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -1041,7 +1082,8 @@
         ],
         "ans": 3,
         "why": "An activity outside the objects stated in the MoA cannot be undertaken until the objects clause is altered by special resolution under sec 13, following the prescribed procedure.",
-        "trap": "A Board resolution cannot override the Memorandum."
+        "trap": "A Board resolution cannot override the Memorandum.",
+        "exp": "An activity outside the objects stated in the MoA cannot be undertaken until the objects clause is altered by special resolution under sec 13, following the prescribed procedure."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -1071,7 +1113,8 @@
         ],
         "ans": 1,
         "why": "80C: ₹1,50,000 (cap). 80D self/family: 13,500 + 5,000 check-up = 18,500. 80D senior parents: 26,670 + father's medical expenses 27,000 = 53,670, capped at 50,000. 80TTA: ₹10,000. Total = ₹2,28,500.",
-        "trap": "The ₹5,000 preventive check-up cap is for the whole family. The mother's medical expenses don't count, as she is insured."
+        "trap": "The ₹5,000 preventive check-up cap is for the whole family. The mother's medical expenses don't count, as she is insured.",
+        "exp": "80C: ₹1,50,000 (cap). 80D self/family: 13,500 + 5,000 check-up = 18,500. 80D senior parents: 26,670 + father's medical expenses 27,000 = 53,670, capped at 50,000. 80TTA: ₹10,000. Total = ₹2,28,500."
       },
       {
         "subject": "Taxation – GST",
@@ -1099,7 +1142,8 @@
         ],
         "ans": 2,
         "why": "Only the stock supplied (₹1,50,000) is an outward supply in June. Sale of land is neither goods nor services (Schedule III). Rent paid is an inward supply. The August return is adjusted later through a credit note.",
-        "trap": "Do not reduce June's value for goods returned in August."
+        "trap": "Do not reduce June's value for goods returned in August.",
+        "exp": "Only the stock supplied (₹1,50,000) is an outward supply in June. Sale of land is neither goods nor services (Schedule III). Rent paid is an inward supply."
       }
     ],
     "kind": "case"
@@ -1130,7 +1174,8 @@
         ],
         "ans": 2,
         "why": "2,02,500 (orders) + 21,600 (visits) + 4,500 (10 × 20 km × 22.50) + 9,11,250 (handling) = ₹11,39,850.",
-        "trap": "Delivery cost is per km travelled, not per delivery."
+        "trap": "Delivery cost is per km travelled, not per delivery.",
+        "exp": "2,02,500 (orders) + 21,600 (visits) + 4,500 (10 × 20 km × 22.50) + 9,11,250 (handling) = ₹11,39,850."
       },
       {
         "subject": "Auditing & Ethics",
@@ -1151,7 +1196,8 @@
         ],
         "ans": 1,
         "why": "Unapproved discounts plus missing occupancy records mean revenue may be lost or understated, and its completeness and accuracy cannot be verified.",
-        "trap": "The risk here is understatement (leakage), not overstatement."
+        "trap": "The risk here is understatement (leakage), not overstatement.",
+        "exp": "Unapproved discounts plus missing occupancy records mean revenue may be lost or understated, and its completeness and accuracy cannot be verified."
       },
       {
         "subject": "Financial Management",
@@ -1172,7 +1218,8 @@
         ],
         "ans": 3,
         "why": "Average investment = half of cost. X: 1,71,500 ÷ 10,00,000 = 17.15%. Z: 1,92,500 ÷ 12,50,000 = 15.40%.",
-        "trap": "Dividing by the full cost halves the ARR."
+        "trap": "Dividing by the full cost halves the ARR.",
+        "exp": "Average investment = half of cost. X: 1,71,500 ÷ 10,00,000 = 17.15%. Z: 1,92,500 ÷ 12,50,000 = 15.40%."
       },
       {
         "subject": "Strategic Management",
@@ -1193,7 +1240,8 @@
         ],
         "ans": 0,
         "why": "The experience curve: unit costs fall as cumulative experience and learning grow.",
-        "trap": "Economies of scale come from volume, and the case rules volume out."
+        "trap": "Economies of scale come from volume, and the case rules volume out.",
+        "exp": "The experience curve: unit costs fall as cumulative experience and learning grow."
       }
     ],
     "kind": "case"
@@ -1216,7 +1264,8 @@
         "ans": 3,
         "why": "AS 10 recognises the cost of replacing a part in the carrying amount of PPE when the recognition criteria are met; the carrying amount of the replaced part is derecognised.",
         "trap": "Day-to-day servicing is expensed – major replacement of a part is not.",
-        "source": "AS 10 – Property, Plant and Equipment"
+        "source": "AS 10 – Property, Plant and Equipment",
+        "exp": "AS 10 recognises the cost of replacing a part in the carrying amount of PPE when the recognition criteria are met; the carrying amount of the replaced part is derecognised."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -1231,7 +1280,8 @@
         "ans": 2,
         "why": "Sec 127 punishes directors if a declared dividend is not paid within 30 days. The money must be put in a separate bank account within 5 days (Sec 123(4)).",
         "trap": "5 days is the limit to deposit the money in the separate bank account – not to pay it.",
-        "source": "Companies Act, 2013 – Sec 123(4), Sec 127"
+        "source": "Companies Act, 2013 – Sec 123(4), Sec 127",
+        "exp": "Sec 127 punishes directors if a declared dividend is not paid within 30 days. The money must be put in a separate bank account within 5 days (Sec 123(4))."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -1246,7 +1296,8 @@
         "ans": 1,
         "why": "The annual value of a house the owner lives in is taken as nil (up to the allowed number of houses). Only interest on a housing loan may be deducted, within limits.",
         "trap": "Fair rent and municipal value are used for let-out property, not self-occupied.",
-        "source": "Income-tax law – Income from House Property (ICAI Study Material, Taxation Paper 3A)"
+        "source": "Income-tax law – Income from House Property (ICAI Study Material, Taxation Paper 3A)",
+        "exp": "The annual value of a house the owner lives in is taken as nil (up to the allowed number of houses). Only interest on a housing loan may be deducted, within limits."
       },
       {
         "subject": "Taxation – GST",
@@ -1261,7 +1312,8 @@
         "ans": 0,
         "why": "Sec 2(6): aggregate turnover covers taxable, exempt, export and inter-State supplies of persons with the same PAN, all-India. It excludes taxes and inward supplies taxed under reverse charge.",
         "trap": "Exempt supplies are counted even though no tax is payable on them.",
-        "source": "CGST Act, 2017 – Sec 2(6), Sec 22"
+        "source": "CGST Act, 2017 – Sec 2(6), Sec 22",
+        "exp": "Sec 2(6): aggregate turnover covers taxable, exempt, export and inter-State supplies of persons with the same PAN, all-India. It excludes taxes and inward supplies taxed under reverse charge."
       }
     ]
   },
@@ -1283,7 +1335,8 @@
         "ans": 3,
         "why": "Replacement method = Number replaced ÷ Average workers × 100 = 15 ÷ 500 × 100 = 3%.",
         "trap": "4% uses separations (20); 5% uses replacements + new joinings (25).",
-        "source": "ICAI Study Material – Cost & Management Accounting, Employee Cost"
+        "source": "ICAI Study Material – Cost & Management Accounting, Employee Cost",
+        "exp": "Replacement method = Number replaced ÷ Average workers × 100 = 15 ÷ 500 × 100 = 3%."
       },
       {
         "subject": "Auditing & Ethics",
@@ -1298,7 +1351,8 @@
         "ans": 2,
         "why": "Sec 141(3)(d)(i) read with Rule 10 allows a relative to hold securities of face value up to ₹1,00,000. The auditor himself cannot hold any security.",
         "trap": "The ₹1 lakh relaxation is for the RELATIVE only – not for the auditor or partner.",
-        "source": "Companies Act, 2013 – Sec 141(3)(d); Companies (Audit and Auditors) Rules, 2014 – Rule 10"
+        "source": "Companies Act, 2013 – Sec 141(3)(d); Companies (Audit and Auditors) Rules, 2014 – Rule 10",
+        "exp": "Sec 141(3)(d)(i) read with Rule 10 allows a relative to hold securities of face value up to ₹1,00,000. The auditor himself cannot hold any security."
       },
       {
         "subject": "Financial Management",
@@ -1313,7 +1367,8 @@
         "ans": 1,
         "why": "Net operating cycle = Inventory period + Receivables period − Payables period = 60 + 45 − 30 = 75 days.",
         "trap": "135 days adds the payables period instead of deducting it.",
-        "source": "ICAI Study Material – Financial Management, Working Capital Management"
+        "source": "ICAI Study Material – Financial Management, Working Capital Management",
+        "exp": "Net operating cycle = Inventory period + Receivables period − Payables period = 60 + 45 − 30 = 75 days."
       },
       {
         "subject": "Strategic Management",
@@ -1328,7 +1383,8 @@
         "ans": 0,
         "why": "Corporate-level strategy decides the overall scope – which industries and businesses to enter or exit. Business level decides how to compete in one business.",
         "trap": "Business level is about HOW to compete, not WHERE.",
-        "source": "ICAI Study Material – Strategic Management, Levels of Strategy"
+        "source": "ICAI Study Material – Strategic Management, Levels of Strategy",
+        "exp": "Corporate-level strategy decides the overall scope – which industries and businesses to enter or exit. Business level decides how to compete in one business."
       }
     ]
   },
@@ -1355,7 +1411,8 @@
         ],
         "ans": 1,
         "why": "Normal loss is absorbed by good units: 36,00,000 ÷ (20,000 − 3% = 19,400 kg) = ₹185.5 (approx.).",
-        "trap": "₹189.4 divides by 19,000 kg and wrongly loads the abnormal loss into cost."
+        "trap": "₹189.4 divides by 19,000 kg and wrongly loads the abnormal loss into cost.",
+        "exp": "Normal loss is absorbed by good units: 36,00,000 ÷ (20,000 − 3% = 19,400 kg) = ₹185.5 (approx.)."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -1376,7 +1433,8 @@
         ],
         "ans": 2,
         "why": "130 days meets the 120-day test for that financial year, so Mr. B becomes resident and can serve as the resident designated partner.",
-        "trap": "Residency is tested year by year."
+        "trap": "Residency is tested year by year.",
+        "exp": "130 days meets the 120-day test for that financial year, so Mr. B becomes resident and can serve as the resident designated partner."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -1397,7 +1455,8 @@
         ],
         "ans": 0,
         "why": "Salary 25,00,000 − 75,000 standard deduction (default regime) = 24,25,000. Partner's remuneration is PGBP (5,00,000), set off against the non-speculative derivative loss (2,00,000), giving 3,00,000.",
-        "trap": "Partner's remuneration is never 'salary' in the partner's hands."
+        "trap": "Partner's remuneration is never 'salary' in the partner's hands.",
+        "exp": "Salary 25,00,000 − 75,000 standard deduction (default regime) = 24,25,000. Partner's remuneration is PGBP (5,00,000), set off against the non-speculative derivative loss (2,00,000), giving 3,00,000."
       },
       {
         "subject": "Taxation – GST",
@@ -1425,7 +1484,8 @@
         ],
         "ans": 3,
         "why": "Renting a residential dwelling for residence is exempt unless it is let to a registered person. Flat B is taxable (Ruhaan pays under RCM). Flat C is exempt, because a registered proprietor taking it in his personal capacity for his own residence is covered.",
-        "trap": "Being registered does not make Flat C taxable."
+        "trap": "Being registered does not make Flat C taxable.",
+        "exp": "Renting a residential dwelling for residence is exempt unless it is let to a registered person. Flat B is taxable (Ruhaan pays under RCM)."
       }
     ],
     "kind": "case"
@@ -1453,7 +1513,8 @@
         ],
         "ans": 3,
         "why": "Normal output = 9,000 − 900 = 8,100 kg. Actual output 8,200 kg gives an abnormal gain of 100 kg.",
-        "trap": "Normal loss is 10% of Q's own input (9,000 kg)."
+        "trap": "Normal loss is 10% of Q's own input (9,000 kg).",
+        "exp": "Normal output = 9,000 − 900 = 8,100 kg. Actual output 8,200 kg gives an abnormal gain of 100 kg."
       },
       {
         "subject": "Auditing & Ethics",
@@ -1474,7 +1535,8 @@
         ],
         "ans": 0,
         "why": "The issues are quantity, ownership and cut-off. The procedures must target exactly those: cut-off testing, reconciliation, segregation of consignment stock and verification of third-party stock.",
-        "trap": "The other options deal with valuation, which is not the issue raised."
+        "trap": "The other options deal with valuation, which is not the issue raised.",
+        "exp": "The issues are quantity, ownership and cut-off. The procedures must target exactly those: cut-off testing, reconciliation, segregation of consignment stock and verification of third-party stock."
       },
       {
         "subject": "Financial Management",
@@ -1495,7 +1557,8 @@
         ],
         "ans": 2,
         "why": "Depreciation 50. PBT 20, tax 6, PAT 14, CFAT 64. Add WC 20 and after-tax salvage 14 (20 × 0.70) = ₹98 crore.",
-        "trap": "₹104 crore ignores tax on the salvage (book value is nil)."
+        "trap": "₹104 crore ignores tax on the salvage (book value is nil).",
+        "exp": "Depreciation 50. PBT 20, tax 6, PAT 14, CFAT 64. Add WC 20 and after-tax salvage 14 (20 × 0.70) = ₹98 crore."
       },
       {
         "subject": "Strategic Management",
@@ -1516,7 +1579,8 @@
         ],
         "ans": 1,
         "why": "A core competence should give access to a wide variety of markets. Extending integrated capabilities to new markets is the 'application to other markets' test.",
-        "trap": "Differentiation is about rivals. The case is about reach into new markets."
+        "trap": "Differentiation is about rivals. The case is about reach into new markets.",
+        "exp": "A core competence should give access to a wide variety of markets. Extending integrated capabilities to new markets is the 'application to other markets' test."
       }
     ],
     "kind": "case"
@@ -1539,7 +1603,8 @@
         "ans": 1,
         "why": "AS 16: capitalisation stops when substantially all the activities needed to prepare the asset for its intended use are complete. Minor pending work does not extend it.",
         "trap": "Waiting for the decoration or the first use would wrongly capitalise extra interest.",
-        "source": "AS 16 – Borrowing Costs"
+        "source": "AS 16 – Borrowing Costs",
+        "exp": "AS 16: capitalisation stops when substantially all the activities needed to prepare the asset for its intended use are complete. Minor pending work does not extend it."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -1554,7 +1619,8 @@
         "ans": 0,
         "why": "Sec 3(35) of the General Clauses Act defines 'month' as a month reckoned according to the British calendar, unless the context requires otherwise.",
         "trap": "'30 days' sounds natural, but the Act ties it to the calendar month.",
-        "source": "General Clauses Act, 1897 – Sec 3(35)"
+        "source": "General Clauses Act, 1897 – Sec 3(35)",
+        "exp": "Sec 3(35) of the General Clauses Act defines 'month' as a month reckoned according to the British calendar, unless the context requires otherwise."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -1569,7 +1635,8 @@
         "ans": 3,
         "why": "A minor's income is clubbed with the parent whose total income is greater; if the marriage does not subsist, with the parent who maintains the child.",
         "trap": "Income from the minor's own skill or manual work is not clubbed at all.",
-        "source": "Income-tax law – Clubbing of income (ICAI Study Material, Taxation Paper 3A)"
+        "source": "Income-tax law – Clubbing of income (ICAI Study Material, Taxation Paper 3A)",
+        "exp": "A minor's income is clubbed with the parent whose total income is greater; if the marriage does not subsist, with the parent who maintains the child."
       },
       {
         "subject": "Taxation – GST",
@@ -1584,7 +1651,8 @@
         "ans": 2,
         "why": "GTA services to specified recipients such as a registered person are under reverse charge (Sec 9(3)), unless the GTA opts to pay tax under forward charge.",
         "trap": "GTA is not fully exempt – only some situations (e.g. to unregistered individuals) are.",
-        "source": "CGST Act, 2017 – Sec 9(3), Notification 13/2017-CT(R) as amended"
+        "source": "CGST Act, 2017 – Sec 9(3), Notification 13/2017-CT(R) as amended",
+        "exp": "GTA services to specified recipients such as a registered person are under reverse charge (Sec 9(3)), unless the GTA opts to pay tax under forward charge."
       }
     ]
   },
@@ -1606,7 +1674,8 @@
         "ans": 1,
         "why": "Usage variance = (SQ − AQ) × SP = (1,000 − 1,100) × ₹10 = ₹1,000 Adverse. More material was used than standard.",
         "trap": "₹1,100 F is the price variance and ₹100 F is the total cost variance.",
-        "source": "ICAI Study Material – Cost & Management Accounting, Standard Costing"
+        "source": "ICAI Study Material – Cost & Management Accounting, Standard Costing",
+        "exp": "Usage variance = (SQ − AQ) × SP = (1,000 − 1,100) × ₹10 = ₹1,000 Adverse. More material was used than standard."
       },
       {
         "subject": "Auditing & Ethics",
@@ -1621,7 +1690,8 @@
         "ans": 0,
         "why": "Performance materiality is set below overall materiality to reduce the risk that total uncorrected and undetected misstatements exceed overall materiality.",
         "trap": "Setting it equal to overall materiality leaves no buffer for undetected errors.",
-        "source": "SA 320 – Materiality in Planning and Performing an Audit"
+        "source": "SA 320 – Materiality in Planning and Performing an Audit",
+        "exp": "Performance materiality is set below overall materiality to reduce the risk that total uncorrected and undetected misstatements exceed overall materiality."
       },
       {
         "subject": "Financial Management",
@@ -1636,7 +1706,8 @@
         "ans": 3,
         "why": "When r > k (growth firm), each rupee retained earns more than shareholders' required return, so share value is maximised by retaining everything.",
         "trap": "'Payout does not matter' is Walter's case when r = k (normal firm).",
-        "source": "ICAI Study Material – Financial Management, Dividend Decision"
+        "source": "ICAI Study Material – Financial Management, Dividend Decision",
+        "exp": "When r > k (growth firm), each rupee retained earns more than shareholders' required return, so share value is maximised by retaining everything."
       },
       {
         "subject": "Strategic Management",
@@ -1651,7 +1722,8 @@
         "ans": 2,
         "why": "Focus strategies target a narrow segment. Competing on cost within that segment is cost focus; on uniqueness, it is differentiation focus.",
         "trap": "Cost leadership targets the BROAD market, not a narrow segment.",
-        "source": "ICAI Study Material – Strategic Management, Porter's Generic Strategies"
+        "source": "ICAI Study Material – Strategic Management, Porter's Generic Strategies",
+        "exp": "Focus strategies target a narrow segment. Competing on cost within that segment is cost focus; on uniqueness, it is differentiation focus."
       }
     ]
   },
@@ -1678,7 +1750,8 @@
         ],
         "ans": 3,
         "why": "A non-integral foreign operation accumulates cash and monetary items, incurs expenses, generates income and arranges borrowings largely in its local currency, with a significant degree of autonomy from the reporting enterprise.",
-        "trap": "The other three depend on the parent for everything, so they are integral operations."
+        "trap": "The other three depend on the parent for everything, so they are integral operations.",
+        "exp": "Non-integral foreign operation: works largely on its own, with its cash, income, expenses and borrowings mainly in its local currency, independent of the reporting enterprise."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -1699,7 +1772,8 @@
         ],
         "ans": 1,
         "why": "Sec 103: a public company with up to 1,000 members needs 5 members personally present. Proxies are not counted, but 35 is far above 5. The proxy is valid (sec 105), as it was deposited at least 48 hours before the meeting.",
-        "trap": "The Chairman is right that proxies are not counted, but wrong about the result."
+        "trap": "The Chairman is right that proxies are not counted, but wrong about the result.",
+        "exp": "Sec 103: a public company with up to 1,000 members needs 5 members personally present. Proxies are not counted, but 35 is far above 5."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -1729,7 +1803,8 @@
         ],
         "ans": 0,
         "why": "Salary 45,00,000 − 50,000 standard deduction (old regime) = 44,50,000. Add LTCG 6,54,000, dividend 12,00,000 and interest 61,000 to get GTI 63,65,000. Less deductions 2,28,500 = ₹61,36,500.",
-        "trap": "The standard deduction is ₹50,000 under the old regime, not ₹75,000."
+        "trap": "The standard deduction is ₹50,000 under the old regime, not ₹75,000.",
+        "exp": "Salary 45,00,000 − 50,000 standard deduction (old regime) = 44,50,000. Add LTCG 6,54,000, dividend 12,00,000 and interest 61,000 to get GTI 63,65,000. Less deductions 2,28,500 = ₹61,36,500."
       },
       {
         "subject": "Taxation – GST",
@@ -1750,7 +1825,8 @@
         ],
         "ans": 2,
         "why": "Consignment value = taxable value + tax, excluding the exempt supply when both are on one invoice: 45,000 + 18% = ₹53,100.",
-        "trap": "₹64,900 applies 18% to the full ₹55,000, including exempt goods."
+        "trap": "₹64,900 applies 18% to the full ₹55,000, including exempt goods.",
+        "exp": "Consignment value = taxable value + tax, excluding the exempt supply when both are on one invoice: 45,000 + 18% = ₹53,100."
       }
     ],
     "kind": "case"
@@ -1786,7 +1862,8 @@
         ],
         "ans": 1,
         "why": "Materials consumed 11,27,000 + wages 5,52,000 = prime cost 16,79,000. Add FOH (19,09,000), adjust WIP (19,02,100), add admin OH (cost of production 20,17,100), adjust FG (+2,07,000 − 2,53,000) = ₹19,71,100.",
-        "trap": "₹20,17,100 is the cost of production. You still need to adjust finished goods."
+        "trap": "₹20,17,100 is the cost of production. You still need to adjust finished goods.",
+        "exp": "Materials 11,27,000 + wages 5,52,000 + FOH 2,30,000, adjust WIP, add admin OH = cost of production 20,17,100; adjust FG (+2,07,000 − 2,53,000) = ₹19,71,100."
       },
       {
         "subject": "Auditing & Ethics",
@@ -1807,7 +1884,8 @@
         ],
         "ans": 3,
         "why": "Whether receivables are recoverable and appropriately adjusted (for example, allowance for doubtful debts) is the valuation and allocation assertion.",
-        "trap": "The receivables exist. The question is whether they are worth their stated amount."
+        "trap": "The receivables exist. The question is whether they are worth their stated amount.",
+        "exp": "Whether receivables are recoverable and appropriately adjusted (for example, allowance for doubtful debts) is the valuation and allocation assertion."
       },
       {
         "subject": "Financial Management",
@@ -1828,7 +1906,8 @@
         ],
         "ans": 2,
         "why": "PV of inflows = 5,71,500 × 3.605 = 20,60,258. PI = 20,60,258 ÷ 20,00,000 = 1.03.",
-        "trap": "Use CFAT, not PAT."
+        "trap": "Use CFAT, not PAT.",
+        "exp": "PV of inflows = 5,71,500 × 3.605 = 20,60,258. PI = 20,60,258 ÷ 20,00,000 = 1.03."
       },
       {
         "subject": "Strategic Management",
@@ -1849,7 +1928,8 @@
         ],
         "ans": 0,
         "why": "New entrants and changing government incentives are industry and market forces, and they drive the expansion decision.",
-        "trap": "Nothing in the case is about customer needs or channels."
+        "trap": "Nothing in the case is about customer needs or channels.",
+        "exp": "New entrants and changing government incentives are industry and market forces, and they drive the expansion decision."
       }
     ],
     "kind": "case"
@@ -1877,7 +1957,8 @@
         ],
         "ans": 2,
         "why": "AS 23 lists board representation, participation in policy-making, material transactions, interchange of managerial personnel and provision of essential technical information as evidence.",
-        "trap": "The presumption is at 20%, not 10%, and even 20% can be rebutted."
+        "trap": "The presumption is at 20%, not 10%, and even 20% can be rebutted.",
+        "exp": "AS 23 lists board representation, participation in policy-making, material transactions, interchange of managerial personnel and provision of essential technical information as evidence."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -1901,7 +1982,8 @@
         ],
         "ans": 0,
         "why": "Sec 26 makes every partner an agent of the LLP, not of the other partners. Sec 28 says a partner is not personally liable for another partner's wrongful act, but is liable for his own. R explains A.",
-        "trap": "In a traditional partnership firm, partners are agents of each other. Don't carry that into LLPs."
+        "trap": "In a traditional partnership firm, partners are agents of each other. Don't carry that into LLPs.",
+        "exp": "Sec 26 makes every partner an agent of the LLP, not of the other partners. Sec 28 says a partner is not personally liable for another partner's wrongful act, but is liable for his own. R explains A."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -1931,7 +2013,8 @@
         ],
         "ans": 3,
         "why": "24,25,000 + 3,00,000 + 5,00,000 + 12,500 + wife's FD interest clubbed u/s 64(1)(iv) (10,00,000 × 6% × 5/12 = 25,000) = ₹32,62,500.",
-        "trap": "₹32,37,500 forgets clubbing of the wife's FD interest."
+        "trap": "₹32,37,500 forgets clubbing of the wife's FD interest.",
+        "exp": "24,25,000 + 3,00,000 + 5,00,000 + 12,500 + wife's FD interest clubbed u/s 64(1)(iv) (10,00,000 × 6% × 5/12 = 25,000) = ₹32,62,500."
       },
       {
         "subject": "Taxation – GST",
@@ -1952,7 +2035,8 @@
         ],
         "ans": 1,
         "why": "Services provided by a TBI recognised by NSTEDB (DST, Government of India) to its incubatees are exempt, even though a fee is charged.",
-        "trap": "A nominal fee does not make the service taxable here."
+        "trap": "A nominal fee does not make the service taxable here.",
+        "exp": "Services provided by a TBI recognised by NSTEDB (DST, Government of India) to its incubatees are exempt, even though a fee is charged."
       }
     ],
     "kind": "case"
@@ -1983,7 +2067,8 @@
         ],
         "ans": 0,
         "why": "Revenue 34,40,88,000 − COGS 29,16,00,000 = gross margin 5,24,88,000. Less activity costs 15,88,950 (3,37,500 + 32,400 + 4,050 + 12,15,000) = ₹5,08,99,050.",
-        "trap": "₹5,24,88,000 is the gross margin before activity costs."
+        "trap": "₹5,24,88,000 is the gross margin before activity costs.",
+        "exp": "Revenue 34,40,88,000 − COGS 29,16,00,000 = gross margin 5,24,88,000. Less activity costs 15,88,950 (3,37,500 + 32,400 + 4,050 + 12,15,000) = ₹5,08,99,050."
       },
       {
         "subject": "Auditing & Ethics",
@@ -2004,7 +2089,8 @@
         ],
         "ans": 2,
         "why": "SA 570 lists financial and operating events that may, individually or collectively, cast significant doubt. Management's plans must be evaluated, not simply accepted.",
-        "trap": "Management's expectation of finance is not evidence."
+        "trap": "Management's expectation of finance is not evidence.",
+        "exp": "SA 570 lists financial and operating events that may, individually or collectively, cast significant doubt. Management's plans must be evaluated, not simply accepted."
       },
       {
         "subject": "Financial Management",
@@ -2025,7 +2111,8 @@
         ],
         "ans": 1,
         "why": "Contribution 100; EBIT = 100 − 20 − 50 = 30. DOL = 100 ÷ 30 = 3.33. A 9% fall in sales means EBIT falls 3.33 × 9% = 30%.",
-        "trap": "Depreciation is a fixed cost too. Include it when computing EBIT."
+        "trap": "Depreciation is a fixed cost too. Include it when computing EBIT.",
+        "exp": "Contribution 100; EBIT = 100 − 20 − 50 = 30. DOL = 100 ÷ 30 = 3.33. A 9% fall in sales means EBIT falls 3.33 × 9% = 30%."
       },
       {
         "subject": "Strategic Management",
@@ -2046,7 +2133,8 @@
         ],
         "ans": 3,
         "why": "BCG uses market growth and relative market share. ADL uses competitive position and industry maturity. The EV unit scores differently on these different metrics.",
-        "trap": "The contradiction is about the EV unit, not the other divisions."
+        "trap": "The contradiction is about the EV unit, not the other divisions.",
+        "exp": "BCG uses market growth and relative market share. ADL uses competitive position and industry maturity. The EV unit scores differently on these different metrics."
       }
     ],
     "kind": "case"
@@ -2074,7 +2162,8 @@
         ],
         "ans": 1,
         "why": "Abnormal loss = 19,400 − 19,000 = 400 kg × ₹185.5 = ₹74,200 (approx.).",
-        "trap": "₹72,000 values the loss at ₹180, without absorbing the normal loss."
+        "trap": "₹72,000 values the loss at ₹180, without absorbing the normal loss.",
+        "exp": "Abnormal loss = 19,400 − 19,000 = 400 kg × ₹185.5 = ₹74,200 (approx.)."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -2095,7 +2184,8 @@
         ],
         "ans": 0,
         "why": "Sec 123(4): the dividend amount must be deposited in a separate account with a scheduled bank within 5 days of declaration, and it can be used only for paying the dividend.",
-        "trap": "A Board assurance to restore the money is irrelevant. The law prohibits the use itself."
+        "trap": "A Board assurance to restore the money is irrelevant. The law prohibits the use itself.",
+        "exp": "Sec 123(4): the dividend amount must be deposited in a separate account with a scheduled bank within 5 days of declaration, and it can be used only for paying the dividend."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -2116,7 +2206,8 @@
         ],
         "ans": 2,
         "why": "Normal income: 44,25,000 (after ₹75,000 std. ded.) + 12,00,000 + 61,000 = 56,86,000. Slab tax = 3,00,000 + 30% × 32,86,000 = 12,85,800. LTCG: (6,54,000 − 1,25,000) × 12.5% = 66,125. Add 10% surcharge and 4% cess = ₹15,46,600.",
-        "trap": "Total income is ₹63.4 lakh, so the 10% surcharge applies."
+        "trap": "Total income is ₹63.4 lakh, so the 10% surcharge applies.",
+        "exp": "Normal income: 44,25,000 (after ₹75,000 std. ded.) + 12,00,000 + 61,000 = 56,86,000. Slab tax = 3,00,000 + 30% × 32,86,000 = 12,85,800. LTCG: (6,54,000 − 1,25,000) × 12.5% = 66,125."
       },
       {
         "subject": "Taxation – GST",
@@ -2137,7 +2228,8 @@
         ],
         "ans": 3,
         "why": "The warehouse is an additional place of business in the same State. It is added to the existing registration by amendment. A separate registration is optional.",
-        "trap": "The rent figures are a distractor. Rent has nothing to do with registration."
+        "trap": "The rent figures are a distractor. Rent has nothing to do with registration.",
+        "exp": "The warehouse is an additional place of business in the same State. It is added to the existing registration by amendment. A separate registration is optional."
       }
     ],
     "kind": "case"
@@ -2165,7 +2257,8 @@
         ],
         "ans": 3,
         "why": "Total cost 2,52,000 − scrap 900 = 2,51,100 ÷ normal output 8,100 kg = ₹31.00. The abnormal gain is valued at ₹31.",
-        "trap": "₹30.73 divides by actual output (8,200 kg)."
+        "trap": "₹30.73 divides by actual output (8,200 kg).",
+        "exp": "Total cost 2,52,000 − scrap 900 = 2,51,100 ÷ normal output 8,100 kg = ₹31.00. The abnormal gain is valued at ₹31."
       },
       {
         "subject": "Auditing & Ethics",
@@ -2186,7 +2279,8 @@
         ],
         "ans": 2,
         "why": "SA 500: evidence is more reliable when controls are effective, when it is documentary rather than oral, and when it is original rather than a copy. All three fail here.",
-        "trap": "Two weak sources do not add up to one strong source."
+        "trap": "Two weak sources do not add up to one strong source.",
+        "exp": "SA 500: evidence is more reliable when controls are effective, when it is documentary rather than oral, and when it is original rather than a copy. All three fail here."
       },
       {
         "subject": "Financial Management",
@@ -2207,7 +2301,8 @@
         ],
         "ans": 0,
         "why": "CFAT = 6,92,500. PV = 6,92,500 × 3.605 = 24,96,463. PI = 24,96,463 ÷ 25,00,000 = 0.998, about 1.00.",
-        "trap": "Z-Elite saves more in wages, yet X-Pro has the better PI (1.03)."
+        "trap": "Z-Elite saves more in wages, yet X-Pro has the better PI (1.03).",
+        "exp": "CFAT = 6,92,500. PV = 6,92,500 × 3.605 = 24,96,463. PI = 24,96,463 ÷ 25,00,000 = 0.998, about 1.00."
       },
       {
         "subject": "Strategic Management",
@@ -2228,7 +2323,8 @@
         ],
         "ans": 1,
         "why": "Permanently withdrawing from a business is a strategic exit (divestment), a form of retrenchment.",
-        "trap": "Reinvesting in wearables is a consequence. The decision itself is the exit."
+        "trap": "Reinvesting in wearables is a consequence. The decision itself is the exit.",
+        "exp": "Permanently withdrawing from a business is a strategic exit (divestment), a form of retrenchment."
       }
     ],
     "kind": "case"
@@ -2256,7 +2352,8 @@
         ],
         "ans": 0,
         "why": "AS 23 requires the equity method for an associate in the consolidated financial statements.",
-        "trap": "Proportionate consolidation is for jointly controlled entities (AS 27), not associates."
+        "trap": "Proportionate consolidation is for jointly controlled entities (AS 27), not associates.",
+        "exp": "AS 23 requires the equity method for an associate in the consolidated financial statements."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -2277,7 +2374,8 @@
         ],
         "ans": 3,
         "why": "Under the LLP Rules, an approved name is reserved for 3 months from the date of intimation by the Registrar.",
-        "trap": "Do not mix this up with the name reservation periods for companies."
+        "trap": "Do not mix this up with the name reservation periods for companies.",
+        "exp": "Under the LLP Rules, an approved name is reserved for 3 months from the date of intimation by the Registrar."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -2298,7 +2396,8 @@
         ],
         "ans": 1,
         "why": "LTCG: (5,00,000 − 1,25,000) × 12.5% = 46,875. Balance 27,62,500 at slabs = 3,00,000 + 30% of 3,62,500 = 4,08,750. Total 4,55,625 + 4% cess = ₹4,73,850. No 87A rebate.",
-        "trap": "Don't forget the ₹1.25 lakh exemption on 112A gains."
+        "trap": "Don't forget the ₹1.25 lakh exemption on 112A gains.",
+        "exp": "LTCG: (5,00,000 − 1,25,000) × 12.5% = 46,875. Balance 27,62,500 at slabs = 3,00,000 + 30% of 3,62,500 = 4,08,750. Total 4,55,625 + 4% cess = ₹4,73,850. No 87A rebate."
       },
       {
         "subject": "Taxation – GST",
@@ -2326,7 +2425,8 @@
         ],
         "ans": 2,
         "why": "15,00,000 (late fee waived, so not charged) + 3,00,000 (Government subsidy excluded u/s 15(2)(e)) + 1,20,000 (NGO lump-sum not linked to price) = ₹19,20,000.",
-        "trap": "₹19,21,500 adds the waived late fee."
+        "trap": "₹19,21,500 adds the waived late fee.",
+        "exp": "15,00,000 (late fee waived, so not charged) + 3,00,000 (Government subsidy excluded u/s 15(2)(e)) + 1,20,000 (NGO lump-sum not linked to price) = ₹19,20,000."
       }
     ],
     "kind": "case"
@@ -2357,7 +2457,8 @@
         ],
         "ans": 2,
         "why": "Revenue 66,92,22,000 − COGS 61,96,50,000 = 4,95,72,000. Less activity costs 31,13,775 = ₹4,64,58,225.",
-        "trap": "SRH buys twice DHA's volume but earns less than DHA's ₹5.09 crore. Big discounts and expensive deliveries eat the margin."
+        "trap": "SRH buys twice DHA's volume but earns less than DHA's ₹5.09 crore. Big discounts and expensive deliveries eat the margin.",
+        "exp": "Revenue 66,92,22,000 − COGS 61,96,50,000 = 4,95,72,000. Less activity costs 31,13,775 = ₹4,64,58,225."
       },
       {
         "subject": "Auditing & Ethics",
@@ -2378,7 +2479,8 @@
         ],
         "ans": 1,
         "why": "Being associated with misleading information is Integrity. Undue influence is Objectivity. Lack of skill and care is Professional Competence & Due Care. Unauthorised disclosure is Confidentiality.",
-        "trap": "Pressure from management is an Objectivity issue, not Integrity."
+        "trap": "Pressure from management is an Objectivity issue, not Integrity.",
+        "exp": "Being associated with misleading information is Integrity. Undue influence is Objectivity. Lack of skill and care is Professional Competence & Due Care. Unauthorised disclosure is Confidentiality."
       },
       {
         "subject": "Financial Management",
@@ -2399,7 +2501,8 @@
         ],
         "ans": 3,
         "why": "PV = 44.50 + 56.23 + 54.91 + 61.45 = 217.09. NPV = 217.09 − 220 = −₹2.91 crore, so reject.",
-        "trap": "Using the firm's WACC would wrongly accept a project with higher business risk."
+        "trap": "Using the firm's WACC would wrongly accept a project with higher business risk.",
+        "exp": "PV = 44.50 + 56.23 + 54.91 + 61.45 = 217.09. NPV = 217.09 − 220 = −₹2.91 crore, so reject."
       },
       {
         "subject": "Strategic Management",
@@ -2420,7 +2523,8 @@
         ],
         "ans": 0,
         "why": "A divisional structure groups activities by product or business. Each division has its own specialists and is accountable for its results.",
-        "trap": "Matrix means dual reporting, the opposite of single clear accountability."
+        "trap": "Matrix means dual reporting, the opposite of single clear accountability.",
+        "exp": "A divisional structure groups activities by product or business. Each division has its own specialists and is accountable for its results."
       }
     ],
     "kind": "case"
@@ -2448,7 +2552,8 @@
         ],
         "ans": 1,
         "why": "Closing stock = 19,000 − 17,600 = 1,400 kg × ₹185.5 = ₹2,59,700.",
-        "trap": "₹2,38,000 values the stock at the gross price of ₹170."
+        "trap": "₹2,38,000 values the stock at the gross price of ₹170.",
+        "exp": "Closing stock = 19,000 − 17,600 = 1,400 kg × ₹185.5 = ₹2,59,700."
       },
       {
         "subject": "Corporate & Other Laws",
@@ -2469,7 +2574,8 @@
         ],
         "ans": 2,
         "why": "For fraud below ₹1 crore, the auditor reports to the Audit Committee (or the Board), and the company discloses it in the Board's Report. Fraud of ₹1 crore or more goes to the Central Government in ADT-4.",
-        "trap": "'Below ₹1 crore' changes whom the auditor reports to. It does not remove the duty to report."
+        "trap": "'Below ₹1 crore' changes whom the auditor reports to. It does not remove the duty to report.",
+        "exp": "For fraud below ₹1 crore, the auditor reports to the Audit Committee (or the Board), and the company discloses it in the Board's Report."
       },
       {
         "subject": "Taxation – Income Tax",
@@ -2490,7 +2596,8 @@
         ],
         "ans": 0,
         "why": "Normal income 54,82,500: 1,12,500 + 30% × 44,82,500 = 14,57,250. LTCG (6,54,000 − 1,25,000) × 12.5% = 66,125. Total 15,23,375 + 10% surcharge + 4% cess = ₹17,42,740.",
-        "trap": "Insight: the default regime (₹15,46,600) saves him about ₹1.96 lakh."
+        "trap": "Insight: the default regime (₹15,46,600) saves him about ₹1.96 lakh.",
+        "exp": "Normal income 54,82,500: 1,12,500 + 30% × 44,82,500 = 14,57,250. LTCG (6,54,000 − 1,25,000) × 12.5% = 66,125. Total 15,23,375 + 10% surcharge + 4% cess = ₹17,42,740."
       },
       {
         "subject": "Taxation – GST",
@@ -2511,7 +2618,8 @@
         ],
         "ans": 3,
         "why": "Sec 45: the final return is due within 3 months of the date of cancellation or the date of the cancellation order, whichever is later. 25 July + 3 months = 25 October.",
-        "trap": "Counting from 10 July gives 10 October, which is wrong."
+        "trap": "Counting from 10 July gives 10 October, which is wrong.",
+        "exp": "Sec 45: the final return is due within 3 months of the date of cancellation or the date of the cancellation order, whichever is later. 25 July + 3 months = 25 October."
       }
     ],
     "kind": "case"
@@ -2539,7 +2647,8 @@
         ],
         "ans": 3,
         "why": "Cost = 2,54,200 + 42,880 + 50,000 + 37,500 − 820 scrap = 3,83,760 ÷ 7,380 kg (normal output) = ₹52. SP = 52 ÷ 75% = ₹69.33.",
-        "trap": "₹65 is 25% on cost, not 25% on selling price."
+        "trap": "₹65 is 25% on cost, not 25% on selling price.",
+        "exp": "Cost = 2,54,200 + 42,880 + 50,000 + 37,500 − 820 scrap = 3,83,760 ÷ 7,380 kg (normal output) = ₹52. SP = 52 ÷ 75% = ₹69.33."
       },
       {
         "subject": "Auditing & Ethics",
@@ -2560,7 +2669,8 @@
         ],
         "ans": 0,
         "why": "Inconsistent recognition plus unsupported receivables is a cut-off error that can misstate both revenue (completeness/occurrence) and receivables (existence).",
-        "trap": "Options B and C each show only half of the impact."
+        "trap": "Options B and C each show only half of the impact.",
+        "exp": "Inconsistent recognition plus unsupported receivables is a cut-off error that can misstate both revenue (completeness/occurrence) and receivables (existence)."
       },
       {
         "subject": "Financial Management",
@@ -2581,7 +2691,8 @@
         ],
         "ans": 2,
         "why": "Interest = 400 × 10% = 40. DFL = 150 ÷ (150 − 40) = 1.36. EPS falls 1.36 × 10% = 13.6%.",
-        "trap": "Use pre-tax interest. Tax doesn't change DFL."
+        "trap": "Use pre-tax interest. Tax doesn't change DFL.",
+        "exp": "Interest = 400 × 10% = 40. DFL = 150 ÷ (150 − 40) = 1.36. EPS falls 1.36 × 10% = 13.6%."
       },
       {
         "subject": "Strategic Management",
@@ -2602,7 +2713,8 @@
         ],
         "ans": 1,
         "why": "Strategic surveillance is broad, general monitoring of events inside and outside the firm that may affect strategy.",
-        "trap": "Premise control checks specific planning assumptions. Special alert reacts to a sudden event."
+        "trap": "Premise control checks specific planning assumptions. Special alert reacts to a sudden event.",
+        "exp": "Strategic surveillance is broad, general monitoring of events inside and outside the firm that may affect strategy."
       }
     ],
     "kind": "case"
