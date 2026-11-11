@@ -1,6 +1,20 @@
 {
   "next_index": 1,
-  "pending": null,
+  "pending": {
+    "date": "2026-11-11",
+    "sets": [
+      {
+        "index": 1,
+        "case_message_id": 5697,
+        "poll_message_ids": [
+          5699,
+          5701,
+          5703,
+          5705
+        ]
+      }
+    ]
+  },
   "history": [
     {
       "date": "2026-11-10",
@@ -26,5 +40,5 @@
       ]
     }
   ],
-  "last_post_date": "2026-11-10"
+  "last_post_date": "2026-11-11"
 }
