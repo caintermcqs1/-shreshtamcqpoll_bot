@@ -4,7 +4,14 @@ on:
   schedule:
     - cron: "30 2 * * *"     # 08:00 IST  check ICAI + YouTube (all days)
     - cron: "30 6 * * *"     # 12:00 IST  check (all days)
-    - cron: "30 10 * * *"    # 16:00 IST  study content (Mon–Sat, from study.json) + check (all days)
+    - cron: "30 10 * * *"    # 16:00 IST  check (all days)
+    - cron: "0 9 * * 1-6"    # 14:30 IST  4 PM study content (starts early, waits until 16:00)
+    - cron: "45 9 * * 1-6"   # 15:15 IST  backup
+    - cron: "20 10 * * 1-6"  # 15:50 IST  backup
+    - cron: "0 11 * * 1-6"   # 16:30 IST  6 PM tip/fact (starts early, waits until 18:00)
+    - cron: "45 11 * * 1-6"  # 17:15 IST  backup
+    - cron: "20 12 * * 1-6"  # 17:50 IST  backup
+    - cron: "0 13 * * 2,4"   # 18:30 IST  7 PM promo (waits until 19:00)
     - cron: "30 12 * * 1-6"  # 18:00 IST  CA fact of the day (+ check)
     - cron: "30 13 * * 2,4"  # 19:00 IST  promotion (Tue, Thu)
     - cron: "30 15 * * *"    # 21:00 IST  check (all days)
@@ -41,12 +48,18 @@ jobs:
         run: |
           case "${{ github.event.schedule }}" in
             "30 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT" ;;  # 6 PM fun fact / study tip
-            "30 10 * * *") echo "mode=study" >> "$GITHUB_OUTPUT" ;;  # 4 PM study content + check
+            "0 9 * * 1-6"|"45 9 * * 1-6"|"20 10 * * 1-6") echo "mode=study" >> "$GITHUB_OUTPUT" ;;  # 4 PM study content
+            "0 11 * * 1-6"|"45 11 * * 1-6"|"20 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT" ;;  # 6 PM tip/fact
+            "0 13 * * 2,4") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
             "30 13 * * 2,4") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
             "15 2-17 * * *") echo "mode=youtube" >> "$GITHUB_OUTPUT" ;;
             "") echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
             *) echo "mode=check" >> "$GITHUB_OUTPUT" ;;
           esac
+      - name: Wait until post time
+        if: github.event_name == 'schedule'
+        run: |
+          python3 -c "import datetime as d,time;h={'study':16,'fact':18,'promo':19}.get('${{ steps.mode.outputs.mode }}');z=d.timezone(d.timedelta(hours=5,minutes=30));n=d.datetime.now(z);w=max(0,(n.replace(hour=h,minute=0,second=0,microsecond=0)-n).total_seconds()) if h else 0;print('Waiting',int(w),'seconds');time.sleep(w)"
       - name: Run extras
         run: python extras.py ${{ steps.mode.outputs.mode }}
         env:
