@@ -97,9 +97,17 @@ def blocks_text(blocks):
     return lines
 
 
+def is_general(day):
+    return day.get("kind") == "general"
+
+
 def header_message(day, cfg):
     g = "🟦" if day["group"].endswith("1") else "🟩"
     subs = " · ".join(SHORT.get(x["subject"], x["subject"]) for x in day["items"])
+    if is_general(day):
+        return "\n".join([f"{g} <b>CA INTER DAILY MCQ – Day {day['day']} | {e(day['group'])} | General MCQs</b>",
+                          f"📚 Today: {e(subs)}",
+                          f"👇 4 quick MCQs – answer the polls below. ⏰ Answers at {cfg['answer_time_label']}"])
     return "\n".join([f"{g} <b>CA INTER DAILY MCQ – Day {day['day']} | {e(day['group'])}</b>",
                       f"📚 Today: {e(subs)}",
                       f"👇 4 mini-cases, each followed by its poll. ⏰ Answers at {cfg['answer_time_label']}"])
@@ -111,8 +119,28 @@ def item_message(i, it):
     return "\n".join(lines)
 
 
-def answer_message(day, results):
-    lines = [f"✅ <b>ANSWERS – Day {day['day']} | {e(day['group'])}</b>"]
+def poll_question(i, it, general):
+    if general:
+        q = f"Q{i + 1} · {SHORT.get(it['subject'], it['subject'])}: {it['q']}"
+    else:
+        q = f"Q{i + 1}. {it['q']}"
+    return q[:300]
+
+
+def next_set_line(cfg):
+    skip = cfg.get("skip_weekdays", []) if cfg else []
+    d = today_ist() + timedelta(days=1)
+    n = 1
+    while d.strftime("%a") in skip and n < 7:
+        d += timedelta(days=1)
+        n += 1
+    when = "tomorrow" if n == 1 else f"on {d.strftime('%A')}"
+    return f"🔥 Next set {when} at 10:30 AM. Keep practising!"
+
+
+def answer_message(day, results, cfg=None):
+    tag = " | General MCQs" if is_general(day) else ""
+    lines = [f"✅ <b>ANSWERS – Day {day['day']} | {e(day['group'])}{tag}</b>"]
     for i, q in enumerate(day["items"]):
         r = results[i] if i < len(results) else None
         stat = ""
@@ -125,7 +153,7 @@ def answer_message(day, results):
                   f"⚠️ <b>Trap:</b> <i>{e(q['trap'])}</i>"]
         if q.get("source"):
             lines.append(f"📖 <b>Reference:</b> <i>{e(q['source'])}</i>")
-    lines += ["", "🔥 Next set tomorrow at 10:30 AM. Keep practising!"]
+    lines += ["", next_set_line(cfg)]
     return "\n".join(lines)
 
 
@@ -153,6 +181,35 @@ def next_day(plan, state):
     return (idx, plan[idx]) if idx < len(plan) else (idx, None)
 
 
+def todays_sets(plan, idx):
+    """All consecutive plan entries sharing the same day number (e.g. Group 1 + Group 2) are posted together."""
+    out = []
+    while idx < len(plan) and (not out or plan[idx].get("day") == out[0][1].get("day")):
+        out.append((idx, plan[idx]))
+        idx += 1
+    return out
+
+
+def post_set(idx, day, cfg):
+    t = target(day)
+    general = is_general(day)
+    head = api("sendMessage", **t, text=header_message(day, cfg), parse_mode="HTML")
+    polls = []
+    for i, it in enumerate(day["items"]):
+        if not general:
+            api("sendMessage", **t, text=item_message(i, it), parse_mode="HTML", disable_web_page_preview=True)
+        pm = api("sendPoll", **t, question=poll_question(i, it, general),
+                 options=[{"text": o} for o in it["o"]], is_anonymous=cfg.get("anonymous_polls", True),
+                 allows_multiple_answers=False)
+        polls.append(pm["message_id"])
+    if cfg.get("pin_case", True):
+        try:
+            api("pinChatMessage", chat_id=t["chat_id"], message_id=head["message_id"], disable_notification=True)
+        except RuntimeError as err:
+            print(f"Could not pin (give the bot 'Pin messages' permission): {err}")
+    return {"index": idx, "case_message_id": head["message_id"], "poll_message_ids": polls}
+
+
 def do_post():
     cfg, plan = load(CONFIG), load(PLAN)
     state = load(STATE, {"next_index": 0, "pending": None, "history": []})
@@ -172,55 +229,57 @@ def do_post():
     if day is None:
         print("All days in plan.json have been posted. Add more days to continue.")
         return
-    t = target(day)
-    head = api("sendMessage", **t, text=header_message(day, cfg), parse_mode="HTML")
-    polls, case_ids = [], []
-    for i, it in enumerate(day["items"]):
-        m = api("sendMessage", **t, text=item_message(i, it), parse_mode="HTML", disable_web_page_preview=True)
-        case_ids.append(m["message_id"])
-        pm = api("sendPoll", **t, question=f"Q{i + 1}. {it['q']}",
-                 options=[{"text": o} for o in it["o"]], is_anonymous=cfg.get("anonymous_polls", True),
-                 allows_multiple_answers=False)
-        polls.append(pm["message_id"])
-    if cfg.get("pin_case", True):
+    sets = []
+    for i, d in todays_sets(plan, idx):
         try:
-            api("pinChatMessage", chat_id=t["chat_id"], message_id=head["message_id"], disable_notification=True)
+            sets.append(post_set(i, d, cfg))
+            print(f"{date}: posted Day {d['day']} ({d['group']}, {d.get('kind', 'case')}) – {len(d['items'])} polls.")
         except RuntimeError as err:
-            print(f"Could not pin (give the bot 'Pin messages' permission): {err}")
-    state.update(last_post_date=date,
-                 pending={"index": idx, "date": date, "case_message_id": head["message_id"], "poll_message_ids": polls})
+            print(f"{date}: could not post Day {d['day']} ({d['group']}): {err}")
+            if not sets:
+                raise
+            break
+    state.update(last_post_date=date, pending={"date": date, "sets": sets})
     save(STATE, state)
-    print(f"{date}: posted Day {day['day']} ({day['group']}) – {len(polls)} mini-cases + polls.")
+
+
+def pending_sets(p):
+    if "sets" in p:
+        return p["sets"]
+    return [{"index": p["index"], "case_message_id": p["case_message_id"], "poll_message_ids": p["poll_message_ids"]}]
 
 
 def do_answers():
-    plan = load(PLAN)
+    cfg, plan = load(CONFIG), load(PLAN)
     state = load(STATE, {"next_index": 0, "pending": None, "history": []})
     p = state.get("pending")
     if not p:
         print("No open polls. Nothing to do.")
         return
-    day = plan[p["index"]]
-    t = target(day)
-    results = []
-    for i, mid in enumerate(p["poll_message_ids"]):
-        try:
-            poll = api("stopPoll", chat_id=t["chat_id"], message_id=mid)
-            opts = poll["options"]
-            results.append({"total": poll.get("total_voter_count", 0),
-                            "correct": opts[day["items"][i]["ans"]]["voter_count"]})
-        except RuntimeError as err:
-            print(f"Could not close poll {mid}: {err}")
-            results.append(None)
-    for part in split_message(answer_message(day, results)):
-        api("sendMessage", **t, text=part, parse_mode="HTML", disable_web_page_preview=True,
-            reply_parameters={"message_id": p["case_message_id"], "allow_sending_without_reply": True})
-    state.setdefault("history", []).append({"date": p["date"], "day": day["day"], "group": day["group"],
-                                            "results": results})
-    state["next_index"] = p["index"] + 1
+    last = state.get("next_index", 0) - 1
+    for s in pending_sets(p):
+        day = plan[s["index"]]
+        t = target(day)
+        results = []
+        for i, mid in enumerate(s["poll_message_ids"]):
+            try:
+                poll = api("stopPoll", chat_id=t["chat_id"], message_id=mid)
+                opts = poll["options"]
+                results.append({"total": poll.get("total_voter_count", 0),
+                                "correct": opts[day["items"][i]["ans"]]["voter_count"]})
+            except RuntimeError as err:
+                print(f"Could not close poll {mid}: {err}")
+                results.append(None)
+        for part in split_message(answer_message(day, results, cfg)):
+            api("sendMessage", **t, text=part, parse_mode="HTML", disable_web_page_preview=True,
+                reply_parameters={"message_id": s["case_message_id"], "allow_sending_without_reply": True})
+        state.setdefault("history", []).append({"date": p["date"], "day": day["day"], "group": day["group"],
+                                                "kind": day.get("kind", "case"), "results": results})
+        last = max(last, s["index"])
+        print(f"Posted answers for Day {day['day']} ({day['group']}).")
+    state["next_index"] = last + 1
     state["pending"] = None
     save(STATE, state)
-    print(f"Posted answers for Day {day['day']} ({day['group']}).")
 
 
 def do_find_id():
@@ -254,13 +313,15 @@ def do_preview():
     if not day:
         print("No more days in plan.json.")
         return
-    print(header_message(day, cfg))
-    for i, it in enumerate(day["items"]):
-        print("\n" + item_message(i, it))
-        print(f"[POLL] Q{i + 1}. {it['q']}")
-        for j, o in enumerate(it["o"]):
-            print(f"   {LETTERS[j]}) {o}")
-    print("\n" + answer_message(day, []))
+    for _, day in todays_sets(plan, state.get("next_index", 0)):
+        print(header_message(day, cfg))
+        for i, it in enumerate(day["items"]):
+            if not is_general(day):
+                print("\n" + item_message(i, it))
+            print(f"[POLL] {poll_question(i, it, is_general(day))}")
+            for j, o in enumerate(it["o"]):
+                print(f"   {LETTERS[j]}) {o}")
+        print("\n" + answer_message(day, [], cfg) + "\n")
 
 
 def do_reset():
