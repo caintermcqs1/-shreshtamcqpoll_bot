@@ -1,0 +1,36 @@
+name: "8. Sample quiz poll (test group, manual)"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send sample quiz poll to the MCQs test group
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request
+          T = os.environ["BOT_TOKEN"]
+          CHAT = -1004340727881
+          def api(m, **p):
+              r = urllib.request.Request(f"https://api.telegram.org/bot{T}/{m}", data=json.dumps(p).encode(),
+                                         headers={"Content-Type": "application/json"})
+              try:
+                  with urllib.request.urlopen(r, timeout=30) as x:
+                      print(m, json.load(x).get("ok"))
+              except urllib.error.HTTPError as e:
+                  print(m, "failed:", e.read().decode())
+          api("sendMessage", chat_id=CHAT, parse_mode="HTML",
+              text="🧪 <b>SAMPLE – Quiz mode</b>\nVote below: you will see instantly (only you) whether you are right, with a short explanation.")
+          api("sendPoll", chat_id=CHAT, type="quiz", is_anonymous=True,
+              question="Q1 · Accounts: Goods are sold and invoiced on 30 March; the buyer has accepted ownership and risks but will collect them on 5 April. Under AS 9, revenue is recognised in:",
+              options=[{"text": "April – when the buyer collects the goods"},
+                       {"text": "March – significant risks and rewards passed on 30 March"},
+                       {"text": "When cash is received"},
+                       {"text": "Split equally between March and April"}],
+              correct_option_id=1,
+              explanation="AS 9: revenue on sale of goods is recognised when significant risks and rewards pass – here on 30 March. Delivery date is not the test.")
+          EOF
