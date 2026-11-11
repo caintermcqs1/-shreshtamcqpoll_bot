@@ -43,7 +43,8 @@
     "-61dXkIjwEU",
     "-fcwd53e-iY",
     "Mt9e0Jgp_EM",
-    "QBMLiHNOMpY"
+    "QBMLiHNOMpY",
+    "UBpjV7sUPOo"
   ],
   "next_kind_g1": "fact",
   "next_kind_g2": "fact",
@@ -51,5 +52,6 @@
   "motivation_index": 1,
   "tip_index_g1": 1,
   "promo_index": 1,
-  "last_promo_date": "2026-11-10"
+  "last_promo_date": "2026-11-10",
+  "study_last_date": "2026-11-11"
 }
