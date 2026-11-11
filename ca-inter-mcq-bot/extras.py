@@ -288,6 +288,29 @@ def channel_id(cfg, state):
     return m.group(1)
 
 
+def channel_page_videos(cfg):
+    """Newest video ids from the channel's Videos and Shorts pages (the RSS feed can lag by hours)."""
+    base = cfg["youtube_channel_url"].rstrip("/")
+    ids = []
+    for path, pat in (("videos", r"i\.ytimg\.com/vi/([\w-]{11})/"), ("shorts", r"shorts-shelf-item-([\w-]{11})")):
+        try:
+            page = fetch(f"{base}/{path}")
+        except Exception as e:
+            print("YouTube page fetch failed:", path, e)
+            continue
+        found = []
+        for vid in re.findall(pat, page):
+            if vid not in found:
+                found.append(vid)
+        ids += found[:6]
+    return ids
+
+
+def video_title(vid):
+    data = json.loads(fetch(f"https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={vid}&format=json"))
+    return data.get("title", "")
+
+
 def check_youtube(state, cfg):
     if not cfg.get("youtube_channel_url"):
         return
@@ -327,6 +350,36 @@ def check_youtube(state, cfg):
         if first_run and (now - published).days > 7:
             continue
         new.append((published, vid, title, is_motiv))
+    # also look at the channel pages, so new videos and Shorts are found before the feed shows them
+    try:
+        page_ids = channel_page_videos(cfg)
+    except Exception as e:
+        print("YouTube page check failed:", e)
+        page_ids = []
+    if page_ids and not state.get("yt_page_seeded"):
+        for vid in page_ids:
+            if vid not in seen:
+                seen.append(vid)
+        state["yt_page_seeded"] = True
+        print("YouTube pages seeded:", len(page_ids))
+        page_ids = []
+    for vid in page_ids:
+        if vid in seen:
+            continue
+        try:
+            title = video_title(vid)
+        except Exception as e:
+            print("YouTube title failed:", vid, e)
+            continue
+        seen.append(vid)
+        if kw.search(title):
+            is_motiv = False
+        elif motiv and motiv.search(title) and not (excl and excl.search(title)):
+            is_motiv = True
+        else:
+            print("YouTube skip:", title)
+            continue
+        new.append((now, vid, title, is_motiv))
     state["yt_seen"] = seen[-300:]
     new.sort()
     if first_run:
