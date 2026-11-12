@@ -1,56 +1,55 @@
 {
-  "next_index": 0,
-  "pending": {
-    "date": "2026-11-12",
-    "sets": [
-      {
-        "index": 0,
-        "case_message_id": 706,
-        "poll_message_ids": [
-          707,
-          708,
-          709,
-          710
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166244,
-            "case_message_id": 166261,
-            "poll_message_ids": [
-              166262,
-              166263,
-              166264,
-              166265
-            ]
-          }
-        ]
-      },
-      {
-        "index": 1,
-        "case_message_id": 712,
-        "poll_message_ids": [
-          713,
-          714,
-          715,
-          716
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166244,
-            "case_message_id": 166266,
-            "poll_message_ids": [
-              166267,
-              166268,
-              166269,
-              166270
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "history": [],
+  "next_index": 2,
+  "pending": null,
+  "history": [
+    {
+      "date": "2026-11-12",
+      "day": 1,
+      "group": "Group 1",
+      "kind": "general",
+      "results": [
+        {
+          "total": 6,
+          "correct": 3
+        },
+        {
+          "total": 3,
+          "correct": 1
+        },
+        {
+          "total": 5,
+          "correct": 4
+        },
+        {
+          "total": 6,
+          "correct": 4
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "day": 1,
+      "group": "Group 2",
+      "kind": "general",
+      "results": [
+        {
+          "total": 3,
+          "correct": 1
+        },
+        {
+          "total": 3,
+          "correct": 2
+        },
+        {
+          "total": 3,
+          "correct": 2
+        },
+        {
+          "total": 3,
+          "correct": 3
+        }
+      ]
+    }
+  ],
   "last_post_date": "2026-11-12"
 }
