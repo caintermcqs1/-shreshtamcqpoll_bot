@@ -313,7 +313,7 @@ def do_test():
 
 
 def do_find_id():
-    updates = api("getUpdates", allowed_updates=["message", "my_chat_member", "channel_post"])
+    updates = api("getUpdates", offset=-100, allowed_updates=["message", "my_chat_member", "channel_post"])
     seen = {}
     topics = {}
     for u in updates:
