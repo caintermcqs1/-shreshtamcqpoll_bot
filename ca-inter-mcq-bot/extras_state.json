@@ -1,6 +1,6 @@
 {
   "fact_index": 1,
-  "last_fact_date": "2026-11-11",
+  "last_fact_date": "2026-11-12",
   "icai_fail_count": 0,
   "yt_channel_id": "UCWknnb47A6xz1vXUaheVm0g",
   "icai_seen": [
@@ -49,14 +49,16 @@
     "OWcAxdYEQvk",
     "3vNSSvtOBfE"
   ],
-  "next_kind_g1": "fact",
-  "next_kind_g2": "fact",
-  "fact_cycle": 1,
+  "next_kind_g1": "tip",
+  "next_kind_g2": "tip",
+  "fact_cycle": 2,
   "motivation_index": 3,
   "tip_index_g1": 2,
   "promo_index": 1,
   "last_promo_date": "2026-11-10",
   "study_last_date": "2026-11-12",
   "tip_index_g2": 1,
-  "yt_page_seeded": true
+  "yt_page_seeded": true,
+  "fact_index_g1": 1,
+  "fact_index_g2": 1
 }
