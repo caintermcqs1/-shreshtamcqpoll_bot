@@ -271,7 +271,7 @@ def check_icai(state, cfg):
             f'🔗 Official link: <a href="{html.escape(url)}">{html.escape(url)}</a>\n'
             "<i>Source: icai.org</i>"
         )
-        send(text, where="updates")
+        send(text, where="icai")
 
 
 # ---------------- YouTube (CA Inter only) ----------------
