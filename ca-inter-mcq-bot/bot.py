@@ -199,27 +199,42 @@ def todays_sets(plan, idx):
 
 
 def post_set(idx, day, cfg):
-    t = target(day)
     general = is_general(day)
-    head = api("sendMessage", **t, text=header_message(day, cfg), parse_mode="HTML")
-    polls = []
-    for i, it in enumerate(day["items"]):
-        if not general:
-            api("sendMessage", **t, text=item_message(i, it), parse_mode="HTML", disable_web_page_preview=True)
-        quiz = {}
-        if cfg.get("quiz_mode"):
-            quiz = {"type": "quiz", "correct_option_id": it["ans"],
-                    "explanation": (it.get("exp") or "")[:200] or None}
-        pm = api("sendPoll", **t, question=poll_question(i, it, general),
-                 options=[{"text": o} for o in it["o"]], is_anonymous=cfg.get("anonymous_polls", True),
-                 allows_multiple_answers=False, **quiz)
-        polls.append(pm["message_id"])
-    if cfg.get("pin_case", True):
-        try:
-            api("pinChatMessage", chat_id=t["chat_id"], message_id=head["message_id"], disable_notification=True)
-        except RuntimeError as err:
-            print(f"Could not pin (give the bot 'Pin messages' permission): {err}")
-    return {"index": idx, "case_message_id": head["message_id"], "poll_message_ids": polls}
+
+    def send_to(t, pin):
+        head = api("sendMessage", **t, text=header_message(day, cfg), parse_mode="HTML")
+        polls = []
+        for i, it in enumerate(day["items"]):
+            if not general:
+                api("sendMessage", **t, text=item_message(i, it), parse_mode="HTML", disable_web_page_preview=True)
+            quiz = {}
+            if cfg.get("quiz_mode"):
+                quiz = {"type": "quiz", "correct_option_id": it["ans"],
+                        "explanation": (it.get("exp") or "")[:200] or None}
+            pm = api("sendPoll", **t, question=poll_question(i, it, general),
+                     options=[{"text": o} for o in it["o"]], is_anonymous=cfg.get("anonymous_polls", True),
+                     allows_multiple_answers=False, **quiz)
+            polls.append(pm["message_id"])
+        if pin and cfg.get("pin_case", True):
+            try:
+                api("pinChatMessage", chat_id=t["chat_id"], message_id=head["message_id"], disable_notification=True)
+            except RuntimeError as err:
+                print(f"Could not pin (give the bot 'Pin messages' permission): {err}")
+        return head["message_id"], polls
+
+    head_id, polls = send_to(target(day), True)
+    rec = {"index": idx, "case_message_id": head_id, "poll_message_ids": polls, "mirrors": []}
+    if not os.environ.get("TEST_CHAT", "").strip():
+        for m in cfg.get("mirrors", []):
+            mt = {"chat_id": int(m["chat_id"]), "message_thread_id": m.get("thread")}
+            try:
+                h2, p2 = send_to(mt, False)
+                rec["mirrors"].append({"chat_id": mt["chat_id"], "thread": mt["message_thread_id"],
+                                       "case_message_id": h2, "poll_message_ids": p2})
+                print(f"Mirrored to {mt['chat_id']} / topic {mt['message_thread_id']}")
+            except RuntimeError as err:
+                print(f"Mirror post failed ({m}): {err}")
+    return rec
 
 
 def do_post():
@@ -285,6 +300,23 @@ def do_answers():
         for part in split_message(answer_message(day, results, cfg)):
             api("sendMessage", **t, text=part, parse_mode="HTML", disable_web_page_preview=True,
                 reply_parameters={"message_id": s["case_message_id"], "allow_sending_without_reply": True})
+        for mr in s.get("mirrors", []):
+            mt = {"chat_id": mr["chat_id"], "message_thread_id": mr.get("thread")}
+            mres = []
+            for i, mid in enumerate(mr["poll_message_ids"]):
+                try:
+                    poll = api("stopPoll", chat_id=mt["chat_id"], message_id=mid)
+                    mres.append({"total": poll.get("total_voter_count", 0),
+                                 "correct": poll["options"][day["items"][i]["ans"]]["voter_count"]})
+                except RuntimeError as err:
+                    print(f"Could not close mirror poll {mid}: {err}")
+                    mres.append(None)
+            try:
+                for part in split_message(answer_message(day, mres, cfg)):
+                    api("sendMessage", **mt, text=part, parse_mode="HTML", disable_web_page_preview=True,
+                        reply_parameters={"message_id": mr["case_message_id"], "allow_sending_without_reply": True})
+            except RuntimeError as err:
+                print(f"Mirror answers failed ({mt}): {err}")
         state.setdefault("history", []).append({"date": p["date"], "day": day["day"], "group": day["group"],
                                                 "kind": day.get("kind", "case"), "results": results})
         last = max(last, s["index"])

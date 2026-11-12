@@ -12,5 +12,12 @@
       "Group 2": 5566
     }
   },
-  "quiz_mode": true
+  "quiz_mode": true,
+  "mirrors": [
+    {
+      "chat_id": -1001311488542,
+      "thread": 166242,
+      "name": "SHRESHTA's FRATERNITY! – CA Inter MCQs"
+    }
+  ]
 }
