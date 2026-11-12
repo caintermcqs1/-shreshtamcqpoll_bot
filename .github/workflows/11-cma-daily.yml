@@ -1,0 +1,81 @@
+name: "11. CMA – Daily posts (countdown, study, fact/tip, concept, recap)"
+
+on:
+  schedule:
+    - cron: "30 2 * * 1-6"   # countdown 9:00 AM IST (starts 8:00, waits)
+    - cron: "50 2 * * 1-6"   # countdown backup
+    - cron: "10 3 * * 1-6"   # countdown backup
+    - cron: "30 9 * * 1-6"   # study 4:00 PM IST
+    - cron: "50 9 * * 1-6"   # study backup
+    - cron: "10 10 * * 1-6"  # study backup
+    - cron: "30 11 * * 1-6"  # fact/tip 6:00 PM IST
+    - cron: "50 11 * * 1-6"  # fact/tip backup
+    - cron: "10 12 * * 1-6"  # fact/tip backup
+    - cron: "30 14 * * 1-6"  # night 9:00 PM IST (+ Saturday recap 9:30 PM)
+    - cron: "50 14 * * 1-6"  # night backup
+    - cron: "10 15 * * 1-6"  # night backup
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to post now"
+        type: choice
+        options: [countdown, study, fact, night, recap, notice]
+        default: countdown
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cma-daily
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: cma-inter-mcq-bot
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pick mode
+        id: mode
+        working-directory: .
+        run: |
+          case "${{ github.event.schedule }}" in
+            "30 2 * * 1-6"|"50 2 * * 1-6"|"10 3 * * 1-6") echo "mode=countdown" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
+            "30 9 * * 1-6"|"50 9 * * 1-6"|"10 10 * * 1-6") echo "mode=study" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
+            "30 11 * * 1-6"|"50 11 * * 1-6"|"10 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
+            "30 14 * * 1-6"|"50 14 * * 1-6"|"10 15 * * 1-6") echo "mode=night" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
+            *) echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"; echo "wait=0" >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Wait until shortly before the post time
+        if: steps.mode.outputs.wait == '1'
+        working-directory: .
+        run: |
+          python3 -c "
+          import datetime as d,time
+          z=d.timezone(d.timedelta(hours=5,minutes=30)); n=d.datetime.now(z)
+          h={'countdown':9,'study':16,'fact':18,'night':21}['${{ steps.mode.outputs.mode }}']
+          t=n.replace(hour=h,minute=0,second=0,microsecond=0)-d.timedelta(minutes=2)
+          w=max(0,(t-n).total_seconds()); print('Waiting',int(w),'seconds'); time.sleep(w)"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post
+        run: python cma_daily.py ${{ steps.mode.outputs.mode }}
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          WAIT: ${{ steps.mode.outputs.wait }}
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add cma_daily_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update CMA daily progress"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
