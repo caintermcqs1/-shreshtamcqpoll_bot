@@ -344,6 +344,45 @@ def do_test():
         print(f"Test: sent Day {d['day']} ({d['group']}, {d.get('kind', 'case')})")
 
 
+def do_mirror_now():
+    """Post today's already-posted MCQ sets to the mirror groups (if not there yet) so 8:30 PM answers go there too."""
+    cfg, plan = load(CONFIG), load(PLAN)
+    state = load(STATE, {"next_index": 0, "pending": None, "history": []})
+    p = state.get("pending")
+    if not p or "sets" not in p:
+        print("No open MCQ sets today. Nothing to mirror.")
+        return
+    for s in p["sets"]:
+        day = plan[s["index"]]
+        general = is_general(day)
+        have = {(m["chat_id"], m.get("thread")) for m in s.get("mirrors", [])}
+        for m in cfg.get("mirrors", []):
+            mt = {"chat_id": int(m["chat_id"]), "message_thread_id": m.get("thread")}
+            if (mt["chat_id"], mt["message_thread_id"]) in have:
+                continue
+            try:
+                head = api("sendMessage", **mt, text=header_message(day, cfg), parse_mode="HTML")
+                polls = []
+                for i, it in enumerate(day["items"]):
+                    if not general:
+                        api("sendMessage", **mt, text=item_message(i, it), parse_mode="HTML",
+                            disable_web_page_preview=True)
+                    quiz = {}
+                    if cfg.get("quiz_mode"):
+                        quiz = {"type": "quiz", "correct_option_id": it["ans"],
+                                "explanation": (it.get("exp") or "")[:200] or None}
+                    pm = api("sendPoll", **mt, question=poll_question(i, it, general),
+                             options=[{"text": o} for o in it["o"]], is_anonymous=cfg.get("anonymous_polls", True),
+                             allows_multiple_answers=False, **quiz)
+                    polls.append(pm["message_id"])
+                s.setdefault("mirrors", []).append({"chat_id": mt["chat_id"], "thread": mt["message_thread_id"],
+                                                    "case_message_id": head["message_id"], "poll_message_ids": polls})
+                print(f"Mirrored Day {day['day']} ({day['group']}) to {mt}")
+            except RuntimeError as err:
+                print(f"Mirror failed ({mt}): {err}")
+    save(STATE, state)
+
+
 def do_find_id():
     updates = api("getUpdates", offset=-100, allowed_updates=["message", "my_chat_member", "channel_post"])
     seen = {}
@@ -393,4 +432,4 @@ def do_reset():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "preview"
-    {"post": do_post, "answers": do_answers, "test": do_test, "find-id": do_find_id, "preview": do_preview, "reset": do_reset}[mode]()
+    {"post": do_post, "answers": do_answers, "test": do_test, "mirror-now": do_mirror_now, "find-id": do_find_id, "preview": do_preview, "reset": do_reset}[mode]()
