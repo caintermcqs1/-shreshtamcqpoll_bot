@@ -1,0 +1,40 @@
+name: "6. Copy today's MCQs to mirror groups now (manual)"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mcq-bot
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: ca-inter-mcq-bot
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post today's MCQs to mirror groups
+        run: python bot.py mirror-now
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+      - name: Save progress
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Mirror today's MCQs"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
