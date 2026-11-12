@@ -1,0 +1,24 @@
+{
+  "chat_id": "-1002255328356",
+  "course_label": "CMA INTER DAILY MCQ",
+  "answer_time_label": "8:30 PM",
+  "anonymous_polls": true,
+  "pin_case": true,
+  "skip_weekdays": [
+    "Sun"
+  ],
+  "group_topics": {
+    "-1002255328356": {
+      "Group 1": 682,
+      "Group 2": 683
+    }
+  },
+  "quiz_mode": true,
+  "mirrors": [
+    {
+      "chat_id": -1001311488542,
+      "thread": 166244,
+      "name": "SHRESHTA's FRATERNITY! – CMA Inter MCQs"
+    }
+  ]
+}

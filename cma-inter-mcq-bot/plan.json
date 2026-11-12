@@ -1,0 +1,712 @@
+[
+ {
+  "day": 1,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Finder of goods",
+    "q": "Mr. Sharma advertised a ₹5,000 reward for his lost bag. Kiran found it and offered to return it, but Mr. Sharma now refuses to pay. Kiran:",
+    "o": [
+     "Can keep the bag and sue for the ₹5,000 reward",
+     "Has no claim at all against the owner",
+     "Can recover only his actual expenses",
+     "Can claim only if the police certify the return"
+    ],
+    "ans": 0,
+    "why": "A finder cannot sue for compensation in general, but where the owner has offered a specific reward, the finder can sue for it and may retain the goods until paid.",
+    "trap": "The general rule (no right to sue for compensation) has an exception for a specifically offered reward.",
+    "source": "CMA Inter MCQ Bank – Paper 5 (adapted)",
+    "exp": "A finder cannot sue for compensation in general, but where the owner has offered a specific reward, the finder can sue for it and may retain the goods until paid."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Insurance claim – average clause",
+    "q": "Stock worth ₹1,20,000 is insured for ₹90,000 with an average clause. Fire causes a loss of ₹60,000. The admissible claim is:",
+    "o": [
+     "₹60,000",
+     "₹90,000",
+     "₹45,000",
+     "₹40,000"
+    ],
+    "ans": 2,
+    "why": "Claim = Loss × Policy value ÷ Value of stock = 60,000 × 90,000 ÷ 1,20,000 = ₹45,000.",
+    "trap": "₹60,000 ignores the average clause – the stock was under-insured.",
+    "source": "CMA Inter MCQ Bank – Paper 6 (adapted)",
+    "exp": "Claim = Loss × Policy value ÷ Value of stock = 60,000 × 90,000 ÷ 1,20,000 = ₹45,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Residential status",
+    "q": "Mr. John, a foreign citizen, visits India for the first time on 1 Oct 2025 and stays till 31 Mar 2026. His residential status for PY 2025-26 is:",
+    "o": [
+     "Resident and Ordinarily Resident",
+     "Non-resident",
+     "Resident but Not Ordinarily Resident",
+     "Deemed resident"
+    ],
+    "ans": 2,
+    "why": "He stays exactly 182 days (1 Oct–31 Mar), so he is Resident. As he was a non-resident in the earlier years, he is Resident but Not Ordinarily Resident.",
+    "trap": "Count both arrival and departure days: 31 + 30 + 31 + 31 + 28 + 31 = 182.",
+    "source": "CMA Inter MCQ Bank – Paper 7 (Sec A) (adapted)",
+    "exp": "He stays exactly 182 days (1 Oct–31 Mar), so he is Resident. As he was a non-resident in the earlier years, he is Resident but Not Ordinarily Resident."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Re-order level",
+    "q": "Maximum usage 400 units/week, normal usage 300 units/week, maximum lead time 6 weeks, normal lead time 5 weeks. The re-order level is:",
+    "o": [
+     "2,400 units",
+     "1,800 units",
+     "1,500 units",
+     "2,000 units"
+    ],
+    "ans": 0,
+    "why": "Re-order level = Maximum usage × Maximum lead time = 400 × 6 = 2,400 units.",
+    "trap": "1,500 uses normal figures – that is not the re-order level formula.",
+    "source": "CMA Inter MCQ Bank – Paper 8 (adapted)",
+    "exp": "Re-order level = Maximum usage × Maximum lead time = 400 × 6 = 2,400 units."
+   }
+  ]
+ },
+ {
+  "day": 1,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Capacity – efficiency",
+    "q": "Design capacity is 60,000 units, effective capacity 50,000 units and actual output 45,000 units. The efficiency of the plant is:",
+    "o": [
+     "75%",
+     "111.11%",
+     "83.33%",
+     "90%"
+    ],
+    "ans": 3,
+    "why": "Efficiency = Actual output ÷ Effective capacity = 45,000 ÷ 50,000 = 90%.",
+    "trap": "75% is utilisation (actual ÷ design capacity), not efficiency.",
+    "source": "CMA Inter MCQ Bank – Paper 9 (Sec A) (adapted)",
+    "exp": "Efficiency = Actual output ÷ Effective capacity = 45,000 ÷ 50,000 = 90%."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Capital Redemption Reserve",
+    "q": "₹2,00,000 preference shares are redeemed at a 10% premium; ₹80,000 equity is issued at par for the purpose. The amount to be transferred to CRR is:",
+    "o": [
+     "₹2,00,000",
+     "₹1,40,000",
+     "₹1,20,000",
+     "₹80,000"
+    ],
+    "ans": 2,
+    "why": "CRR = Nominal value redeemed − Proceeds of fresh issue = 2,00,000 − 80,000 = ₹1,20,000. The premium does not affect CRR.",
+    "trap": "₹1,40,000 wrongly adds the ₹20,000 premium.",
+    "source": "CMA Inter MCQ Bank – Paper 10 (Sec A) (adapted)",
+    "exp": "CRR = Nominal value redeemed − Proceeds of fresh issue = 2,00,000 − 80,000 = ₹1,20,000. The premium does not affect CRR."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Operating cycle",
+    "q": "Inventory period 45 days, receivables period 30 days and payables period 20 days. The NET operating cycle is:",
+    "o": [
+     "55 days",
+     "75 days",
+     "95 days",
+     "35 days"
+    ],
+    "ans": 0,
+    "why": "Net operating cycle = 45 + 30 − 20 = 55 days.",
+    "trap": "75 days is the gross operating cycle – it ignores supplier credit.",
+    "source": "CMA Inter MCQ Bank – Paper 11 (Sec A) (adapted)",
+    "exp": "Net operating cycle = 45 + 30 − 20 = 55 days."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Break-even point",
+    "q": "Selling price ₹40, variable cost ₹25 per unit, fixed cost ₹60,000, planned output 10,000 units. The break-even point is:",
+    "o": [
+     "3,000 units; ₹1,20,000",
+     "4,000 units; ₹1,60,000",
+     "6,000 units; ₹2,40,000",
+     "2,400 units; ₹96,000"
+    ],
+    "ans": 1,
+    "why": "Contribution = 40 − 25 = ₹15. BEP = 60,000 ÷ 15 = 4,000 units; 4,000 × 40 = ₹1,60,000.",
+    "trap": "Planned output of 10,000 units is irrelevant to the BEP.",
+    "source": "CMA Inter MCQ Bank – Paper 12 (adapted)",
+    "exp": "Contribution = 40 − 25 = ₹15. BEP = 60,000 ÷ 15 = 4,000 units; 4,000 × 40 = ₹1,60,000."
+   }
+  ]
+ },
+ {
+  "day": 2,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Minor's agreement",
+    "q": "An agreement with a minor is:",
+    "o": [
+     "Voidable at the option of the minor",
+     "Void ab initio",
+     "Valid if for the minor's benefit",
+     "Voidable at the option of the other party"
+    ],
+    "ans": 1,
+    "why": "An agreement with a minor is void from the beginning (Mohori Bibee v. Dharmodas Ghose).",
+    "trap": "'Voidable at the option of the minor' sounds protective, but the law treats it as void ab initio.",
+    "source": "CMA Inter MCQ Bank – Paper 5 (adapted)",
+    "exp": "An agreement with a minor is void from the beginning (Mohori Bibee v. Dharmodas Ghose)."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Bill of exchange – due date",
+    "q": "A bill drawn on 10 Jan 2026, payable 3 months after date, falls due on (assume no holiday):",
+    "o": [
+     "10 April 2026",
+     "13 April 2026",
+     "11 April 2026",
+     "8 April 2026"
+    ],
+    "ans": 1,
+    "why": "3 months after 10 Jan = 10 April; add 3 days of grace → 13 April 2026.",
+    "trap": "Forgetting the 3 days of grace gives 10 April.",
+    "source": "CMA Inter MCQ Bank – Paper 6 (adapted)",
+    "exp": "3 months after 10 Jan = 10 April; add 3 days of grace → 13 April 2026."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – composite supply",
+    "q": "A dealer sells a laptop with a carry bag in the same box at no separate charge, as is normal in the trade. For GST, this is:",
+    "o": [
+     "A composite supply taxed at the laptop's rate",
+     "A mixed supply taxed at the highest rate",
+     "Two separate supplies",
+     "Laptop taxable, bag exempt as free"
+    ],
+    "ans": 0,
+    "why": "The items are naturally bundled with the laptop as the principal supply, so it is a composite supply taxed at the laptop's rate.",
+    "trap": "Mixed supply applies only when items are NOT naturally bundled (e.g. a gift hamper).",
+    "source": "CMA Inter MCQ Bank – Paper 7 (Sec B) (adapted)",
+    "exp": "The items are naturally bundled with the laptop as the principal supply, so it is a composite supply taxed at the laptop's rate."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Methods of costing",
+    "q": "Batch costing is most suitable for:",
+    "o": [
+     "Bridge construction",
+     "Ship-building",
+     "Pharmaceutical industry",
+     "Oil refining"
+    ],
+    "ans": 2,
+    "why": "Batch costing suits industries producing identical units in lots, such as tablets in pharmaceuticals.",
+    "trap": "Ship-building and bridges use contract costing; oil refining uses process costing.",
+    "source": "CMA Inter MCQ Bank – Paper 8 (adapted)",
+    "exp": "Batch costing suits industries producing identical units in lots, such as tablets in pharmaceuticals."
+   }
+  ]
+ },
+ {
+  "day": 2,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Balanced Scorecard",
+    "q": "Which of the following is NOT one of the four perspectives of the Balanced Scorecard?",
+    "o": [
+     "Financial",
+     "Competitor",
+     "Internal business process",
+     "Customer"
+    ],
+    "ans": 1,
+    "why": "The four perspectives are Financial, Customer, Internal Business Process, and Learning & Growth.",
+    "trap": "'Competitor' sounds strategic, but it is not one of the four.",
+    "source": "CMA Inter MCQ Bank – Paper 9 (Sec B) (adapted)",
+    "exp": "The four perspectives are Financial, Customer, Internal Business Process, and Learning & Growth."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Services prohibited for auditors",
+    "q": "A company's Board wants its statutory auditor to also advise on investing surplus funds, for a separate fee. Under the Companies Act, 2013 this is:",
+    "o": [
+     "Allowed with Board approval",
+     "Prohibited",
+     "Allowed if the fee is below the audit fee",
+     "Allowed with Audit Committee approval"
+    ],
+    "ans": 1,
+    "why": "Section 144 prohibits an auditor from rendering investment advisory services to the company, directly or indirectly. No approval makes it permissible.",
+    "trap": "Board/Audit Committee approval is for OTHER permitted services, not prohibited ones.",
+    "source": "CMA Inter MCQ Bank – Paper 10 (Sec B) (adapted)",
+    "exp": "Section 144 prohibits an auditor from rendering investment advisory services to the company, directly or indirectly. No approval makes it permissible."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "XBRL",
+    "q": "XBRL stands for:",
+    "o": [
+     "eXtensible Banking Reporting Language",
+     "eXtended Business Recording Language",
+     "eXtensive Business Retrieval Language",
+     "eXtensible Business Reporting Language"
+    ],
+    "ans": 3,
+    "why": "XBRL = eXtensible Business Reporting Language, a standard format for electronic business and financial reporting.",
+    "trap": "'Recording' looks right for accounting, but XBRL is about reporting.",
+    "source": "CMA Inter MCQ Bank – Paper 11 (Sec B) (adapted)",
+    "exp": "XBRL = eXtensible Business Reporting Language, a standard format for electronic business and financial reporting."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Sales for desired profit",
+    "q": "Fixed cost ₹24,000, P/V ratio 40% and desired profit ₹20,000. Sales required to earn this profit are:",
+    "o": [
+     "₹50,000",
+     "₹1,00,000",
+     "₹60,000",
+     "₹1,10,000"
+    ],
+    "ans": 3,
+    "why": "Required sales = (Fixed cost + Desired profit) ÷ P/V ratio = 44,000 ÷ 40% = ₹1,10,000.",
+    "trap": "Dividing only the profit (₹50,000) ignores the fixed cost.",
+    "source": "CMA Inter MCQ Bank – Paper 12 (adapted)",
+    "exp": "Required sales = (Fixed cost + Desired profit) ÷ P/V ratio = 44,000 ÷ 40% = ₹1,10,000."
+   }
+  ]
+ },
+ {
+  "day": 3,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Sale by person with voidable title",
+    "q": "A obtained a car from B by fraud and, before B rescinded the contract, sold it to C, who bought in good faith without notice of the fraud. C:",
+    "o": [
+     "Gets a good title",
+     "Gets no title as A obtained it by fraud",
+     "Gets title only if B agrees",
+     "Must return the car to B"
+    ],
+    "ans": 0,
+    "why": "A buyer gets good title from a seller holding goods under a voidable contract if it was not rescinded at the time of sale and the buyer acted in good faith.",
+    "trap": "If B had rescinded the contract BEFORE the sale to C, C would not get a good title.",
+    "source": "CMA Inter MCQ Bank – Paper 5 (adapted)",
+    "exp": "A buyer gets good title from a seller holding goods under a voidable contract if it was not rescinded at the time of sale and the buyer acted in good faith."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Credit sales from debtors account",
+    "q": "Debtors: opening ₹45,000, closing ₹60,000. Cash received ₹3,00,000, discount allowed ₹12,000, bad debts ₹8,000, returns inward ₹5,000. Credit sales are:",
+    "o": [
+     "₹3,40,000",
+     "₹3,35,000",
+     "₹3,25,000",
+     "₹2,80,000"
+    ],
+    "ans": 0,
+    "why": "Credit sales = 60,000 + 3,00,000 + 12,000 + 8,000 + 5,000 − 45,000 = ₹3,40,000.",
+    "trap": "Leaving out returns inward gives ₹3,35,000.",
+    "source": "CMA Inter MCQ Bank – Paper 6 (adapted)",
+    "exp": "Credit sales = 60,000 + 3,00,000 + 12,000 + 8,000 + 5,000 − 45,000 = ₹3,40,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Gifts from non-relatives",
+    "q": "Ravi receives ₹30,000 and ₹25,000 from two friends and ₹40,000 from his brother in the same year. The amount taxable is:",
+    "o": [
+     "Nil",
+     "₹5,000",
+     "₹95,000",
+     "₹55,000"
+    ],
+    "ans": 3,
+    "why": "The ₹50,000 limit applies to the aggregate of gifts from non-relatives: 55,000 > 50,000, so the whole ₹55,000 is taxable. The brother's gift is exempt.",
+    "trap": "The limit is tested on the total, and once crossed the entire amount (not just the excess) is taxable.",
+    "source": "CMA Inter MCQ Bank – Paper 7 (Sec A) (adapted)",
+    "exp": "The ₹50,000 limit applies to the aggregate of gifts from non-relatives: 55,000 > 50,000, so the whole ₹55,000 is taxable. The brother's gift is exempt."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Process costing – abnormal loss",
+    "q": "Input 8,000 units, normal loss 10% of input, actual output 7,000 units. The abnormal loss is:",
+    "o": [
+     "800 units",
+     "1,000 units",
+     "200 units",
+     "Nil"
+    ],
+    "ans": 2,
+    "why": "Expected output = 8,000 − 800 = 7,200. Abnormal loss = 7,200 − 7,000 = 200 units.",
+    "trap": "1,000 units is the total loss; 800 of it is normal.",
+    "source": "CMA Inter MCQ Bank – Paper 8 (adapted)",
+    "exp": "Expected output = 8,000 − 800 = 7,200. Abnormal loss = 7,200 − 7,000 = 200 units."
+   }
+  ]
+ },
+ {
+  "day": 3,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Productivity",
+    "q": "15 workers produce 450 units in a month of 25 working days. Labour productivity per worker per month is:",
+    "o": [
+     "18 units",
+     "25 units",
+     "1.2 units",
+     "30 units"
+    ],
+    "ans": 3,
+    "why": "Productivity per worker per month = 450 ÷ 15 = 30 units.",
+    "trap": "1.2 is per worker per DAY (30 ÷ 25).",
+    "source": "CMA Inter MCQ Bank – Paper 9 (Sec A) (adapted)",
+    "exp": "Productivity per worker per month = 450 ÷ 15 = 30 units."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Schedule III – current maturities",
+    "q": "As per amended Schedule III, current maturities of long-term borrowings are shown under:",
+    "o": [
+     "Other current liabilities",
+     "Short-term borrowings",
+     "Long-term borrowings",
+     "Trade payables"
+    ],
+    "ans": 1,
+    "why": "Since the 2021 amendment, current maturities of long-term borrowings are shown under 'Short-term borrowings'.",
+    "trap": "'Other current liabilities' was the pre-amendment position in older books.",
+    "source": "CMA Inter MCQ Bank – Paper 10 (Sec A) (adapted)",
+    "exp": "Since the 2021 amendment, current maturities of long-term borrowings are shown under 'Short-term borrowings'."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Current ratio",
+    "q": "Current ratio is 2.5 : 1 and net working capital is ₹6,00,000. Current assets are:",
+    "o": [
+     "₹4,00,000",
+     "₹10,00,000",
+     "₹15,00,000",
+     "₹8,50,000"
+    ],
+    "ans": 1,
+    "why": "1.5 × CL = 6,00,000 → CL = 4,00,000; CA = 2.5 × 4,00,000 = ₹10,00,000.",
+    "trap": "₹4,00,000 is the current liabilities.",
+    "source": "CMA Inter MCQ Bank – Paper 11 (Sec A) (adapted)",
+    "exp": "1.5 × CL = 6,00,000 → CL = 4,00,000; CA = 2.5 × 4,00,000 = ₹10,00,000."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Residual income",
+    "q": "A division has operating profit ₹40 lakh, operating assets ₹2 crore and cost of capital 14%. Its residual income is:",
+    "o": [
+     "₹40 lakh",
+     "₹28 lakh",
+     "₹12 lakh",
+     "₹20 lakh"
+    ],
+    "ans": 2,
+    "why": "Residual income = 40 − (200 × 14%) = 40 − 28 = ₹12 lakh.",
+    "trap": "₹28 lakh is the capital charge; 20% is the ROI.",
+    "source": "CMA Inter MCQ Bank – Paper 12 (adapted)",
+    "exp": "Residual income = 40 − (200 × 14%) = 40 − 28 = ₹12 lakh."
+   }
+  ]
+ },
+ {
+  "day": 4,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Quorum – public company",
+    "q": "A public company has 4,200 members. Unless the articles require more, the quorum for its general meeting is:",
+    "o": [
+     "5 members personally present",
+     "15 members personally present",
+     "30 members personally present",
+     "50 members personally present"
+    ],
+    "ans": 1,
+    "why": "Public company: up to 1,000 members – 5; more than 1,000 up to 5,000 – 15; more than 5,000 – 30.",
+    "trap": "Proxies do not count towards quorum – only members personally present.",
+    "source": "CMA Inter MCQ Bank – Paper 5 (adapted)",
+    "exp": "Public company: up to 1,000 members – 5; more than 1,000 up to 5,000 – 15; more than 5,000 – 30."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Depreciation – WDV",
+    "q": "A machine costing ₹5,00,000 is depreciated at 20% p.a. on WDV. Depreciation for the 3rd year is:",
+    "o": [
+     "₹1,00,000",
+     "₹64,000",
+     "₹80,000",
+     "₹51,200"
+    ],
+    "ans": 1,
+    "why": "Yr 1: 1,00,000 → 4,00,000. Yr 2: 80,000 → 3,20,000. Yr 3: 3,20,000 × 20% = ₹64,000.",
+    "trap": "₹1,00,000 every year would be the straight-line method.",
+    "source": "CMA Inter MCQ Bank – Paper 6 (adapted)",
+    "exp": "Yr 1: 1,00,000 → 4,00,000. Yr 2: 80,000 → 3,20,000. Yr 3: 3,20,000 × 20% = ₹64,000."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "Customs – assessable value",
+    "q": "Machinery is imported by air: FOB US$10,000, exchange rate ₹85/US$. Air freight and insurance cannot be ascertained. The assessable value is:",
+    "o": [
+     "₹8,59,562.50",
+     "₹10,20,000",
+     "₹10,31,475",
+     "₹10,29,562.50"
+    ],
+    "ans": 3,
+    "why": "FOB ₹8,50,000 + freight 20% of FOB (1,70,000) + insurance 1.125% of FOB (9,562.50) = ₹10,29,562.50.",
+    "trap": "₹10,31,475 takes insurance on FOB + freight; it is 1.125% of FOB only.",
+    "source": "CMA Inter MCQ Bank – Paper 7 (Sec B) (adapted)",
+    "exp": "FOB ₹8,50,000 + freight 20% of FOB (1,70,000) + insurance 1.125% of FOB (9,562.50) = ₹10,29,562.50."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Labour turnover",
+    "q": "Workers at the beginning 180, at the end 220; 20 workers left during the year. Labour turnover by the separation method is:",
+    "o": [
+     "11.11%",
+     "9.09%",
+     "10%",
+     "20%"
+    ],
+    "ans": 2,
+    "why": "Separation rate = 20 ÷ ((180 + 220) ÷ 2) × 100 = 10%.",
+    "trap": "Dividing by the opening (11.11%) or closing (9.09%) strength instead of the average.",
+    "source": "CMA Inter MCQ Bank – Paper 8 (adapted)",
+    "exp": "Separation rate = 20 ÷ ((180 + 220) ÷ 2) × 100 = 10%."
+   }
+  ]
+ },
+ {
+  "day": 4,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "SWOT analysis",
+    "q": "For an electric-scooter maker, a new government subsidy on EV purchases is best classified in SWOT as a/an:",
+    "o": [
+     "Strength",
+     "Weakness",
+     "Threat",
+     "Opportunity"
+    ],
+    "ans": 3,
+    "why": "A government subsidy is an external, favourable factor – an Opportunity. Strengths and weaknesses are internal.",
+    "trap": "It helps the company, so students tick 'Strength' – but it is not an internal capability.",
+    "source": "CMA Inter MCQ Bank – Paper 9 (Sec B) (adapted)",
+    "exp": "A government subsidy is an external, favourable factor – an Opportunity. Strengths and weaknesses are internal."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Internal check",
+    "q": "An arrangement where one clerk's work is automatically checked by another clerk in the normal course of work is called:",
+    "o": [
+     "Internal check",
+     "Internal audit",
+     "Statutory audit",
+     "Vouching"
+    ],
+    "ans": 0,
+    "why": "Internal check divides duties so that one person's work is automatically checked by another, preventing or detecting errors and frauds.",
+    "trap": "Internal audit is a separate review done after the work, not a built-in automatic check.",
+    "source": "CMA Inter MCQ Bank – Paper 10 (Sec B) (adapted)",
+    "exp": "Internal check divides duties so that one person's work is automatically checked by another, preventing or detecting errors and frauds."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Data vs information",
+    "q": "Individual bill entries recorded at a billing counter, before any processing, are best described as:",
+    "o": [
+     "Information",
+     "Intelligence",
+     "Knowledge",
+     "Data"
+    ],
+    "ans": 3,
+    "why": "Data are raw, unprocessed facts; once processed and organised (e.g. a sales summary) they become information.",
+    "trap": "A sales REPORT would be information; unprocessed entries are data.",
+    "source": "CMA Inter MCQ Bank – Paper 11 (Sec B) (adapted)",
+    "exp": "Data are raw, unprocessed facts; once processed and organised (e.g. a sales summary) they become information."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Cash budget – receipts",
+    "q": "Sales: Feb ₹1,00,000, Mar ₹1,20,000. 40% are cash sales; credit sales are collected in the next month. Cash received in March is:",
+    "o": [
+     "₹1,08,000",
+     "₹1,20,000",
+     "₹1,12,000",
+     "₹48,000"
+    ],
+    "ans": 0,
+    "why": "March cash sales 40% × 1,20,000 = 48,000 + February credit sales 60% × 1,00,000 = 60,000 → ₹1,08,000.",
+    "trap": "₹1,12,000 swaps the months – March's credit sales are collected in April.",
+    "source": "CMA Inter MCQ Bank – Paper 12 (adapted)",
+    "exp": "March cash sales 40% × 1,20,000 = 48,000 + February credit sales 60% × 1,00,000 = 60,000 → ₹1,08,000."
+   }
+  ]
+ },
+ {
+  "day": 5,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "LLP – designated partners",
+    "q": "An LLP's two designated partners both live abroad and stayed in India for only 40 days in the financial year. The LLP:",
+    "o": [
+     "Complies – two designated partners are enough",
+     "Complies – NRIs are treated as residents",
+     "Does not comply – all partners must be designated",
+     "Does not comply – at least one must be resident in India"
+    ],
+    "ans": 3,
+    "why": "Every LLP needs at least two designated partners who are individuals, at least one of whom is resident in India (stayed at least 120 days in the financial year).",
+    "trap": "Having two designated partners is not enough by itself – the residence condition must also be met.",
+    "source": "CMA Inter MCQ Bank – Paper 5 (adapted)",
+    "exp": "Every LLP needs at least two designated partners who are individuals, at least one of whom is resident in India (stayed at least 120 days in the financial year)."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Consignment – stock reserve",
+    "q": "Goods are invoiced to the consignee at cost + 25%. Unsold stock at invoice price is ₹50,000. The stock reserve required is:",
+    "o": [
+     "₹12,500",
+     "₹40,000",
+     "₹10,000",
+     "₹2,500"
+    ],
+    "ans": 2,
+    "why": "Loading = 50,000 × 25 ÷ 125 = ₹10,000.",
+    "trap": "₹12,500 takes 25% of the invoice price; use 25/125 on invoice price.",
+    "source": "CMA Inter MCQ Bank – Paper 6 (adapted)",
+    "exp": "Loading = 50,000 × 25 ÷ 125 = ₹10,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Tea – composite income",
+    "q": "Mr. Das earns ₹5,00,000 from growing and manufacturing tea in India. The amount taxable as business income is:",
+    "o": [
+     "₹3,00,000",
+     "₹5,00,000",
+     "₹2,00,000",
+     "₹1,75,000"
+    ],
+    "ans": 2,
+    "why": "For tea grown and manufactured, 60% is agricultural income (exempt) and 40% is business income: 40% × 5,00,000 = ₹2,00,000.",
+    "trap": "Tea is 60:40; rubber is 65:35 and coffee (grown and cured) is 75:25 – don't mix them up.",
+    "source": "CMA Inter MCQ Bank – Paper 7 (Sec A) (adapted)",
+    "exp": "For tea grown and manufactured, 60% is agricultural income (exempt) and 40% is business income: 40% × 5,00,000 = ₹2,00,000."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Indifference point – suppliers",
+    "q": "Supplier P quotes ₹2.50 per unit. Supplier Q quotes ₹2.30 per unit plus ₹4,000 fixed. Cost is the same from both at:",
+    "o": [
+     "16,000 units",
+     "25,000 units",
+     "20,000 units",
+     "17,391 units"
+    ],
+    "ans": 2,
+    "why": "Indifference point = 4,000 ÷ (2.50 − 2.30) = 20,000 units.",
+    "trap": "Above 20,000 units Supplier Q is cheaper; below it Supplier P is cheaper.",
+    "source": "CMA Inter MCQ Bank – Paper 8 (adapted)",
+    "exp": "Indifference point = 4,000 ÷ (2.50 − 2.30) = 20,000 units."
+   }
+  ]
+ },
+ {
+  "day": 5,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Network analysis – slack",
+    "q": "Path A–B–D takes 15 days and path A–C–D takes 12 days. The slack available on activity C is:",
+    "o": [
+     "0 days",
+     "3 days",
+     "12 days",
+     "15 days"
+    ],
+    "ans": 1,
+    "why": "The critical path is the longest (15 days). C lies only on the 12-day path, so its slack = 15 − 12 = 3 days.",
+    "trap": "Only activities on the critical path have zero slack.",
+    "source": "CMA Inter MCQ Bank – Paper 9 (Sec A) (adapted)",
+    "exp": "The critical path is the longest (15 days). C lies only on the 12-day path, so its slack = 15 − 12 = 3 days."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "EPS – weighted average shares",
+    "q": "1 Apr 2025: 10,000 shares. 1 Oct 2025: 4,000 shares issued for cash. 1 Jan 2026: 2,000 shares bought back. Weighted average shares for FY 2025-26 are:",
+    "o": [
+     "11,500",
+     "12,000",
+     "14,000",
+     "10,500"
+    ],
+    "ans": 0,
+    "why": "10,000 + 4,000 × 6/12 − 2,000 × 3/12 = 10,000 + 2,000 − 500 = 11,500.",
+    "trap": "Shares count only for the period they were outstanding.",
+    "source": "CMA Inter MCQ Bank – Paper 10 (Sec A) (adapted)",
+    "exp": "10,000 + 4,000 × 6/12 − 2,000 × 3/12 = 10,000 + 2,000 − 500 = 11,500."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Cost of debt",
+    "q": "12% irredeemable debentures of ₹100 each are issued at ₹96. Tax rate is 30%. The after-tax cost of debt is:",
+    "o": [
+     "8.75%",
+     "12.50%",
+     "8.40%",
+     "9.00%"
+    ],
+    "ans": 0,
+    "why": "Kd = 12 × (1 − 0.30) ÷ 96 = 8.75%.",
+    "trap": "8.40% divides by face value (₹100) instead of net proceeds (₹96).",
+    "source": "CMA Inter MCQ Bank – Paper 11 (Sec A) (adapted)",
+    "exp": "Kd = 12 × (1 − 0.30) ÷ 96 = 8.75%."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Activity-based costing",
+    "q": "Set-up cost pool ₹6,00,000; expected 2,500 set-ups. Product D needs 1,000 set-ups. Set-up overhead charged to Product D is:",
+    "o": [
+     "₹1,50,000",
+     "₹3,60,000",
+     "₹3,00,000",
+     "₹2,40,000"
+    ],
+    "ans": 3,
+    "why": "Rate = 6,00,000 ÷ 2,500 = ₹240 per set-up; 1,000 × 240 = ₹2,40,000.",
+    "trap": "Splitting the pool equally (₹3,00,000) ignores the cost driver.",
+    "source": "CMA Inter MCQ Bank – Paper 12 (adapted)",
+    "exp": "Rate = 6,00,000 ÷ 2,500 = ₹240 per set-up; 1,000 × 240 = ₹2,40,000."
+   }
+  ]
+ }
+]
