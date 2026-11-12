@@ -1,0 +1,60 @@
+name: "10. CMA – ICMAI & YouTube updates"
+
+on:
+  schedule:
+    - cron: "30 2 * * *"    # 08:00 IST  ICMAI + YouTube
+    - cron: "30 6 * * *"    # 12:00 IST
+    - cron: "30 10 * * *"   # 16:00 IST
+    - cron: "30 15 * * *"   # 21:00 IST
+    - cron: "45 2-17 * * *" # hourly YouTube check, 08:15 to 23:15 IST
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to check"
+        type: choice
+        options: [check, icmai, youtube, notice]
+        default: check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cma-updates
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: cma-inter-mcq-bot
+
+jobs:
+  updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pick mode
+        id: mode
+        run: |
+          case "${{ github.event.schedule }}" in
+            "45 2-17 * * *") echo "mode=youtube" >> "$GITHUB_OUTPUT" ;;
+            "") echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
+            *) echo "mode=check" >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Run CMA updates
+        run: python cma_extras.py ${{ steps.mode.outputs.mode }}
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add cma_extras_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update CMA updates progress"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
