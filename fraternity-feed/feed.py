@@ -97,7 +97,7 @@ def video_title(vid):
 
 def check_youtube(state):
     seen = state.setdefault("yt_seen", [])
-    first_run = not seen
+    first_run = not state.get("feed_seeded")
     now = dt.datetime.now(dt.timezone.utc)
     new = []
     try:
@@ -109,9 +109,10 @@ def check_youtube(state):
                 continue
             seen.append(vid)
             published = dt.datetime.fromisoformat(e.findtext("a:published", "", ns))
-            if first_run and (now - published).days > 2:
+            if first_run:   # seed silently: never dump the old backlog
                 continue
             new.append((published, vid, e.findtext("a:title", "", ns)))
+        state["feed_seeded"] = True
     except Exception as e:
         print("YouTube feed failed:", e)
     page_ids = channel_page_videos()
@@ -131,8 +132,6 @@ def check_youtube(state):
         new.append((now, vid, title))
     state["yt_seen"] = seen[-400:]
     new.sort()
-    if first_run:
-        new = new[-1:]   # never dump the old backlog: share only the latest one on the first run
     for _, vid, title in new:
         text = (
             "🎥 <b>New video from CA Ram Harsha YouTube Channel!</b>\n\n"
