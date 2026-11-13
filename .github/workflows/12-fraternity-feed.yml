@@ -1,0 +1,49 @@
+name: "12. FRATERNITY main group – Sir's YouTube videos"
+
+on:
+  schedule:
+    - cron: "20 0-18 * * *"   # every hour, 05:50 to 23:50 IST, all days
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        type: choice
+        options: [youtube, info]
+        default: youtube
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fraternity-feed
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: fraternity-feed
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run feed
+        run: python feed.py ${{ inputs.mode || 'youtube' }}
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Save progress
+        if: always()
+        run: |
+          [ -f feed_state.json ] || exit 0
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add feed_state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update FRATERNITY feed progress"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
