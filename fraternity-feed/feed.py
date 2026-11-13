@@ -160,7 +160,7 @@ def post_latest(state):
         seen.append(vid)
 
 
-AGE = re.compile(r'"content":"[^"\d]{0,20}(\d+)\s*(seconds?|minutes?|mins?|hours?|hrs?|days?|s|m|h|d)\b[^"]*ago"', re.I)
+AGE = re.compile(r'(?:"content"|"simpleText"):"[^"\d]{0,20}(\d+)\s*(seconds?|minutes?|mins?|hours?|hrs?|days?|s|m|h|d)\b[^"]*ago"', re.I)
 
 
 def recent_from_pages(hours):
@@ -173,7 +173,8 @@ def recent_from_pages(hours):
         except Exception as e:
             print("Page failed:", path, e)
             continue
-        for m in re.finditer(r'"contentId":"([\w-]{11})"', page):
+        print("Page", path, len(page), "chars,", page.count('"contentId"'), "contentId,", page.count('"publishedTimeText"'), "publishedTimeText")
+        for m in re.finditer(r'"(?:contentId|videoId)":"([\w-]{11})"', page):
             vid = m.group(1)
             a = AGE.search(page, m.end(), m.end() + 8000)
             if not a:
@@ -191,6 +192,10 @@ def post_recent(state, hours=24):
     shared = state.setdefault("shared", [])
     seen = state.setdefault("yt_seen", [])
     found = [x for x in recent_from_pages(hours) if x[0] not in shared]
+    # videos listed by hand in feed_config.json "post_now" (used when the page can't be read)
+    for vid in CFG.get("post_now", []):
+        if vid not in shared and vid not in [v for v, _ in found]:
+            found.append((vid, 99))
     for vid, _ in sorted(found, key=lambda x: -x[1]):
         post_video(vid, video_title(vid))
         shared.append(vid)
