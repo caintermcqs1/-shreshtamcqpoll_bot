@@ -8,7 +8,7 @@ on:
       mode:
         description: "What to run"
         type: choice
-        options: [youtube, info]
+        options: [youtube, recent, latest, info]
         default: youtube
 
 permissions:
