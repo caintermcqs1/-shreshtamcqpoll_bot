@@ -1,7 +1,7 @@
 """Shares every new video from Sir's YouTube channel (videos + Shorts)
 into the SHRESHTA's FRATERNITY main group (General).
 
-Usage: python feed.py <youtube|latest|info>
+Usage: python feed.py <youtube|recent|latest|info>
 State: feed_state.json (videos already seen / shared).
 """
 import datetime as dt
@@ -133,7 +133,10 @@ def check_youtube(state):
     state["yt_seen"] = seen[-400:]
     new.sort()
     for _, vid, title in new:
+        if vid in state.setdefault("shared", []):
+            continue
         post_video(vid, title)
+        state["shared"].append(vid)
         save_state(state)
 
 
@@ -157,6 +160,44 @@ def post_latest(state):
         seen.append(vid)
 
 
+def publish_time(vid):
+    page = fetch(f"https://www.youtube.com/watch?v={vid}")
+    m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', page) or \
+        re.search(r'itemprop="(?:datePublished|uploadDate)" content="([^"]+)"', page)
+    if not m:
+        return None
+    d = m.group(1)
+    if len(d) == 10:
+        d += "T00:00:00+05:30"
+    return dt.datetime.fromisoformat(d.replace("Z", "+00:00"))
+
+
+def post_recent(state, hours=36):
+    """Manual: post every video / Short / live from the last <hours> hours that wasn't shared here yet."""
+    shared = state.setdefault("shared", [])
+    seen = state.setdefault("yt_seen", [])
+    since = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours)
+    found = []
+    for vid in channel_page_videos():
+        if vid in shared or any(v == vid for _, v in found):
+            continue
+        try:
+            when = publish_time(vid)
+        except Exception as e:
+            print("Date failed:", vid, e)
+            continue
+        print("Video", vid, when)
+        if when and when >= since:
+            found.append((when, vid))
+    for when, vid in sorted(found):
+        post_video(vid, video_title(vid))
+        shared.append(vid)
+        if vid not in seen:
+            seen.append(vid)
+        save_state(state)
+    print("Posted", len(found), "recent video(s)")
+
+
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "youtube"
     state = load(STATE_FILE, {})
@@ -166,6 +207,8 @@ def main():
     try:
         if mode == "latest":
             post_latest(state)
+        elif mode == "recent":
+            post_recent(state)
         else:
             check_youtube(state)
     finally:
