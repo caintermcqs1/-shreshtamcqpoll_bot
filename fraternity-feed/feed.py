@@ -1,7 +1,7 @@
 """Shares every new video from Sir's YouTube channel (videos + Shorts)
 into the SHRESHTA's FRATERNITY main group (General).
 
-Usage: python feed.py <youtube|info>
+Usage: python feed.py <youtube|latest|info>
 State: feed_state.json (videos already seen / shared).
 """
 import datetime as dt
@@ -133,14 +133,28 @@ def check_youtube(state):
     state["yt_seen"] = seen[-400:]
     new.sort()
     for _, vid, title in new:
-        text = (
-            "🎥 <b>New video from CA Ram Harsha YouTube Channel!</b>\n\n"
-            f"{html.escape(title)}\n\n"
-            f"▶️ Watch now: https://www.youtube.com/watch?v={vid}\n"
-            "👍 Like, share with your friends & subscribe for more!"
-        )
-        send(text)
+        post_video(vid, title)
         save_state(state)
+
+
+def post_video(vid, title):
+    text = (
+        "\U0001f3a5 <b>New video from CA Ram Harsha YouTube Channel!</b>\n\n"
+        f"{html.escape(title)}\n\n"
+        f"\u25b6\ufe0f Watch now: https://www.youtube.com/watch?v={vid}\n"
+        "\U0001f44d Like, share with your friends & subscribe for more!"
+    )
+    send(text)
+
+
+def post_latest(state):
+    """Manual: post Sir's newest long video now (sample / catch-up)."""
+    page = fetch(CFG["youtube_channel_url"].rstrip("/") + "/videos")
+    vid = re.search(r"i\.ytimg\.com/vi/([\w-]{11})/", page).group(1)
+    post_video(vid, video_title(vid))
+    seen = state.setdefault("yt_seen", [])
+    if vid not in seen:
+        seen.append(vid)
 
 
 def main():
@@ -150,7 +164,10 @@ def main():
         info()
         return
     try:
-        check_youtube(state)
+        if mode == "latest":
+            post_latest(state)
+        else:
+            check_youtube(state)
     finally:
         save_state(state)
 
