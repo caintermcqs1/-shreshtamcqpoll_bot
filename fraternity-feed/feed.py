@@ -160,36 +160,38 @@ def post_latest(state):
         seen.append(vid)
 
 
-def publish_time(vid):
-    page = fetch(f"https://www.youtube.com/watch?v={vid}")
-    m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', page) or \
-        re.search(r'itemprop="(?:datePublished|uploadDate)" content="([^"]+)"', page)
-    if not m:
-        return None
-    d = m.group(1)
-    if len(d) == 10:
-        d += "T00:00:00+05:30"
-    return dt.datetime.fromisoformat(d.replace("Z", "+00:00"))
+AGE = re.compile(r'"content":"[^"\d]{0,20}(\d+)\s*(seconds?|minutes?|mins?|hours?|hrs?|days?|s|m|h|d)\b[^"]*ago"', re.I)
 
 
-def post_recent(state, hours=36):
-    """Manual: post every video / Short / live from the last <hours> hours that wasn't shared here yet."""
+def recent_from_pages(hours):
+    """(vid, age_hours) for long videos and lives whose 'x ago' label is within <hours> (channel pages)."""
+    base = CFG["youtube_channel_url"].rstrip("/")
+    out = []
+    for path in ("videos", "streams"):
+        try:
+            page = fetch(f"{base}/{path}")
+        except Exception as e:
+            print("Page failed:", path, e)
+            continue
+        for m in re.finditer(r'"contentId":"([\w-]{11})"', page):
+            vid = m.group(1)
+            a = AGE.search(page, m.end(), m.end() + 8000)
+            if not a:
+                continue
+            n, unit = int(a.group(1)), a.group(2).lower()
+            age = n / 3600 if unit.startswith("s") else n / 60 if unit.startswith("m") else n if unit.startswith("h") else n * 24
+            print("Video", vid, a.group(0)[11:], round(age, 1), "h")
+            if age < hours and vid not in [v for v, _ in out]:
+                out.append((vid, age))
+    return out
+
+
+def post_recent(state, hours=24):
+    """Manual: post every long video / live from the last <hours> hours that wasn't shared here yet (oldest first)."""
     shared = state.setdefault("shared", [])
     seen = state.setdefault("yt_seen", [])
-    since = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours)
-    found = []
-    for vid in channel_page_videos():
-        if vid in shared or any(v == vid for _, v in found):
-            continue
-        try:
-            when = publish_time(vid)
-        except Exception as e:
-            print("Date failed:", vid, e)
-            continue
-        print("Video", vid, when)
-        if when and when >= since:
-            found.append((when, vid))
-    for when, vid in sorted(found):
+    found = [x for x in recent_from_pages(hours) if x[0] not in shared]
+    for vid, _ in sorted(found, key=lambda x: -x[1]):
         post_video(vid, video_title(vid))
         shared.append(vid)
         if vid not in seen:
