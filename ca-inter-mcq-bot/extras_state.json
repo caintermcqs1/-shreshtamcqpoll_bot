@@ -1,6 +1,6 @@
 {
   "fact_index": 1,
-  "last_fact_date": "2026-11-12",
+  "last_fact_date": "2026-11-13",
   "icai_fail_count": 0,
   "yt_channel_id": "UCWknnb47A6xz1vXUaheVm0g",
   "icai_seen": [
@@ -67,15 +67,15 @@
     "x16hXJJNIxs",
     "WrEJYGQ1v8o"
   ],
-  "next_kind_g1": "tip",
-  "next_kind_g2": "tip",
-  "fact_cycle": 2,
-  "motivation_index": 3,
-  "tip_index_g1": 2,
+  "next_kind_g1": "fact",
+  "next_kind_g2": "fact",
+  "fact_cycle": 3,
+  "motivation_index": 5,
+  "tip_index_g1": 3,
   "promo_index": 2,
   "last_promo_date": "2026-11-12",
   "study_last_date": "2026-11-13",
-  "tip_index_g2": 1,
+  "tip_index_g2": 2,
   "yt_page_seeded": true,
   "fact_index_g1": 1,
   "fact_index_g2": 1,
@@ -84,6 +84,8 @@
     "https://www.icai.org/category/bos-important-announcements"
   ],
   "icai_manual_done": [
-    "Mock Test Papers Series - I & Series II for students appearing in CA Intermediate for January 2027 Examinations. - (14-10-2026)"
+    "Mock Test Papers Series - I & Series II for students appearing in CA Intermediate for January 2027 Examinations. - (14-10-2026)",
+    "Schedule of Intermediate & Foundation Examinations, January 2027. - (23-09-2026)",
+    "Commencement of Live Virtual Revisionary Classes (LVRC) for the students of CA Intermediate course appearing in January 2027 Examinations. - (24-09-2026)"
   ]
 }
