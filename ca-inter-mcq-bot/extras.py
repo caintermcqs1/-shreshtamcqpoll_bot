@@ -224,6 +224,10 @@ def post_promo(state):
 
 # ---------------- ICAI official announcements ----------------
 ICAI_URL = "https://www.icai.org/category/announcements"
+ICAI_SOURCES = [
+    ICAI_URL,
+    "https://www.icai.org/category/bos-important-announcements",  # MTP / RTP / LVRC notices from BoS
+]
 ITEM_RE = re.compile(r'<li[^>]*class=["\'][^"\']*list-group-item[^"\']*["\'][^>]*>\s*<a[^>]*?href\s*=\s*["\']([^"\']+)["\'][^>]*>(.*?)</a>', re.S | re.I)
 
 
@@ -232,46 +236,66 @@ def clean(s):
     return re.sub(r"\s+", " ", html.unescape(s)).strip()
 
 
-def check_icai(state, cfg):
-    try:
-        page = fetch(ICAI_URL)
-    except Exception as e:
-        print("ICAI fetch failed:", e)
-        state["icai_fail_count"] = state.get("icai_fail_count", 0) + 1
-        return
-    items = ITEM_RE.findall(page)
-    if not items:
-        print("ICAI page format changed: no items found. Page length", len(page))
-        print("ICAI page start:", re.sub(r"\s+", " ", page[:600]))
-        i = page.find("list-group-item")
-        print("ICAI around list-group-item:", re.sub(r"\s+", " ", page[max(0, i - 100):i + 400]) if i >= 0 else "not present")
-        state["icai_fail_count"] = state.get("icai_fail_count", 0) + 1
-        return
-    state["icai_fail_count"] = 0
-    kw = re.compile(cfg.get("icai_keywords", r"\binter(mediate)?\b"), re.I)
-    seen = state.setdefault("icai_seen", [])
-    first_run = not seen
-    new = []
-    for href, title in items:
-        title = clean(title)
-        url = urllib.parse.urljoin(ICAI_URL, href)
-        key = title  # some items share a URL (e.g. results portal), so key on title
-        if key in seen:
+def icai_message(title, url):
+    return (
+        "📢 <b>ICAI Official Update – CA Intermediate</b>\n\n"
+        f"{html.escape(title)}\n\n"
+        f'🔗 Official link: <a href="{html.escape(url)}">{html.escape(url)}</a>\n'
+        "<i>Source: icai.org</i>"
+    )
+
+
+def post_icai_manual(state):
+    """One-off ICAI items we decided to share by hand (icai_manual.json), each posted once."""
+    items = load(os.path.join(HERE, "icai_manual.json"), [])
+    done = state.setdefault("icai_manual_done", [])
+    for it in items:
+        if it["title"] in done:
             continue
-        seen.append(key)
-        if not first_run and kw.search(title):
-            new.append((title, url))
-    state["icai_seen"] = seen[-300:]
-    if first_run:
-        print(f"ICAI: first run, marked {len(items)} existing items as seen")
+        try:
+            send(icai_message(it["title"], it["url"]), where="icai")
+            done.append(it["title"])
+            print("ICAI manual item posted:", it["title"])
+        except Exception as e:
+            print("ICAI manual item failed:", e)
+
+
+def check_icai(state, cfg):
+    seen = state.setdefault("icai_seen", [])
+    seeded = state.setdefault("icai_seeded", [ICAI_URL] if seen else [])
+    kw = re.compile(cfg.get("icai_keywords", r"\binter(mediate)?\b"), re.I)
+    new, ok = [], False
+    for src in ICAI_SOURCES:
+        try:
+            page = fetch(src)
+        except Exception as e:
+            print("ICAI fetch failed:", src, e)
+            continue
+        items = ITEM_RE.findall(page)
+        if not items:
+            print("ICAI page format changed: no items found at", src, "length", len(page))
+            i = page.find("list-group-item")
+            print("ICAI around list-group-item:", re.sub(r"\s+", " ", page[max(0, i - 100):i + 400]) if i >= 0 else "not present")
+            continue
+        ok = True
+        first_run = src not in seeded
+        for href, title in items:
+            title = clean(title)
+            url = urllib.parse.urljoin(src, href)
+            key = title  # some items share a URL (e.g. results portal), so key on title
+            if key in seen:
+                continue
+            seen.append(key)
+            if not first_run and kw.search(title):
+                new.append((title, url))
+        if first_run:
+            seeded.append(src)
+            print(f"ICAI: first run for {src}, marked {len(items)} existing items as seen")
+    state["icai_fail_count"] = 0 if ok else state.get("icai_fail_count", 0) + 1
+    state["icai_seen"] = seen[-400:]
     for title, url in reversed(new):  # oldest first
-        text = (
-            "📢 <b>ICAI Official Update – CA Intermediate</b>\n\n"
-            f"{html.escape(title)}\n\n"
-            f'🔗 Official link: <a href="{html.escape(url)}">{html.escape(url)}</a>\n'
-            "<i>Source: icai.org</i>"
-        )
-        send(text, where="icai")
+        send(icai_message(title, url), where="icai")
+    post_icai_manual(state)
 
 
 # ---------------- YouTube (CA Inter only) ----------------
