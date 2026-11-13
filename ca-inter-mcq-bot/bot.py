@@ -13,7 +13,7 @@ Settings come from environment variables (GitHub Secrets / Variables):
   CHAT_ID    (secret, required)   group id like -1001234567890
   TOPIC_ID   (optional)           topic (thread) id if the group uses Topics
 """
-import html, json, os, sys, urllib.request, urllib.error
+import html, json, os, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -50,11 +50,19 @@ def api(method, **params):
     body = json.dumps({k: v for k, v in params.items() if v is not None}).encode()
     req = urllib.request.Request(f"{base}/bot{token}/{method}", data=body,
                                  headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            res = json.load(r)
-    except urllib.error.HTTPError as err:
-        res = json.load(err)
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                res = json.load(r)
+        except urllib.error.HTTPError as err:
+            res = json.load(err)
+        except (urllib.error.URLError, TimeoutError) as err:  # network blip: wait and retry
+            res = {"ok": False, "description": str(err), "parameters": {"retry_after": 5}}
+        wait = (res.get("parameters") or {}).get("retry_after")
+        if res.get("ok") or not wait or attempt == 5:
+            break
+        print(f"Telegram {method}: flood/network limit, retrying in {wait}s")
+        time.sleep(min(int(wait) + 1, 60))
     if not res.get("ok"):
         raise RuntimeError(f"Telegram {method} failed: {res.get('description')}")
     return res["result"]
