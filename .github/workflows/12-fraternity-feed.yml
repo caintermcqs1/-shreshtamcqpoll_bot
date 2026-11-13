@@ -1,4 +1,4 @@
-name: "12. FRATERNITY main group – Sir's YouTube videos"
+name: "12. FRATERNITY main group – Sir's YouTube + Instagram"
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
       mode:
         description: "What to run"
         type: choice
-        options: [youtube, recent, latest, info]
+        options: [youtube, instagram, recent, latest, info, igtest]
         default: youtube
 
 permissions:
