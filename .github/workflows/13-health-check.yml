@@ -1,0 +1,39 @@
+name: "13. Health check – re-run any missed post and alert"
+
+on:
+  schedule:
+    - cron: "10,40 3-16 * * *"   # every 30 min, 8:40 AM – 10:10 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check today's posts
+        run: python health-check/health.py
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add health-check/health_state.json
+          git diff --cached --quiet || git commit -m "Health check state"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
