@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-13",
+  "tries": {
+    "mirror_ca": 1
+  },
+  "alerted": [
+    "mirror:CA Inter"
+  ],
+  "fixed": [],
+  "runs_reported": []
+}
