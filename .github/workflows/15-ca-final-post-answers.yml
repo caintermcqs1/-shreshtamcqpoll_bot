@@ -1,0 +1,51 @@
+name: "15. CA Final Audit – Post answers (8:30 PM)"
+
+on:
+  schedule:
+    - cron: "30 13 * * *"  # 19:00 IST, waits until 20:30
+    - cron: "0 14 * * *"   # 19:30 IST backup
+    - cron: "30 14 * * *"  # 20:00 IST backup
+    - cron: "55 14 * * *"  # 20:25 IST backup
+    - cron: "15 15 * * *"  # 20:45 IST late backup (posts only if missing)
+    - cron: "45 15 * * *"  # 21:15 IST late backup
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ca-final-bot
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: upload_to_github/ca-final-audit-bot
+
+jobs:
+  answers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait until 8:30 PM IST
+        if: github.event_name == 'schedule'
+        working-directory: .
+        run: python3 -c "import datetime as d,time;z=d.timezone(d.timedelta(hours=5,minutes=30));n=d.datetime.now(z);t=n.replace(hour=20,minute=30,second=0,microsecond=0);w=max(0,(t-n).total_seconds());print('Waiting',int(w),'seconds');time.sleep(w)"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Close polls and post answers
+        run: python bot.py answers
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update CA Final progress"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

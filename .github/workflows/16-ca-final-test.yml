@@ -1,0 +1,29 @@
+name: "16. CA Final Audit – Test: send a day to the test group (manual)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date of the day to send (YYYY-MM-DD). Empty = today / next day"
+        required: false
+
+defaults:
+  run:
+    working-directory: upload_to_github/ca-final-audit-bot
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send preview to the MCQs test group (nothing is saved)
+        run: python bot.py test
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TEST_CHAT: "-1004340727881"
+          DATE: ${{ inputs.date }}
