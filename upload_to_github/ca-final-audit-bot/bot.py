@@ -12,7 +12,7 @@ Modes:
   preview  – print today's (or DATE=YYYY-MM-DD) posts without sending
   test     – send a day's posts to TEST_CHAT only (DATE=YYYY-MM-DD optional); saves nothing
 """
-import json, os, sys, time, urllib.request, urllib.error
+import csv, io, json, os, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -70,6 +70,51 @@ def target(cfg):
     return {"chat_id": int(cfg["chat_id"]), "message_thread_id": cfg.get("thread_id")}
 
 
+def sheet_plan(url):
+    """Read the plan from a Google Sheet published as CSV (one row per message).
+    Columns: date, day, part (morning/evening), seq, type (text/quiz), text, A, B, C, D, correct (A-D), explanation"""
+    with urllib.request.urlopen(url, timeout=60) as r:
+        rows = list(csv.DictReader(io.StringIO(r.read().decode("utf-8-sig"))))
+    days = {}
+    for row in rows:
+        date = (row.get("date") or "").strip()
+        if not date:
+            continue
+        d = days.setdefault(date, {"day": int(float(row.get("day") or 0)), "date": date, "morning": [], "evening": "", "_m": []})
+        if (row.get("part") or "").strip().lower() == "evening":
+            d["evening"] = row["text"]
+            continue
+        seq = float(row.get("seq") or 0)
+        if (row.get("type") or "").strip().lower() == "quiz":
+            m = {"type": "quiz", "question": row["text"], "options": [row[k] for k in "ABCD"],
+                 "correct": "ABCD".index(row["correct"].strip().upper()), "explanation": row.get("explanation", "")}
+        else:
+            m = {"type": "text", "text": row["text"]}
+        d["_m"].append((seq, m))
+    out = []
+    for d in days.values():
+        d["morning"] = [m for _, m in sorted(d.pop("_m"), key=lambda x: x[0])]
+        out.append(d)
+    return sorted(out, key=lambda d: d["date"])
+
+
+def get_plan(cfg):
+    """Google Sheet (if configured) is the master copy; plan.json in the repo is the fallback."""
+    local = load(PLAN, []) or []
+    url = (cfg or {}).get("plan_sheet_csv", "").strip()
+    if not url:
+        return local
+    try:
+        sheet = sheet_plan(url)
+        dates = {d["date"] for d in sheet}
+        print(f"Plan: {len(sheet)} days from Google Sheet (+ repo plan.json as fallback).")
+        os.environ["PLAN_SOURCE"] = f"Google Sheet ({len(sheet)} days)"
+        return sorted(sheet + [d for d in local if d["date"] not in dates], key=lambda d: d["date"])
+    except Exception as err:
+        print(f"Could not read Google Sheet ({err}); using repo plan.json.")
+        return local
+
+
 def day_for(plan, date):
     return next((d for d in plan if d["date"] == date), None)
 
@@ -97,7 +142,7 @@ def split(text, limit=4000):
 
 
 def do_post():
-    cfg, plan = load(CONFIG), load(PLAN)
+    cfg = load(CONFIG); plan = get_plan(cfg)
     state = load(STATE, {"days": {}})
     date = today()
     if date < cfg.get("start_date", "0000"):
@@ -126,7 +171,7 @@ def do_post():
 
 
 def do_answers():
-    cfg, plan = load(CONFIG), load(PLAN)
+    cfg = load(CONFIG); plan = get_plan(cfg)
     state = load(STATE, {"days": {}})
     date = today()
     day = day_for(plan, date)
@@ -160,7 +205,7 @@ def do_answers():
 
 
 def do_preview():
-    plan = load(PLAN)
+    plan = get_plan(load(CONFIG))
     day = day_for(plan, today())
     if not day:
         print("No day for", today())
@@ -179,7 +224,7 @@ def do_preview():
 def do_test():
     if not os.environ.get("TEST_CHAT", "").strip():
         sys.exit("TEST_CHAT is not set.")
-    cfg, plan = load(CONFIG), load(PLAN)
+    cfg = load(CONFIG); plan = get_plan(cfg)
     date = today()
     day = day_for(plan, date) or next((d for d in plan if d["date"] >= date), None)
     if not day:
@@ -190,6 +235,7 @@ def do_test():
         time.sleep(1)
     for part in split(day["evening"]):
         api("sendMessage", **t, text=part)
+    api("sendMessage", **t, text=f"🧪 Test OK – Day {day['day']} ({day['date']}). Plan source: {os.environ.get('PLAN_SOURCE', 'repo plan.json')}")
     print(f"Test: sent Day {day['day']} ({day['date']}) to the test group.")
 
 
