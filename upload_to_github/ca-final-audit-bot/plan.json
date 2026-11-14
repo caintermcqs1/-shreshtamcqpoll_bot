@@ -1,0 +1,1240 @@
+[
+ {
+  "day": 1,
+  "date": "2026-11-13",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 1\n📚 Ch 7 Reporting · SA 700 & SA 705 basics: forming the opinion, drafting, dating\n🎬 After sir's Videos 1–3\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "📝 Case Scenario\n\nCA Shreya, partner of SRK & Co., is finalising FY 2025-26 reports:\n\n(i) Pragati Motors Ltd. (listed): closing inventory is overstated by ₹9.40 crore through wrong valuation of obsolete stock, overstating profit by the same amount. A material pending litigation of ₹14 crore (environmental penalties) is not disclosed. Management refuses to adjust or disclose. CA Shreya has sufficient appropriate evidence and concludes that the effects are material but not pervasive.\n(ii) For Pragati Motors, the EQCR, CA Rohan, was on leave and completed his review on 28 May 2026. With the filing deadline near, CA Shreya signed and dated the report on 25 May 2026, arguing that \"audit evidence was already complete; any EQCR point can be handled later\".\n(iii) Sigma Ltd.: CA Shreya will disclaim an opinion on the financial statements as a whole. Her manager suggests adding an unmodified opinion on the cash flow statement, as cash and bank were fully verified.\n(iv) Orbit Robotics Pvt. Ltd.: there are three unresolved issues: (a) revenue of ₹8 crore from an undisclosed related party, (b) an asset with WDV ₹2.5 crore that could not be physically located, and (c) a subsidiary's qualified opinion. Taken together, they are so material and pervasive that the financial statements as a whole are misleading."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. What opinion should CA Shreya express on Pragati Motors Ltd. (item i)?",
+    "options": [
+     "Adverse opinion",
+     "Unmodified, with an Emphasis of Matter paragraph on the litigation",
+     "Disclaimer of opinion",
+     "Qualified opinion"
+    ],
+    "correct": 3,
+    "explanation": "Misstatements (wrong inventory valuation and non-disclosure) that are material but not pervasive, where sufficient appropriate evidence exists, lead to a qualified opinion under SA 705."
+   },
+   {
+    "type": "text",
+    "text": "2️⃣ Statements for Q2:\n(i) The heading \"Basis for Opinion\" is amended to \"Basis for Qualified Opinion\".\n(ii) For the inventory, the financial effect of the misstatement is described and quantified, if practicable.\n(iii) For the undisclosed litigation, the nature of the omitted information is described.\n(iv) The opinion paragraph uses \"except for the effects of the matters described…\"."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. In drafting the Pragati Motors report (item i), which statement is correct?",
+    "options": [
+     "(i) and (iv) only",
+     "(i), (ii) and (iv) only",
+     "(ii) and (iii) only",
+     "(i), (ii), (iii) and (iv)"
+    ],
+    "correct": 3,
+    "explanation": "SA 705 requires the amended heading, a description and quantification of the financial effects of a misstatement, a description of the nature of omitted information, and \"except for\" wording in…"
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Regarding the dating of the Pragati Motors report (item ii):",
+    "options": [
+     "The date is valid if the EQCR's points are noted for next year",
+     "Cannot be dated before 28 May 2026 – report is not dated until EQCR is complete",
+     "The report must be dated on the AGM date",
+     "CA Shreya is right, as audit evidence was complete on 25 May"
+    ],
+    "correct": 1,
+    "explanation": "Under SA 220 and SA 700, the report cannot be dated before the auditor has sufficient appropriate evidence, and for listed entities not before the EQCR is completed."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Is the manager's suggestion for Sigma Ltd. (item iii) acceptable?",
+    "options": [
+     "Yes, but only for the balance sheet",
+     "Yes, a piecemeal unmodified opinion is always permitted",
+     "Yes, if placed in an Other Matter paragraph",
+     "No – with a disclaimer on the FS as a whole, no unmodified opinion on a single statement"
+    ],
+    "correct": 3,
+    "explanation": "A piecemeal unmodified opinion would contradict the disclaimer on the financial statements as a whole, so SA 705 does not permit it."
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. What opinion is appropriate for Orbit Robotics Pvt. Ltd. (item iv)?",
+    "options": [
+     "Unmodified opinion with KAMs on revenue and assets",
+     "Adverse opinion",
+     "Qualified opinion",
+     "Disclaimer of opinion"
+    ],
+    "correct": 1,
+    "explanation": "When misstatements, individually or in aggregate, are both material and pervasive so that the statements as a whole are misleading, the auditor expresses an adverse opinion."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 1 Answers\n📚 SA 700 & SA 705 basics: forming the opinion, drafting, dating\n\nQ1 – (D) Qualified opinion\nMisstatements (wrong inventory valuation and non-disclosure) that are material but not pervasive, where sufficient appropriate evidence exists, lead to a qualified opinion under SA 705.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.1 | Based on: RTP – May 2026, Q11(c)\n\nQ2 – (D) (i), (ii), (iii) and (iv)\nSA 705 requires the amended heading, a description and quantification of the financial effects of a misstatement, a description of the nature of omitted information, and \"except for\" wording in the qualified opinion.\n📖 ICAI SM (May 27), Ch 7, Para 5.8 (Form and content when opinion is modified) | Based on: RTP – May 2026, Q11(a)&(b)\n\nQ3 – (B) Cannot be dated before 28 May 2026 – report is not dated until EQCR is complete\nUnder SA 220 and SA 700, the report cannot be dated before the auditor has sufficient appropriate evidence, and for listed entities not before the EQCR is completed. Significant matters raised by the EQCR must be resolved first.\n📖 ICAI SM (May 27), Ch 7, Para 3.2 (Date of the auditor's report) & Ch 1, Para 3.6 | Based on: MTP – Nov 2026 exam, Series 2, Q1(a)\n\nQ4 – (D) No – with a disclaimer on the FS as a whole, no unmodified opinion on a single statement\nA piecemeal unmodified opinion would contradict the disclaimer on the financial statements as a whole, so SA 705 does not permit it.\n📖 ICAI SM (May 27), Ch 7, Para 5.7 | Based on: RTP – May 2024, Q3\n\nQ5 – (B) Adverse opinion\nWhen misstatements, individually or in aggregate, are both material and pervasive so that the statements as a whole are misleading, the auditor expresses an adverse opinion.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.2 | Based on: MTP – Sep 2025 exam, Series 1, Q7"
+ },
+ {
+  "day": 2,
+  "date": "2026-11-14",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 2\n📚 Ch 7 Reporting · SA 705: modified opinions\n🎬 After sir's Video 4\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Management refuses to correct a misstatement that the auditor concludes is material but not pervasive. The auditor should express:",
+    "options": [
+     "A qualified opinion",
+     "An unmodified opinion with an Emphasis of Matter paragraph",
+     "An adverse opinion",
+     "A disclaimer of opinion"
+    ],
+    "correct": 0,
+    "explanation": "When misstatements are material but not pervasive, SA 705 requires a qualified (\"except for\") opinion."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Ketan Exports Ltd.: PBT ₹2.10 cr, turnover ₹100 cr. An export receivable of ₹3.20 cr from a bankrupt foreign buyer is wholly irrecoverable (no ECGC cover). Management refuses to write it off. The appropriate opinion is:",
+    "options": [
+     "Adverse opinion",
+     "Qualified opinion",
+     "Disclaimer of opinion",
+     "Unmodified opinion with an Emphasis of Matter paragraph"
+    ],
+    "correct": 0,
+    "explanation": "Writing off the receivable would turn the profit into a loss. The misstatement is material and pervasive, so SA 705 requires an adverse opinion."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. When the auditor disclaims an opinion, the opening statement of the auditor's report is changed to say that:",
+    "options": [
+     "\"We have reviewed the financial statements\"",
+     "\"We were engaged to audit the financial statements\"",
+     "\"We have audited the financial statements\"",
+     "\"The financial statements have not been audited\""
+    ],
+    "correct": 1,
+    "explanation": "In a disclaimer, SA 705 requires the introductory wording to say the auditor \"was engaged to audit\" the financial statements, and the auditor states that it does not express an opinion."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. After accepting an audit, management imposes a scope limitation and refuses to remove it. No alternative procedures are possible; possible effects of undetected misstatements could be material and pervasive. The auditor should:",
+    "options": [
+     "Issue an unmodified opinion with an Emphasis of Matter paragraph",
+     "Issue an adverse opinion",
+     "Issue a qualified opinion",
+     "Withdraw where practicable & legally possible; if not, disclaim an opinion"
+    ],
+    "correct": 3,
+    "explanation": "SA 705: for a management-imposed limitation with possible material & pervasive effects, withdraw where practicable and legally possible; otherwise disclaim an opinion."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 2 Answers\n📚 SA 705: modified opinions\n\nQ1 – (A) A qualified opinion\nWhen misstatements are material but not pervasive, SA 705 requires a qualified (\"except for\") opinion.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.1 (Qualified Opinion) | Based on: MTP – Nov 2026 exam, Series 1, Q14\n\nQ2 – (A) Adverse opinion\nWriting off the receivable would turn the profit into a loss. The misstatement is material and pervasive, so SA 705 requires an adverse opinion.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.2 | Based on: MTP – Jan 2026 exam, Series 2, Q10\n\nQ3 – (B) \"We were engaged to audit the financial statements\"\nIn a disclaimer, SA 705 requires the introductory wording to say the auditor \"was engaged to audit\" the financial statements, and the auditor states that it does not express an opinion.\n📖 ICAI SM (May 27), Ch 7, Para 5.8 (Form and content when opinion is modified) | Based on: MTP – Jan 2026 exam, Series 2, Q8; MTP – Sep 2025 exam, Series 1, Q6(b)\n\nQ4 – (D) Withdraw where practicable & legally possible; if not, disclaim an opinion\nUnder SA 705, for a management-imposed limitation with possible effects that are material and pervasive, the auditor withdraws where practicable and legally possible, and otherwise disclaims an opinion. Before withdrawing, the auditor communicates to TCWG any misstatements that would have led to a modified opinion.\n📖 ICAI SM (May 27), Ch 7, Para 5.5 and 5.6 | Based on: MTP – Jan 2026 exam, Series 1, Q11"
+ },
+ {
+  "day": 3,
+  "date": "2026-11-15",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 3\n📚 Ch 7 Reporting · SA 706: Emphasis of Matter & Other Matter paragraphs\n🎬 After sir's Videos 5–6\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "📝 Case Scenario\n\nMKR & Associates is finalising FY 2025-26 reports for several clients:\n\n(1) Aster Ltd. (unlisted) early-adopted a new accounting standard, as permitted. This has a material effect on its financial statements and is fully disclosed in Note 3.\n(2) Bharat Pumps Ltd. paid its managing director remuneration above the limits under Section 197 without the required approvals.\n(3) Coral Foods Ltd. has no internal audit function. This is not mentioned anywhere in the financial statements. The engagement partner wants to \"highlight it in an Emphasis of Matter paragraph\". Management objects, and the audit found no evidence that affects the opinion.\n(4) Delta Pharma Ltd. (listed) suffered a cyber-attack with a loss of ₹18 crore, already recognised in the accounts. The engagement team spent significant effort on it, and the partner considers it one of the matters of most significance in the audit.\n(5) The audit team has prepared a checklist of what an Emphasis of Matter paragraph must contain."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. How should the early adoption at Aster Ltd. (item 1) be reported?",
+    "options": [
+     "In an Other Matter paragraph",
+     "As a Key Audit Matter",
+     "In an Emphasis of Matter paragraph, with the opinion not modified",
+     "No reporting is needed, as it is a voluntary adoption"
+    ],
+    "correct": 2,
+    "explanation": "Early application of a new accounting standard with a material effect is one of the SM's examples of circumstances where an Emphasis of Matter paragraph may be needed."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Where should the excess managerial remuneration at Bharat Pumps Ltd. (item 2) be reported?",
+    "options": [
+     "In the Auditor's Responsibilities section",
+     "In the Basis for Qualified Opinion section",
+     "In an Other Matter paragraph",
+     "In the Report on Other Legal and Regulatory Requirements"
+    ],
+    "correct": 3,
+    "explanation": "Under Section 197(16), the auditor reports on remuneration paid in excess of the limits in the Report on Other Legal and Regulatory Requirements. It is not an EOM or Other Matter."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Is the proposed Emphasis of Matter paragraph for Coral Foods Ltd. (item 3) appropriate?",
+    "options": [
+     "Yes, an EOM may highlight any matter the auditor considers important",
+     "No – an EOM can only refer to a matter presented or disclosed in the FS",
+     "Yes, but only with management's consent",
+     "No, because it must be reported as a qualified opinion"
+    ],
+    "correct": 1,
+    "explanation": "An Emphasis of Matter paragraph must refer only to information presented or disclosed in the financial statements. Absence of internal audit is not disclosed there and does not affect the opinion."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. How should the cyber-attack at Delta Pharma Ltd. (item 4) be reported?",
+    "options": [
+     "Include an Emphasis of Matter paragraph, as cyber incidents are fundamental by default",
+     "No reporting, as the loss is already recognised",
+     "Report it as a Key Audit Matter, since it was of most significance in the audit",
+     "Qualify the opinion"
+    ],
+    "correct": 2,
+    "explanation": "A matter that required significant auditor attention and was of most significance is a KAM under SA 701."
+   },
+   {
+    "type": "text",
+    "text": "5️⃣ Statements for Q5:\n(i) A separate section with a heading that includes the term \"Emphasis of Matter\"\n(ii) A clear reference to the matter and to where it is fully disclosed in the financial statements\n(iii) A statement that the opinion is not modified in respect of the matter\n(iv) Communication with those charged with governance about the expected EOM and its wording\n(v) Additional information on the matter that is not disclosed in the financial statements"
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. Which items on the checklist (item 5) are correct requirements for an Emphasis of Matter paragraph?",
+    "options": [
+     "(i), (ii) and (iii) only",
+     "(i), (ii), (iii) and (iv) only",
+     "(ii), (iii) and (v) only",
+     "All of (i) to (v)"
+    ],
+    "correct": 1,
+    "explanation": "An EOM must be in a separate section, refer clearly to the matter and its disclosure, and state that the opinion is not modified."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 3 Answers\n📚 SA 706: Emphasis of Matter & Other Matter paragraphs\n\nQ1 – (C) In an Emphasis of Matter paragraph, with the opinion not modified\nEarly application of a new accounting standard with a material effect is one of the SM's examples of circumstances where an Emphasis of Matter paragraph may be needed.\n📖 ICAI SM (May 27), Ch 7, Para 6.2 – circumstances for EOM | Based on: MTP – May 2025 exam, Series 2, Q8; Suggested Answers – Sep 2025 exam, Q11\n\nQ2 – (D) In the Report on Other Legal and Regulatory Requirements\nUnder Section 197(16), the auditor reports on remuneration paid in excess of the limits in the Report on Other Legal and Regulatory Requirements. It is not an EOM or Other Matter.\n📖 ICAI SM (May 27), Ch 7, Para 3.2 item 11 (Other Reporting Responsibilities) | Based on: MTP – May 2026 exam, Series 1, Q5\n\nQ3 – (B) No – an EOM can only refer to a matter presented or disclosed in the FS\nAn Emphasis of Matter paragraph must refer only to information presented or disclosed in the financial statements. Absence of internal audit is not disclosed there and does not affect the opinion.\n📖 ICAI SM (May 27), Ch 7, Para 6.2 & 6.3(b) | Based on: Model Test Paper 03, Q14\n\nQ4 – (C) Report it as a Key Audit Matter, since it was of most significance in the audit\nA matter that required significant auditor attention and was of most significance is a KAM under SA 701. An EOM is used only for matters not determined to be KAMs, and nothing here calls for a modified opinion.\n📖 ICAI SM (May 27), Ch 7, Para 6.2(b) & 4.3 | Based on: RTP – Nov 2024, Q2\n\nQ5 – (B) (i), (ii), (iii) and (iv) only\nAn EOM must be in a separate section, refer clearly to the matter and its disclosure, and state that the opinion is not modified. The auditor communicates the expected EOM and its wording to TCWG. The paragraph refers only to information already in the financial statements, so (v) is wrong.\n📖 ICAI SM (May 27), Ch 7, Para 6.3 & duty to communicate with TCWG | Based on: MTP – Jan 2026 exam, Series 2, Q13"
+ },
+ {
+  "day": 4,
+  "date": "2026-11-16",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 4\n📚 Ch 7 Reporting · SA 701: Key Audit Matters\n🎬 After sir's Videos 9–9A\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. CA Harsh audits the quarterly financial results of a listed company prepared under Regulation 33 of SEBI (LODR). Should he include Key Audit Matters in that report?",
+    "options": [
+     "No – SA 701 applies to audits of complete sets of general purpose FS of listed entities",
+     "Yes, SA 701 applies to any audit of a listed entity",
+     "Yes, SA 701 applies to audits of any entity",
+     "No, SA 701 applies only to review engagements"
+    ],
+    "correct": 0,
+    "explanation": "SA 701 applies to audits of complete sets of general purpose financial statements of listed entities, or where the auditor decides or is required to communicate KAMs."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. In determining which matters required significant auditor attention, SA 701 does NOT require the auditor to take into account:",
+    "options": [
+     "Areas of higher assessed risk of material misstatement, or significant risks",
+     "Matters already explained by management in the Directors' Report",
+     "The effect on the audit of significant events or transactions during the period",
+     "Significant auditor judgments on areas of significant management judgment / estimates"
+    ],
+    "correct": 1,
+    "explanation": "The three considerations are higher-risk areas, significant judgments (including high estimation uncertainty), and significant events or transactions."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. A matter that gives rise to a qualified opinion is also among the most significant matters of the audit. In the auditor's report it is:",
+    "options": [
+     "Omitted from the report",
+     "Described in an Emphasis of Matter paragraph",
+     "Described in full in the KAM section",
+     "In the Basis for Qualified Opinion section; KAM section only refers to it"
+    ],
+    "correct": 3,
+    "explanation": "KAMs are not a substitute for a modified opinion."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. The Audit Committee of a listed company asks the auditor not to include a major tax dispute, which he has determined to be a KAM, fearing negative publicity. The auditor should:",
+    "options": [
+     "Still report it as a KAM – negative publicity is not a ground to omit it",
+     "Move it to an Other Matter paragraph",
+     "Qualify the opinion",
+     "Drop it, as the Audit Committee represents TCWG"
+    ],
+    "correct": 0,
+    "explanation": "SA 701: a KAM is omitted only if law precludes it or, in extremely rare cases, adverse consequences outweigh the public-interest benefit. Bad publicity is not such a case."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 4 Answers\n📚 SA 701: Key Audit Matters\n\nQ1 – (A) No – SA 701 applies to audits of complete sets of general purpose FS of listed entities\nSA 701 applies to audits of complete sets of general purpose financial statements of listed entities, or where the auditor decides or is required to communicate KAMs. Quarterly results under Regulation 33 are outside it.\n📖 ICAI SM (May 27), Ch 7, Para 4.2 (Applicability of SA 701) | Based on: MTP – Jan 2026 exam, Series 1, Q2; also MTP – May 2024 exam, Series 2, Q1\n\nQ2 – (B) Matters already explained by management in the Directors' Report\nThe three considerations are higher-risk areas, significant judgments (including high estimation uncertainty), and significant events or transactions. Disclosure in the Directors' Report is not a criterion.\n📖 ICAI SM (May 27), Ch 7, Para 4.3 (Determining Key Audit Matters) | Based on: RTP – Sep 2025, Q1\n\nQ3 – (D) In the Basis for Qualified Opinion section; KAM section only refers to it\nKAMs are not a substitute for a modified opinion. Matters giving rise to a modified opinion are KAMs by nature, but are reported in the Basis for Modified Opinion section, with a reference in the KAM section.\n📖 ICAI SM (May 27), Ch 7, Para 4.2(b) and Illustration 2 | Based on: MTP – Sep 2025 exam, Series 1, Q11\n\nQ4 – (A) Still report it as a KAM – negative publicity is not a ground to omit it\nSA 701 requires each KAM to be described unless law or regulation precludes it, or in extremely rare circumstances where the adverse consequences would reasonably outweigh the public-interest benefits.\n📖 ICAI SM (May 27), Ch 7, Para 3.2 item 6 (Key Audit Matters) | Based on: MTP – Jan 2026 exam, Series 1, Q4(b)"
+ },
+ {
+  "day": 5,
+  "date": "2026-11-17",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 5\n📚 Ch 7 Reporting · SA 570: going concern & its reporting\n🎬 After sir's Videos 10–10B\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "📝 Case Scenario\n\nCA Arjun is auditing Hari Textiles Ltd. for FY 2025-26. He notes the following:\n\n• The company has made losses for three consecutive years and its net worth turned negative in March 2026.\n\n• It has defaulted on two instalments of a ₹120 crore term loan.\n\n• Its largest customer, which contributed 45% of sales, terminated its contract in January 2026.\n\n• Management says the promoters will infuse ₹50 crore, but has produced only an unsigned letter of intent. Management has also prepared a 12-month cash-flow forecast.\n\n• When CA Arjun asked management to extend its going-concern assessment to cover the full twelve months from the balance sheet date, management refused, saying \"the auditor should do it\"."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Suppose CA Arjun concludes that a material uncertainty exists but management's disclosure of it is NOT adequate. He should express:",
+    "options": [
+     "An unmodified opinion with a Material Uncertainty Related to Going Concern section",
+     "A disclaimer of opinion in all cases",
+     "Qualified or adverse opinion, stating the material uncertainty is not adequately disclosed",
+     "An unmodified opinion with a KAM"
+    ],
+    "correct": 2,
+    "explanation": "SA 570: if a material uncertainty is not adequately disclosed, give a qualified or adverse opinion and say in the basis section that it is not adequately disclosed."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Having identified these events, which procedure is NOT required by SA 570 at this stage?",
+    "options": [
+     "Evaluating management's plans for future actions and whether they are feasible",
+     "Analysing the cash-flow forecast and the assumptions behind it",
+     "Requesting written representations from management about its plans",
+     "Issuing a disclaimer of opinion immediately, before evaluating management's plans"
+    ],
+    "correct": 3,
+    "explanation": "When events or conditions are identified, the auditor performs additional procedures: evaluate management's plans, analyse forecasts, consider additional facts, and obtain written representations."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Management refuses to extend its going-concern assessment. CA Arjun should:",
+    "options": [
+     "Report the refusal as a Key Audit Matter",
+     "Include only an Emphasis of Matter paragraph",
+     "Document his request and give an unmodified opinion",
+     "Consider implications for the report – may lead to a modified opinion"
+    ],
+    "correct": 3,
+    "explanation": "SA 570: if management will not make or extend its assessment, the auditor considers the implications for the report – usually a modified opinion (scope limitation)."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Suppose CA Arjun concludes that the going-concern basis is appropriate but a material uncertainty exists, and management's disclosure is adequate. The report will contain:",
+    "options": [
+     "An adverse opinion",
+     "An unmodified opinion with the matter described only as a KAM",
+     "An unmodified opinion with a separate section headed \"Material Uncertainty Related to Going Concern\"",
+     "A qualified opinion"
+    ],
+    "correct": 2,
+    "explanation": "With adequate disclosure, the opinion is unmodified and the report includes a separate MURGC section that draws attention to the note and states that the opinion is not modified."
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. If, instead, CA Arjun concludes that the company is not a going concern and the going-concern basis is inappropriate, but management still prepares the statements on that basis, he should express:",
+    "options": [
+     "An adverse opinion",
+     "A qualified opinion",
+     "A disclaimer of opinion",
+     "An unmodified opinion with an Emphasis of Matter paragraph"
+    ],
+    "correct": 0,
+    "explanation": "If the going-concern basis is inappropriate, the auditor expresses an adverse opinion. This applies whether or not the financial statements disclose the inappropriateness."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 5 Answers\n📚 SA 570: going concern & its reporting\n\nQ1 – (C) Qualified or adverse opinion, stating the material uncertainty is not adequately disclosed\nIf adequate disclosure of a material uncertainty is not made, SA 570 requires a qualified or adverse opinion, with the basis for opinion stating that the uncertainty exists and is not adequately disclosed.\n📖 ICAI SM (May 27), Ch 6, Para 2 (SA 570 reporting chart) | Based on: MTP – Nov 2023 exam, Series 2, Q14\n\nQ2 – (D) Issuing a disclaimer of opinion immediately, before evaluating management's plans\nWhen events or conditions are identified, the auditor performs additional procedures: evaluate management's plans, analyse forecasts, consider additional facts, and obtain written representations. Reporting decisions come after this evaluation.\n📖 ICAI SM (May 27), Ch 6, Para 2 (When events or conditions are identified) | Based on: MTP – May 2026 exam, Series 2, Q4\n\nQ3 – (D) Consider implications for the report – may lead to a modified opinion\nIf management is unwilling to make or extend its assessment when asked, SA 570 requires the auditor to consider the implications for the report, typically a modified opinion arising from the scope limitation.\n📖 ICAI SM (May 27), Ch 6, Para 2 (Management unwilling to make or extend its assessment) | Based on: MTP – Nov 2024 exam, Series 1, Q4\n\nQ4 – (C) An unmodified opinion with a separate section headed \"Material Uncertainty Related to Going Concern\"\nWith adequate disclosure, the opinion is unmodified and the report includes a separate MURGC section that draws attention to the note and states that the opinion is not modified.\n📖 ICAI SM (May 27), Ch 6, Para 2 and Ch 7, Para 3.2 (Going Concern element) | Based on: MTP – Nov 2023 exam, Series 2, Q14\n\nQ5 – (A) An adverse opinion\nIf the going-concern basis is inappropriate, the auditor expresses an adverse opinion. This applies whether or not the financial statements disclose the inappropriateness.\n📖 ICAI SM (May 27), Ch 6, Para 2 (Use of going concern basis is inappropriate) | Based on: MTP – Nov 2026 exam, Series 2, Q22"
+ },
+ {
+  "day": 6,
+  "date": "2026-11-18",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 6\n📚 Ch 7 Reporting · SA 720: other information\n🎬 After sir's Videos 11–11B\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. For an unlisted corporate entity, the auditor's report must include an \"Other Information\" section when, at the date of the auditor's report, the auditor:",
+    "options": [
+     "Has obtained, or expects to obtain, the other information",
+     "Expects to obtain the other information",
+     "Has obtained some or all of the other information",
+     "Has obtained all of the other information"
+    ],
+    "correct": 2,
+    "explanation": "Unlisted corporate entity: the section is required if the auditor has obtained some or all of the other information."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. If some documents of the annual report will be available only after the date of the auditor's report, SA 720 requires the auditor to:",
+    "options": [
+     "Get a written rep that the final version will be given to the auditor before issue",
+     "Qualify the opinion",
+     "Disclaim responsibility for other information in all cases",
+     "Delay the auditor's report until all documents are received"
+    ],
+    "correct": 0,
+    "explanation": "SA 720 requires a written representation that the final version of the documents will be provided to the auditor when available and before issuance."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. The Board's Report was received after the auditor's report was signed. Does the auditor have to read and consider it?",
+    "options": [
+     "Yes – SA 720 also covers other information obtained after the report date",
+     "Only if the Audit Committee asks",
+     "Only for listed companies",
+     "No, since the auditor's report is already issued"
+    ],
+    "correct": 0,
+    "explanation": "SA 720 sets out responses for a material misstatement in other information obtained after the report date, so the auditor must read and consider it."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. A listed NBFC's BRSR in its annual report claims \"responsible lending with robust borrower screening\", but the auditor found a lapse in screening during the audit. The auditor should:",
+    "options": [
+     "Treat it as an SA 720 other-information issue and assess the lapse under SA 250 / controls",
+     "Ignore it, as BRSR/ESG disclosures are outside a financial statement audit",
+     "Immediately modify the opinion",
+     "Add an Emphasis of Matter paragraph, which fully discharges the responsibility"
+    ],
+    "correct": 0,
+    "explanation": "BRSR in the annual report is other information."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 6 Answers\n📚 SA 720: other information\n\nQ1 – (C) Has obtained some or all of the other information\nUnlisted corporate entity: the section is required if the auditor has obtained some or all of the other information. For a listed entity, it is required if the auditor has obtained or expects to obtain it.\n📖 ICAI SM (May 27), Ch 7, Para 11.6 (Reporting) | Based on: MTP – May 2023 exam, Series 2, Q10\n\nQ2 – (A) Get a written rep that the final version will be given to the auditor before issue\nSA 720 requires a written representation that the final version of the documents will be provided to the auditor when available and before issuance.\n📖 ICAI SM (May 27), Ch 7, Para 11.2(c) | Based on: MTP – May 2024 exam, Series 2, case facts to Q4–Q8 (Board Report not available at report date)\n\nQ3 – (A) Yes – SA 720 also covers other information obtained after the report date\nSA 720 sets out responses for a material misstatement in other information obtained after the report date, so the auditor must read and consider it.\n📖 ICAI SM (May 27), Ch 7, Para 11.4.3 | Based on: MTP – May 2024 exam, Series 2, Q8\n\nQ4 – (A) Treat it as an SA 720 other-information issue and assess the lapse under SA 250 / controls\nBRSR in the annual report is other information. A material inconsistency with the auditor's knowledge is dealt with under SA 720, and the underlying lapse is evaluated for compliance or control implications.\n📖 ICAI SM (May 27), Ch 7, Para 11 & 11.3 | Based on: MTP – Nov 2026 exam, Series 1, Q16"
+ },
+ {
+  "day": 7,
+  "date": "2026-11-19",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 7\n📚 Ch 7 Reporting · SA 710: comparative information\n🎬 After sir's Videos 12–12C\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "📝 Case Scenario\n\nPNR & Co. is auditing FY 2025-26 financial statements for three clients:\n\n(1) Finco Ltd. – PNR & Co. audited FY 2024-25 as well and gave an unmodified opinion. It now finds that development expenditure of ₹14 crore was wrongly capitalised in FY 2024-25 in breach of Ind AS 38. The error is material but not pervasive, and it has not been corrected by restatement or disclosed as Ind AS 8 requires. The company presents corresponding figures.\n(2) Glow Ltd. – FY 2024-25 was audited by another firm, which gave an unmodified opinion dated 20 May 2025. Glow presents corresponding figures. The law does not prohibit reference to the predecessor's report.\n(3) Kuber Tech Ltd. presents comparative financial statements. FY 2024-25 was audited by Gupta & Mehra LLP, which gave an adverse opinion because of a misstatement in trade receivables. The misstatement remains uncorrected in FY 2025-26."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. For Finco Ltd. (item 1), what is the reporting consequence for FY 2025-26?",
+    "options": [
+     "None, because the prior-year opinion was unmodified",
+     "Mention the matter only in an Other Matter paragraph",
+     "Qualified opinion on current-period FS, modified w.r.t. corresponding figures",
+     "Withdraw the FY 2024-25 report and issue a disclaimer"
+    ],
+    "correct": 2,
+    "explanation": "When a previously undetected material misstatement in the prior period remains unaddressed, the current-period opinion is modified with respect to the corresponding figures."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. When corresponding figures are presented and there is no such issue, the auditor's opinion:",
+    "options": [
+     "Refers to each period presented",
+     "Must always include an Other Matter paragraph on the corresponding figures",
+     "Refers to current period only; corresponding figures only in specified cases",
+     "Must include a separate opinion on the corresponding figures"
+    ],
+    "correct": 2,
+    "explanation": "With corresponding figures, the opinion refers to the current period only."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. If Glow Ltd. had presented comparative financial statements instead of corresponding figures, the auditor's opinion would:",
+    "options": [
+     "Refer to the prior period only",
+     "Refer to the current period only",
+     "Not refer to any period",
+     "Refer to each period for which financial statements are presented"
+    ],
+    "correct": 3,
+    "explanation": "With comparative financial statements, the opinion refers to each period presented. This is the essential difference from corresponding figures."
+   },
+   {
+    "type": "text",
+    "text": "4️⃣ Statements for Q4:\n(i) The auditor may state in an Other Matter paragraph that the prior period was audited by a predecessor, the type of opinion and the date of that report.\n(ii) This matter is reported in an Emphasis of Matter paragraph.\n(iii) The auditor remains responsible for obtaining sufficient appropriate evidence that opening balances contain no material misstatement.\nWhich are correct?"
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. For Glow Ltd. (item 2), consider the following statements:",
+    "options": [
+     "(i) and (iii) only",
+     "(ii) and (iii) only",
+     "(ii) only",
+     "(i) only"
+    ],
+    "correct": 0,
+    "explanation": "Reference to the predecessor goes in an Other Matter paragraph, not an EOM. Under SA 510, the current auditor must still obtain evidence on opening balances."
+   },
+   {
+    "type": "text",
+    "text": "5️⃣ Statements for Q5:\n(i) The current-period opinion must be modified, since the matter behind the prior-year adverse opinion is unresolved.\n(ii) The opinion refers to each period presented.\n(iii) In addition to its own opinion, the auditor states in an Other Matter paragraph that the prior period was audited by a predecessor, the type of opinion expressed, the reasons for it and the date of that report.\n(iv) No modification is needed, because the predecessor already gave an adverse opinion.\nWhich are correct?"
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. For Kuber Tech Ltd. (item 3), consider the following statements:",
+    "options": [
+     "(i), (ii) and (iii) only",
+     "(ii) and (iv) only",
+     "(i) and (iii) only",
+     "(iii) and (iv) only"
+    ],
+    "correct": 0,
+    "explanation": "Under SA 710, an unresolved matter that led to a prior-period modification requires the current opinion to be modified."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 7 Answers\n📚 SA 710: comparative information\n\nQ1 – (C) Qualified opinion on current-period FS, modified w.r.t. corresponding figures\nWhen a previously undetected material misstatement in the prior period remains unaddressed, the current-period opinion is modified with respect to the corresponding figures. Here the effect is material but not pervasive, so the opinion is qualified.\n📖 ICAI SM (May 27), Ch 7, Para 10.2(a) | Based on: MTP – Sep 2025 exam, Series 1, Q2; MTP – May 2023 exam, Series 2, Q3\n\nQ2 – (C) Refers to current period only; corresponding figures only in specified cases\nWith corresponding figures, the opinion refers to the current period only. It refers to corresponding figures only where the prior report was other than unqualified, or where an unaddressed material misstatement exists in the prior period.\n📖 ICAI SM (May 27), Ch 7, Para 10 & 10.2(a) | Based on: MTP – Nov 2023 exam, Series 2, Q19\n\nQ3 – (D) Refer to each period for which financial statements are presented\nWith comparative financial statements, the opinion refers to each period presented. This is the essential difference from corresponding figures.\n📖 ICAI SM (May 27), Ch 7, Para 10 & 10.2(b) | Based on: RTP – Sep 2025, Q12(b)\n\nQ4 – (A) (i) and (iii) only\nReference to the predecessor goes in an Other Matter paragraph, not an EOM. Under SA 510, the current auditor must still obtain evidence on opening balances.\n📖 ICAI SM (May 27), Ch 7, Para 10.2(c)(i) | Based on: MTP – Nov 2024 exam, Series 1, Q9\n\nQ5 – (A) (i), (ii) and (iii) only\nUnder SA 710, an unresolved matter that led to a prior-period modification requires the current opinion to be modified. With comparative financial statements the opinion covers each period, and the predecessor's report is described in an Other Matter paragraph.\n📖 ICAI SM (May 27), Ch 7, Para 10.2(b)&(c) | Based on: RTP – Sep 2025, Q12(a)&(b)"
+ },
+ {
+  "day": 8,
+  "date": "2026-11-20",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 8\n📚 Ch 7 Reporting · CARO 2020: applicability & Clause 3(i)\n🎬 After sir's Videos 13–14A\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. ABC Pvt. Ltd. is a wholly owned subsidiary of a listed company. Its paid-up capital plus reserves is ₹80 lakh, it has no borrowings, and its revenue is ₹6 crore. Is CARO 2020 applicable?",
+    "options": [
+     "No, because it is a small company",
+     "No, because all of its financial thresholds are below the limits",
+     "No, because it is a private company",
+     "Yes – exemption is not available to a subsidiary/holding company of a public company"
+    ],
+    "correct": 3,
+    "explanation": "The private-company exemption is lost if the company is a holding or subsidiary of a public company, whatever its capital, borrowings or turnover."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. In relation to consolidated financial statements, CARO 2020 requires the auditor to report:",
+    "options": [
+     "Nothing, as CARO never applies to CFS",
+     "Only Clause 3(xxi): qualifications/adverse remarks in CARO reports of group companies",
+     "On all 21 clauses for every Indian subsidiary",
+     "Only on Clause 3(i) for the group"
+    ],
+    "correct": 1,
+    "explanation": "CARO does not apply to consolidated financial statements except for Clause 3(xxi)."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. A company revalued its land and buildings through a Registered Valuer, increasing their net carrying value by 18%. Under Clause 3(i)(d), the auditor must report:",
+    "options": [
+     "Only if the change exceeds 25%",
+     "Whether done by a Registered Valuer, and the amount of change (as it is ≥10% of the class)",
+     "Under Clause 3(i)(c) instead",
+     "Nothing, as the valuation was done by a Registered Valuer"
+    ],
+    "correct": 1,
+    "explanation": "Clause 3(i)(d) requires reporting on whether revaluation was by a Registered Valuer, and the amount of change if it is 10% or more of the aggregate net carrying value of each class."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. During physical verification, a machine with WDV of ₹2.5 crore could not be located. Management gave only an oral explanation that it is \"out for calibration\". Under Clause 3(i)(b), the auditor should:",
+    "options": [
+     "Report the material discrepancy and whether it is properly dealt with in the books",
+     "Report only under Clause 3(ii)",
+     "Accept the explanation and report nothing",
+     "Report nothing, since ₹2.5 crore is small relative to turnover"
+    ],
+    "correct": 0,
+    "explanation": "Clause 3(i)(b): report whether PPE was physically verified at reasonable intervals, whether material discrepancies were noticed, and whether they were properly dealt with in the books."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 8 Answers\n📚 CARO 2020: applicability & Clause 3(i)\n\nQ1 – (D) Yes – exemption is not available to a subsidiary/holding company of a public company\nThe private-company exemption requires the company NOT to be a holding or subsidiary of a public company, and also to be within the thresholds (paid-up capital and reserves ≤ ₹1 crore, borrowings ≤ ₹1 crore, revenue ≤ ₹10 crore). A subsidiary of a listed (public) company cannot use it.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 (CARO 2020 – applicability) | Based on: RTP – May 2025, Q4\n\nQ2 – (B) Only Clause 3(xxi): qualifications/adverse remarks in CARO reports of group companies\nCARO does not apply to consolidated financial statements except for Clause 3(xxi).\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(xxi) | Based on: MTP – Sep 2025 exam, Series 2, Q12\n\nQ3 – (B) Whether done by a Registered Valuer, and the amount of change (as it is ≥10% of the class)\nClause 3(i)(d) requires reporting on whether revaluation was by a Registered Valuer, and the amount of change if it is 10% or more of the aggregate net carrying value of each class.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(i)(d) | Based on: MTP – Nov 2026 exam, Series 2, Q9\n\nQ4 – (A) Report the material discrepancy and whether it is properly dealt with in the books\nClause 3(i)(b) requires reporting on whether PPE has been physically verified at reasonable intervals, whether any material discrepancies were noticed, and whether they were properly dealt with in the books.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(i)(b) | Based on: MTP – Sep 2025 exam, Series 1, Q5"
+ },
+ {
+  "day": 9,
+  "date": "2026-11-21",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 9\n📚 Ch 7 Reporting · CARO 2020: Clauses 3(ii) to 3(xx)\n🎬 After sir's Videos 14B–14C\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "📝 Case Scenario\n\nCA Neha is the statutory auditor of Delta Agro Ltd. (a public company) for FY 2025-26. CARO 2020 applies. She notes:\n\n(a) Physical verification of inventory showed discrepancies of 12% for fertilisers and 6% for seeds (aggregate for each class). Both have been adjusted in the books.\n(b) The company had working capital limits of ₹8 crore from a bank, secured by current assets. Its quarterly stock statements differ materially from the books for two quarters.\n(c) Statutory dues outstanding on 31 March 2026: GST of ₹2.0 lakh payable since 20 July 2025 (undisputed); PF of ₹1.5 lakh payable since 15 December 2025 (undisputed). Income-tax demand of ₹5.0 lakh is under appeal before the CIT (Appeals). For property tax of ₹1.2 lakh, the company has only made a representation to the municipal department.\n(d) Cash loss of ₹2.4 crore in FY 2025-26 and ₹1.1 crore in FY 2024-25.\n(e) CSR: ₹20 lakh remains unspent for a project that is not an ongoing project."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Under Clause 3(ii)(a), which inventory discrepancy must be reported?",
+    "options": [
+     "Seeds only",
+     "Fertilisers only (discrepancy of 10% or more for that class)",
+     "Both fertilisers and seeds",
+     "Neither, since both have been adjusted in the books"
+    ],
+    "correct": 1,
+    "explanation": "Clause 3(ii)(a) requires reporting of discrepancies of 10% or more in aggregate for each class of inventory, and whether they have been properly dealt with. Only fertilisers cross 10%."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. On the working capital limits (item b), CA Neha must report under:",
+    "options": [
+     "No clause, since the limits are from a bank",
+     "Clause 3(iii)(a), as loans are involved",
+     "Clause 3(ix)",
+     "Clause 3(ii)(b): whether quarterly statements to the bank agree with the books"
+    ],
+    "correct": 3,
+    "explanation": "Clause 3(ii)(b) applies when working capital limits above ₹5 crore in aggregate are sanctioned on the security of current assets."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Under Clause 3(vii)(a), what amount of undisputed arrears must be reported as outstanding for more than six months on 31 March 2026?",
+    "options": [
+     "₹1.5 lakh",
+     "₹2.0 lakh",
+     "₹3.5 lakh",
+     "₹4.7 lakh"
+    ],
+    "correct": 1,
+    "explanation": "Only GST (payable since July 2025, so outstanding for more than six months at 31 March 2026) qualifies: ₹2.0 lakh."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Under Clause 3(vii)(b), which dues are reported as \"not deposited on account of dispute\" with the forum?",
+    "options": [
+     "Property tax ₹1.2 lakh only",
+     "Income tax ₹5.0 lakh (CIT Appeals) and property tax ₹1.2 lakh",
+     "Income tax ₹5.0 lakh before the CIT (Appeals) only",
+     "None of them"
+    ],
+    "correct": 2,
+    "explanation": "Clause 3(vii)(b) requires the amount and forum of disputes. A mere representation to the department is not treated as a dispute, so the property tax is excluded."
+   },
+   {
+    "type": "text",
+    "text": "5️⃣ Statements for Q5:\n(i) Under Clause 3(xvii), CA Neha must report cash losses of ₹2.4 crore for FY 2025-26 and ₹1.1 crore for FY 2024-25.\n(ii) Under Clause 3(xx)(a), she must report whether the unspent ₹20 lakh has been transferred to a Fund specified in Schedule VII within six months of the end of the financial year.\n(iii) Cash losses are reported only if the company also has a net loss under the Statement of Profit and Loss.\n(iv) The unspent CSR amount must be reported under Clause 3(xx)(b) as it relates to a non-ongoing project.\nWhich are correct?"
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. Consider the following statements on items (d) and (e):",
+    "options": [
+     "(i) and (ii) only",
+     "(i), (ii) and (iii) only",
+     "(ii) and (iv) only",
+     "(i) and (iv) only"
+    ],
+    "correct": 0,
+    "explanation": "Clause 3(xvii) asks whether there are cash losses in the current and immediately preceding year and their amounts."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 9 Answers\n📚 CARO 2020: Clauses 3(ii) to 3(xx)\n\nQ1 – (B) Fertilisers only (discrepancy of 10% or more for that class)\nClause 3(ii)(a) requires reporting of discrepancies of 10% or more in aggregate for each class of inventory, and whether they have been properly dealt with. Only fertilisers cross 10%.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(ii)(a) | Based on: MTP – Nov 2023 exam, Series 1, Q14\n\nQ2 – (D) Clause 3(ii)(b): whether quarterly statements to the bank agree with the books\nClause 3(ii)(b) applies when working capital limits above ₹5 crore in aggregate are sanctioned on the security of current assets. It requires reporting whether the quarterly statements agree with the books.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(ii)(b) | Based on: MTP – Nov 2026 exam, Series 2, Q6\n\nQ3 – (B) ₹2.0 lakh\nOnly GST (payable since July 2025, so outstanding for more than six months at 31 March 2026) qualifies: ₹2.0 lakh. PF has been payable for less than six months. Disputed and represented items are not undisputed arrears.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(vii)(a) | Based on: MTP – May 2026 exam, Series 1, Q6\n\nQ4 – (C) Income tax ₹5.0 lakh before the CIT (Appeals) only\nClause 3(vii)(b) requires the amount and forum of disputes. A mere representation to the department is not treated as a dispute, so the property tax is excluded.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(vii)(b) | Based on: MTP – Nov 2023 exam, Series 1, Q11\n\nQ5 – (A) (i) and (ii) only\nClause 3(xvii) asks whether there are cash losses in the current and immediately preceding year and their amounts. Clause 3(xx)(a) covers non-ongoing projects: transfer to a Schedule VII fund within six months. Clause 3(xx)(b) is for ongoing projects.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clauses 3(xvii) & 3(xx) | Based on: MTP – Nov 2024 exam, Series 1, Q6; Suggested Answers – Sep 2025 exam, Q1"
+ },
+ {
+  "day": 10,
+  "date": "2026-11-22",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 10\n📚 Ch 7 Reporting · Section 143 duties & fraud reporting\n🎬 After sir's Videos 15–15A\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. During the audit, the auditor has reason to believe that employees have committed a fraud of ₹1.20 crore against the company. He must first report it to the Board / Audit Committee within:",
+    "options": [
+     "30 days, seeking reply within 60 days",
+     "2 days of his knowledge, seeking their reply within 45 days",
+     "7 days, seeking reply within 30 days",
+     "15 days, seeking reply within 45 days"
+    ],
+    "correct": 1,
+    "explanation": "Under Rule 13 for frauds of ₹1 crore or above, the auditor reports to the Board / AC immediately but not later than 2 days of knowledge, seeking a reply within 45 days."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. In the case above, the Board does not reply within 45 days. The auditor should:",
+    "options": [
+     "Drop the matter",
+     "Wait until the Board replies",
+     "Forward his report to the Central Government with a note on the unanswered report",
+     "Report only in the CARO report"
+    ],
+    "correct": 2,
+    "explanation": "If no reply is received within 45 days, Rule 13 requires the auditor to forward the report to the Central Government with a note on the report earlier sent to the Board or AC."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. The auditor's report on a fraud to the Central Government is sent:",
+    "options": [
+     "By ordinary post to the ROC",
+     "Through the company's Board, in Form AOC-4",
+     "By e-mail alone to the RBI",
+     "In Form ADT-4 to the Secretary, MCA, sealed cover by RPAD / Speed Post + e-mail"
+    ],
+    "correct": 3,
+    "explanation": "Rule 13 prescribes Form ADT-4, sent to the Secretary, MCA in a sealed cover by Registered Post A.D."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. During the audit, the auditor suspects a fraud of ₹60 lakh by employees against the company. Which statement is correct?",
+    "options": [
+     "No reporting is needed, as it is below ₹1 crore",
+     "It is reported only in the CARO report",
+     "Reported to Audit Committee/Board within 2 days; company discloses it in the Board's Report",
+     "It must be reported to the Central Government in Form ADT-4"
+    ],
+    "correct": 2,
+    "explanation": "For a fraud below ₹1 crore, the auditor reports to the Audit Committee or Board (Rule 13(3)), and the company discloses the nature, amount, parties and remedial action in its Board's Report."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 10 Answers\n📚 Section 143 duties & fraud reporting\n\nQ1 – (B) 2 days of his knowledge, seeking their reply within 45 days\nUnder Rule 13 for frauds of ₹1 crore or above, the auditor reports to the Board / AC immediately but not later than 2 days of knowledge, seeking a reply within 45 days.\n📖 ICAI SM (May 27), Ch 7, Para 12 – Duty to report on frauds (Rule 13) | Based on: RTP – Nov 2023, Q3\n\nQ2 – (C) Forward his report to the Central Government with a note on the unanswered report\nIf no reply is received within 45 days, Rule 13 requires the auditor to forward the report to the Central Government with a note on the report earlier sent to the Board or AC.\n📖 ICAI SM (May 27), Ch 7, Para 12 – Rule 13(1)(c) | Based on: MTP – Nov 2024 exam, Series 2, answer to Q1(c)\n\nQ3 – (D) In Form ADT-4 to the Secretary, MCA, sealed cover by RPAD / Speed Post + e-mail\nRule 13 prescribes Form ADT-4, sent to the Secretary, MCA in a sealed cover by Registered Post A.D. or Speed Post, followed by e-mail confirmation. It is signed on the auditor's letterhead with membership number.\n📖 ICAI SM (May 27), Ch 7, Para 12 – Rule 13(1)(d)-(f) | Based on: MTP – May 2026 exam, Series 2, answer to Q1\n\nQ4 – (C) Reported to Audit Committee/Board within 2 days; company discloses it in the Board's Report\nFor a fraud below ₹1 crore, the auditor reports to the Audit Committee or Board (Rule 13(3)), and the company discloses the nature, amount, parties and remedial action in its Board's Report. CARO 3(xi) reporting also applies separately.\n📖 ICAI SM (May 27), Ch 7, Para 12 – Duty to report on frauds (B) | Based on: RTP – May 2024, Q10(b)"
+ },
+ {
+  "day": 11,
+  "date": "2026-11-23",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 11\n📚 SA 299 Joint audit · SA 505 / SA 510\n🎬 After sir's Video 16 (SA 299)\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nABC Ltd., a listed pharma company (turnover ₹5,000 crore), has three joint auditors – PQR & Co., PK & Co. and XYZ & Co. They have divided the work in line with SA 299.\n\n(1) PK & Co. learns that an employee has committed a fraud of ₹201 lakh against the company.\n(2) Positive confirmation requests were sent to 100 suppliers, asking them to reply directly to the auditor whether they agree or disagree. Only 37 suppliers replied.\n(3) Management refuses to let the auditors send confirmations to 37 debtors. The auditors find the refusal unreasonable and cannot get relevant and reliable evidence from alternative procedures.\n(4) On valuation of inventories, PQR & Co. disagrees with PK & Co. and XYZ & Co. The majority insist that PQR & Co. sign a common report with their opinion.\n(5) ZMR & Co., a new auditor of associate XY Pvt. Ltd., finds a material misstatement in the opening balances that affects the current year. Management neither corrects it nor discloses or presents it properly."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. For the debtors' confirmations (item 3), what should the auditors of ABC Ltd. do?",
+    "options": [
+     "Report the refusal as a Key Audit Matter under SA 701",
+     "Only record the refusal in the written representation under SA 580",
+     "Communicate with TCWG and determine the implications for the audit and the opinion under SA 705",
+     "Report the refusal in an Emphasis of Matter paragraph under SA 706"
+    ],
+    "correct": 2,
+    "explanation": "SA 505: if management's refusal is unreasonable and no alternative evidence is possible, communicate with TCWG and determine the implications under SA 705."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. On inventory valuation (item 4), PQR & Co. disagrees with the other two joint auditors. As per SA 299, PQR & Co.:",
+    "options": [
+     "Must go with the majority opinion",
+     "May sign the common report and add its dissent in an Emphasis of Matter paragraph",
+     "May issue its own opinion in the common report, highlighted by an EOM paragraph",
+     "Can issue a separate report; each report refers to the other in an Other Matter paragraph"
+    ],
+    "correct": 3,
+    "explanation": "SA 299: a joint auditor is not bound by the majority. In disagreement it issues a separate report, and each report refers to the other under an Other Matter paragraph."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. For the uncorrected misstatement in XY Pvt. Ltd.'s opening balances (item 5), ZMR & Co. should:",
+    "options": [
+     "Ignore it, as it was not the auditor for the previous year",
+     "Express a qualified or an adverse opinion, as appropriate, under SA 705",
+     "Only obtain a written representation; no reporting is needed",
+     "Only disclose it in an Emphasis of Matter paragraph"
+    ],
+    "correct": 1,
+    "explanation": "SA 510: if an opening-balance misstatement is not properly accounted for or disclosed, the auditor expresses a qualified or adverse opinion, as appropriate, under SA 705."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. For the ₹201 lakh employee fraud (item 1), what is PK & Co.'s duty under Section 143(12) and Rule 13?",
+    "options": [
+     "Report to the Board/AC within 2 days; then send to the Central Government in Form ADT-4",
+     "Report only in the CARO report",
+     "Report only to the Audit Committee, since an employee committed it",
+     "Not report, since PK & Co. was not allocated that area"
+    ],
+    "correct": 0,
+    "explanation": "Fraud of ₹1 crore or more: report to the Board/AC within 2 days of knowledge, seek a reply within 45 days, then forward to the Central Government in Form ADT-4."
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. Only 37 of the 100 suppliers replied to the positive confirmations (item 2). As per SA 505, for the 63 non-responses the auditors should:",
+    "options": [
+     "Treat the balances as confirmed",
+     "Perform alternative audit procedures to get relevant and reliable evidence",
+     "Qualify the opinion straight away",
+     "Ask management to confirm the balances in writing instead"
+    ],
+    "correct": 1,
+    "explanation": "SA 505: for each non-response the auditor performs alternative audit procedures (e.g. subsequent payments, shipping documents) to get relevant and reliable evidence."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 11 Answers\n📚 SA 299 Joint audit · SA 505 / SA 510\n\nQ1 – (C) Communicate with TCWG and determine the implications for the audit and the opinion under SA 705\nUnder SA 505, when management's refusal to allow confirmations is unreasonable, or alternative procedures cannot give relevant and reliable evidence, the auditor communicates with those charged with governance and determines the implications for the audit and the opinion under SA 705. A KAM or EOM is not a substitute for a modified opinion.\n📖 ICAI SM (May 27), Ch 5 – SA 505 (management's refusal) | Based on: MTP – May 2024 exam, Series 1, Q4\n\nQ2 – (D) Can issue a separate report; each report refers to the other in an Other Matter paragraph\nSA 299 requires a common report, but where joint auditors disagree on the opinion or any matter, a joint auditor is not bound by the majority and expresses its opinion in a separate report. The reports refer to each other under the heading 'Other Matter Paragraph' as per SA 706.\n📖 ICAI SM (May 27), Ch 2, Para 5.4 (SA 299 – Audit conclusion and reporting) | Based on: MTP – May 2024 exam, Series 1, Q5\n\nQ3 – (B) Express a qualified or an adverse opinion, as appropriate, under SA 705\nUnder SA 510, if the auditor concludes that opening balances contain a misstatement that materially affects the current period and its effect is not properly accounted for or adequately presented or disclosed, the auditor expresses a qualified or an adverse opinion, as appropriate, in accordance with SA 705.\n📖 ICAI SM (May 27), Ch 5 – SA 510 (audit conclusions and reporting) | Based on: MTP – May 2024 exam, Series 1, Q6\n\nQ4 – (A) Report to the Board/AC within 2 days; then send to the Central Government in Form ADT-4\n₹201 lakh is above the ₹1 crore threshold, so Rule 13 applies: the auditor reports to the Board or Audit Committee immediately but not later than 2 days of knowledge, seeking their reply within 45 days, and then forwards the report (with the reply or a note) to the Central Government in Form ADT-4. The duty applies to the auditor who comes to know of the fraud.\n📖 ICAI SM (May 27), Ch 7, Para 12 – Duty to report on frauds (Rule 13) | Based on: MTP – May 2024 exam, Series 1, case facts (fraud of ₹201 lakh)\n\nQ5 – (B) Perform alternative audit procedures to get relevant and reliable evidence\nUnder SA 505, a non-response to a positive confirmation request gives no evidence. For each non-response the auditor performs alternative procedures, such as examining subsequent cash payments, invoices and shipping documents. A management confirmation cannot replace an external confirmation.\n📖 ICAI SM (May 27), Ch 5 – SA 505 (non-responses) | Based on: MTP – May 2024 exam, Series 1, case facts (37 of 100 suppliers replied)"
+ },
+ {
+  "day": 12,
+  "date": "2026-11-24",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 12\n📚 SA 299 · CARO applicability · SA 705\n🎬 After sir's Videos 14 & 16\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "1️⃣ Joint auditors CA Arvind and CA Deepak of Pullcord Ltd. took these steps:\n(i) They signed a work-allocation document but did not inform those charged with governance (TCWG), since they are jointly responsible anyway.\n(ii) They obtained a common engagement letter.\n(iii) As their areas differ, they obtained separate management representation letters."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Which of the steps (i)–(iii) of the joint auditors of Pullcord Ltd. are NOT correct as per SA 299?",
+    "options": [
+     "(i), (ii) and (iii)",
+     "(i) and (iii)",
+     "(i) and (ii)",
+     "(ii) and (iii)"
+    ],
+    "correct": 1,
+    "explanation": "Work allocation must be communicated to TCWG, and joint auditors obtain a common engagement letter AND a common management representation letter."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. X, Y and Z are joint auditors. Trade receivables were allocated to Z. As per SA 299, X and Y:",
+    "options": [
+     "Must review Z's work to check it was done as per SAs",
+     "Must perform tests to check Z's work",
+     "Are entitled to assume Z has performed the work as per SAs",
+     "Cannot assume Z will report significant observations to them"
+    ],
+    "correct": 2,
+    "explanation": "Each joint auditor is entitled to assume that the others have carried out their allocated work in accordance with SAs and will report significant observations."
+   },
+   {
+    "type": "text",
+    "text": "3️⃣ Tess Products Pvt. Ltd. (FY 2022-23): turnover ₹35 crore (also ₹35 crore last year); paid-up capital ₹3.50 crore; working-capital loan ₹2 crore; registered as a 'Small Enterprise' under the MSMED Act. During the year it acquired all the shares of a Hong Kong company."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Is CARO 2020 applicable to Tess Products Pvt. Ltd.?",
+    "options": [
+     "No – it is a small company",
+     "No – it is a small enterprise under the MSMED Act",
+     "Yes – it is not a small company",
+     "No – it meets the private-company thresholds"
+    ],
+    "correct": 2,
+    "explanation": "Its capital and turnover are within small-company limits, but a holding company cannot be a small company. Private-co thresholds are also crossed, so CARO applies."
+   },
+   {
+    "type": "text",
+    "text": "4️⃣ Grow Ltd. has been sued by Glow Ltd. for ₹52 crore for allegedly stealing trade secrets through cyber theft. The legal opinion is ambiguous and there are case laws both ways. The financial statements are silent on the litigation."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. For Grow Ltd.'s silence on the ₹52 crore litigation, the auditor should:",
+    "options": [
+     "Give an unmodified opinion",
+     "Treat it as non-disclosure of a material contingent liability – qualified opinion",
+     "Treat it as non-disclosure of a contingent liability – adverse opinion",
+     "Treat it as a missing provision – adverse opinion"
+    ],
+    "correct": 1,
+    "explanation": "The outcome is uncertain, so it is a contingent liability that must be disclosed. The non-disclosure is material but not pervasive – qualified opinion."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 12 Answers\n📚 SA 299 · CARO applicability · SA 705\n\nQ1 – (B) (i) and (iii)\nSA 299 requires the allocation of work to be documented and communicated to TCWG, and the joint auditors to obtain a common engagement letter and a common management representation letter. So (i) and (iii) are wrong; (ii) is correct.\n📖 ICAI SM (May 27), Ch 2, Para 5.2 (SA 299 – Planning) | Based on: MTP – May 2024 exam, Series 2, Q2\n\nQ2 – (C) Are entitled to assume Z has performed the work as per SAs\nUnder SA 299, each joint auditor is entitled to assume that the other joint auditors have carried out their part of the work and have done so in accordance with the Standards on Auditing, and that they will bring significant observations to the notice of the others.\n📖 ICAI SM (May 27), Ch 2, Para 5.3 (each joint auditor is entitled to assume) | Based on: MTP – Nov 2023 exam, Series 2, Q8\n\nQ3 – (C) Yes – it is not a small company\nPaid-up capital ₹3.5 crore and turnover ₹35 crore are within the small-company limits, but by acquiring a subsidiary it became a holding company, and a holding company cannot be a 'small company'. The private-company exemption also fails (borrowings ₹2 crore > ₹1 crore; revenue ₹35 crore > ₹10 crore). MSMED registration is irrelevant. CARO 2020 applies.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 (CARO 2020 – applicability) | Based on: MTP – Nov 2023 exam, Series 2, Q2\n\nQ4 – (B) Treat it as non-disclosure of a material contingent liability – qualified opinion\nWith an ambiguous legal opinion and precedents both ways, an outflow is possible, not probable – so it is a contingent liability needing disclosure, not a provision. Non-disclosure of a material contingent liability is a misstatement that is material but not pervasive, so a qualified opinion is appropriate.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.1 (Qualified opinion) | Based on: MTP – Jan 2026 exam, Series 2, Q9"
+ },
+ {
+  "day": 13,
+  "date": "2026-11-25",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 13\n📚 CARO 2020 – Clauses 3(i), 3(ii), 3(vi), 3(vii), 3(xi)\n🎬 After sir's Videos 14A–14D\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nCA Paras is auditing Meto Chemicals Ltd. (listed) for FY 2022-23. Revenue: ₹15,000 crore.\n\n[A] Dues not deposited on account of disputes (₹ crore):\n• Income tax, AY 2018-19, CIT (Appeals): 50.00 – no provision made\n• Income tax, AY 2014-15, ITAT: 10.00 – demand stayed by ITAT; provision of ₹10 crore made\n• PF contribution, FY 2017-18, High Court: 0.10 – no provision\n• Property tax, FY 2015-16, High Court: 0.15 – no provision\n\n[B] PPE ₹3,500 crore, Right-of-use (ROU) assets ₹750 crore (Ind AS 116 leases), intangible assets ₹42 crore.\n\n[C] The Central Government has specified maintenance of cost records for its products, and a cost audit under Section 148(2) has been completed.\n\n[D] Management's physical verification of inventory vs books (₹ crore): Raw material 1,000 vs 1,020; WIP 200 vs 220; Finished goods 2,000 vs 2,290; Stores & spares 150 vs 120.\n\n[E] Two supervisors were dismissed for a ₹25 lakh fraud during the year; the full amount was recovered from them during the year."
+   },
+   {
+    "type": "text",
+    "text": "1️⃣ Statements for Q1 (Clause 3(i)):\n(i) The auditor reports whether proper records of PPE are maintained, including quantitative details and situation.\n(ii) The duty on maintenance of records extends to ROU assets.\n(iii) The duty on maintenance of records extends to intangible assets.\n(iv) The duty on physical verification by management extends to ROU assets."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. For item [B], which of the statements on Clause 3(i) are correct?",
+    "options": [
+     "(i) only",
+     "(i) and (iii) only",
+     "(i), (ii) and (iii) only",
+     "(i), (ii), (iii) and (iv)"
+    ],
+    "correct": 3,
+    "explanation": "Clause 3(i)(a) covers records of PPE including ROU assets, and of intangible assets. Clause 3(i)(b) physical verification covers PPE including ROU assets."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. For item [C], what must CA Paras report under Clause 3(vi)?",
+    "options": [
+     "Whether prescribed cost accounts and records have been made and maintained",
+     "Nothing, since the cost auditor has already reported",
+     "Only the qualifications in the cost audit report",
+     "Only on cost statements, not on underlying cost records"
+    ],
+    "correct": 0,
+    "explanation": "Clause 3(vi): whether cost accounts and records prescribed under Section 148(1) have been made and maintained. A cost audit does not remove this duty."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. For item [E], is the ₹25 lakh fraud reportable under Clause 3(xi)(a) of CARO?",
+    "options": [
+     "No – below ₹1 crore",
+     "Yes – report nature and amount, whatever the amount",
+     "No – the auditor did not detect it",
+     "No – the amount was fully recovered"
+    ],
+    "correct": 1,
+    "explanation": "Clause 3(xi)(a) covers any fraud by or on the company noticed or reported during the year, with its nature and amount – irrespective of amount or recovery."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. For item [A], what total amount of disputed dues must be reported under Clause 3(vii)(b)?",
+    "options": [
+     "₹50.00 crore",
+     "₹50.25 crore",
+     "₹60.00 crore",
+     "₹60.25 crore"
+    ],
+    "correct": 3,
+    "explanation": "All dues not deposited on account of dispute are reported with the forum: 50 + 10 + 0.10 + 0.15 = ₹60.25 crore. A provision or a stay does not remove reporting."
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. For item [D], for which classes of inventory must discrepancies be reported under Clause 3(ii)(a)?",
+    "options": [
+     "Finished goods only",
+     "Finished goods and stores & spares",
+     "Finished goods, WIP and stores & spares",
+     "All four classes"
+    ],
+    "correct": 2,
+    "explanation": "10% or more for each class, on the verified (adjusted) value: WIP 20/200 = 10%, FG 290/2,000 = 14.5%, stores 30/150 = 20%. Raw material is only 2%."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 13 Answers\n📚 CARO 2020 – Clauses 3(i), 3(ii), 3(vi), 3(vii), 3(xi)\n\nQ1 – (D) (i), (ii), (iii) and (iv)\nUnder Clause 3(i)(a)(A), PPE includes right-of-use assets, so records of ROU assets are covered; Clause 3(i)(a)(B) covers records of intangible assets. Clause 3(i)(b) on physical verification of PPE also covers ROU assets. All four statements are correct.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(i) | Based on: MTP – Nov 2023 exam, Series 1, Q12\n\nQ2 – (A) Whether prescribed cost accounts and records have been made and maintained\nClause 3(vi) requires the auditor to report whether maintenance of cost records has been specified by the Central Government under Section 148(1) and whether such accounts and records have been made and maintained. The existence of a cost audit does not remove this reporting duty; the auditor is not required to carry out a detailed examination of the records.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(vi) | Based on: MTP – Nov 2023 exam, Series 1, Q13\n\nQ3 – (B) Yes – report nature and amount, whatever the amount\nClause 3(xi)(a) asks whether any fraud by the company or on the company has been noticed or reported during the year, and if so, its nature and the amount involved. There is no threshold, it does not matter who detected it, and recovery does not remove the reporting.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(xi)(a) | Based on: MTP – Nov 2023 exam, Series 1, Q15\n\nQ4 – (D) ₹60.25 crore\nClause 3(vii)(b) requires disclosure of statutory dues not deposited on account of any dispute, with the amounts and the forum. All four items are disputes pending before an appellate forum or court: ₹50 + ₹10 + ₹0.10 + ₹0.15 = ₹60.25 crore. A provision in the books or a stay of demand does not remove reporting.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(vii)(b) | Based on: MTP – Nov 2023 exam, Series 1, case [A] (Q11)\n\nQ5 – (C) Finished goods, WIP and stores & spares\nClause 3(ii)(a) requires reporting of discrepancies of 10% or more in the aggregate for each class of inventory and whether they were properly dealt with in the books. As per the ICAI key, the percentage is on the value after adjustment (physical verification): WIP 20 on 200 = 10%; finished goods 290 on 2,000 = 14.5%; stores & spares 30 on 150 = 20%; raw material 20 on 1,000 = 2%. So WIP, finished goods and stores & spares are reported.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(ii)(a) | Based on: MTP – Nov 2023 exam, Series 1, case [D] (Q14)"
+ },
+ {
+  "day": 14,
+  "date": "2026-11-26",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 14\n📚 Opinions QB: SA 705, SA 570, SA 560\n🎬 After sir's Videos 17–19 (QB)\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "1️⃣ A client could not tell the audit team about finished goods of ₹1.10 crore lying at a location rented in March 2025, so the team could not attend the count. No alternative procedures are possible. Total inventory: ₹8.5 crore. PBT: ₹10 crore."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Which opinion is appropriate for this client?",
+    "options": [
+     "Qualified opinion",
+     "Adverse opinion",
+     "Unmodified opinion",
+     "Disclaimer of opinion"
+    ],
+    "correct": 0,
+    "explanation": "It is a scope limitation whose possible effect (₹1.10 crore) is material but not pervasive, so the opinion is qualified."
+   },
+   {
+    "type": "text",
+    "text": "2️⃣ Chandra Ltd.'s financing has expired and the outstanding amount was payable on 31 March 2023. It cannot refinance and is considering bankruptcy. These events indicate a material uncertainty on going concern, but the financial statements and notes do not disclose it at all."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. What opinion should the auditor of Chandra Ltd. express?",
+    "options": [
+     "Unmodified opinion",
+     "Qualified opinion",
+     "Adverse opinion",
+     "Disclaimer of opinion"
+    ],
+    "correct": 2,
+    "explanation": "A material uncertainty with no disclosure at all; ICAI's SA 570 illustration treats this complete omission as an adverse opinion."
+   },
+   {
+    "type": "text",
+    "text": "3️⃣ CA Z signed JKP Ltd.'s FY 2024-25 report on 20 May 2025. On 22 May, the Government informed the company that incentives of ₹9,200 crore would be released. The Board amended the FY 2024-25 accounts to include them and asked CA Z to consider it."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Which procedure is NOT appropriate for CA Z on the amended accounts of JKP Ltd.?",
+    "options": [
+     "Carry out the audit procedures needed on the amendment",
+     "Extend subsequent-events procedures to the date of the new report",
+     "Give a new report dated no earlier than approval of the amended FS",
+     "Modify the opinion as per SA 705 and then issue the report"
+    ],
+    "correct": 3,
+    "explanation": "SA 560: when FS are amended after issue, the auditor audits the amendment, extends procedures and issues a new report. Modifying the opinion is not a required step."
+   },
+   {
+    "type": "text",
+    "text": "4️⃣ CA Mohan (auditor of PIHU Ltd.) asked for debtors' e-mail IDs. Management had its sales supervisor send the confirmation requests, collect all replies and hand them to the auditor. Management also said confirmations from two debtors, Moon Ltd. and Sun Ltd., won't come as they are in dispute."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Which of these is required by SA 505 in this case?\n(a) Perform alternative procedures for Moon Ltd. and Sun Ltd.\n(b) Get replies directly from the other debtors",
+    "options": [
+     "(a) only",
+     "(b) only",
+     "Both (a) and (b)",
+     "Neither – qualify the opinion instead"
+    ],
+    "correct": 2,
+    "explanation": "SA 505: the auditor must control the requests and replies must come directly to him. For balances management won't confirm, alternative procedures are needed."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 14 Answers\n📚 Opinions QB: SA 705, SA 570, SA 560\n\nQ1 – (A) Qualified opinion\nThe auditor could not obtain sufficient appropriate evidence on ₹1.10 crore of inventory and no alternative procedures are possible – a scope limitation. ₹1.10 crore is material (11% of PBT) but confined to one item, so not pervasive. Under SA 705 the opinion is qualified.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.1 & 5.5 | Based on: MTP – Jan 2026 exam, Series 2, Q11\n\nQ2 – (C) Adverse opinion\nSA 570 requires a qualified or adverse opinion, as appropriate, where adequate disclosure of a material uncertainty is not made. Here the financial statements are completely silent about an uncertainty that threatens the entity's survival, so ICAI's illustrative report (and the MTP key) treats the effect as pervasive: adverse opinion.\n📖 ICAI SM (May 27), Ch 6, Para 2 (SA 570 – inadequate disclosure) | Based on: MTP – May 2023 exam, Series 2, Q6; Model Test Paper 03, Q1\n\nQ3 – (D) Modify the opinion as per SA 705 and then issue the report\nUnder SA 560, when management amends the financial statements after they are issued, the auditor carries out the necessary procedures on the amendment, extends subsequent-events procedures up to the new report date, and provides a new auditor's report on the amended financial statements, dated no earlier than their approval. Modification of the opinion is not a required step.\n📖 ICAI SM (May 27), Ch 6 – SA 560 (facts known after FS are issued) | Based on: MTP – Jan 2026 exam, Series 2, Q14\n\nQ4 – (C) Both (a) and (b)\nSA 505 requires the auditor to maintain control over external confirmation requests, with replies sent directly to the auditor; replies routed through the client's staff are not reliable. Where management says confirmations won't be available, the auditor evaluates the reason and performs alternative procedures. A qualified opinion is not automatic.\n📖 ICAI SM (May 27), Ch 5 – SA 505 | Based on: MTP – Nov 2024 exam, Series 2, Q1"
+ },
+ {
+  "day": 15,
+  "date": "2026-11-27",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 15\n📚 SA 705 – Resignation & SEBI limited review rules\n🎬 After sir's Video 20 (SA 705 Resignation)\n👇 1 case, followed by 4 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nJupiter Industries Ltd. is listed on BSE and NSE. M/s Pinnacle & Associates (engagement partner CA Rishi) is its statutory auditor for FY 2024-25. Those charged with governance are also involved in managing the entity.\n\n• The firm had already issued the Limited Review Reports (LRRs) for Q1 and Q2.\n• Before the Q3 review, management refused access to a critical overseas subsidiary's records, citing confidentiality with a JV partner. CA Rishi asked management to remove this limitation; they refused.\n• After due procedures, the team concluded that the possible effects of undetected misstatements could be material and pervasive, so a qualified opinion would be inadequate.\n• The firm proposed to resign on 25 November 2024, stating \"professional pre-occupation\" as the reason in its resignation letter."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Management refused to remove the limitation. Since TCWG are also involved in managing Jupiter, CA Rishi's responsibility is to:",
+    "options": [
+     "Communicate to TCWG and determine if alternative procedures are possible",
+     "Determine if alternative procedures can give sufficient appropriate evidence",
+     "Determine if additional procedures can give sufficient appropriate evidence",
+     "Get written representations and communicate to TCWG"
+    ],
+    "correct": 1,
+    "explanation": "SA 705: if management refuses, communicate with TCWG unless all of TCWG are involved in managing the entity, and determine if alternative procedures are possible."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Under the SEBI circular, what must Pinnacle issue before resigning on 25 Nov 2024 (Q1 and Q2 LRRs already issued)?",
+    "options": [
+     "LRR for Q3, and then the audit report for the full year",
+     "Only the LRR for Q3",
+     "Nothing – Q1 and Q2 LRRs are issued, so it can resign now",
+     "LRR for Q3 only if the engagement terms require it"
+    ],
+    "correct": 0,
+    "explanation": "25 Nov is more than 45 days after Q2, so the next quarter's (Q3) LRR is required. Once LRRs for all three quarters are issued, the full-year audit report is also required."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. If Pinnacle had instead proposed to resign on 10 Nov 2024 (Q1 and Q2 LRRs already issued), what must it issue before resigning?",
+    "options": [
+     "LRRs for Q3 and Q4",
+     "LRR for Q3 only",
+     "No further report – resigning within 45 days of Q2 needs only the Q2 LRR",
+     "The audit report for the full year"
+    ],
+    "correct": 2,
+    "explanation": "Resigning within 45 days of a quarter-end requires only that quarter's report. 10 Nov is within 45 days of 30 Sep, and the Q2 LRR is already issued."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. If Jupiter were an unlisted company, was \"professional pre-occupation\" a proper reason in the resignation letter?",
+    "options": [
+     "Yes – for an unlisted company, disclosing reasons is the auditor's choice",
+     "Yes – the clear-reasons requirement does not apply to unlisted companies",
+     "No – the auditor should clearly state the reasons in the resignation letter",
+     "No – reasons need to be given only to the incoming auditor"
+    ],
+    "correct": 2,
+    "explanation": "ICAI announcement: the auditor of an unlisted company shall not cite 'professional pre-occupation'; the reasons must be stated clearly in the resignation letter."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 15 Answers\n📚 SA 705 – Resignation & SEBI limited review rules\n\nQ1 – (B) Determine if alternative procedures can give sufficient appropriate evidence\nSA 705 requires the auditor, when management refuses to remove a limitation, to communicate the matter to TCWG (unless all of those charged with governance are involved in managing the entity) and to determine whether alternative procedures can give sufficient appropriate evidence. Here TCWG manage the entity, so the remaining duty is to determine alternative procedures.\n📖 ICAI SM (May 27), Ch 7, Para 5.5 | Based on: MTP – Jan 2026 exam, Series 1, Q9\n\nQ2 – (A) LRR for Q3, and then the audit report for the full year\nAs per the SEBI circular in the SM: resigning more than 45 days after a quarter-end requires the report for that quarter and the next quarter. 25 November is 56 days after 30 September, so the Q3 LRR is required. Once LRRs for all three quarters are issued, the auditor must issue the audit report for the full year before resigning.\n📖 ICAI SM (May 27), Ch 7, Para 5.6.1 (Where withdrawal is not permitted) | Based on: MTP – Jan 2026 exam, Series 1, Q8\n\nQ3 – (C) No further report – resigning within 45 days of Q2 needs only the Q2 LRR\nUnder the SEBI circular, if the auditor resigns within 45 days from the end of a quarter, it must issue the limited review/audit report for that quarter only. 10 November is 41 days after 30 September, and the Q2 LRR has already been issued, so no further report is needed before resigning.\n📖 ICAI SM (May 27), Ch 7, Para 5.6.1(a) | Based on: MTP – Jan 2026 exam, Series 1, case facts (Q8 & Q10)\n\nQ4 – (C) No – the auditor should clearly state the reasons in the resignation letter\nThe ICAI announcement in the SM says the auditor of an unlisted company shall not mention 'professional pre-occupation' as the reason for resignation, and shall mention the reasons clearly in the resignation letter issued to the company.\n📖 ICAI SM (May 27), Ch 7, Para 5.6.1 (ICAI announcement on resignation) | Based on: MTP – Jan 2026 exam, Series 1, Q12"
+ },
+ {
+  "day": 16,
+  "date": "2026-11-28",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 16\n📚 CARO & other reporting elements\n🎬 After sir's Videos 14C–14D, 21 (Other Elements)\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "1️⃣ EFG Ltd. is a listed NBFC whose principal business is granting loans. Which CARO 2020 clauses apply?\n(i) Conducting NBFC/HFC activities without a valid Certificate of Registration from RBI\n(ii) For loans: whether repayment schedules are stipulated and repayments are regular\n(iii) Whether registration under Section 45-IA of the RBI Act is required and obtained\n(iv) Whether the company has given loans, guarantees or security to any other entity"
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Which of the CARO clauses (i)–(iv) apply to EFG Ltd.?",
+    "options": [
+     "Only (i) and (iii)",
+     "Only (i), (ii) and (iii)",
+     "Only (i) and (ii)",
+     "Only (i), (ii) and (iv)"
+    ],
+    "correct": 1,
+    "explanation": "Clause 3(xvi) (RBI registration and CoR) and 3(iii)(c) (repayment schedule) apply. Clause 3(iii)(a) on loans/guarantees given does not apply to a company whose principal business is lending."
+   },
+   {
+    "type": "text",
+    "text": "2️⃣ Muni Ltd. found some FY 2021-22 transactions that were missed in that year's accounts. Accounting for them would show losses, so management wants to re-open the FY 2021-22 accounts to record them there. No court or tribunal order has been obtained."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Is Muni Ltd.'s plan to re-open its FY 2021-22 accounts correct?",
+    "options": [
+     "Yes, the position of management is correct",
+     "The action is fine but the reason is not",
+     "It would be fine if advised by auditors with SEBI approval",
+     "No – re-opening needs a court or Tribunal order under Section 130"
+    ],
+    "correct": 3,
+    "explanation": "Section 130: a company shall not re-open its books or recast its FS unless a court or the Tribunal orders it on an application by the specified authorities."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. A listed NBFC has no internal audit system although one is required. Where does the auditor report this in the audit report?",
+    "options": [
+     "In the Basis for Qualified Opinion paragraph",
+     "Under Clause 3(xiii) of CARO 2020",
+     "Under Clause 3(xiv) of CARO 2020",
+     "As a Key Audit Matter under SA 701"
+    ],
+    "correct": 2,
+    "explanation": "Clause 3(xiv): whether the company has an internal audit system commensurate with its size and nature, and whether the internal audit reports were considered."
+   },
+   {
+    "type": "text",
+    "text": "4️⃣ Shrenik Ltd. (a public company) acquired control of one company in India and one in France during FY 2023-24. Management thinks preparing consolidated financial statements (CFS) is optional."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. What is the correct advice to Shrenik Ltd. on consolidated financial statements?",
+    "options": [
+     "CFS must be prepared under the Companies Act, 2013",
+     "CFS is optional, though advisable",
+     "CFS is needed only after one year of acquisition",
+     "CFS is needed, but only for the Indian company"
+    ],
+    "correct": 0,
+    "explanation": "Section 129(3): a company with one or more subsidiaries must prepare CFS of itself and all its subsidiaries, Indian or foreign, from the date control is gained."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 16 Answers\n📚 CARO & other reporting elements\n\nQ1 – (B) Only (i), (ii) and (iii)\nClause 3(xvi) items (i) and (iii) apply to an NBFC. Clause 3(iii)(c) on stipulated repayment schedules and regularity applies to loans given. However, Clause 3(iii)(a), on the aggregate of loans, guarantees and security given to other entities, does not apply to companies whose principal business is to give loans. So (i), (ii) and (iii).\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clauses 3(iii) & 3(xvi) | Based on: MTP – Nov 2024 exam, Series 1, Q8\n\nQ2 – (D) No – re-opening needs a court or Tribunal order under Section 130\nUnder Section 130 of the Companies Act, 2013, a company cannot re-open its books of account and recast its financial statements on its own. It can do so only on an order of a court of competent jurisdiction or the Tribunal, on an application by the Central Government, Income-tax authorities, SEBI, another regulator or a person concerned. Missed transactions are dealt with in the current year as prior-period items.\n📖 ICAI SM (May 27), Ch 7 – Other Elements (Section 130/131) | Based on: MTP – May 2023 exam, Series 2, Q5\n\nQ3 – (C) Under Clause 3(xiv) of CARO 2020\nClause 3(xiv) requires the auditor to report (a) whether the company has an internal audit system commensurate with the size and nature of its business, and (b) whether the reports of the internal auditors were considered. Clause 3(xiii) is about related-party transactions. Absence of internal audit is not, by itself, a ground for qualification or a KAM.\n📖 ICAI SM (May 27), Ch 7, Para 12.1 – Clause 3(xiv) | Based on: Model Test Paper 03, Q15\n\nQ4 – (A) CFS must be prepared under the Companies Act, 2013\nUnder Section 129(3) of the Companies Act, 2013, a company having one or more subsidiaries (including foreign subsidiaries) must prepare consolidated financial statements in addition to its standalone statements. Subsidiaries are consolidated from the date control is obtained; there is no one-year waiting period.\n📖 ICAI SM (May 27), Ch 13 – CFS (Section 129(3)) | Based on: MTP – May 2025 exam, Series 2, Q1"
+ },
+ {
+  "day": 17,
+  "date": "2026-11-29",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 17\n📚 Ch 13 – Audit of consolidated financial statements\n🎬 After sir's Ch 13 Group Audit – Videos 2–4\n👇 1 case, followed by 4 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nCA Kartik is auditing the FY 2024-25 consolidated financial statements (CFS) of Kissan Industries Ltd., which follows Division II of Schedule III (Ind AS). He notes:\n\n(A) The notes disclose, for the holding company and each subsidiary, its share in consolidated net assets, in consolidated profit or loss, and in total comprehensive income – as percentages and amounts.\n(B) A foreign subsidiary's financial statements are drawn up to 31 December 2024 under US law. Management says it is impracticable to prepare them to 31 March 2025.\n(C) Goodwill of ₹60 crore arose on acquiring a subsidiary during the year; no impairment. Adjustments were also made for intra-group balances and for aligning different accounting policies.\n(D) One subsidiary was acquired on 21 June 2024."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. For para (A), is the additional information disclosed in the CFS of Kissan Industries proper?",
+    "options": [
+     "No – share in OCI (% and amount) is also required",
+     "No – share in consolidated revenue is also required",
+     "No – both revenue and OCI shares are also required",
+     "Yes – the disclosure is proper"
+    ],
+    "correct": 0,
+    "explanation": "Schedule III Division II requires each entity's share in net assets, profit or loss, other comprehensive income and total comprehensive income. OCI is missing."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. For para (B), the foreign subsidiary's year ends on 31 Dec 2024. CA Kartik should:",
+    "options": [
+     "Insist on 31 March statements; otherwise modify the opinion",
+     "Simply accept management's version",
+     "Modify the opinion, quantifying the effect",
+     "Accept it, but verify adjustments for significant events from 1 Jan to 31 Mar 2025"
+    ],
+    "correct": 3,
+    "explanation": "Under Ind AS, a reporting-date gap of up to 3 months is allowed if impracticable, with adjustments for significant transactions or events in the gap."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. For para (C), which statement about the consolidation adjustments of Kissan Industries is correct?",
+    "options": [
+     "Goodwill = current-period; intra-group and policy alignment = permanent",
+     "Goodwill = permanent; intra-group and policy alignment = current-period",
+     "All three are current-period adjustments",
+     "Goodwill and policy alignment = permanent; intra-group = current-period"
+    ],
+    "correct": 1,
+    "explanation": "Goodwill/capital reserve at acquisition is a permanent consolidation adjustment. Intra-group balances and harmonising policies are current-period adjustments."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. For the subsidiary acquired on 21 June 2024 (para D), the auditor should verify that its income and expenses are included:",
+    "options": [
+     "For the full year, based on asset values at the start of the year",
+     "From the date control is gained, based on asset values at the start of the year",
+     "For the full year, based on asset and liability values at acquisition",
+     "From the date control is gained, based on values recognised at acquisition"
+    ],
+    "correct": 3,
+    "explanation": "A subsidiary's income and expenses are consolidated from the date control is gained, based on assets and liabilities recognised in the CFS at the acquisition date."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 17 Answers\n📚 Ch 13 – Audit of consolidated financial statements\n\nQ1 – (A) No – share in OCI (% and amount) is also required\nDivision II of Schedule III requires, for each entity in the group, its share in consolidated net assets, profit or loss, other comprehensive income and total comprehensive income – each as a percentage and amount. The notes omit the share in OCI, so the disclosure is incomplete. Revenue share is not required.\n📖 ICAI SM (May 27), Ch 13 – Audit of CFS (Schedule III disclosures) | Based on: MTP – Sep 2025 exam, Series 2, Q8\n\nQ2 – (D) Accept it, but verify adjustments for significant events from 1 Jan to 31 Mar 2025\nWhen it is impracticable to prepare the subsidiary's statements to the parent's reporting date, Ind AS allows the use of statements with a different date, provided the gap is not more than three months and adjustments are made for significant transactions or events between the two dates. The auditor verifies these adjustments for 1 January to 31 March 2025.\n📖 ICAI SM (May 27), Ch 13 – Different reporting dates | Based on: MTP – Sep 2025 exam, Series 2, Q9\n\nQ3 – (B) Goodwill = permanent; intra-group and policy alignment = current-period\nPermanent consolidation adjustments are made only on the first consolidation and at each acquisition, e.g. goodwill or capital reserve. Current-period adjustments are made every period, e.g. elimination of intra-group balances and transactions and harmonising different accounting policies.\n📖 ICAI SM (May 27), Ch 13 – Consolidation adjustments | Based on: MTP – Sep 2025 exam, Series 2, Q10\n\nQ4 – (D) From the date control is gained, based on values recognised at acquisition\nAs per Ind AS 110, the income and expenses of a subsidiary are included in the CFS from the date the parent gains control until it ceases to control. They are based on the amounts of assets and liabilities recognised in the CFS at the acquisition date (e.g. depreciation on fair values recognised at acquisition).\n📖 ICAI SM (May 27), Ch 13 – Date of acquisition / control | Based on: MTP – Sep 2025 exam, Series 2, Q11"
+ },
+ {
+  "day": 18,
+  "date": "2026-11-30",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 18\n📚 Ch 13 – Group audit & CFS\n🎬 After sir's Ch 13 Group Audit – Videos 1–6\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "1️⃣ Uranus Pvt. Ltd. is an unlisted, partly-owned subsidiary of Saturn Ltd. (listed, Ind AS). All its members, including non-voting ones, were told in writing it won't present CFS; none objected. Saturn files CFS. Pluto Ltd., another subsidiary of Saturn, is an investment entity that measures its subsidiaries (Neptune 75%, Eris 60%) at fair value through P&L."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Which statement about the consolidation of the Saturn group is most appropriate?",
+    "options": [
+     "Uranus must prepare CFS as it is a subsidiary of a listed company",
+     "Pluto must consolidate all entities it controls",
+     "Saturn need not consolidate Pluto and its subsidiaries",
+     "Saturn must consolidate all, incl. Uranus, Pluto and its subsidiaries"
+    ],
+    "correct": 3,
+    "explanation": "Uranus meets the exemption; investment entity Pluto measures its subsidiaries at FVTPL. But a parent that is not itself an investment entity (Saturn) consolidates all entities it controls."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. In the CFS audit report of WYZ Ltd., the division of responsibility between its auditor and the auditor of subsidiary ABC Pvt. Ltd. is reported in:",
+    "options": [
+     "An Emphasis of Matter paragraph",
+     "The Key Audit Matters section",
+     "The Going Concern paragraph",
+     "An Other Matter paragraph"
+    ],
+    "correct": 3,
+    "explanation": "Where the parent's auditor refers to other auditors' work on components in the CFS report, it is done in an Other Matter paragraph."
+   },
+   {
+    "type": "text",
+    "text": "3️⃣ Titan Metals Ltd. holds 48% of MetalCore Innovations Pvt. Ltd., but under the shareholders' agreement it controls the composition of MetalCore's Board and so has power over its key financial and operating decisions. A trainee asks what the audit team must do about this investment."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. What must the audit team of Titan Metals do about the investment in MetalCore?",
+    "options": [
+     "Nothing, since the investment was made earlier",
+     "Only audit the investment and related-party transactions",
+     "Audit the CFS, consider using component auditors' work, AND audit investment and related-party items",
+     "Only check the investment's carrying value"
+    ],
+    "correct": 2,
+    "explanation": "Control of the Board makes MetalCore a subsidiary despite 48%. So CFS are needed (with component work under SA 600), along with procedures on the investment and RPTs."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Next year Titan's stake in MetalCore (already a subsidiary through Board control) goes from 48% to 62%. The auditor's additional work is:",
+    "options": [
+     "Start auditing CFS, as consolidation now begins",
+     "Audit the subsidiary's books to gain comfort",
+     "Choose between auditing the subsidiary or using another auditor",
+     "Only procedures on the increase in investment and its disclosures"
+    ],
+    "correct": 3,
+    "explanation": "MetalCore was already a subsidiary (control via the Board), so consolidation is already being done. Only the change in stake and its disclosure need extra work."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 18 Answers\n📚 Ch 13 – Group audit & CFS\n\nQ1 – (D) Saturn must consolidate all, incl. Uranus, Pluto and its subsidiaries\nUranus is exempt from CFS: it is an unlisted, partly-owned subsidiary, its members were informed and did not object, and its ultimate parent files Ind AS CFS. Pluto, an investment entity, does not consolidate its subsidiaries but measures them at FVTPL. However, the investment-entity exception does not pass up to a parent that is not itself an investment entity. So Saturn consolidates every entity it controls, including those controlled through Pluto.\n📖 ICAI SM (May 27), Ch 13 – CFS exemptions (Companies Act & Ind AS 110) | Based on: Suggested Answers – May 2025 exam, Q3\n\nQ2 – (D) An Other Matter paragraph\nWhen the auditor of the parent uses the work of other auditors for components and refers to it in the report on the consolidated financial statements, the reference (including the extent of the components audited by others) is made in an Other Matter paragraph. It is not an EOM, KAM or going-concern matter.\n📖 ICAI SM (May 27), Ch 13 – Reporting on CFS (Other Matter) | Based on: RTP – May 2025, Q5\n\nQ3 – (C) Audit the CFS, consider using component auditors' work, AND audit investment and related-party items\nControl, not just shareholding, decides a subsidiary. Since Titan controls the composition of MetalCore's Board, MetalCore is a subsidiary even at 48%. CFS must be prepared and audited, and the auditor considers the financial information and the need to use a component auditor's work (SA 600). Audit procedures on the investment balance and related-party transactions are also needed. So both apply.\n📖 ICAI SM (May 27), Ch 13 – Subsidiary (control) & SA 600 | Based on: MTP – Jan 2026 exam, Series 1, Q13\n\nQ4 – (D) Only procedures on the increase in investment and its disclosures\nSince MetalCore was already a subsidiary through control of the Board, CFS was already required and being audited. Increasing the stake from 48% to 62% does not change the status. The auditor only needs procedures on the increased investment and related disclosures (e.g. change in non-controlling interest).\n📖 ICAI SM (May 27), Ch 13 – Subsidiary (control) | Based on: MTP – Jan 2026 exam, Series 1, Q14; Model Test Paper 03, Q11"
+ }
+]
