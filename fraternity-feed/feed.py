@@ -109,8 +109,8 @@ def check_youtube(state):
                 continue
             seen.append(vid)
             published = dt.datetime.fromisoformat(e.findtext("a:published", "", ns))
-            if first_run:   # seed silently: never dump the old backlog
-                continue
+            if first_run and (now - published).total_seconds() > 24 * 3600:
+                continue   # first run: skip the old backlog, but still share anything from the last 24 h
             new.append((published, vid, e.findtext("a:title", "", ns)))
         state["feed_seeded"] = True
     except Exception as e:
