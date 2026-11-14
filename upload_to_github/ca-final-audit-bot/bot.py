@@ -112,21 +112,41 @@ def sheet_plan(url):
     return sorted(out, key=lambda d: d["date"])
 
 
+def folder_sheet_urls(folder_id):
+    """All Google Sheets inside the public Drive folder (new weekly batches are added there)."""
+    req = urllib.request.Request(f"https://drive.google.com/embeddedfolderview?id={folder_id}",
+                                 headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        page = r.read().decode("utf-8", "ignore")
+    ids = list(dict.fromkeys(re.findall(r"docs\.google\.com/spreadsheets/d/([A-Za-z0-9_-]{20,})", page)))
+    return [f"https://docs.google.com/spreadsheets/d/{i}/export?format=csv" for i in ids]
+
+
 def get_plan(cfg):
-    """Google Sheet (if configured) is the master copy; plan.json in the repo is the fallback."""
+    """Google Sheets (Drive folder and/or one sheet) are the master copy; plan.json in the repo is the fallback."""
+    cfg = cfg or {}
     local = load(PLAN, []) or []
-    url = (cfg or {}).get("plan_sheet_csv", "").strip()
-    if not url:
+    urls = []
+    if cfg.get("plan_folder_id"):
+        try:
+            urls += folder_sheet_urls(cfg["plan_folder_id"])
+        except Exception as err:
+            print(f"Could not list the Drive folder ({err}).")
+    if cfg.get("plan_sheet_csv") and cfg["plan_sheet_csv"] not in urls:
+        urls.append(cfg["plan_sheet_csv"])
+    sheets = {}
+    for url in urls:
+        try:
+            for d in sheet_plan(url):
+                sheets[d["date"]] = d
+        except Exception as err:
+            print(f"Could not read sheet {url} ({err}).")
+    if not sheets:
+        print("Plan: repo plan.json (no Google Sheet could be read).")
         return local
-    try:
-        sheet = sheet_plan(url)
-        dates = {d["date"] for d in sheet}
-        print(f"Plan: {len(sheet)} days from Google Sheet (+ repo plan.json as fallback).")
-        os.environ["PLAN_SOURCE"] = f"Google Sheet ({len(sheet)} days)"
-        return sorted(sheet + [d for d in local if d["date"] not in dates], key=lambda d: d["date"])
-    except Exception as err:
-        print(f"Could not read Google Sheet ({err}); using repo plan.json.")
-        return local
+    print(f"Plan: {len(sheets)} days from {len(urls)} Google Sheet(s) (+ repo plan.json as fallback).")
+    os.environ["PLAN_SOURCE"] = f"Google Sheet ({len(sheets)} days, {len(urls)} sheet(s))"
+    return sorted(list(sheets.values()) + [d for d in local if d["date"] not in sheets], key=lambda d: d["date"])
 
 
 def day_for(plan, date):
