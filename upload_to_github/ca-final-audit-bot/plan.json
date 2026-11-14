@@ -1236,5 +1236,607 @@
    }
   ],
   "evening": "✅ CA FINAL AUDIT – Day 18 Answers\n📚 Ch 13 – Group audit & CFS\n\nQ1 – (D) Saturn must consolidate all, incl. Uranus, Pluto and its subsidiaries\nUranus is exempt from CFS: it is an unlisted, partly-owned subsidiary, its members were informed and did not object, and its ultimate parent files Ind AS CFS. Pluto, an investment entity, does not consolidate its subsidiaries but measures them at FVTPL. However, the investment-entity exception does not pass up to a parent that is not itself an investment entity. So Saturn consolidates every entity it controls, including those controlled through Pluto.\n📖 ICAI SM (May 27), Ch 13 – CFS exemptions (Companies Act & Ind AS 110) | Based on: Suggested Answers – May 2025 exam, Q3\n\nQ2 – (D) An Other Matter paragraph\nWhen the auditor of the parent uses the work of other auditors for components and refers to it in the report on the consolidated financial statements, the reference (including the extent of the components audited by others) is made in an Other Matter paragraph. It is not an EOM, KAM or going-concern matter.\n📖 ICAI SM (May 27), Ch 13 – Reporting on CFS (Other Matter) | Based on: RTP – May 2025, Q5\n\nQ3 – (C) Audit the CFS, consider using component auditors' work, AND audit investment and related-party items\nControl, not just shareholding, decides a subsidiary. Since Titan controls the composition of MetalCore's Board, MetalCore is a subsidiary even at 48%. CFS must be prepared and audited, and the auditor considers the financial information and the need to use a component auditor's work (SA 600). Audit procedures on the investment balance and related-party transactions are also needed. So both apply.\n📖 ICAI SM (May 27), Ch 13 – Subsidiary (control) & SA 600 | Based on: MTP – Jan 2026 exam, Series 1, Q13\n\nQ4 – (D) Only procedures on the increase in investment and its disclosures\nSince MetalCore was already a subsidiary through control of the Board, CFS was already required and being audited. Increasing the stake from 48% to 62% does not change the status. The auditor only needs procedures on the increased investment and related disclosures (e.g. change in non-controlling interest).\n📖 ICAI SM (May 27), Ch 13 – Subsidiary (control) | Based on: MTP – Jan 2026 exam, Series 1, Q14; Model Test Paper 03, Q11"
+ },
+ {
+  "day": 19,
+  "date": "2026-12-01",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 19\n📚 Ch 3 – SA 610: using the work of internal auditors\n🎬 After sir's Ch 3 Videos 1A–1E (SA 610)\n👇 3 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Mr. B (engagement partner) relied on the internal auditor's work on the Procure-to-Pay process without doing any procedure or keeping any documentation. As per SA 610:",
+    "options": [
+     "He can use it, but only after evaluating that work, and he must document his evaluation",
+     "He can rely on it fully – no further procedure or documentation is needed",
+     "A statutory auditor can never use the internal auditor's work",
+     "He can use it after evaluating it, but documentation is not required"
+    ],
+    "correct": 0,
+    "explanation": "SA 610: before using the internal auditor's work, the external auditor evaluates its adequacy and documents that evaluation and the procedures performed on it."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. CA Karan wants the client's internal audit team to give him direct assistance on factory wages. Before that, SA 610 requires written agreement from:",
+    "options": [
+     "Only the Chief Internal Auditor",
+     "Only management of the company",
+     "No one – a discussion with management is enough",
+     "Both: management (team will follow his instructions) and internal auditors (confidentiality)"
+    ],
+    "correct": 3,
+    "explanation": "For direct assistance, SA 610 needs written agreement from the entity (no interference, follow instructions) AND from internal auditors (keep matters confidential)."
+   },
+   {
+    "type": "text",
+    "text": "3️⃣ Copperbox Ltd. must appoint an internal auditor under the Companies Act. It gave the job to an employee who joined as a first-year architect. His reports are beautifully designed and even the Board praised them. The audit team wants to use his work."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Can the statutory auditor of Copperbox use this internal audit work?",
+    "options": [
+     "Yes – using it avoids doing the same work twice",
+     "No – competence and objectivity are lacking; the audit strategy must be reconsidered",
+     "Yes – the reports are well designed and praised by the Board",
+     "Yes – but only if the architect is in private practice"
+    ],
+    "correct": 1,
+    "explanation": "SA 610: the external auditor first evaluates the internal audit function's competence and objectivity. A first-year architect lacks both, so the work cannot be used."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 19 Answers\n📚 Ch 3 – SA 610: using the work of internal auditors\n\nQ1 – (A) He can use it, but only after evaluating that work, and he must document his evaluation\nSA 610 allows the external auditor to use the work of the internal audit function, but only after evaluating whether that work is adequate for the audit, performing procedures on it, and documenting the evaluation and conclusions. Blind reliance without documentation is not permitted.\n📖 ICAI SM (May 27), Ch 3 – SA 610 (Using the work of the internal audit function) | Based on: RTP – May 2025, Q3\n\nQ2 – (D) Both: management (team will follow his instructions) and internal auditors (confidentiality)\nBefore using internal auditors for direct assistance, SA 610 requires the external auditor to obtain (a) written agreement from an authorised representative of the entity that the internal auditors will be allowed to follow the external auditor's instructions and the entity will not intervene, and (b) written agreement from the internal auditors that they will keep specific matters confidential.\n📖 ICAI SM (May 27), Ch 3 – SA 610 (Direct assistance) | Based on: MTP – Nov 2026 exam, Series 1, Q22\n\nQ3 – (B) No – competence and objectivity are lacking; the audit strategy must be reconsidered\nUnder SA 610, the external auditor can use internal audit work only if the function has adequate objectivity, competence and a systematic, disciplined approach. An employee architect with no audit competence fails this test, however good the reports look, so the auditor cannot use the work and must plan his own procedures.\n📖 ICAI SM (May 27), Ch 3 – SA 610 (Evaluating the internal audit function) | Based on: Model Test Paper 03, Q9"
+ },
+ {
+  "day": 20,
+  "date": "2026-12-02",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 20\n📚 Ch 3 – Experts, scepticism & communication (SA 620 · SA 200 · SA 260)\n🎬 After sir's Ch 3 Videos 2–2C (SA 620)\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nVistara Lifesciences Ltd. (listed pharma) is audited by Kavish & Co. for FY 2025-26.\n\n• It capitalised ₹96 crore of drug development cost, saying technical feasibility is established. No one in the audit team has pharma or drug-approval expertise. The Finance Director says the company's own scientists have checked everything, so the auditor need not.\n• Clinical-trial documents were given six weeks after they were asked for. The partner did not tell TCWG, since the documents finally came.\n• ₹50 lakh was paid to a newly formed consultancy two days before year-end. The invoice only says \"consultancy services\". The consultant's address is the home address of a finance-department employee. The CFO says it is genuine.\n• CA Nitin, a senior partner not in the engagement team, is the engagement quality reviewer. During the year he also helped prepare the firm's own GST returns."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. For the ₹96 crore capitalised development cost, Kavish & Co. should:",
+    "options": [
+     "Do nothing more, as the Board has approved it",
+     "Rely on management, as feasibility is management's responsibility",
+     "Check the team's competence and, if needed, use an expert – not rely only on management",
+     "Always appoint an external expert for any R&D cost"
+    ],
+    "correct": 2,
+    "explanation": "SA 620: if expertise in a field other than accounting/auditing is needed, the auditor decides whether to use an expert. Management's word alone is not enough."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. The six-week delay in giving important documents should be treated as:",
+    "options": [
+     "Reportable only if the opinion is modified",
+     "Irrelevant, since the documents finally came",
+     "A significant difficulty in the audit that may need to be told to TCWG",
+     "A management matter outside the auditor's duty"
+    ],
+    "correct": 2,
+    "explanation": "SA 260: significant difficulties during the audit, such as significant delays by management in providing information, are communicated to TCWG."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. For the ₹50 lakh consultancy payment, professional scepticism means the auditor should:",
+    "options": [
+     "Treat it as fraud automatically",
+     "Keep a questioning mind and critically evaluate its unusual features",
+     "Accept the CFO's word, as he runs the finances",
+     "Do nothing, as it is below materiality"
+    ],
+    "correct": 1,
+    "explanation": "Scepticism = a questioning mind and critical assessment of evidence. Unusual features (new vendor, vague invoice, year-end timing) need more work – neither blind trust nor automatic fraud."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. The consultant's address is a finance employee's home. This should mainly make the auditor:",
+    "options": [
+     "Consider a related party, a fictitious vendor or another unusual link, and do more procedures",
+     "Take only a written representation from the CFO",
+     "Qualify the opinion straight away",
+     "Ignore it, as an address alone does not prove fraud"
+    ],
+    "correct": 0,
+    "explanation": "A vendor linked to an employee is a red flag for an undisclosed related party or a fictitious vendor (SA 550 / SA 240). Further procedures are needed."
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. CA Nitin also helped with the firm's own GST returns. As engagement quality reviewer, he:",
+    "options": [
+     "Cannot act – only an engagement partner can review",
+     "Cannot do any other work in the firm for the whole year",
+     "Is automatically disqualified for doing any other work in the firm",
+     "Is not automatically disqualified; his eligibility and objectivity must be evaluated"
+    ],
+    "correct": 3,
+    "explanation": "An engagement quality reviewer must be eligible and objective for that engagement. Unrelated internal work does not by itself disqualify him."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 20 Answers\n📚 Ch 3 – Experts, scepticism & communication (SA 620 · SA 200 · SA 260)\n\nQ1 – (C) Check the team's competence and, if needed, use an expert – not rely only on management\nSA 620: if expertise in a field other than accounting/auditing is needed, the auditor decides whether to use an expert. Management's word alone is not enough.\n📖 ICAI SM (May 27), Ch 3 – SA 620 | Based on: MTP – Nov 2026 exam, Series 1, Q1\n\nQ2 – (C) A significant difficulty in the audit that may need to be told to TCWG\nSA 260: significant difficulties during the audit, such as significant delays by management in providing information, are communicated to TCWG.\n📖 ICAI SM (May 27), Ch 2 – SA 260 (Significant difficulties) | Based on: MTP – Nov 2026 exam, Series 1, Q2\n\nQ3 – (B) Keep a questioning mind and critically evaluate its unusual features\nScepticism = a questioning mind and critical assessment of evidence. Unusual features (new vendor, vague invoice, year-end timing) need more work – neither blind trust nor automatic fraud.\n📖 ICAI SM (May 27), Ch 3 – Professional scepticism (SA 200) | Based on: MTP – Nov 2026 exam, Series 1, Q3\n\nQ4 – (A) Consider a related party, a fictitious vendor or another unusual link, and do more procedures\nA vendor linked to an employee is a red flag for an undisclosed related party or a fictitious vendor (SA 550 / SA 240). Further procedures are needed.\n📖 ICAI SM (May 27), Ch 5 – SA 550 & Ch 2 – SA 240 | Based on: MTP – Nov 2026 exam, Series 1, Q4\n\nQ5 – (D) Is not automatically disqualified; his eligibility and objectivity must be evaluated\nAn engagement quality reviewer must be eligible and objective for that engagement. Unrelated internal work does not by itself disqualify him.\n📖 ICAI SM (May 27), Ch 1 – Engagement quality review | Based on: MTP – Nov 2026 exam, Series 1, Q5"
+ },
+ {
+  "day": 21,
+  "date": "2026-12-03",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 21\n📚 Ch 3 – SA 540 · SA 320 · SA 530 · risk assessment\n🎬 After sir's Ch 3 Videos 4–7A (SA 450, 540, 520)\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. As per SA 540, which of these accounting estimates is likely to have the HIGHEST estimation uncertainty?",
+    "options": [
+     "Inventory obsolescence estimates made and updated often",
+     "An estimate using a well-known model with market-observable inputs",
+     "Outcome of a pending lawsuit against the company",
+     "Bad-debt allowance where past estimates proved accurate"
+    ],
+    "correct": 2,
+    "explanation": "Judgments about the outcome of pending litigation have high estimation uncertainty. Frequent, routine or market-based estimates have low uncertainty."
+   },
+   {
+    "type": "text",
+    "text": "2️⃣ Continental Foods: materiality was set at ₹40 lakh on budgeted revenue. Mid-year a big customer contract ended and actual revenue is much lower. The team keeps ₹40 lakh, saying it was already documented and communicated."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Is the team's approach to materiality correct?",
+    "options": [
+     "No – because budgeted figures can never be used",
+     "No – SA 320 requires revising materiality when new information would change it",
+     "Yes – if the original benchmark was reasonable at the time",
+     "Yes – planned materiality need not be revised once documented"
+    ],
+    "correct": 1,
+    "explanation": "SA 320: the auditor revises materiality if, during the audit, he learns of information that would have led to a different amount initially."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. As per SA 530, if the auditor cannot apply the planned procedure or any alternative to a selected sample item, that item is treated as:",
+    "options": [
+     "A misstatement in both tests of controls and tests of details",
+     "Neither – it is simply replaced by another item",
+     "A deviation in both tests",
+     "A deviation (test of controls) or a misstatement (test of details)"
+    ],
+    "correct": 3,
+    "explanation": "SA 530: an item that cannot be tested is treated as a deviation from the control (tests of controls) or as a misstatement (tests of details)."
+   },
+   {
+    "type": "text",
+    "text": "4️⃣ Speak Ltd. shows commission of ₹2 crore for October. The auditor traces how this line item is initiated, recorded, approved, posted and reported, and finds a ₹1.5 lakh difference between the commission software (source) and SAP (destination)."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. What kind of risk assessment is this?",
+    "options": [
+     "Evaluation of risks and controls at process level",
+     "Indirect entity-level control evaluation",
+     "No risk assessment at all",
+     "Direct entity-level control evaluation"
+    ],
+    "correct": 0,
+    "explanation": "Walking through how a line item flows from initiation to reporting, and testing the source-to-ledger link, is a process-level evaluation of risks and controls."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 21 Answers\n📚 Ch 3 – SA 540 · SA 320 · SA 530 · risk assessment\n\nQ1 – (C) Outcome of a pending lawsuit against the company\nJudgments about the outcome of pending litigation have high estimation uncertainty. Frequent, routine or market-based estimates have low uncertainty.\n📖 ICAI SM (May 27), Ch 3 – SA 540 (Estimation uncertainty) | Based on: MTP – May 2026 exam, Series 2, Q2\n\nQ2 – (B) No – SA 320 requires revising materiality when new information would change it\nSA 320: the auditor revises materiality if, during the audit, he learns of information that would have led to a different amount initially.\n📖 ICAI SM (May 27), Ch 3/RA – SA 320 (Revision as the audit progresses) | Based on: MTP – Nov 2026 exam, Series 1, Q23\n\nQ3 – (D) A deviation (test of controls) or a misstatement (test of details)\nSA 530: an item that cannot be tested is treated as a deviation from the control (tests of controls) or as a misstatement (tests of details).\n📖 ICAI SM (May 27), Ch 5 – SA 530 | Based on: MTP – May 2025 exam, Series 2, Q5\n\nQ4 – (A) Evaluation of risks and controls at process level\nWalking through how a line item flows from initiation to reporting, and testing the source-to-ledger link, is a process-level evaluation of risks and controls.\n📖 ICAI SM (May 27) – Risk Assessment & Internal Control (process-level controls) | Based on: MTP – Nov 2023 exam, Series 1, Q10"
+ },
+ {
+  "day": 22,
+  "date": "2026-12-04",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 22\n📚 Ch 3/5/6 – Confirmations, misstatements & subsequent events\n🎬 After sir's Ch 3 Videos 4–4B (SA 450) + revision\n👇 1 case, followed by 5 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nKaveri & Associates audit Campaign Textiles Ltd. (unlisted exporter) for FY 2025-26.\n\n• Positive confirmations were sent directly to 40 large customers. 25 replied directly. For the other 15, audit senior CA Rishu asked the company's accounts team to follow up and pass on any replies, as \"they know the customers better\".\n• Three uncorrected misstatements were found: ₹35 lakh (revenue/expense classification), ₹20 lakh and ₹18 lakh (two expense heads). Each was judged immaterial when found, so none was put in the summary of uncorrected misstatements. Performance materiality: ₹70 lakh.\n• After year-end, but before the report date, a major customer (15% of receivables) filed for insolvency. Its liquidity crisis had existed for a long time before year-end. Management refuses to increase the provision."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Is routing the 15 pending confirmations through the company's accounts team acceptable under SA 505?",
+    "options": [
+     "No – the auditor must control the confirmation process; this makes the evidence unreliable",
+     "Yes – SA 505 covers only the first request",
+     "Yes – the company has better customer relations",
+     "No – but only because over 25% were followed up by the client"
+    ],
+    "correct": 0,
+    "explanation": "SA 505 requires the auditor to keep control over confirmation requests and replies. Follow-up through the client compromises reliability."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. For those 15 customer balances, the auditor should now:",
+    "options": [
+     "Drop them and conclude on the 25 direct replies",
+     "Do alternative procedures – later receipts, shipping documents, invoices",
+     "Make an extra bad-debt provision for them",
+     "Treat them as confirmed if replies come via the accounts team"
+    ],
+    "correct": 1,
+    "explanation": "When confirmation fails, SA 505 requires alternative procedures such as subsequent cash receipts, shipping documents and sales invoices."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. How should the three misstatements (₹35 lakh, ₹20 lakh, ₹18 lakh) be dealt with under SA 450?",
+    "options": [
+     "Ignore them – each was immaterial when found",
+     "Accumulate only if they relate to the same account",
+     "Accumulate them (unless clearly trivial) and evaluate individually AND in aggregate",
+     "Never aggregate items from different procedures"
+    ],
+    "correct": 2,
+    "explanation": "SA 450: accumulate all misstatements except clearly trivial ones and evaluate them individually and in aggregate. Together = ₹73 lakh, above PM of ₹70 lakh."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Under SA 560, the customer's insolvency is:",
+    "options": [
+     "A non-adjusting event needing only disclosure",
+     "An adjusting event, but the auditor need not ask for adjustment",
+     "A non-adjusting event, as the filing came after year-end",
+     "An adjusting event – the crisis existed at year-end, so the provision must be adjusted"
+    ],
+    "correct": 3,
+    "explanation": "The condition (liquidity crisis) existed at the balance sheet date; the insolvency only confirms it. So it is an adjusting event."
+   },
+   {
+    "type": "quiz",
+    "question": "Q5. Management refuses to adjust, and the misstatement is material but not pervasive. The opinion is:",
+    "options": [
+     "Disclaimer",
+     "Qualified",
+     "Unmodified with an Emphasis of Matter",
+     "Adverse"
+    ],
+    "correct": 1,
+    "explanation": "A material but not pervasive misstatement that management will not correct leads to a qualified opinion under SA 705."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 22 Answers\n📚 Ch 3/5/6 – Confirmations, misstatements & subsequent events\n\nQ1 – (A) No – the auditor must control the confirmation process; this makes the evidence unreliable\nSA 505 requires the auditor to keep control over confirmation requests and replies. Follow-up through the client compromises reliability.\n📖 ICAI SM (May 27), Ch 5 – SA 505 | Based on: MTP – Nov 2026 exam, Series 1, Q10\n\nQ2 – (B) Do alternative procedures – later receipts, shipping documents, invoices\nWhen confirmation fails, SA 505 requires alternative procedures such as subsequent cash receipts, shipping documents and sales invoices.\n📖 ICAI SM (May 27), Ch 5 – SA 505 (Non-responses) | Based on: MTP – Nov 2026 exam, Series 1, Q11\n\nQ3 – (C) Accumulate them (unless clearly trivial) and evaluate individually AND in aggregate\nSA 450 requires the auditor to accumulate all misstatements identified during the audit, other than clearly trivial ones, and evaluate them individually and in aggregate. Here the total is ₹35 + ₹20 + ₹18 = ₹73 lakh, which exceeds performance materiality of ₹70 lakh – so leaving them out of the summary was wrong.\n📖 ICAI SM (May 27), Ch 3 – SA 450 | Based on: MTP – Nov 2026 exam, Series 1, Q12\n\nQ4 – (D) An adjusting event – the crisis existed at year-end, so the provision must be adjusted\nThe condition (liquidity crisis) existed at the balance sheet date; the insolvency only confirms it. So it is an adjusting event.\n📖 ICAI SM (May 27), Ch 6 – SA 560 | Based on: MTP – Nov 2026 exam, Series 1, Q13\n\nQ5 – (B) Qualified\nA material but not pervasive misstatement that management will not correct leads to a qualified opinion under SA 705.\n📖 ICAI SM (May 27), Ch 7, Para 5.4.1 | Based on: MTP – Nov 2026 exam, Series 1, Q14"
+ },
+ {
+  "day": 23,
+  "date": "2026-12-05",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 23\n📚 Ch 3 – SA 620 & sampling errors\n🎬 After sir's Ch 3 Videos 2–2C, 7A (QB)\n👇 3 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. A joint auditor wants to refer to the auditor's expert in the unmodified audit report. The reference is neither required by law nor relevant to understanding the opinion. As per SA 620, is the reference proper?",
+    "options": [
+     "Yes – if it relates to a Key Audit Matter, even if not required by law",
+     "No – only because no law requires it",
+     "Yes – it helps users understand the opinion",
+     "No – not required by law and not relevant to understanding the opinion"
+    ],
+    "correct": 3,
+    "explanation": "SA 620: an unmodified report shall not refer to the expert unless law requires it. A reference relevant to a modified opinion must say it does not reduce the auditor's responsibility."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Ruhi & Co. received a Central Government order to investigate a client. Can it take the help of experts?",
+    "options": [
+     "No – experts would harm the investigator's independence",
+     "No – SA 620 applies only to audits of financial statements",
+     "Yes – it should consider using experts (engineers, lawyers, etc.) for a full examination",
+     "Yes – because SA 620 has a specific para on investigations"
+    ],
+    "correct": 2,
+    "explanation": "An investigator may use other experts such as engineers or lawyers where needed for a thorough examination. SA 620 itself is about audits, not investigations."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. In a test of details on trade payables, the sample shows two errors of ₹5 lakh and ₹9 lakh. The auditor should:",
+    "options": [
+     "Project the sample errors to the whole population",
+     "Ignore them, as they are below materiality",
+     "Ask the client to correct just ₹14 lakh and stop",
+     "Pick another sample until no errors appear"
+    ],
+    "correct": 0,
+    "explanation": "SA 530: for tests of details, misstatements found in the sample are projected to the population to judge the likely total misstatement."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 23 Answers\n📚 Ch 3 – SA 620 & sampling errors\n\nQ1 – (D) No – not required by law and not relevant to understanding the opinion\nSA 620: an unmodified report shall not refer to the expert unless law requires it. A reference relevant to a modified opinion must say it does not reduce the auditor's responsibility.\n📖 ICAI SM (May 27), Ch 3 – SA 620 (Reference to the expert in the report) | Based on: MTP – May 2025 exam, Series 2, Q4\n\nQ2 – (C) Yes – it should consider using experts (engineers, lawyers, etc.) for a full examination\nAn investigator may use other experts such as engineers or lawyers where needed for a thorough examination. SA 620 itself is about audits, not investigations.\n📖 ICAI SM (May 27), Ch 17 – Investigation | Based on: MTP – Jan 2026 exam, Series 2, Q3; MTP – May 2024 exam, Series 1, Q1\n\nQ3 – (A) Project the sample errors to the whole population\nSA 530: for tests of details, misstatements found in the sample are projected to the population to judge the likely total misstatement.\n📖 ICAI SM (May 27), Ch 5 – SA 530 (Projecting misstatements) | Based on: MTP – Nov 2026 exam, Series 2, Q4"
+ },
+ {
+  "day": 24,
+  "date": "2026-12-06",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 24\n📚 Ch 19 – Misconduct & disciplinary procedure\n🎬 After sir's Ch 19 Videos 7–8 (Disciplinary Procedure, Schedules)\n👇 1 case, followed by 4 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nPitch Pvt. Ltd. asked CA Hitesh, a practising CA, to digitally sign and upload on the ROC portal the form for the resignation of one of its directors, Mr. Mohit. Mr. Mohit's signature on the resignation letter had been copied and pasted by another director. CA Hitesh did not verify the letter, signed the form digitally and uploaded it.\n\nA complaint reached the Director (Discipline). On investigation he was found guilty, and a penalty was imposed under the Chartered Accountants Act, 1949."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Signing and uploading the form without checking the authenticity of the resignation letter is misconduct under:",
+    "options": [
+     "Clause (2), Part I, Second Schedule",
+     "Clause (7), Part I, First Schedule",
+     "Clause (7), Part I, Second Schedule – gross negligence",
+     "Clause (5), Part I, First Schedule"
+    ],
+    "correct": 2,
+    "explanation": "Certifying/uploading a document without verifying it is gross negligence in professional duties – Clause (7) of Part I of the Second Schedule."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Since the misconduct falls under the Second Schedule, the case is placed before the:",
+    "options": [
+     "Disciplinary Committee",
+     "Appellate Authority",
+     "High Court",
+     "Board of Discipline"
+    ],
+    "correct": 0,
+    "explanation": "Director (Discipline): First Schedule matters go to the Board of Discipline; Second Schedule (or both) go to the Disciplinary Committee."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. What is the MINIMUM punishment the Disciplinary Committee could impose on CA Hitesh?",
+    "options": [
+     "Suspension for up to 3 months",
+     "Removal of name and fine up to ₹5 lakh",
+     "Warning and fine up to ₹50,000",
+     "Reprimand"
+    ],
+    "correct": 3,
+    "explanation": "The Disciplinary Committee can reprimand, remove the name (permanently or for any period) and/or fine up to ₹5 lakh. The lightest is a reprimand."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Compared with the Disciplinary Committee, what is the maximum the Board of Discipline can do (First Schedule cases)?",
+    "options": [
+     "Remove name permanently and fine up to ₹5 lakh",
+     "Reprimand, remove name up to 3 months, fine up to ₹1 lakh",
+     "Fine up to ₹5 lakh but no removal",
+     "Only reprimand"
+    ],
+    "correct": 1,
+    "explanation": "Board of Discipline: reprimand, removal up to 3 months, fine up to ₹1 lakh. Disciplinary Committee: removal for any period, fine up to ₹5 lakh."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 24 Answers\n📚 Ch 19 – Misconduct & disciplinary procedure\n\nQ1 – (C) Clause (7), Part I, Second Schedule – gross negligence\nCertifying/uploading a document without verifying it is gross negligence in professional duties – Clause (7) of Part I of the Second Schedule.\n📖 ICAI SM (May 27), Ch 19 – Second Schedule, Part I, Clause (7) | Based on: MTP – Nov 2026 exam, Series 1, Q7\n\nQ2 – (A) Disciplinary Committee\nDirector (Discipline): First Schedule matters go to the Board of Discipline; Second Schedule (or both) go to the Disciplinary Committee.\n📖 ICAI SM (May 27), Ch 19 – Disciplinary procedure (chart) | Based on: MTP – Nov 2026 exam, Series 1, Q8\n\nQ3 – (D) Reprimand\nThe Disciplinary Committee can reprimand, remove the name (permanently or for any period) and/or fine up to ₹5 lakh. The lightest is a reprimand.\n📖 ICAI SM (May 27), Ch 19 – Disciplinary procedure (punishments) | Based on: MTP – Nov 2026 exam, Series 1, Q9\n\nQ4 – (B) Reprimand, remove name up to 3 months, fine up to ₹1 lakh\nBoard of Discipline: reprimand, removal up to 3 months, fine up to ₹1 lakh. Disciplinary Committee: removal for any period, fine up to ₹5 lakh.\n📖 ICAI SM (May 27), Ch 19 – Disciplinary procedure (chart) | Based on: MTP – Nov 2026 exam, Series 1, case facts (Q8–Q9)"
+ },
+ {
+  "day": 25,
+  "date": "2026-12-07",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 25\n📚 Ch 19 – ESB decisions & ethical guidelines\n🎬 After sir's Ch 19 Videos 17, 19 (Guidelines, ESB Decisions)\n👇 4 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. CA Ram and CA Krishna (both in practice) hold a joint GST training session for their clients and share the fee collected. Is this misconduct?",
+    "options": [
+     "No – ESB permits joint GST training by CAs in practice with fee sharing",
+     "Yes – it is 'other misconduct' under Part IV",
+     "Yes – it is solicitation under Clause (6)",
+     "Yes – fee may be shared only from professional business"
+    ],
+    "correct": 0,
+    "explanation": "As per ESB decisions, two or more CAs in practice may jointly hold training sessions for their clients on GST and share the fee collected."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. CA Supriya is a Director Simplicitor in Fair Pvt. Ltd. Can she digitally sign the company's ROC forms?",
+    "options": [
+     "Yes – if she is not its auditor",
+     "Yes – if she takes no fee",
+     "Yes – she is a qualified CA",
+     "No – a CA who is Director Simplicitor cannot sign the company's ROC forms (conflict of role)"
+    ],
+    "correct": 3,
+    "explanation": "ESB decision: a practising CA who is Director Simplicitor in a company cannot sign its ROC forms, as it is a direct conflict of role."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. A hotel chain asks CA Supriya to do a 'mystery audit' of service quality at 17 branches. Can she accept?",
+    "options": [
+     "Only if the hotel is not her audit client",
+     "No – it is outside audit services",
+     "Yes – a mystery audit is a permitted assignment",
+     "Only with ICAI's written approval"
+    ],
+    "correct": 2,
+    "explanation": "As per ESB decisions, it is permissible for a member in practice to accept a mystery audit assignment."
+   },
+   {
+    "type": "text",
+    "text": "4️⃣ Mr. Eshan, a partner of Maniprabh & Co. (not the signing partner), owes ₹3.91 lakh (a loan) to Girnar Ltd., the holding company of the audit client Sidharth Ltd. He also owes ₹1.07 lakh for goods bought from Girnar Ltd. in the ordinary course at arm's length."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Is Maniprabh & Co.'s appointment as auditor of Sidharth Ltd. valid?",
+    "options": [
+     "Valid – only because Mr. Eshan does not sign",
+     "Valid – the indebtedness is within the ₹5 lakh limit",
+     "Not valid – indebtedness exceeds ₹1 lakh",
+     "Valid – only because the debt is not to Sidharth Ltd."
+    ],
+    "correct": 1,
+    "explanation": "Indebtedness disqualifies only if above ₹5 lakh. ₹3.91 lakh is within it; ordinary-course purchases at arm's length are excluded anyway."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 25 Answers\n📚 Ch 19 – ESB decisions & ethical guidelines\n\nQ1 – (A) No – ESB permits joint GST training by CAs in practice with fee sharing\nAs per ESB decisions, two or more CAs in practice may jointly hold training sessions for their clients on GST and share the fee collected.\n📖 ICAI SM (May 27), Ch 19 – Ethical Standards Board decisions | Based on: MTP – Jan 2026 exam, Series 1, Q1\n\nQ2 – (D) No – a CA who is Director Simplicitor cannot sign the company's ROC forms (conflict of role)\nESB decision: a practising CA who is Director Simplicitor in a company cannot sign its ROC forms, as it is a direct conflict of role.\n📖 ICAI SM (May 27), Ch 19 – Ethical Standards Board decisions | Based on: MTP – Sep 2025 exam, Series 2, Q6\n\nQ3 – (C) Yes – a mystery audit is a permitted assignment\nAs per ESB decisions, it is permissible for a member in practice to accept a mystery audit assignment.\n📖 ICAI SM (May 27), Ch 19 – Ethical Standards Board decisions | Based on: MTP – Sep 2025 exam, Series 2, Q4\n\nQ4 – (B) Valid – the indebtedness is within the ₹5 lakh limit\nUnder Section 141(3)(d)(ii) read with the Rules, and Chapter VII of the Council Guidelines, indebtedness to the company or its holding/subsidiary disqualifies only if it exceeds ₹5 lakh. Mr. Eshan's loan of ₹3.91 lakh is within the limit, and dues for goods bought in the ordinary course at arm's length are not counted. So the appointment is valid.\n📖 ICAI SM (May 27), Ch 19 – Guidelines Ch VII (Indebtedness) & Sec 141 | Based on: MTP – May 2023 exam, Series 2, Q17"
+ },
+ {
+  "day": 26,
+  "date": "2026-12-08",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 26\n📚 Ch 19 – Communication with previous auditor, members in service, permitted activities\n🎬 After sir's Ch 19 Videos 13, 16 (Clause 8, Part II)\n👇 1 case, followed by 4 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nM/s AIM & Co., a new CA firm, immediately accepted the statutory audit of DM Crackers Ltd. without following the required procedures (no communication with the previous auditor).\n\n(I) The auditors asked for the previous year's financials and the transactions up to 25 May of the current year. Management said both were \"out of scope\" and gave them only after repeated requests.\n(II) Partner Mr. Shyam later resigned from the firm and joined a manufacturing company through a recruitment agency. The agency billed 0.2% of his CTC, which he agreed to pay (a friend later gave him a full discount).\n(III) Partner Mr. Ghanshyam acts as a Registration Authority for obtaining digital signatures for clients."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. On item (I), which is correct?",
+    "options": [
+     "Only the previous year's financials can be asked for",
+     "Management is right – both are out of scope",
+     "The auditors have the right to ask for both; management's 'out of scope' stand is wrong",
+     "Both sides have equal rights to ask and to refuse"
+    ],
+    "correct": 2,
+    "explanation": "The auditor has a right of access to books and information needed – including prior-year figures and post-balance-sheet transactions (subsequent events)."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Is AIM & Co. guilty of misconduct for accepting the audit this way?",
+    "options": [
+     "Yes – Clause (8), Part I, First Schedule (no prior communication with previous auditor)",
+     "No – no provision is violated",
+     "Yes – Clause (1), Part I, Second Schedule",
+     "Yes – Clause (2), Part II, Second Schedule"
+    ],
+    "correct": 0,
+    "explanation": "Clause (8): a member must communicate in writing with the previous auditor BEFORE accepting the position. Not doing so is misconduct."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. Mr. Shyam (now a member in service) agreed to pay the agency 0.2% of his CTC. Is he guilty?",
+    "options": [
+     "Yes – Clause (1), Part I, First Schedule",
+     "Yes – Clause (1), Part II, First Schedule",
+     "No – he got a full discount",
+     "Yes – Clause (2), Part II, Second Schedule"
+    ],
+    "correct": 1,
+    "explanation": "A member in service who pays or agrees to pay any share of his emoluments to another person is guilty under Clause (1) of Part II, First Schedule. Agreeing is enough."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. Is Mr. Ghanshyam guilty for acting as a Registration Authority for clients' digital signatures?",
+    "options": [
+     "Yes – Part III, Second Schedule",
+     "Yes – Clause (11), Part I, First Schedule",
+     "Yes – Clause (1), Part II, Second Schedule",
+     "No – a CA in practice may act as Registration Authority for DSCs"
+    ],
+    "correct": 3,
+    "explanation": "As per ESB decisions, a CA in practice may engage himself as Registration Authority for obtaining digital signatures for clients."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 26 Answers\n📚 Ch 19 – Communication with previous auditor, members in service, permitted activities\n\nQ1 – (C) The auditors have the right to ask for both; management's 'out of scope' stand is wrong\nThe auditor has a right of access to books and information needed – including prior-year figures and post-balance-sheet transactions (subsequent events).\n📖 ICAI SM (May 27), Ch 7 – Auditor's rights (Sec 143(1)) & Ch 6 – SA 560 | Based on: MTP – Nov 2024 exam, Series 2, Q12\n\nQ2 – (A) Yes – Clause (8), Part I, First Schedule (no prior communication with previous auditor)\nClause (8): a member must communicate in writing with the previous auditor BEFORE accepting the position. Not doing so is misconduct.\n📖 ICAI SM (May 27), Ch 19 – First Schedule, Part I, Clause (8) | Based on: MTP – Nov 2024 exam, Series 2, Q13\n\nQ3 – (B) Yes – Clause (1), Part II, First Schedule\nA member in service who pays or agrees to pay any share of his emoluments to another person is guilty under Clause (1) of Part II, First Schedule. Agreeing is enough.\n📖 ICAI SM (May 27), Ch 19 – First Schedule, Part II, Clause (1) | Based on: MTP – Nov 2024 exam, Series 2, Q14\n\nQ4 – (D) No – a CA in practice may act as Registration Authority for DSCs\nAs per ESB decisions, a CA in practice may engage himself as Registration Authority for obtaining digital signatures for clients.\n📖 ICAI SM (May 27), Ch 19 – Ethical Standards Board decisions | Based on: MTP – Nov 2024 exam, Series 2, Q15"
+ },
+ {
+  "day": 27,
+  "date": "2026-12-09",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 27\n📚 Ch 19 – Previous auditor, website rules, fees & direct assistance\n🎬 After sir's Ch 19 Videos 13–17\n👇 1 case, followed by 4 polls. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why.\n\n📝 Case Scenario\n\nPO & Associates (partners CA P and CA O), Chennai, audit Ring Ltd.\n\n• Ring Ltd.'s internal auditor CA Tom is asked to give direct assistance in (a) evaluating significant accounting estimates and assessing risks of material misstatement, and (b) assembling information to resolve exceptions in confirmation replies.\n• CA P accepted a tax audit and started it within two days without writing to the previous tax auditor. Realising this, he sent a registered letter and got the postal acknowledgement before signing the report.\n• CA O received the 'Best Speaker of the Year' award from the Institute and posted a framed photograph of it on his website.\n• PQR Co-operative Society offers the firm its statutory audit. Fee options: (i) a percentage of net profits, or (ii) ₹9,501."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. On CA Tom's direct assistance, which is correct as per SA 610?",
+    "options": [
+     "Not for (a) estimates and risk assessment; he may help with (b) assembling information",
+     "He may help with (a) only, not (b)",
+     "He may help with both (a) and (b)",
+     "He may help with neither (a) nor (b)"
+    ],
+    "correct": 0,
+    "explanation": "SA 610: internal auditors cannot give direct assistance in work needing significant judgment (estimates, assessing RMM). Assembling information for exceptions is allowed."
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. CA P wrote to the previous tax auditor only after starting the audit (but before signing). Is he guilty?",
+    "options": [
+     "No – the requirement is only for statutory audits",
+     "No – he wrote before signing the report",
+     "Yes – Clause (8), Part I, Second Schedule",
+     "Yes – Clause (8), Part I, First Schedule: communication must be BEFORE accepting"
+    ],
+    "correct": 3,
+    "explanation": "Clause (8) requires written communication with the previous auditor before ACCEPTING the appointment. Writing later does not cure it."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. CA O posted his award photograph (award from the Institute) on his website. He is liable under:",
+    "options": [
+     "Clause (9), Part I, First Schedule",
+     "Clause (6), Part I, First Schedule",
+     "Clause (8), Part I, Second Schedule",
+     "Clause (7), Part I, Second Schedule"
+    ],
+    "correct": 1,
+    "explanation": "Website guidelines bar awards and achievements (except those from Central/State Govt or regulators) and event photographs – a form of solicitation under Clause (6)."
+   },
+   {
+    "type": "quiz",
+    "question": "Q4. For the co-operative society's audit, which fee option can the firm choose?",
+    "options": [
+     "(i) only",
+     "Neither (i) nor (ii)",
+     "Either (i) or (ii)",
+     "(ii) only"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 192 allows a co-operative society auditor's fee to be based on a percentage of capital, income or profits. A fixed fee is also fine. So either."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 27 Answers\n📚 Ch 19 – Previous auditor, website rules, fees & direct assistance\n\nQ1 – (A) Not for (a) estimates and risk assessment; he may help with (b) assembling information\nSA 610: internal auditors cannot give direct assistance in work needing significant judgment (estimates, assessing RMM). Assembling information for exceptions is allowed.\n📖 ICAI SM (May 27), Ch 3 – SA 610 (Direct assistance) | Based on: MTP – May 2026 exam, Series 2, Q9\n\nQ2 – (D) Yes – Clause (8), Part I, First Schedule: communication must be BEFORE accepting\nClause (8) requires written communication with the previous auditor before ACCEPTING the appointment. Writing later does not cure it.\n📖 ICAI SM (May 27), Ch 19 – First Schedule, Part I, Clause (8) | Based on: MTP – May 2026 exam, Series 2, Q6\n\nQ3 – (B) Clause (6), Part I, First Schedule\nWebsite guidelines bar awards and achievements (except those from Central/State Govt or regulators) and event photographs – a form of solicitation under Clause (6).\n📖 ICAI SM (May 27), Ch 19 – Clause (6) & Website guidelines | Based on: MTP – May 2026 exam, Series 2, Q8\n\nQ4 – (C) Either (i) or (ii)\nRegulation 192 allows a co-operative society auditor's fee to be based on a percentage of capital, income or profits. A fixed fee is also fine. So either.\n📖 ICAI SM (May 27), Ch 19 – Regulation 192 (Restriction on fees) | Based on: MTP – May 2026 exam, Series 2, Q7"
+ },
+ {
+  "day": 28,
+  "date": "2026-12-10",
+  "morning": [
+   {
+    "type": "text",
+    "text": "🟦 CA FINAL AUDIT DAILY MCQ – Day 28\n📚 Ch 19 – Tenders, hill-area offices, solicitation\n🎬 After sir's Ch 19 Videos 6, 15A–15C (Branch office, Clause 6)\n👇 3 quick MCQs. ⏰ Full answers at 8:30 PM\n🎯 Quiz mode: vote once and see instantly if you are right – only you can see it. Tap 💡 for why."
+   },
+   {
+    "type": "text",
+    "text": "1️⃣ Dwarka Municipal Corporation floated a tender for computerisation of its records, with an earnest deposit of ₹85,000. BNM & Associates applied and paid the deposit. Another partner says this is misconduct."
+   },
+   {
+    "type": "quiz",
+    "question": "Q1. Is BNM & Associates guilty of misconduct for this tender?",
+    "options": [
+     "No – only because a government body issued it",
+     "Yes – responding to any tender is misconduct",
+     "Yes – tenders are fine, but money deposits are not",
+     "No – non-audit work open to others; reasonable earnest deposit allowed"
+    ],
+    "correct": 3,
+    "explanation": "The bar on tenders applies only to areas exclusive to CAs (audit/attestation). Computerisation is open to others, and a reasonable earnest deposit is allowed there."
+   },
+   {
+    "type": "text",
+    "text": "2️⃣ DG & Co. (Delhi; branches Gurgaon and Shimla) got permission for a winter temporary office in Chandigarh for its hill-area Shimla office. Conditions under consideration:\n(i) Temporary office for not more than 3 months a year\n(ii) Shimla office must close in winter; all mail only to Chandigarh\n(iii) Chandigarh name board only while it is permitted to function\n(iv) Chandigarh not shown on letterheads or visiting cards\n(v) Inform the Institute before each winter, and send intimation by registered post after closing"
+   },
+   {
+    "type": "quiz",
+    "question": "Q2. Which conditions (i)–(v) for the hill-area temporary office are correct?",
+    "options": [
+     "(i), (ii) and (iv)",
+     "(ii), (iii), (iv) and (v)",
+     "(i), (iii), (iv) and (v)",
+     "(i), (ii), (iii) and (iv)"
+    ],
+    "correct": 2,
+    "explanation": "All except (ii). The regular (hill) office need not close; correspondence can continue there."
+   },
+   {
+    "type": "quiz",
+    "question": "Q3. To grow her practice, CA Supriya sends messages on a messaging app to business groups about her firm's services and expertise. Is this allowed?",
+    "options": [
+     "Yes – if recipients are known contacts",
+     "No – it amounts to solicitation",
+     "Yes – with a disclaimer",
+     "Yes – if only educational content"
+    ],
+    "correct": 1,
+    "explanation": "Promoting the firm's services to business groups is soliciting clients or professional work, which Clause (6) prohibits."
+   }
+  ],
+  "evening": "✅ CA FINAL AUDIT – Day 28 Answers\n📚 Ch 19 – Tenders, hill-area offices, solicitation\n\nQ1 – (D) No – non-audit work open to others; reasonable earnest deposit allowed\nThe bar on tenders applies only to areas exclusive to CAs (audit/attestation). Computerisation is open to others, and a reasonable earnest deposit is allowed there.\n📖 ICAI SM (May 27), Ch 19 – Clause (6) – Responding to tenders; EMD | Based on: RTP – Sep 2025, Q5\n\nQ2 – (C) (i), (iii), (iv) and (v)\nAll except (ii). The regular (hill) office need not close; correspondence can continue there.\n📖 ICAI SM (May 27), Ch 19 – Section 27 (hill-area exemption) | Based on: Suggested Answers – May 2025 exam, Q1\n\nQ3 – (B) No – it amounts to solicitation\nPromoting the firm's services to business groups is soliciting clients or professional work, which Clause (6) prohibits.\n📖 ICAI SM (May 27), Ch 19 – First Schedule, Part I, Clause (6) | Based on: MTP – Sep 2025 exam, Series 2, Q7"
  }
 ]
