@@ -103,14 +103,21 @@ def check_youtube(state):
     try:
         feed = fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={CFG['youtube_channel_id']}")
         ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
+        shared = state.setdefault("shared", [])
         for e in ET.fromstring(feed).findall("a:entry", ns):
             vid = e.findtext("yt:videoId", "", ns)
-            if vid in seen:
-                continue
-            seen.append(vid)
             published = dt.datetime.fromisoformat(e.findtext("a:published", "", ns))
-            if first_run and (now - published).total_seconds() > 24 * 3600:
-                continue   # first run: skip the old backlog, but still share anything from the last 24 h
+            recent = (now - published).total_seconds() <= 24 * 3600
+            if vid in shared:
+                continue
+            # safety net: anything Sir published in the last 24 h that was never sent here gets sent,
+            # even if an earlier run had already marked it as seen
+            if vid in seen and not recent:
+                continue
+            if vid not in seen:
+                seen.append(vid)
+            if first_run and not recent:
+                continue   # first run: skip the old backlog
             new.append((published, vid, e.findtext("a:title", "", ns)))
         state["feed_seeded"] = True
     except Exception as e:
