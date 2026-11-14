@@ -352,6 +352,9 @@ def check_youtube(state, cfg):
     excl = re.compile(cfg["youtube_exclude_keywords"], re.I) if cfg.get("youtube_exclude_keywords") else None
     seen = state.setdefault("yt_seen", [])
     first_run = not seen
+    if "yt_shared" not in state:
+        state["yt_shared"] = list(seen)   # start of the shared log: everything seen so far counts as handled
+    shared = state["yt_shared"]
     now = dt.datetime.now(dt.timezone.utc)
     new = []
     for e in root.findall("a:entry", ns):
@@ -359,9 +362,14 @@ def check_youtube(state, cfg):
         title = e.findtext("a:title", "", ns)
         desc = e.findtext("media:group/media:description", "", ns)
         published = dt.datetime.fromisoformat(e.findtext("a:published", "", ns))
-        if vid in seen:
+        recent = (now - published).total_seconds() <= 24 * 3600
+        if vid in shared:
             continue
-        seen.append(vid)
+        # safety net: a matching video from the last 24 h that was never sent (e.g. a failed send) is retried
+        if vid in seen and not recent:
+            continue
+        if vid not in seen:
+            seen.append(vid)
         # title only: every description mentions CA Inter
         if kw.search(title):
             is_motiv = False
@@ -418,7 +426,15 @@ def check_youtube(state, cfg):
             f"▶️ Watch now: {url}\n"
             "👍 Like, share with your friends & subscribe for more!"
         )
-        send(text, preview=True, where="updates")
+        if vid in shared:
+            continue
+        try:
+            send(text, preview=True, where="updates")
+        except Exception as e:
+            print("YouTube send failed (will retry next run):", vid, e)
+            continue
+        shared.append(vid)
+    state["yt_shared"] = shared[-300:]
 
 
 STUDY_EMOJI = {"1-Minute Revision": "⏱️", "Formula Card": "🧮", "Memory Trick": "🧠",
