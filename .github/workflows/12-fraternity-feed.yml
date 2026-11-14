@@ -1,14 +1,14 @@
-name: "12. FRATERNITY main group – Sir's YouTube + Instagram"
+name: "12. FRATERNITY main group – Sir's YouTube videos"
 
 on:
   schedule:
-    - cron: "20,50 * * * *"   # every 30 minutes, all day, every day (IST :20 and :50)
+    - cron: "5,20,35,50 * * * *"   # every 15 minutes, all day (GitHub skips some scheduled runs, so this keeps the gap short)
   workflow_dispatch:
     inputs:
       mode:
         description: "What to run"
         type: choice
-        options: [youtube, instagram, recent, latest, info, igtest]
+        options: [youtube, recent, latest, info]
         default: youtube
 
 permissions:
