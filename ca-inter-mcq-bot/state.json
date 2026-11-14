@@ -1,6 +1,56 @@
 {
   "next_index": 6,
-  "pending": null,
+  "pending": {
+    "date": "2026-11-14",
+    "sets": [
+      {
+        "index": 6,
+        "case_message_id": 5849,
+        "poll_message_ids": [
+          5850,
+          5851,
+          5852,
+          5853
+        ],
+        "mirrors": [
+          {
+            "chat_id": -1001311488542,
+            "thread": 166242,
+            "case_message_id": 166604,
+            "poll_message_ids": [
+              166605,
+              166606,
+              166608,
+              166610
+            ]
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "case_message_id": 5855,
+        "poll_message_ids": [
+          5856,
+          5857,
+          5858,
+          5859
+        ],
+        "mirrors": [
+          {
+            "chat_id": -1001311488542,
+            "thread": 166242,
+            "case_message_id": 166612,
+            "poll_message_ids": [
+              166614,
+              166616,
+              166618,
+              166620
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "history": [
     {
       "date": "2026-11-10",
@@ -146,5 +196,5 @@
       ]
     }
   ],
-  "last_post_date": "2026-11-13"
+  "last_post_date": "2026-11-14"
 }
