@@ -12,7 +12,7 @@ Modes:
   preview  – print today's (or DATE=YYYY-MM-DD) posts without sending
   test     – send a day's posts to TEST_CHAT only (DATE=YYYY-MM-DD optional); saves nothing
 """
-import csv, io, json, os, sys, time, urllib.request, urllib.error
+import csv, io, json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -70,16 +70,30 @@ def target(cfg):
     return {"chat_id": int(cfg["chat_id"]), "message_thread_id": cfg.get("thread_id")}
 
 
+def fix_text(t):
+    """Repair emojis garbled by Google's CSV import (4-byte UTF-8 read as Latin-1, e.g. 'ð\x9f\x9f¦' -> '🟦')."""
+    def rep(m):
+        try:
+            return m.group(0).encode("latin-1").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            return m.group(0)
+    return re.sub(r"[\xf0-\xf4][\x80-\xbf]{3}", rep, t or "")
+
+
 def sheet_plan(url):
     """Read the plan from a Google Sheet published as CSV (one row per message).
     Columns: date, day, part (morning/evening), seq, type (text/quiz), text, A, B, C, D, correct (A-D), explanation"""
     with urllib.request.urlopen(url, timeout=60) as r:
         rows = list(csv.DictReader(io.StringIO(r.read().decode("utf-8-sig"))))
+    rows = [{k: fix_text(v) for k, v in row.items()} for row in rows]
     days = {}
     for row in rows:
         date = (row.get("date") or "").strip()
         if not date:
             continue
+        if not (len(date) == 10 and date[4] == "-" and date[7] == "-"):
+            # the sheet may show dates in another format: rebuild from the day number (Day 1 = 13 Nov 2026)
+            date = (datetime(2026, 11, 13) + timedelta(days=int(float(row["day"])) - 1)).strftime("%Y-%m-%d")
         d = days.setdefault(date, {"day": int(float(row.get("day") or 0)), "date": date, "morning": [], "evening": "", "_m": []})
         if (row.get("part") or "").strip().lower() == "evening":
             d["evening"] = row["text"]
