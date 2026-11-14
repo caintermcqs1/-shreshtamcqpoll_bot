@@ -7,6 +7,8 @@
     "2026-11-13:fact:g1": true,
     "2026-11-13:fact:g2": true,
     "2026-11-13:night:g1": true,
-    "2026-11-13:night:g2": true
+    "2026-11-13:night:g2": true,
+    "2026-11-14:countdown:g1": true,
+    "2026-11-14:countdown:g2": true
   }
 }
