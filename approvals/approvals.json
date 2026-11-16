@@ -1,6 +1,6 @@
 {
  "_how": "Add a request with status \"new\" -> workflow 18 posts it to the MCQ'S poll group with Approve/Reject buttons. Decisions are written back here (status approved/rejected, decided_by, decided_at, comments).",
- "update_offset": 780398489,
+ "update_offset": 780398490,
  "items": [
   {
    "id": "cma-mcq-changes-16nov",
@@ -27,7 +27,7 @@
    "last_reminder": "2026-11-16",
    "decided_by": "Guntur Team",
    "decided_at": "2026-11-16T11:40+05:30",
-   "shown": false,
+   "shown": true,
    "note": "Approve tapped in Telegram ~11:35 IST; the tap was not saved (bot error), so the user's confirmation in the Claude chat was recorded."
   }
  ]
