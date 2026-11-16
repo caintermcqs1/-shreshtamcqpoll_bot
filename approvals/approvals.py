@@ -50,6 +50,16 @@ def api(method, **params):
     return res["result"]
 
 
+def safe(method, **params):
+    """Telegram call that must never stop the run (e.g. a button tap older than ~15 min
+    can no longer be answered, but the decision is still recorded)."""
+    try:
+        return api(method, **params)
+    except Exception as e:
+        print("ignored:", method, e)
+        return None
+
+
 def send_file(path, caption, reply_to=None):
     boundary = "----apv" + now.strftime("%H%M%S%f")
     with open(os.path.join(ROOT, path), "rb") as f:
@@ -156,13 +166,13 @@ def do_poll(d):
             it = by_id.get(iid)
             who = cq["from"].get("first_name", "") + (" " + cq["from"].get("last_name", "")).rstrip()
             if not it:
-                api("answerCallbackQuery", callback_query_id=cq["id"], text="Unknown request")
+                safe("answerCallbackQuery", callback_query_id=cq["id"], text="Unknown request")
                 continue
             if str(cq["message"]["chat"]["id"]) != CHAT or not is_admin(cq["from"]["id"]):
-                api("answerCallbackQuery", callback_query_id=cq["id"], text="Only group admins can approve.")
+                safe("answerCallbackQuery", callback_query_id=cq["id"], text="Only group admins can approve.")
                 continue
             if it.get("status") in ("approved", "rejected"):
-                api("answerCallbackQuery", callback_query_id=cq["id"], text=f"Already {it['status']}")
+                safe("answerCallbackQuery", callback_query_id=cq["id"], text=f"Already {it['status']}")
                 continue
             ok = ans == "ok"
             it.update(status="approved" if ok else "rejected", decided_by=who,
@@ -177,7 +187,7 @@ def do_poll(d):
                     text=request_text(it).rsplit("\n\nTap", 1)[0] + f"\n\n<b>{mark}</b> by {esc(who)} – {stamp}")
             except Exception as e:
                 print("edit failed", e)
-            api("answerCallbackQuery", callback_query_id=cq["id"], text=f"{mark} – noted")
+            safe("answerCallbackQuery", callback_query_id=cq["id"], text=f"{mark} – noted")
             print(iid, it["status"], who, result)
             changed = True
             continue
@@ -188,7 +198,7 @@ def do_poll(d):
                 who = msg["from"].get("first_name", "")
                 it.setdefault("comments", []).append(
                     {"by": who, "at": dt.datetime.now(IST).isoformat(timespec="minutes"), "text": msg["text"]})
-                api("sendMessage", chat_id=CHAT, reply_to_message_id=msg["message_id"],
+                safe("sendMessage", chat_id=CHAT, reply_to_message_id=msg["message_id"],
                     text=f"📝 Comment saved for #{it['id']}. Claude will act on it in the next session.")
                 changed = True
     if offset != d.get("update_offset", 0):
@@ -213,9 +223,11 @@ def do_remind(d):
 
 if __name__ == "__main__":
     d = load()
-    c = do_send(d)
-    c = do_poll(d) or c
-    c = do_remind(d) or c
-    if c:
-        save(d)
+    c = False
+    try:
+        c = do_send(d)
+        c = do_poll(d) or c
+        c = do_remind(d) or c
+    finally:
+        save(d)  # always keep decisions already recorded
     print("pending:", [i["id"] for i in d["items"] if i.get("status") == "pending"])
