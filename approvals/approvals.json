@@ -1,6 +1,6 @@
 {
  "_how": "Add a request with status \"new\" -> workflow 18 posts it to the MCQ'S poll group with Approve/Reject buttons. Decisions are written back here (status approved/rejected, decided_by, decided_at, comments).",
- "update_offset": 0,
+ "update_offset": 780398436,
  "items": [
   {
    "id": "cma-mcq-changes-16nov",
@@ -18,10 +18,13 @@
     "Full questions, options and answers are in the message above."
    ],
    "if_rejected": "the original MCQs from the approved PDF will be put back (the shut-down point fix stays, because the old key was wrong).",
-   "status": "new",
+   "status": "pending",
    "attachment_text": [
     "📄 #cma-mcq-changes-16nov – full questions\n\n1) Wed 18 Nov – Group 1 – Financial Accounting (P6)\nConsignment – unsold stock\nQ. Goods costing ₹1,00,000 are sent on consignment; the consignor pays freight ₹10,000. One-fourth of the goods remain unsold. The unsold stock is valued at:\nA) ₹27,500\nB) ₹25,000\nC) ₹30,000\nD) ₹22,500\n✔ Answer: A – Unsold stock = ¼ × (Cost ₹1,00,000 + consignor's freight ₹10,000) = ₹27,500. Expenses that bring the goods to the consignee's place are included.\n\n2) Wed 18 Nov – Group 1 – Cost Accounting (P8)\nOperating costing – passenger-km\nQ. A bus makes 4 trips a day of 30 km each, carrying 40 passengers on average per trip, for 25 days. Total passenger-km are:\nA) 3,000\nB) 1,20,000\nC) 4,800\nD) 30,000\n✔ Answer: B – Passenger-km = 30 km × 4 trips × 40 passengers × 25 days = 1,20,000.\n\n3) Thu 19 Nov – Group 1 – Cost Accounting (P8)\nCost Accounting Standards – CAS 1\nQ. Which Cost Accounting Standard deals with the classification of cost?\nA) CAS 1\nB) CAS 4\nC) CAS 6\nD) CAS 7\n✔ Answer: A – CAS 1 covers classification of cost. CAS 4 = cost of production for captive consumption, CAS 6 = material cost, CAS 7 = employee cost.\n\n4) Fri 20 Nov – Group 1 – Cost Accounting (P8)\nRowan premium plan\nQ. Time allowed 10 hours, time taken 8 hours, rate ₹50 per hour. Earnings under the Rowan plan are:\nA) ₹500\nB) ₹480\nC) ₹400\nD) ₹450\n✔ Answer: B – Rowan = TT × R + (TA − TT) ÷ TA × TT × R = 400 + 2/10 × 8 × 50 = ₹480.\n\n5) Sat 21 Nov – Group 1 – Financial Accounting (P6)\nAS 2 – costs excluded\nQ. Under AS 2, which of these is NOT included in the cost of inventories?\nA) Freight inward\nB) Conversion costs\nC) Selling and distribution costs\nD) Purchase price less trade discount\n✔ Answer: C – AS 2 excludes selling costs, abnormal wastage, storage (unless needed in production) and administrative overheads not related to production.\n\n6) Fri 4 Dec – Group 2 – Management Accounting (P12)\nShut-down point\nQ. Fixed costs ₹2,00,000, of which ₹50,000 will continue even if the plant is shut down. Contribution per unit ₹30. Shut-down point is:\nA) 6,667 units\nB) 1,667 units\nC) 5,000 units\nD) 8,333 units\n✔ Answer: C – Shut-down point = Fixed costs avoidable by shutting down ÷ Contribution per unit = (2,00,000 − 50,000) ÷ 30 = 5,000 units.\n"
-   ]
+   ],
+   "message_id": 129,
+   "sent_at": "2026-11-16T11:23+05:30",
+   "last_reminder": "2026-11-16"
   }
  ]
 }
