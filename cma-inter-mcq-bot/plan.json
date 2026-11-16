@@ -708,5 +708,2703 @@
     "exp": "Rate = 6,00,000 ÷ 2,500 = ₹240 per set-up; 1,000 × 240 = ₹2,40,000."
    }
   ]
+ },
+ {
+  "day": 6,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Offer – invitation to offer",
+    "q": "A shop displays goods with price tags. In law, the display is:",
+    "o": [
+     "A general offer to the public",
+     "An acceptance",
+     "An invitation to offer",
+     "A standing offer binding on the shop"
+    ],
+    "ans": 2,
+    "why": "Display of goods with prices only invites customers to make an offer; the customer offers to buy and the shopkeeper accepts.",
+    "trap": "Price tags feel like an offer, but the shopkeeper can still refuse to sell.",
+    "source": "Indian Contract Act, 1872 – Sec 2(a); Pharmaceutical Society v Boots",
+    "exp": "Display of goods with prices only invites customers to make an offer; the customer offers to buy and the shopkeeper accepts."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Sale or return",
+    "q": "Goods costing ₹8,000 were sent on 'sale or return' at cost + 25% (invoice ₹10,000). At the year end the customer has not yet approved them. In the trader's books they are shown as:",
+    "o": [
+     "Stock at cost ₹8,000",
+     "Debtors ₹10,000",
+     "Sales ₹10,000",
+     "Stock at invoice price ₹10,000"
+    ],
+    "ans": 0,
+    "why": "Until the customer approves (or the time limit passes), no sale arises – the goods are still the trader's stock, valued at cost.",
+    "trap": "Recording ₹10,000 as sales or debtors books an unearned profit of ₹2,000.",
+    "source": "CMA Inter P6 – Accounting for special transactions: sale or return",
+    "exp": "Until the customer approves (or the time limit passes), no sale arises – the goods are still the trader's stock, valued at cost."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – taxable event",
+    "q": "Under GST, the taxable event is:",
+    "o": [
+     "Manufacture of goods",
+     "Sale of goods only",
+     "Receipt of payment",
+     "Supply of goods or services"
+    ],
+    "ans": 3,
+    "why": "GST is levied on supply (Sec 9 of CGST Act), replacing manufacture, sale and service as separate events.",
+    "trap": "Manufacture was the taxable event for central excise.",
+    "source": "CGST Act, 2017 – Sec 7, 9",
+    "exp": "GST is levied on supply (Sec 9 of CGST Act), replacing manufacture, sale and service as separate events."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Reconciliation of cost and financial accounts",
+    "q": "Interest received on investments ₹5,000 appears only in the financial accounts. When reconciling, starting from the profit as per cost accounts, you should:",
+    "o": [
+     "Deduct ₹5,000",
+     "Add ₹5,000",
+     "Ignore it",
+     "Add ₹10,000"
+    ],
+    "ans": 1,
+    "why": "Income shown only in financial accounts makes financial profit higher, so it is added to costing profit.",
+    "trap": "Deduct only expenses/losses that appear only in financial accounts.",
+    "source": "CMA Inter P8 – Reconciliation of cost and financial accounts",
+    "exp": "Income shown only in financial accounts makes financial profit higher, so it is added to costing profit."
+   }
+  ]
+ },
+ {
+  "day": 6,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Strategic management – levels",
+    "q": "Strategy formulated for an entire diversified group is:",
+    "o": [
+     "Business-level strategy",
+     "Corporate-level strategy",
+     "Functional-level strategy",
+     "Operational strategy"
+    ],
+    "ans": 1,
+    "why": "Corporate strategy decides which businesses to be in; business strategy decides how to compete.",
+    "trap": "Functional strategy covers marketing, finance etc. within a business.",
+    "source": "CMA Inter P9 – Strategic management",
+    "exp": "Corporate strategy decides which businesses to be in; business strategy decides how to compete."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Auditor – appointment",
+    "q": "The first auditor of a company (other than a Government company) is appointed by the Board within:",
+    "o": [
+     "90 days of registration",
+     "6 months of registration",
+     "The first AGM",
+     "30 days of registration"
+    ],
+    "ans": 3,
+    "why": "Sec 139(6): Board appoints first auditor within 30 days of registration; if it fails, members do so within 90 days at an EGM.",
+    "trap": "90 days is the members' deadline after Board failure.",
+    "source": "Companies Act, 2013 – Sec 139(6)",
+    "exp": "Sec 139(6): Board appoints first auditor within 30 days of registration; if it fails, members do so within 90 days at an EGM."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Data types",
+    "q": "Customer satisfaction ratings like 'Good, Average, Poor' are:",
+    "o": [
+     "Ordinal data",
+     "Nominal data",
+     "Ratio data",
+     "Interval data"
+    ],
+    "ans": 0,
+    "why": "Ordinal data has categories with a natural order but unequal gaps.",
+    "trap": "Nominal has no order (e.g. colours).",
+    "source": "CMA Inter P11 – Business Data Analytics",
+    "exp": "Ordinal data has categories with a natural order but unequal gaps."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Limiting factor",
+    "q": "When machine hours are scarce, products should be ranked by:",
+    "o": [
+     "Contribution per unit",
+     "Selling price per unit",
+     "Contribution per machine hour",
+     "Profit per unit"
+    ],
+    "ans": 2,
+    "why": "With a key factor, maximise contribution per unit of the scarce resource.",
+    "trap": "Contribution per unit ignores how much of the scarce resource each uses.",
+    "source": "CMA Inter P12 – Marginal costing decisions",
+    "exp": "With a key factor, maximise contribution per unit of the scarce resource."
+   }
+  ]
+ },
+ {
+  "day": 7,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Communication of acceptance",
+    "q": "A posts a letter of acceptance to B. As against A (the acceptor), the communication of acceptance is complete when:",
+    "o": [
+     "A posts the letter",
+     "A writes the letter",
+     "B replies to the letter",
+     "The letter reaches B (comes to B's knowledge)"
+    ],
+    "ans": 3,
+    "why": "Against the proposer, acceptance is complete when posted; against the acceptor, only when it comes to the proposer's knowledge.",
+    "trap": "Posting completes it only as against the proposer, not the acceptor.",
+    "source": "Indian Contract Act, 1872 – Sec 4",
+    "exp": "Against the proposer, acceptance is complete when posted; against the acceptor, only when it comes to the proposer's knowledge."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Average due date",
+    "q": "Bills: ₹10,000 due 10 March and ₹20,000 due 1 April. Taking 10 March as the base date, the average due date is:",
+    "o": [
+     "21 March",
+     "1 April",
+     "25 March",
+     "20 March"
+    ],
+    "ans": 2,
+    "why": "Days from base: 0 and 22. Products: 0 + 20,000 × 22 = 4,40,000. 4,40,000 ÷ 30,000 = 14.67 ≈ 15 days → 25 March.",
+    "trap": "Counting 1 April as 21 days (forgetting 31 March) gives a wrong date.",
+    "source": "CMA Inter P6 – Average due date",
+    "exp": "Days from base: 0 and 22. Products: 0 + 20,000 × 22 = 4,40,000. 4,40,000 ÷ 30,000 = 14.67 ≈ 15 days → 25 March."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Agricultural income",
+    "q": "Which of these is agricultural income?",
+    "o": [
+     "Interest on a loan to a farmer",
+     "Rent received from agricultural land in India used for agriculture",
+     "Dividend from a tea company",
+     "Income from poultry farming"
+    ],
+    "ans": 1,
+    "why": "Rent or revenue derived from agricultural land situated in India and used for agricultural purposes is agricultural income.",
+    "trap": "Poultry and dividends from agri-companies are not agricultural income.",
+    "source": "Income-tax Act – Sec 2(1A)",
+    "exp": "Rent or revenue derived from agricultural land situated in India and used for agricultural purposes is agricultural income."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Joint products – sales value method",
+    "q": "Joint cost ₹60,000. Sales value at split-off: X ₹80,000, Y ₹40,000. Joint cost apportioned to X is:",
+    "o": [
+     "₹40,000",
+     "₹30,000",
+     "₹20,000",
+     "₹60,000"
+    ],
+    "ans": 0,
+    "why": "Ratio of sales values 80,000 : 40,000 = 2 : 1, so X gets 2/3 × 60,000 = ₹40,000.",
+    "trap": "₹30,000 splits equally – that is the physical-units idea, not sales value.",
+    "source": "CMA Inter P8 – Joint products and by-products",
+    "exp": "Ratio of sales values 80,000 : 40,000 = 2 : 1, so X gets 2/3 × 60,000 = ₹40,000."
+   }
+  ]
+ },
+ {
+  "day": 7,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Production planning – routing",
+    "q": "Deciding the path and sequence of operations a product follows in the factory is:",
+    "o": [
+     "Routing",
+     "Scheduling",
+     "Dispatching",
+     "Expediting"
+    ],
+    "ans": 0,
+    "why": "Routing fixes the route/sequence of operations; scheduling fixes the time; dispatching releases orders; expediting follows up.",
+    "trap": "Scheduling answers 'when', routing answers 'where and in what order'.",
+    "source": "CMA Inter P9 – Production planning and control",
+    "exp": "Routing fixes the route/sequence of operations; scheduling fixes the time; dispatching releases orders; expediting follows up."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Shares – forfeiture",
+    "q": "500 shares of ₹10 (₹8 called up) forfeited after ₹5 paid; reissued at ₹7 fully paid as ₹8 paid up. Gain to Capital Reserve is:",
+    "o": [
+     "₹2,500",
+     "₹2,000",
+     "₹1,500",
+     "₹3,500"
+    ],
+    "ans": 1,
+    "why": "Forfeited amount = 500 × 5 = 2,500. Discount on reissue = 500 × (8 − 7) = 500. Capital reserve = 2,500 − 500 = ₹2,000.",
+    "trap": "Transfer only after adjusting the reissue discount.",
+    "source": "CMA Inter P10 – Share capital",
+    "exp": "Forfeited amount = 500 × 5 = 2,500. Discount on reissue = 500 × (8 − 7) = 500. Capital reserve = 2,500 − 500 = ₹2,000."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Time value – present value",
+    "q": "PV of ₹1,10,000 receivable after 1 year at 10% is:",
+    "o": [
+     "₹99,000",
+     "₹1,10,000",
+     "₹1,00,000",
+     "₹1,21,000"
+    ],
+    "ans": 2,
+    "why": "PV = 1,10,000 ÷ 1.10 = ₹1,00,000.",
+    "trap": "₹99,000 deducts 10% of the future value – not discounting.",
+    "source": "CMA Inter P11 – Time value of money",
+    "exp": "PV = 1,10,000 ÷ 1.10 = ₹1,00,000."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Make or buy",
+    "q": "Variable cost to make ₹45/unit; fixed costs unaffected; outside price ₹50/unit. Decision:",
+    "o": [
+     "Buy – it saves ₹5 per unit",
+     "Buy – fixed costs are saved",
+     "Indifferent",
+     "Make – it saves ₹5 per unit"
+    ],
+    "ans": 3,
+    "why": "Only relevant (avoidable) costs count: make at ₹45 < buy at ₹50.",
+    "trap": "Unavoidable fixed costs are irrelevant to the decision.",
+    "source": "CMA Inter P12 – Relevant costing",
+    "exp": "Only relevant (avoidable) costs count: make at ₹45 < buy at ₹50."
+   }
+  ]
+ },
+ {
+  "day": 8,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Consideration – past",
+    "q": "X saved Y's child from drowning. Later Y promised to pay X ₹10,000. Y's promise is:",
+    "o": [
+     "Void – past consideration is not allowed in India",
+     "Void – it is only a moral obligation",
+     "Enforceable – past voluntary service is valid consideration",
+     "Voidable at Y's option"
+    ],
+    "ans": 2,
+    "why": "Sec 25(2): a promise to compensate a person who has already voluntarily done something for the promisor is enforceable.",
+    "trap": "Under English law past consideration is no consideration – Indian law is different.",
+    "source": "Indian Contract Act, 1872 – Sec 2(d), 25(2)",
+    "exp": "Sec 25(2): a promise to compensate a person who has already voluntarily done something for the promisor is enforceable."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "AS 10 – cost of PPE",
+    "q": "Which of these is NOT included in the cost of an item of property, plant and equipment under AS 10?",
+    "o": [
+     "Administration and general overheads",
+     "Installation and assembly costs",
+     "Freight to bring it to the site",
+     "Site preparation costs"
+    ],
+    "ans": 0,
+    "why": "Cost includes the purchase price and costs directly attributable to bringing the asset to working condition. General administration overheads are not.",
+    "trap": "Installation and freight feel like 'extra expenses', but they are directly attributable and capitalised.",
+    "source": "AS 10 – Property, Plant and Equipment",
+    "exp": "Cost includes the purchase price and costs directly attributable to bringing the asset to working condition. General administration overheads are not."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – IGST",
+    "q": "Supply of goods from Maharashtra to Gujarat attracts:",
+    "o": [
+     "CGST + SGST",
+     "Only CGST",
+     "Customs duty",
+     "IGST"
+    ],
+    "ans": 3,
+    "why": "Inter-State supply attracts IGST; intra-State supply attracts CGST + SGST/UTGST.",
+    "trap": "Location of supplier and place of supply in different States = inter-State.",
+    "source": "IGST Act, 2017 – Sec 7",
+    "exp": "Inter-State supply attracts IGST; intra-State supply attracts CGST + SGST/UTGST."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Halsey premium plan",
+    "q": "Time allowed 10 hours, time taken 8 hours, rate ₹50 per hour. Earnings under the Halsey plan (50% sharing) are:",
+    "o": [
+     "₹500",
+     "₹450",
+     "₹400",
+     "₹480"
+    ],
+    "ans": 1,
+    "why": "Halsey = TT × R + 50% × (TA − TT) × R = 400 + 50% × 2 × 50 = ₹450.",
+    "trap": "₹480 is the Rowan plan (400 + 2/10 × 8 × 50).",
+    "source": "CMA Inter P8 – Labour cost: incentive plans",
+    "exp": "Halsey = TT × R + 50% × (TA − TT) × R = 400 + 50% × 2 × 50 = ₹450."
+   }
+  ]
+ },
+ {
+  "day": 8,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "PESTEL",
+    "q": "A change in interest rates by the central bank falls under which PESTEL factor?",
+    "o": [
+     "Political",
+     "Economic",
+     "Legal",
+     "Technological"
+    ],
+    "ans": 1,
+    "why": "Interest rates, inflation and exchange rates are economic factors.",
+    "trap": "Government policy feels political, but monetary indicators are economic.",
+    "source": "CMA Inter P9 – Environmental analysis",
+    "exp": "Interest rates, inflation and exchange rates are economic factors."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Rotation of auditors",
+    "q": "A listed company cannot appoint an individual auditor for more than:",
+    "o": [
+     "Two terms of 5 years",
+     "10 years",
+     "3 years",
+     "One term of 5 consecutive years"
+    ],
+    "ans": 3,
+    "why": "Individuals: one term of 5 years; audit firms: two terms of 5 years each, with 5-year cooling off.",
+    "trap": "Two terms apply to audit firms, not individuals.",
+    "source": "Companies Act, 2013 – Sec 139(2)",
+    "exp": "Individuals: one term of 5 years; audit firms: two terms of 5 years each, with 5-year cooling off."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Data visualisation",
+    "q": "To show the share of each product in total sales, the best chart is:",
+    "o": [
+     "Pie chart",
+     "Line chart",
+     "Scatter plot",
+     "Histogram"
+    ],
+    "ans": 0,
+    "why": "Pie charts show parts of a whole.",
+    "trap": "Line charts show trends over time.",
+    "source": "CMA Inter P11 – Data visualisation",
+    "exp": "Pie charts show parts of a whole."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Flexible budget",
+    "q": "A flexible budget is useful because it:",
+    "o": [
+     "Is prepared for one activity level only",
+     "Ignores fixed costs",
+     "Adjusts allowed costs to the actual level of activity",
+     "Is the same as a cash budget"
+    ],
+    "ans": 2,
+    "why": "Flexible budgets compare actual costs with costs allowed for the actual output.",
+    "trap": "A fixed budget is for one level only.",
+    "source": "CMA Inter P12 – Budgetary control",
+    "exp": "Flexible budgets compare actual costs with costs allowed for the actual output."
+   }
+  ]
+ },
+ {
+  "day": 9,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Coercion vs undue influence",
+    "q": "A doctor induces his patient to sell him a house at a very low price by taking advantage of the patient's mental weakness. The contract is:",
+    "o": [
+     "Void due to coercion",
+     "Valid, as the price was agreed",
+     "Void due to mistake of fact",
+     "Voidable due to undue influence"
+    ],
+    "ans": 3,
+    "why": "A person in a fiduciary/dominant position using it to get an unfair advantage is undue influence; such a contract is voidable at the option of the weaker party.",
+    "trap": "Coercion needs a threat or an act forbidden by IPC/BNS – there is none here.",
+    "source": "Indian Contract Act, 1872 – Sec 16, 19A",
+    "exp": "A person in a fiduciary/dominant position using it to get an unfair advantage is undue influence; such a contract is voidable at the option of the weaker party."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Joint venture – memorandum method",
+    "q": "Under the memorandum joint venture method, each venturer records in his own books:",
+    "o": [
+     "All transactions of the venture",
+     "Nothing until the venture ends",
+     "Only his own transactions, in a 'Joint Venture with ___ A/c'",
+     "Only his share of profit"
+    ],
+    "ans": 2,
+    "why": "Each venturer keeps a personal account 'Joint Venture with ___' for his own transactions; the full venture result is worked out in a Memorandum JV A/c.",
+    "trap": "Recording all transactions in each venturer's books is the method where full JV books are kept.",
+    "source": "CMA Inter P6 – Joint venture accounts",
+    "exp": "Each venturer keeps a personal account 'Joint Venture with ___' for his own transactions; the full venture result is worked out in a Memorandum JV A/c."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Previous year – new business",
+    "q": "A business is set up on 1 November 2025. Its first previous year for A.Y. 2026-27 is:",
+    "o": [
+     "1 Apr 2025 to 31 Mar 2026",
+     "1 Nov 2025 to 31 Mar 2026",
+     "1 Nov 2025 to 31 Oct 2026",
+     "1 Apr 2026 to 31 Mar 2027"
+    ],
+    "ans": 1,
+    "why": "For a newly set-up business, the first previous year begins on the date of setting up and ends on the following 31 March.",
+    "trap": "The previous year is never longer than 12 months.",
+    "source": "Income-tax Act – Sec 3",
+    "exp": "For a newly set-up business, the first previous year begins on the date of setting up and ends on the following 31 March."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Material – maximum level",
+    "q": "Re-order level 3,000; re-order quantity 4,000; minimum usage 300/week; minimum lead time 4 weeks. Maximum level is:",
+    "o": [
+     "5,800 units",
+     "7,000 units",
+     "6,200 units",
+     "4,800 units"
+    ],
+    "ans": 0,
+    "why": "Maximum level = ROL + ROQ − (Minimum usage × Minimum lead time) = 3,000 + 4,000 − 1,200 = 5,800.",
+    "trap": "Using maximum usage instead of minimum usage is the usual slip.",
+    "source": "CMA Inter P8 – Stock levels",
+    "exp": "Maximum level = ROL + ROQ − (Minimum usage × Minimum lead time) = 3,000 + 4,000 − 1,200 = 5,800."
+   }
+  ]
+ },
+ {
+  "day": 9,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Plant layout",
+    "q": "A layout where machines are arranged in the sequence of operations for one product is:",
+    "o": [
+     "Product (line) layout",
+     "Process (functional) layout",
+     "Fixed-position layout",
+     "Cellular layout"
+    ],
+    "ans": 0,
+    "why": "Product layout arranges equipment in the order of processing – suits mass production.",
+    "trap": "Process layout groups similar machines together – suits job shops.",
+    "source": "CMA Inter P9 – Plant layout",
+    "exp": "Product layout arranges equipment in the order of processing – suits mass production."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Securities premium – uses",
+    "q": "Securities premium can be used for:",
+    "o": [
+     "Paying dividend",
+     "Issuing fully paid bonus shares",
+     "Writing off trading losses",
+     "Paying salaries"
+    ],
+    "ans": 1,
+    "why": "Sec 52(2): bonus shares, preliminary expenses, issue expenses/commission/discount, premium on redemption, buy-back.",
+    "trap": "Dividends cannot be paid out of securities premium.",
+    "source": "Companies Act, 2013 – Sec 52",
+    "exp": "Sec 52(2): bonus shares, preliminary expenses, issue expenses/commission/discount, premium on redemption, buy-back."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "WACC",
+    "q": "Equity ₹6 lakh at 15%, debt ₹4 lakh at 8% (after tax). WACC is:",
+    "o": [
+     "11.5%",
+     "23%",
+     "12.2%",
+     "10.4%"
+    ],
+    "ans": 2,
+    "why": "(6 × 15% + 4 × 8%) ÷ 10 = (0.90 + 0.32) ÷ 10 = 12.2%.",
+    "trap": "Simple average of 15% and 8% gives 11.5% – wrong weights.",
+    "source": "CMA Inter P11 – Cost of capital",
+    "exp": "(6 × 15% + 4 × 8%) ÷ 10 = (0.90 + 0.32) ÷ 10 = 12.2%."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Zero-based budgeting",
+    "q": "In zero-based budgeting:",
+    "o": [
+     "Last year's figures are increased by inflation",
+     "Only capital expenditure is budgeted",
+     "Budgets are never revised",
+     "Every activity must be justified from scratch"
+    ],
+    "ans": 3,
+    "why": "ZBB starts from zero; each decision package is evaluated and ranked.",
+    "trap": "Incremental budgeting builds on last year – the opposite.",
+    "source": "CMA Inter P12 – Budgeting",
+    "exp": "ZBB starts from zero; each decision package is evaluated and ranked."
+   }
+  ]
+ },
+ {
+  "day": 10,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Agreement in restraint of trade",
+    "q": "S sells his business's goodwill to B and agrees not to carry on a similar business within the same city for 2 years. This restraint is:",
+    "o": [
+     "Void – all restraints of trade are void",
+     "Valid only if registered",
+     "Valid – sale of goodwill is an exception",
+     "Void because 2 years is too long"
+    ],
+    "ans": 2,
+    "why": "Sec 27 makes restraints of trade void, but the seller of goodwill may agree not to carry on a similar business within specified local limits, if reasonable.",
+    "trap": "The general rule is void – the goodwill exception saves it.",
+    "source": "Indian Contract Act, 1872 – Sec 27, Exception 1",
+    "exp": "Sec 27 makes restraints of trade void, but the seller of goodwill may agree not to carry on a similar business within specified local limits, if reasonable."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "AS 2 – valuation",
+    "q": "Closing stock: cost ₹80,000, net realisable value ₹72,000. Stock is shown at:",
+    "o": [
+     "₹72,000",
+     "₹80,000",
+     "₹76,000",
+     "₹8,000"
+    ],
+    "ans": 0,
+    "why": "Inventories are valued at the lower of cost and NRV.",
+    "trap": "Average of the two has no basis in AS 2.",
+    "source": "AS 2 – Valuation of Inventories",
+    "exp": "Inventories are valued at the lower of cost and NRV."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – registration",
+    "q": "A person making only inter-State taxable supplies of goods must register:",
+    "o": [
+     "Only if turnover exceeds ₹40 lakh",
+     "Only if turnover exceeds ₹20 lakh",
+     "Never",
+     "Irrespective of turnover"
+    ],
+    "ans": 3,
+    "why": "Persons making inter-State taxable supplies must register compulsorily (exemption exists for certain services and small e-commerce suppliers).",
+    "trap": "The threshold applies to intra-State suppliers.",
+    "source": "CGST Act, 2017 – Sec 24",
+    "exp": "Persons making inter-State taxable supplies must register compulsorily (exemption exists for certain services and small e-commerce suppliers)."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Labour – Halsey",
+    "q": "Time allowed 10 hrs, time taken 8 hrs, rate ₹60/hr. Halsey (50%) earnings are:",
+    "o": [
+     "₹576",
+     "₹540",
+     "₹600",
+     "₹480"
+    ],
+    "ans": 1,
+    "why": "Earnings = 8 × 60 + 50% × 2 × 60 = 480 + 60 = ₹540.",
+    "trap": "₹576 is the Rowan earnings (bonus 2/10 × 8 × 60 = 96).",
+    "source": "CMA Inter P8 – Employee cost; CAS 7",
+    "exp": "Earnings = 8 × 60 + 50% × 2 × 60 = 480 + 60 = ₹540."
+   }
+  ]
+ },
+ {
+  "day": 10,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Porter's generic strategies",
+    "q": "Offering unique features for which customers pay a premium is:",
+    "o": [
+     "Cost leadership",
+     "Differentiation",
+     "Cost focus",
+     "Market penetration"
+    ],
+    "ans": 1,
+    "why": "Differentiation creates uniqueness valued by buyers, allowing a premium price.",
+    "trap": "Market penetration is an Ansoff growth strategy, not a generic strategy.",
+    "source": "CMA Inter P9 – Porter's generic strategies",
+    "exp": "Differentiation creates uniqueness valued by buyers, allowing a premium price."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Vouching",
+    "q": "Vouching mainly tests the assertion of:",
+    "o": [
+     "Valuation of assets",
+     "Completeness of liabilities",
+     "Presentation",
+     "Occurrence of transactions"
+    ],
+    "ans": 3,
+    "why": "Vouching checks documentary evidence that recorded transactions actually occurred and are authorised.",
+    "trap": "Completeness is tested from source documents to records – the reverse direction.",
+    "source": "CMA Inter P10 – Vouching",
+    "exp": "Vouching checks documentary evidence that recorded transactions actually occurred and are authorised."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Big data – 5 Vs",
+    "q": "Which is NOT one of the common 'V's of big data?",
+    "o": [
+     "Vicinity",
+     "Volume",
+     "Velocity",
+     "Variety"
+    ],
+    "ans": 0,
+    "why": "Common Vs: Volume, Velocity, Variety, Veracity, Value.",
+    "trap": "Veracity is a V; 'Vicinity' is not.",
+    "source": "CMA Inter P11 – Big data",
+    "exp": "Common Vs: Volume, Velocity, Variety, Veracity, Value."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Sales mix variance",
+    "q": "Sales mix variance arises because:",
+    "o": [
+     "Selling prices changed",
+     "Total units sold changed",
+     "Actual proportions of products sold differ from the budgeted proportions",
+     "Costs changed"
+    ],
+    "ans": 2,
+    "why": "Mix variance isolates the effect of a change in the sales mix at standard margins.",
+    "trap": "Price changes create price variance.",
+    "source": "CMA Inter P12 – Variance analysis",
+    "exp": "Mix variance isolates the effect of a change in the sales mix at standard margins."
+   }
+  ]
+ },
+ {
+  "day": 11,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Contingent contract",
+    "q": "A agrees to pay B ₹1 lakh if B's ship returns safely. The ship sinks. The contract:",
+    "o": [
+     "Must still be performed",
+     "Becomes voidable at A's option",
+     "Becomes a quasi-contract",
+     "Becomes void"
+    ],
+    "ans": 3,
+    "why": "A contract contingent on an uncertain future event becomes void when the event becomes impossible.",
+    "trap": "Contingent contracts are enforceable only when the event happens.",
+    "source": "Indian Contract Act, 1872 – Sec 32",
+    "exp": "A contract contingent on an uncertain future event becomes void when the event becomes impossible."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Single entry – capital method",
+    "q": "Opening capital ₹1,20,000; closing capital ₹1,70,000; drawings ₹30,000; fresh capital ₹20,000. Profit is:",
+    "o": [
+     "₹50,000",
+     "₹80,000",
+     "₹60,000",
+     "₹40,000"
+    ],
+    "ans": 2,
+    "why": "Profit = Closing − Opening + Drawings − Fresh capital = 1,70,000 − 1,20,000 + 30,000 − 20,000 = ₹60,000.",
+    "trap": "Forgetting to deduct fresh capital gives ₹80,000.",
+    "source": "CMA Inter P6 – Single entry / incomplete records",
+    "exp": "Profit = Closing − Opening + Drawings − Fresh capital = 1,70,000 − 1,20,000 + 30,000 − 20,000 = ₹60,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Exempt income – PPF",
+    "q": "Interest credited on a Public Provident Fund (PPF) account is:",
+    "o": [
+     "Taxable under 'Other sources'",
+     "Fully exempt",
+     "Exempt up to ₹10,000",
+     "Taxable as salary"
+    ],
+    "ans": 1,
+    "why": "Interest on PPF is fully exempt under Sec 10(11).",
+    "trap": "₹10,000 is the Sec 80TTA limit for savings bank interest – a different provision.",
+    "source": "Income-tax Act – Sec 10(11)",
+    "exp": "Interest on PPF is fully exempt under Sec 10(11)."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Labour – idle time",
+    "q": "Idle time caused by a power failure (normal, unavoidable) is treated as:",
+    "o": [
+     "Part of production overheads",
+     "Charged to Costing P&L",
+     "Ignored",
+     "Added to direct material"
+    ],
+    "ans": 0,
+    "why": "Normal idle time is unavoidable and absorbed in overheads; abnormal idle time goes to Costing P&L.",
+    "trap": "Abnormal idle time (e.g. a strike) is the one charged to Costing P&L.",
+    "source": "CMA Inter P8 – Idle time",
+    "exp": "Normal idle time is unavoidable and absorbed in overheads; abnormal idle time goes to Costing P&L."
+   }
+  ]
+ },
+ {
+  "day": 11,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Inventory – ABC analysis",
+    "q": "In ABC analysis, 'A' items are usually:",
+    "o": [
+     "Few in number but high in value",
+     "Many in number and low in value",
+     "Medium in number and value",
+     "Items with the longest lead time"
+    ],
+    "ans": 0,
+    "why": "A items ≈ 10–20% of items but 70–80% of value – tightest control.",
+    "trap": "C items are many in number but low in value.",
+    "source": "CMA Inter P9 – Materials management",
+    "exp": "A items ≈ 10–20% of items but 70–80% of value – tightest control."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Debentures – redemption",
+    "q": "Debentures redeemed by purchase in the open market at a discount result in:",
+    "o": [
+     "Revenue profit to P&L",
+     "Profit on cancellation – capital profit",
+     "Loss on redemption",
+     "No accounting entry"
+    ],
+    "ans": 1,
+    "why": "Buying own debentures below face value and cancelling them gives a capital profit (credited to capital reserve).",
+    "trap": "It is not operating income.",
+    "source": "CMA Inter P10 – Redemption of debentures",
+    "exp": "Buying own debentures below face value and cancelling them gives a capital profit (credited to capital reserve)."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "NPV",
+    "q": "Initial outlay ₹1,00,000; PV of inflows ₹1,12,000. NPV is:",
+    "o": [
+     "₹1,12,000 – accept",
+     "−₹12,000 – reject",
+     "₹12,000 – accept",
+     "₹12,000 – reject"
+    ],
+    "ans": 2,
+    "why": "NPV = PV inflows − outlay = 12,000 > 0 → accept.",
+    "trap": "Positive NPV means accept.",
+    "source": "CMA Inter P11 – Capital budgeting",
+    "exp": "NPV = PV inflows − outlay = 12,000 > 0 → accept."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Material price variance",
+    "q": "Standard price ₹20/kg; actual price ₹18/kg; actual quantity 2,000 kg. Price variance is:",
+    "o": [
+     "₹4,000 Adverse",
+     "₹36,000 Favourable",
+     "₹2,000 Favourable",
+     "₹4,000 Favourable"
+    ],
+    "ans": 3,
+    "why": "(SP − AP) × AQ = (20 − 18) × 2,000 = ₹4,000 F.",
+    "trap": "Lower actual price = favourable.",
+    "source": "CMA Inter P12 – Standard costing",
+    "exp": "(SP − AP) × AQ = (20 − 18) × 2,000 = ₹4,000 F."
+   }
+  ]
+ },
+ {
+  "day": 12,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Quantum meruit",
+    "q": "A agreed to write a book for a publisher; after A wrote a few chapters, the publisher abandoned the work. A can claim:",
+    "o": [
+     "Nothing, as the book is incomplete",
+     "Full contract price only",
+     "Reasonable payment for work done (quantum meruit)",
+     "Only the cost of paper used"
+    ],
+    "ans": 2,
+    "why": "When one party prevents completion, the other can claim payment in proportion to the work done.",
+    "trap": "Not completing is A's fault only if A stopped – here the publisher stopped.",
+    "source": "Indian Contract Act, 1872 – Sec 65, 70; Planche v Colburn",
+    "exp": "When one party prevents completion, the other can claim payment in proportion to the work done."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Partnership – interest on capital",
+    "q": "In the absence of a partnership deed, interest on capital is:",
+    "o": [
+     "Not allowed",
+     "Allowed at 6% p.a.",
+     "Allowed at 12% p.a.",
+     "Allowed at bank rate"
+    ],
+    "ans": 0,
+    "why": "Under the Partnership Act, no interest on capital is payable unless the deed provides; interest on loans by partners is 6% p.a.",
+    "trap": "6% applies to partners' loans, not capital.",
+    "source": "Indian Partnership Act, 1932 – Sec 13",
+    "exp": "Under the Partnership Act, no interest on capital is payable unless the deed provides; interest on loans by partners is 6% p.a."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – composition scheme",
+    "q": "A composition dealer:",
+    "o": [
+     "Can claim full ITC",
+     "Can make inter-State supplies of goods",
+     "Must issue tax invoices",
+     "Cannot collect tax from customers or claim ITC"
+    ],
+    "ans": 3,
+    "why": "Composition taxpayers pay tax at a fixed rate on turnover, issue a bill of supply, and cannot collect tax or take ITC.",
+    "trap": "They issue a bill of supply, not a tax invoice.",
+    "source": "CGST Act, 2017 – Sec 10",
+    "exp": "Composition taxpayers pay tax at a fixed rate on turnover, issue a bill of supply, and cannot collect tax or take ITC."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Overheads – machine hour rate",
+    "q": "Overheads of a machine ₹1,20,000 for 3,000 effective hours. Machine hour rate is:",
+    "o": [
+     "₹30",
+     "₹40",
+     "₹400",
+     "₹36"
+    ],
+    "ans": 1,
+    "why": "1,20,000 ÷ 3,000 = ₹40 per machine hour.",
+    "trap": "Use effective (productive) hours, not total hours.",
+    "source": "CMA Inter P8 – Overheads; CAS 3",
+    "exp": "1,20,000 ÷ 3,000 = ₹40 per machine hour."
+   }
+  ]
+ },
+ {
+  "day": 12,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "BCG matrix",
+    "q": "Business with low market growth and high relative market share is a:",
+    "o": [
+     "Star",
+     "Cash cow",
+     "Question mark",
+     "Dog"
+    ],
+    "ans": 1,
+    "why": "Cash cows generate surplus cash in mature markets.",
+    "trap": "Stars have high share in high-growth markets.",
+    "source": "CMA Inter P9 – BCG matrix",
+    "exp": "Cash cows generate surplus cash in mature markets."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Audit sampling",
+    "q": "Selecting items such that each has an equal chance of selection is:",
+    "o": [
+     "Haphazard selection",
+     "Block selection",
+     "Judgmental selection",
+     "Random selection"
+    ],
+    "ans": 3,
+    "why": "Random selection uses random numbers so every item has an equal chance.",
+    "trap": "Haphazard selection is without conscious bias but not truly random.",
+    "source": "SA 530 – Audit Sampling",
+    "exp": "Random selection uses random numbers so every item has an equal chance."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Cloud computing – SaaS",
+    "q": "Using online accounting software through a browser, without managing any servers or software installation, is an example of:",
+    "o": [
+     "Software as a Service (SaaS)",
+     "Infrastructure as a Service (IaaS)",
+     "Platform as a Service (PaaS)",
+     "On-premise computing"
+    ],
+    "ans": 0,
+    "why": "In SaaS the provider runs the complete application; the user only uses it over the internet.",
+    "trap": "IaaS gives only servers/storage – the user still installs and manages the software.",
+    "source": "CMA Inter P11 – Business Data Analytics: cloud computing",
+    "exp": "In SaaS the provider runs the complete application; the user only uses it over the internet."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Transfer pricing",
+    "q": "When there is a perfect external market for the intermediate product, the ideal transfer price is:",
+    "o": [
+     "Full cost plus 50%",
+     "Variable cost only",
+     "Market price",
+     "Negotiated price below cost"
+    ],
+    "ans": 2,
+    "why": "With a perfect market, market price ensures goal congruence and fair divisional evaluation.",
+    "trap": "Variable cost suits spare capacity with no external market.",
+    "source": "CMA Inter P12 – Transfer pricing",
+    "exp": "With a perfect market, market price ensures goal congruence and fair divisional evaluation."
+   }
+  ]
+ },
+ {
+  "day": 13,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Bailment – lien",
+    "q": "A tailor stitches a suit for B and refuses to deliver it until he is paid. The tailor is exercising:",
+    "o": [
+     "General lien",
+     "Right of stoppage in transit",
+     "Right of resale",
+     "Particular lien"
+    ],
+    "ans": 3,
+    "why": "A bailee who has rendered service involving skill or labour on the goods can retain them till paid – particular lien.",
+    "trap": "General lien is available only to bankers, factors, wharfingers, attorneys and policy brokers.",
+    "source": "Indian Contract Act, 1872 – Sec 170, 171",
+    "exp": "A bailee who has rendered service involving skill or labour on the goods can retain them till paid – particular lien."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Admission – goodwill",
+    "q": "A and B share profits 3:2. C is admitted for 1/5th share and brings ₹20,000 as his share of goodwill. Total goodwill of the firm is:",
+    "o": [
+     "₹20,000",
+     "₹80,000",
+     "₹1,00,000",
+     "₹40,000"
+    ],
+    "ans": 2,
+    "why": "C's share 1/5 = ₹20,000, so total goodwill = 20,000 × 5 = ₹1,00,000.",
+    "trap": "₹80,000 is the old partners' share, not the total.",
+    "source": "CMA Inter P6 – Admission of a partner",
+    "exp": "C's share 1/5 = ₹20,000, so total goodwill = 20,000 × 5 = ₹1,00,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Salary – gratuity",
+    "q": "Gratuity received by a Central Government employee on retirement is:",
+    "o": [
+     "Exempt up to ₹10 lakh",
+     "Fully exempt",
+     "Exempt up to ₹20 lakh",
+     "Fully taxable"
+    ],
+    "ans": 1,
+    "why": "Gratuity of Government employees is fully exempt under Sec 10(10)(i).",
+    "trap": "The ₹20 lakh limit applies to non-government employees.",
+    "source": "Income-tax Act – Sec 10(10)",
+    "exp": "Gratuity of Government employees is fully exempt under Sec 10(10)(i)."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Over-absorption",
+    "q": "Overheads absorbed ₹2,60,000; actual overheads ₹2,40,000. There is:",
+    "o": [
+     "Over-absorption of ₹20,000",
+     "Under-absorption of ₹20,000",
+     "No difference",
+     "Over-absorption of ₹2,40,000"
+    ],
+    "ans": 0,
+    "why": "Absorbed more than actual = over-absorption of 20,000.",
+    "trap": "Under-absorption is when actual exceeds absorbed.",
+    "source": "CMA Inter P8 – Overheads",
+    "exp": "Absorbed more than actual = over-absorption of 20,000."
+   }
+  ]
+ },
+ {
+  "day": 13,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Work study",
+    "q": "Work study consists of:",
+    "o": [
+     "Method study and work measurement",
+     "Time study and motion study only",
+     "Job evaluation and merit rating",
+     "Quality control and inspection"
+    ],
+    "ans": 0,
+    "why": "Method study finds the best way; work measurement sets the time for it.",
+    "trap": "Time study is a technique within work measurement.",
+    "source": "CMA Inter P9 – Work study",
+    "exp": "Method study finds the best way; work measurement sets the time for it."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Amalgamation – purchase consideration",
+    "q": "Under AS 14, purchase consideration excludes:",
+    "o": [
+     "Shares issued to transferor's shareholders",
+     "Payment to settle the transferor's liabilities (e.g. debentures paid off separately)",
+     "Cash paid to transferor's shareholders",
+     "Other securities issued to transferor's shareholders"
+    ],
+    "ans": 1,
+    "why": "Purchase consideration is the amount paid to the shareholders of the transferor company only.",
+    "trap": "Paying the transferor's creditors is not part of PC.",
+    "source": "AS 14 – Accounting for Amalgamations",
+    "exp": "Purchase consideration is the amount paid to the shareholders of the transferor company only."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "IRR",
+    "q": "IRR is the rate at which:",
+    "o": [
+     "NPV is maximum",
+     "PI equals 2",
+     "NPV equals zero",
+     "Payback equals life"
+    ],
+    "ans": 2,
+    "why": "IRR is the discount rate that makes PV of inflows equal the outlay (NPV = 0).",
+    "trap": "At IRR, PI = 1, not 2.",
+    "source": "CMA Inter P11 – IRR",
+    "exp": "IRR is the discount rate that makes PV of inflows equal the outlay (NPV = 0)."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Responsibility accounting",
+    "q": "A divisional manager responsible for revenue, costs and investment heads a:",
+    "o": [
+     "Cost centre",
+     "Revenue centre",
+     "Profit centre",
+     "Investment centre"
+    ],
+    "ans": 3,
+    "why": "Investment centres are judged on ROI or residual income.",
+    "trap": "Profit centre has no control over investment.",
+    "source": "CMA Inter P12 – Responsibility accounting",
+    "exp": "Investment centres are judged on ROI or residual income."
+   }
+  ]
+ },
+ {
+  "day": 14,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Guarantee – surety's discharge",
+    "q": "Without the surety's consent, the creditor and principal debtor change the terms of the contract. The surety is:",
+    "o": [
+     "Liable for the new terms",
+     "Liable only for 50%",
+     "Discharged for transactions after the variance",
+     "Discharged only if the debtor defaults"
+    ],
+    "ans": 2,
+    "why": "Any variance in the terms without the surety's consent discharges the surety as to transactions after the variance.",
+    "trap": "Surety's consent is the key – not whether loss has occurred.",
+    "source": "Indian Contract Act, 1872 – Sec 133",
+    "exp": "Any variance in the terms without the surety's consent discharges the surety as to transactions after the variance."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Sacrificing ratio",
+    "q": "A and B share 3:2. They admit C for 1/5 share, which C takes equally from A and B. New ratio of A:B:C is:",
+    "o": [
+     "5:3:2",
+     "3:2:1",
+     "2:2:1",
+     "4:3:1"
+    ],
+    "ans": 0,
+    "why": "C gets 1/5 = 2/10, taken 1/10 each. A = 6/10 − 1/10 = 5/10, B = 4/10 − 1/10 = 3/10, C = 2/10 → 5:3:2.",
+    "trap": "Taking C's share in the old ratio would give a different answer.",
+    "source": "CMA Inter P6 – Admission of a partner",
+    "exp": "C gets 1/5 = 2/10, taken 1/10 each. A = 6/10 − 1/10 = 5/10, B = 4/10 − 1/10 = 3/10, C = 2/10 → 5:3:2."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – time of supply of goods",
+    "q": "Under forward charge, time of supply of goods is generally:",
+    "o": [
+     "Date of receipt of payment",
+     "Date of order",
+     "Date of manufacture",
+     "Date of issue of invoice (or last date to issue it)"
+    ],
+    "ans": 3,
+    "why": "After the 2017 notification, for goods, GST on advances is not payable (except composition); time of supply is the invoice date or due date of invoice.",
+    "trap": "Advance receipt matters for services, not goods.",
+    "source": "CGST Act, 2017 – Sec 12; Notification 66/2017-CT",
+    "exp": "After the 2017 notification, for goods, GST on advances is not payable (except composition); time of supply is the invoice date or due date of invoice."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Job costing",
+    "q": "Job costing is most suitable for:",
+    "o": [
+     "Oil refinery",
+     "Printing press executing customer orders",
+     "Cement manufacturing",
+     "Sugar mill"
+    ],
+    "ans": 1,
+    "why": "Job costing suits work done against specific customer orders, each job being distinct.",
+    "trap": "Refineries and cement use process costing.",
+    "source": "CMA Inter P8 – Methods of costing",
+    "exp": "Job costing suits work done against specific customer orders, each job being distinct."
+   }
+  ]
+ },
+ {
+  "day": 14,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Value chain",
+    "q": "In Porter's value chain, 'procurement' is a:",
+    "o": [
+     "Primary activity",
+     "Support activity",
+     "Margin",
+     "Outbound logistics activity"
+    ],
+    "ans": 1,
+    "why": "Support activities: firm infrastructure, HRM, technology development, procurement.",
+    "trap": "Inbound logistics is primary; procurement (buying) is support.",
+    "source": "CMA Inter P9 – Value chain",
+    "exp": "Support activities: firm infrastructure, HRM, technology development, procurement."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Internal control",
+    "q": "Separation of authorising, recording and custody functions is:",
+    "o": [
+     "Internal audit",
+     "Physical verification",
+     "Budgetary control",
+     "Segregation of duties"
+    ],
+    "ans": 3,
+    "why": "Segregation of duties reduces the chance of a person both committing and hiding an error or fraud.",
+    "trap": "Internal audit reviews controls; it is not the control itself.",
+    "source": "CMA Inter P10 – Internal control",
+    "exp": "Segregation of duties reduces the chance of a person both committing and hiding an error or fraud."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Blockchain",
+    "q": "A shared, distributed ledger in which records are linked and cannot easily be altered once added is called:",
+    "o": [
+     "Blockchain",
+     "Data warehouse",
+     "Spreadsheet",
+     "Cloud backup"
+    ],
+    "ans": 0,
+    "why": "Blockchain stores records in linked blocks across many nodes, making them tamper-resistant.",
+    "trap": "A data warehouse is central storage for analysis – it is not a distributed tamper-proof ledger.",
+    "source": "CMA Inter P11 – Business Data Analytics: emerging technologies",
+    "exp": "Blockchain stores records in linked blocks across many nodes, making them tamper-resistant."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "ROI",
+    "q": "Operating profit ₹30 lakh; capital employed ₹2 crore. ROI is:",
+    "o": [
+     "6.67%",
+     "30%",
+     "15%",
+     "20%"
+    ],
+    "ans": 2,
+    "why": "ROI = 30 ÷ 200 = 15%.",
+    "trap": "Inverting gives 6.67 – wrong.",
+    "source": "CMA Inter P12 – Performance measurement",
+    "exp": "ROI = 30 ÷ 200 = 15%."
+   }
+  ]
+ },
+ {
+  "day": 15,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Agency – ratification",
+    "q": "An agent buys goods for the principal without authority. The principal later accepts the purchase. This is:",
+    "o": [
+     "Agency by estoppel",
+     "Agency of necessity",
+     "Implied agency",
+     "Agency by ratification"
+    ],
+    "ans": 3,
+    "why": "When a person ratifies an act done on his behalf without authority, it binds him as if he had authorised it from the start.",
+    "trap": "Estoppel arises from the principal's conduct towards third parties – not later acceptance.",
+    "source": "Indian Contract Act, 1872 – Sec 196",
+    "exp": "When a person ratifies an act done on his behalf without authority, it binds him as if he had authorised it from the start."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Consignment – abnormal loss",
+    "q": "Goods costing ₹50,000 (incl. consignor's expenses) are sent on consignment; 10% are destroyed by fire in transit. Abnormal loss is valued at:",
+    "o": [
+     "₹4,500",
+     "₹50,000",
+     "₹5,000",
+     "₹10,000"
+    ],
+    "ans": 2,
+    "why": "Abnormal loss is valued at cost plus proportionate expenses incurred up to that point: 10% of ₹50,000.",
+    "trap": "Insurance recovery, if any, is credited separately – not deducted here.",
+    "source": "CMA Inter P6 – Consignment accounts",
+    "exp": "Abnormal loss is valued at cost plus proportionate expenses incurred up to that point: 10% of ₹50,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "House property – vacancy",
+    "q": "A house let out at ₹20,000 p.m. remained vacant for 2 months; expected rent ₹2,10,000 p.a. Gross Annual Value is:",
+    "o": [
+     "₹2,40,000",
+     "₹2,00,000",
+     "₹2,10,000",
+     "₹2,20,000"
+    ],
+    "ans": 1,
+    "why": "Actual rent received = 20,000 × 10 = 2,00,000. Since it is lower than expected rent only because of vacancy, GAV = actual rent ₹2,00,000.",
+    "trap": "Taking 12 months' rent ignores the vacancy rule.",
+    "source": "Income-tax Act – Sec 23(1)(c)",
+    "exp": "Actual rent received = 20,000 × 10 = 2,00,000. Since it is lower than expected rent only because of vacancy, GAV = actual rent ₹2,00,000."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Contract costing – notional profit",
+    "q": "Contract price ₹20 lakh; work certified ₹12 lakh; cost of work certified ₹9 lakh. Notional profit is:",
+    "o": [
+     "₹3 lakh",
+     "₹11 lakh",
+     "₹8 lakh",
+     "₹12 lakh"
+    ],
+    "ans": 0,
+    "why": "Notional profit = Value of work certified − Cost of work certified = 12 − 9 = ₹3 lakh.",
+    "trap": "Contract price is not used to compute notional profit.",
+    "source": "CMA Inter P8 – Contract costing",
+    "exp": "Notional profit = Value of work certified − Cost of work certified = 12 − 9 = ₹3 lakh."
+   }
+  ]
+ },
+ {
+  "day": 15,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Maintenance",
+    "q": "Maintenance done at fixed intervals to prevent breakdowns is:",
+    "o": [
+     "Preventive maintenance",
+     "Breakdown maintenance",
+     "Corrective maintenance",
+     "Predictive maintenance"
+    ],
+    "ans": 0,
+    "why": "Preventive maintenance is planned in advance at regular intervals.",
+    "trap": "Predictive maintenance is based on condition monitoring, not fixed intervals.",
+    "source": "CMA Inter P9 – Maintenance management",
+    "exp": "Preventive maintenance is planned in advance at regular intervals."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Internal reconstruction",
+    "q": "Reducing the face value of shares to write off accumulated losses is:",
+    "o": [
+     "Amalgamation",
+     "Capital reduction (internal reconstruction)",
+     "Absorption",
+     "Buy-back"
+    ],
+    "ans": 1,
+    "why": "Internal reconstruction reorganises capital without forming a new company; requires tribunal approval under Sec 66.",
+    "trap": "Amalgamation involves another company.",
+    "source": "Companies Act, 2013 – Sec 66",
+    "exp": "Internal reconstruction reorganises capital without forming a new company; requires tribunal approval under Sec 66."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Financial leverage",
+    "q": "EBIT ₹5 lakh; interest ₹1 lakh. DFL is:",
+    "o": [
+     "0.8",
+     "5",
+     "1.25",
+     "1.0"
+    ],
+    "ans": 2,
+    "why": "DFL = EBIT ÷ EBT = 5 ÷ 4 = 1.25.",
+    "trap": "0.8 is EBT ÷ EBIT – inverted.",
+    "source": "CMA Inter P11 – Leverages",
+    "exp": "DFL = EBIT ÷ EBT = 5 ÷ 4 = 1.25."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Target costing",
+    "q": "Target cost is calculated as:",
+    "o": [
+     "Actual cost + mark-up",
+     "Standard cost − variances",
+     "Market price + profit",
+     "Target selling price − Target profit"
+    ],
+    "ans": 3,
+    "why": "Target costing starts from the market price and deducts the required margin to get the allowable cost.",
+    "trap": "Cost-plus pricing works the other way.",
+    "source": "CMA Inter P12 – Target costing",
+    "exp": "Target costing starts from the market price and deducts the required margin to get the allowable cost."
+   }
+  ]
+ },
+ {
+  "day": 16,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Sale of Goods – condition vs warranty",
+    "q": "A buyer asks for a car fit for hilly roads; the seller sells one that is not. The buyer can:",
+    "o": [
+     "Only claim damages – breach of warranty",
+     "Do nothing – caveat emptor applies",
+     "Reject the car – breach of condition of fitness for purpose",
+     "Only claim a price reduction"
+    ],
+    "ans": 2,
+    "why": "Where the buyer makes known the purpose and relies on the seller's skill, there is an implied condition of fitness; breach of condition allows rejection.",
+    "trap": "Caveat emptor has this exception for disclosed purpose.",
+    "source": "Sale of Goods Act, 1930 – Sec 12, 16(1)",
+    "exp": "Where the buyer makes known the purpose and relies on the seller's skill, there is an implied condition of fitness; breach of condition allows rejection."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Joint venture – memorandum method",
+    "q": "Under the memorandum joint venture method, each co-venturer records in his own books:",
+    "o": [
+     "Only his own transactions in a 'Joint Venture with ___' account",
+     "All joint venture transactions",
+     "No transactions at all",
+     "Only the final profit"
+    ],
+    "ans": 0,
+    "why": "Each venturer keeps a personal account of the other venturers' share of his transactions; the memorandum JV account is prepared outside the books to find profit.",
+    "trap": "Separate set of books method is different.",
+    "source": "CMA Inter P6 – Joint venture",
+    "exp": "Each venturer keeps a personal account of the other venturers' share of his transactions; the memorandum JV account is prepared outside the books to find profit."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – blocked credit",
+    "q": "ITC is NOT available on:",
+    "o": [
+     "Raw materials used in manufacture",
+     "Office stationery",
+     "Capital goods used for business",
+     "Food and beverages for employees (not obligatory under law)"
+    ],
+    "ans": 3,
+    "why": "Food and beverages, outdoor catering etc. are blocked unless provided under a legal obligation or used for the same outward supply.",
+    "trap": "Inputs used for business are generally eligible.",
+    "source": "CGST Act, 2017 – Sec 17(5)(b)",
+    "exp": "Food and beverages, outdoor catering etc. are blocked unless provided under a legal obligation or used for the same outward supply."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Process costing – equivalent units",
+    "q": "Closing WIP 1,000 units, 60% complete for conversion. Equivalent units for conversion are:",
+    "o": [
+     "1,000",
+     "600",
+     "400",
+     "1,600"
+    ],
+    "ans": 1,
+    "why": "Equivalent units = 1,000 × 60% = 600.",
+    "trap": "400 is the work still to be done, not done.",
+    "source": "CMA Inter P8 – Process costing",
+    "exp": "Equivalent units = 1,000 × 60% = 600."
+   }
+  ]
+ },
+ {
+  "day": 16,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Strategic alliances",
+    "q": "A strategic alliance where two firms create a new separate entity is a:",
+    "o": [
+     "Merger",
+     "Joint venture",
+     "Acquisition",
+     "Franchise"
+    ],
+    "ans": 1,
+    "why": "In a JV, partners contribute resources to form a new jointly owned entity.",
+    "trap": "In a merger, the firms themselves combine.",
+    "source": "CMA Inter P9 – Strategic alliances",
+    "exp": "In a JV, partners contribute resources to form a new jointly owned entity."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Audit report – qualified",
+    "q": "When misstatements are material but NOT pervasive, the auditor gives:",
+    "o": [
+     "Adverse opinion",
+     "Disclaimer of opinion",
+     "Unmodified opinion",
+     "Qualified opinion"
+    ],
+    "ans": 3,
+    "why": "Material but not pervasive → qualified; material and pervasive → adverse; unable to get evidence (pervasive) → disclaimer.",
+    "trap": "Adverse needs pervasive misstatement.",
+    "source": "SA 705 – Modifications to the Opinion",
+    "exp": "Material but not pervasive → qualified; material and pervasive → adverse; unable to get evidence (pervasive) → disclaimer."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Types of analytics",
+    "q": "Analytics that answers the question 'What is likely to happen next?' is called:",
+    "o": [
+     "Predictive analytics",
+     "Descriptive analytics",
+     "Diagnostic analytics",
+     "Prescriptive analytics"
+    ],
+    "ans": 0,
+    "why": "Descriptive = what happened; Diagnostic = why it happened; Predictive = what will happen; Prescriptive = what should be done.",
+    "trap": "Prescriptive goes one step further – it recommends action.",
+    "source": "CMA Inter P11 – Business Data Analytics: types of analytics",
+    "exp": "Descriptive = what happened; Diagnostic = why it happened; Predictive = what will happen; Prescriptive = what should be done."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Life cycle costing",
+    "q": "Life cycle costing tracks costs of a product:",
+    "o": [
+     "Only during production",
+     "Only after sales start",
+     "From design and development to withdrawal",
+     "Only marketing costs"
+    ],
+    "ans": 2,
+    "why": "It covers all costs over the product's life – R&D, production, marketing, service, disposal.",
+    "trap": "Traditional costing focuses on production only.",
+    "source": "CMA Inter P12 – Life cycle costing",
+    "exp": "It covers all costs over the product's life – R&D, production, marketing, service, disposal."
+   }
+  ]
+ },
+ {
+  "day": 17,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Transfer of property",
+    "q": "Specific goods in a deliverable state are sold unconditionally. Ownership passes to the buyer:",
+    "o": [
+     "Only on delivery",
+     "Only on payment",
+     "Only on delivery and payment",
+     "When the contract is made"
+    ],
+    "ans": 3,
+    "why": "In an unconditional contract for specific goods in a deliverable state, property passes when the contract is made, even if payment or delivery is postponed.",
+    "trap": "Delivery and payment timing do not decide ownership here.",
+    "source": "Sale of Goods Act, 1930 – Sec 20",
+    "exp": "In an unconditional contract for specific goods in a deliverable state, property passes when the contract is made, even if payment or delivery is postponed."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Bills – renewal",
+    "q": "A bill is renewed with interest. The interest is debited to:",
+    "o": [
+     "Interest Account in the drawer's books",
+     "The bank",
+     "The drawee (acceptor) and credited to Interest Account in the drawer's books",
+     "Bills Payable Account"
+    ],
+    "ans": 2,
+    "why": "Interest for extending the term is payable by the drawee; the drawer debits the drawee and credits Interest.",
+    "trap": "The drawer earns interest – it is income, not expense, to him.",
+    "source": "CMA Inter P6 – Bills of exchange",
+    "exp": "Interest for extending the term is payable by the drawee; the drawer debits the drawee and credits Interest."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "PGBP – disallowance",
+    "q": "Cash payment of ₹25,000 to a single supplier in one day for business expenses is:",
+    "o": [
+     "Fully allowed",
+     "Disallowed (limit ₹10,000)",
+     "Allowed up to ₹20,000",
+     "Disallowed only 30%"
+    ],
+    "ans": 1,
+    "why": "Payments otherwise than by account payee cheque/draft/electronic mode exceeding ₹10,000 in a day to a person are disallowed (₹35,000 for transporters).",
+    "trap": "₹20,000 was the old limit.",
+    "source": "Income-tax Act – Sec 40A(3)",
+    "exp": "Payments otherwise than by account payee cheque/draft/electronic mode exceeding ₹10,000 in a day to a person are disallowed (₹35,000 for transporters)."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Joint products",
+    "q": "Joint costs are apportioned on the basis of:",
+    "o": [
+     "Physical units or sales value at split-off",
+     "Number of employees",
+     "Floor area",
+     "Machine hours of the after-split processes"
+    ],
+    "ans": 0,
+    "why": "Common bases: physical quantity, sales value at split-off, net realisable value.",
+    "trap": "Post-split costs are specific to each product, not joint.",
+    "source": "CMA Inter P8 – Joint and by-products; CAS 20",
+    "exp": "Common bases: physical quantity, sales value at split-off, net realisable value."
+   }
+  ]
+ },
+ {
+  "day": 17,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Linear programming",
+    "q": "In an LPP, the region satisfying all constraints is called:",
+    "o": [
+     "Feasible region",
+     "Optimal region",
+     "Objective function",
+     "Iso-profit line"
+    ],
+    "ans": 0,
+    "why": "The set of points satisfying all constraints and non-negativity forms the feasible region; the optimum lies at a corner point.",
+    "trap": "The objective function is what you maximise or minimise.",
+    "source": "CMA Inter P9 – Linear programming",
+    "exp": "The set of points satisfying all constraints and non-negativity forms the feasible region; the optimum lies at a corner point."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Holding company – minority interest",
+    "q": "H holds 80% of S. S's net assets are ₹10 lakh. Minority (non-controlling) interest is:",
+    "o": [
+     "₹8 lakh",
+     "₹2 lakh",
+     "₹10 lakh",
+     "₹1 lakh"
+    ],
+    "ans": 1,
+    "why": "NCI = 20% × 10 lakh = ₹2 lakh.",
+    "trap": "₹8 lakh is the parent's share.",
+    "source": "CMA Inter P10 – Consolidation",
+    "exp": "NCI = 20% × 10 lakh = ₹2 lakh."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Working capital – sources",
+    "q": "A spontaneous source of short-term finance is:",
+    "o": [
+     "Bank overdraft",
+     "Commercial paper",
+     "Trade credit",
+     "Debentures"
+    ],
+    "ans": 2,
+    "why": "Trade credit and accrued expenses arise automatically with operations.",
+    "trap": "Bank finance must be negotiated – not spontaneous.",
+    "source": "CMA Inter P11 – Working capital finance",
+    "exp": "Trade credit and accrued expenses arise automatically with operations."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Learning curve",
+    "q": "With an 80% learning curve, when cumulative output doubles, the average time per unit becomes:",
+    "o": [
+     "20% of the previous average",
+     "Double",
+     "Unchanged",
+     "80% of the previous average"
+    ],
+    "ans": 3,
+    "why": "Each doubling of cumulative output reduces cumulative average time to 80% of the previous level.",
+    "trap": "It is the cumulative average, not the time for the last unit.",
+    "source": "CMA Inter P12 – Learning curve",
+    "exp": "Each doubling of cumulative output reduces cumulative average time to 80% of the previous level."
+   }
+  ]
+ },
+ {
+  "day": 18,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Unpaid seller – stoppage in transit",
+    "q": "The right of stoppage in transit is available to the unpaid seller when:",
+    "o": [
+     "The buyer delays payment by a week",
+     "Goods are already delivered to the buyer",
+     "The buyer becomes insolvent and the goods are in transit",
+     "The seller still holds the goods"
+    ],
+    "ans": 2,
+    "why": "Stoppage in transit needs (1) buyer's insolvency and (2) goods in transit; if the seller still holds the goods, he uses lien instead.",
+    "trap": "Lien = goods with seller; stoppage = goods with carrier.",
+    "source": "Sale of Goods Act, 1930 – Sec 50",
+    "exp": "Stoppage in transit needs (1) buyer's insolvency and (2) goods in transit; if the seller still holds the goods, he uses lien instead."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Hire purchase",
+    "q": "Under hire purchase, the hire purchaser records the asset at:",
+    "o": [
+     "Cash price",
+     "Total of all instalments",
+     "Cash price plus interest",
+     "Down payment only"
+    ],
+    "ans": 0,
+    "why": "The asset is recorded at its cash price; interest is charged to P&L over the period.",
+    "trap": "Total instalments include interest – that is not part of asset cost.",
+    "source": "CMA Inter P6 – Hire purchase",
+    "exp": "The asset is recorded at its cash price; interest is charged to P&L over the period."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – e-way bill",
+    "q": "An e-way bill is generally required for movement of goods when the consignment value exceeds:",
+    "o": [
+     "₹1,00,000",
+     "₹25,000",
+     "₹10,000",
+     "₹50,000"
+    ],
+    "ans": 3,
+    "why": "E-way bill is required for movement of goods of consignment value above ₹50,000 (some States have different intra-State limits).",
+    "trap": "Value includes tax but excludes exempt goods on the same invoice.",
+    "source": "CGST Rules, 2017 – Rule 138",
+    "exp": "E-way bill is required for movement of goods of consignment value above ₹50,000 (some States have different intra-State limits)."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "By-products",
+    "q": "Under the 'other income' method, by-product sales are:",
+    "o": [
+     "Deducted from cost of main product",
+     "Credited to P&L as other income",
+     "Ignored",
+     "Added to main product cost"
+    ],
+    "ans": 1,
+    "why": "Where by-products are small, their realisation may be treated as other income; alternatively, deducted from main product cost.",
+    "trap": "Both methods exist – the question names the 'other income' method.",
+    "source": "CMA Inter P8 – By-products",
+    "exp": "Where by-products are small, their realisation may be treated as other income; alternatively, deducted from main product cost."
+   }
+  ]
+ },
+ {
+  "day": 18,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Turnaround strategy",
+    "q": "A strategy to reverse declining performance of a loss-making business is:",
+    "o": [
+     "Stability strategy",
+     "Turnaround strategy",
+     "Diversification",
+     "Market development"
+    ],
+    "ans": 1,
+    "why": "Turnaround aims to restore profitability through cost cuts, restructuring and refocusing.",
+    "trap": "Divestment sells the business; turnaround tries to save it.",
+    "source": "CMA Inter P9 – Retrenchment strategies",
+    "exp": "Turnaround aims to restore profitability through cost cuts, restructuring and refocusing."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Cost audit",
+    "q": "Cost auditor is appointed by the:",
+    "o": [
+     "Shareholders at AGM",
+     "Central Government",
+     "Statutory auditor",
+     "Board of Directors, with remuneration approved by members"
+    ],
+    "ans": 3,
+    "why": "Sec 148(3): the Board appoints the cost auditor (a cost accountant in practice); remuneration is ratified by members.",
+    "trap": "The statutory auditor cannot be appointed as cost auditor.",
+    "source": "Companies Act, 2013 – Sec 148(3); Rule 14",
+    "exp": "Sec 148(3): the Board appoints the cost auditor (a cost accountant in practice); remuneration is ratified by members."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Machine learning",
+    "q": "Training a model using data with known outcomes (labels) is:",
+    "o": [
+     "Supervised learning",
+     "Unsupervised learning",
+     "Reinforcement learning",
+     "Data cleaning"
+    ],
+    "ans": 0,
+    "why": "Supervised learning learns from labelled examples; unsupervised finds patterns without labels.",
+    "trap": "Clustering is unsupervised.",
+    "source": "CMA Inter P11 – Data analytics basics",
+    "exp": "Supervised learning learns from labelled examples; unsupervised finds patterns without labels."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "JIT",
+    "q": "A key feature of Just-in-Time is:",
+    "o": [
+     "Large safety stocks",
+     "Batch production of big lots",
+     "Minimal inventory – produce only as demanded",
+     "Many suppliers for each item"
+    ],
+    "ans": 2,
+    "why": "JIT pulls production to demand, reducing inventory and waste; relies on few reliable suppliers.",
+    "trap": "Large buffers defeat the JIT idea.",
+    "source": "CMA Inter P12 – JIT",
+    "exp": "JIT pulls production to demand, reducing inventory and waste; relies on few reliable suppliers."
+   }
+  ]
+ },
+ {
+  "day": 19,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Negotiable Instruments – holder in due course",
+    "q": "Who is a holder in due course?",
+    "o": [
+     "Any person in possession of the instrument",
+     "A person who receives it as a gift",
+     "One who takes it after it is overdue",
+     "One who takes the instrument for consideration, before maturity, in good faith"
+    ],
+    "ans": 3,
+    "why": "A holder in due course takes the instrument for value, before maturity, without cause to believe any defect in the title of the transferor.",
+    "trap": "A gift recipient is a holder, but not a holder in due course.",
+    "source": "Negotiable Instruments Act, 1881 – Sec 9",
+    "exp": "A holder in due course takes the instrument for value, before maturity, without cause to believe any defect in the title of the transferor."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Royalty – short workings",
+    "q": "Minimum rent ₹50,000; actual royalty ₹35,000 in year 1, recoupable in the next 2 years. Short-working in year 1 is:",
+    "o": [
+     "₹35,000",
+     "₹50,000",
+     "₹15,000",
+     "Nil"
+    ],
+    "ans": 2,
+    "why": "Short-working = Minimum rent − Actual royalty = 50,000 − 35,000 = ₹15,000.",
+    "trap": "Royalty above minimum rent in later years is used to recoup it.",
+    "source": "CMA Inter P6 – Royalty accounts",
+    "exp": "Short-working = Minimum rent − Actual royalty = 50,000 − 35,000 = ₹15,000."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Capital gains – holding period",
+    "q": "For listed equity shares, the period of holding to be a long-term capital asset is more than:",
+    "o": [
+     "24 months",
+     "12 months",
+     "36 months",
+     "6 months"
+    ],
+    "ans": 1,
+    "why": "Listed securities (and units of equity-oriented funds) become long-term if held for more than 12 months.",
+    "trap": "24 months applies to most other assets after the 2024 amendment.",
+    "source": "Income-tax Act – Sec 2(42A)",
+    "exp": "Listed securities (and units of equity-oriented funds) become long-term if held for more than 12 months."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Service costing – unit",
+    "q": "The suitable cost unit for a hospital is:",
+    "o": [
+     "Patient-day (or bed-day)",
+     "Per doctor",
+     "Per building",
+     "Per kilometre"
+    ],
+    "ans": 0,
+    "why": "Hospitals use patient-day/bed-day to reflect both patients and duration.",
+    "trap": "Kilometre-based units suit transport.",
+    "source": "CMA Inter P8 – Service costing",
+    "exp": "Hospitals use patient-day/bed-day to reflect both patients and duration."
+   }
+  ]
+ },
+ {
+  "day": 19,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Quality – control chart",
+    "q": "An X-bar chart is used to monitor:",
+    "o": [
+     "The process mean",
+     "The number of defects per unit",
+     "The proportion of defectives",
+     "Range of variation only"
+    ],
+    "ans": 0,
+    "why": "X-bar chart tracks the average; R chart tracks range; p chart tracks proportion defective; c chart counts defects.",
+    "trap": "p chart is for proportions, not means.",
+    "source": "CMA Inter P9 – Quality management",
+    "exp": "X-bar chart tracks the average; R chart tracks range; p chart tracks proportion defective; c chart counts defects."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Bank accounts",
+    "q": "For banks, the 'Statutory Reserve' must receive at least what share of net profit (RBI direction)?",
+    "o": [
+     "20%",
+     "25%",
+     "10%",
+     "50%"
+    ],
+    "ans": 1,
+    "why": "RBI requires banks to transfer at least 25% of net profit to Statutory Reserve (Sec 17 requires 20%).",
+    "trap": "20% is the BR Act minimum; RBI asks for 25%.",
+    "source": "Banking Regulation Act, 1949 – Sec 17; RBI directions",
+    "exp": "RBI requires banks to transfer at least 25% of net profit to Statutory Reserve (Sec 17 requires 20%)."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Receivables management",
+    "q": "Credit terms '2/10, net 30' mean:",
+    "o": [
+     "2% interest after 10 days",
+     "Pay 10% within 2 days",
+     "2% discount if paid within 10 days; otherwise full payment within 30 days",
+     "30% discount within 10 days"
+    ],
+    "ans": 2,
+    "why": "Cash discount 2% for payment within 10 days; credit period 30 days.",
+    "trap": "It is a discount, not interest.",
+    "source": "CMA Inter P11 – Receivables management",
+    "exp": "Cash discount 2% for payment within 10 days; credit period 30 days."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Throughput accounting",
+    "q": "Throughput contribution is:",
+    "o": [
+     "Sales − All variable costs",
+     "Sales − Total cost",
+     "Sales − Labour cost",
+     "Sales − Direct material cost"
+    ],
+    "ans": 3,
+    "why": "In throughput accounting, only direct materials are truly variable; labour and overheads are 'operating expenses'.",
+    "trap": "Marginal costing deducts all variable costs.",
+    "source": "CMA Inter P12 – Throughput accounting",
+    "exp": "In throughput accounting, only direct materials are truly variable; labour and overheads are 'operating expenses'."
+   }
+  ]
+ },
+ {
+  "day": 20,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Crossing of cheques",
+    "q": "A cheque crossed 'Not Negotiable' means:",
+    "o": [
+     "It cannot be transferred at all",
+     "It can be paid only in cash",
+     "The transferee gets no better title than the transferor",
+     "It must be paid to a named bank only"
+    ],
+    "ans": 2,
+    "why": "'Not negotiable' crossing does not stop transfer; it only removes the special protection – the transferee cannot get a better title than the transferor.",
+    "trap": "'Account payee' restricts collection; 'not negotiable' affects title.",
+    "source": "Negotiable Instruments Act, 1881 – Sec 130",
+    "exp": "'Not negotiable' crossing does not stop transfer; it only removes the special protection – the transferee cannot get a better title than the transferor."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Insurance claim – average clause",
+    "q": "Stock destroyed ₹60,000 (total stock ₹1,00,000); sum insured ₹80,000 with average clause. Claim is:",
+    "o": [
+     "₹48,000",
+     "₹60,000",
+     "₹80,000",
+     "₹36,000"
+    ],
+    "ans": 0,
+    "why": "Claim = Loss × Sum insured ÷ Value of stock = 60,000 × 80,000 ÷ 1,00,000 = ₹48,000.",
+    "trap": "Without average clause, the claim would be the full ₹60,000.",
+    "source": "CMA Inter P6 – Insurance claims",
+    "exp": "Claim = Loss × Sum insured ÷ Value of stock = 60,000 × 80,000 ÷ 1,00,000 = ₹48,000."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "Customs – types of duty",
+    "q": "The duty that protects domestic industry against dumped imports is:",
+    "o": [
+     "Basic customs duty",
+     "Safeguard duty only",
+     "Export duty",
+     "Anti-dumping duty"
+    ],
+    "ans": 3,
+    "why": "Anti-dumping duty is levied on goods imported below their normal value (dumping) that injure domestic industry.",
+    "trap": "Safeguard duty addresses a sudden surge of imports, not dumping.",
+    "source": "Customs Tariff Act, 1975 – Sec 9A",
+    "exp": "Anti-dumping duty is levied on goods imported below their normal value (dumping) that injure domestic industry."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Standard costing – labour rate variance",
+    "q": "Standard rate ₹50/hr; actual rate ₹52/hr; actual hours 1,000. Labour rate variance is:",
+    "o": [
+     "₹2,000 Favourable",
+     "₹2,000 Adverse",
+     "₹52,000 Adverse",
+     "₹1,000 Adverse"
+    ],
+    "ans": 1,
+    "why": "(SR − AR) × AH = (50 − 52) × 1,000 = −2,000 → Adverse.",
+    "trap": "Higher actual rate always means adverse rate variance.",
+    "source": "CMA Inter P8 – Standard costing",
+    "exp": "(SR − AR) × AH = (50 − 52) × 1,000 = −2,000 → Adverse."
+   }
+  ]
+ },
+ {
+  "day": 20,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Core competence",
+    "q": "A core competence must be:",
+    "o": [
+     "Easy to copy",
+     "Valuable, rare and hard to imitate",
+     "Available to all competitors",
+     "Limited to one product only"
+    ],
+    "ans": 1,
+    "why": "Core competences give access to many markets, add customer value and are difficult to imitate.",
+    "trap": "If competitors can easily copy it, it is not a core competence.",
+    "source": "CMA Inter P9 – Core competence",
+    "exp": "Core competences give access to many markets, add customer value and are difficult to imitate."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Cost audit report",
+    "q": "The cost auditor submits the cost audit report to the Board within:",
+    "o": [
+     "30 days",
+     "60 days",
+     "1 year",
+     "180 days from the end of the financial year"
+    ],
+    "ans": 3,
+    "why": "Cost audit report in CRA-3 is submitted to the Board within 180 days from the end of the FY; the company files it with the CG (CRA-4) within 30 days of receipt.",
+    "trap": "30 days is the company's filing time, not the auditor's.",
+    "source": "Companies (Cost Records and Audit) Rules, 2014 – Rule 6",
+    "exp": "Cost audit report in CRA-3 is submitted to the Board within 180 days from the end of the FY; the company files it with the CG (CRA-4) within 30 days of receipt."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Data cleaning",
+    "q": "Removing duplicate customer records before analysis is part of:",
+    "o": [
+     "Data cleaning (pre-processing)",
+     "Data visualisation",
+     "Data mining output",
+     "Reporting"
+    ],
+    "ans": 0,
+    "why": "Cleaning fixes duplicates, errors and missing values before analysis.",
+    "trap": "Visualisation comes after the data is clean.",
+    "source": "CMA Inter P11 – Data processing",
+    "exp": "Cleaning fixes duplicates, errors and missing values before analysis."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Shut-down point",
+    "q": "Fixed costs ₹2,00,000; avoidable fixed costs on shutdown ₹50,000; contribution per unit ₹30. Shut-down point is:",
+    "o": [
+     "6,667 units",
+     "1,667 units",
+     "5,000 units",
+     "8,333 units"
+    ],
+    "ans": 2,
+    "why": "Shut-down point = Unavoidable fixed costs ÷ Contribution per unit = (2,00,000 − 50,000) ÷ 30 = 5,000.",
+    "trap": "Using total fixed cost gives the BEP, not the shut-down point.",
+    "source": "CMA Inter P12 – Marginal costing decisions",
+    "exp": "Shut-down point = Unavoidable fixed costs ÷ Contribution per unit = (2,00,000 − 50,000) ÷ 30 = 5,000."
+   }
+  ]
+ },
+ {
+  "day": 21,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Dishonour of cheque – Sec 138",
+    "q": "Under Sec 138, after receiving notice of dishonour, the drawer must pay within:",
+    "o": [
+     "30 days of dishonour",
+     "7 days of receipt of the notice",
+     "3 months of the cheque date",
+     "15 days of receipt of the notice"
+    ],
+    "ans": 3,
+    "why": "Payee must give notice within 30 days of information of dishonour; the drawer gets 15 days from receipt of notice to pay before an offence arises.",
+    "trap": "30 days is the payee's time to send notice – not the drawer's time to pay.",
+    "source": "Negotiable Instruments Act, 1881 – Sec 138",
+    "exp": "Payee must give notice within 30 days of information of dishonour; the drawer gets 15 days from receipt of notice to pay before an offence arises."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Branch accounts – debtors system",
+    "q": "Under the debtors system, goods sent to branch at invoice price with loading. Loading on closing branch stock is:",
+    "o": [
+     "Ignored",
+     "Added to branch profit",
+     "Credited to Branch Account (reserve) to bring stock to cost",
+     "Debited to Head Office P&L"
+    ],
+    "ans": 2,
+    "why": "Stock reserve for loading on closing stock is credited to branch account (shown as deduction) so profit is at cost.",
+    "trap": "Leaving loading in closing stock overstates profit.",
+    "source": "CMA Inter P6 – Branch accounts",
+    "exp": "Stock reserve for loading on closing stock is credited to branch account (shown as deduction) so profit is at cost."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Deduction – 80D",
+    "q": "Under the old regime, the maximum Sec 80D deduction for medical insurance of an individual (below 60) for self and family is:",
+    "o": [
+     "₹50,000",
+     "₹25,000",
+     "₹15,000",
+     "₹1,00,000"
+    ],
+    "ans": 1,
+    "why": "Self/spouse/children: ₹25,000 (₹50,000 if any of them is a senior citizen); parents get a separate limit.",
+    "trap": "₹50,000 is for senior citizens.",
+    "source": "Income-tax Act – Sec 80D",
+    "exp": "Self/spouse/children: ₹25,000 (₹50,000 if any of them is a senior citizen); parents get a separate limit."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Marginal costing – contribution",
+    "q": "Sales ₹5,00,000; variable cost ₹3,00,000; fixed cost ₹1,20,000. Contribution is:",
+    "o": [
+     "₹2,00,000",
+     "₹80,000",
+     "₹3,80,000",
+     "₹1,20,000"
+    ],
+    "ans": 0,
+    "why": "Contribution = Sales − Variable cost = 2,00,000. Profit = Contribution − Fixed = 80,000.",
+    "trap": "₹80,000 is profit, not contribution.",
+    "source": "CMA Inter P8 – Marginal costing",
+    "exp": "Contribution = Sales − Variable cost = 2,00,000. Profit = Contribution − Fixed = 80,000."
+   }
+  ]
+ },
+ {
+  "day": 21,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Capacity – utilisation",
+    "q": "Design capacity 1,000 units/day; actual output 750 units/day. Utilisation is:",
+    "o": [
+     "75%",
+     "133%",
+     "25%",
+     "85%"
+    ],
+    "ans": 0,
+    "why": "Utilisation = Actual output ÷ Design capacity = 750 ÷ 1,000 = 75%.",
+    "trap": "Efficiency uses effective capacity in the denominator, not design capacity.",
+    "source": "CMA Inter P9 – Capacity planning",
+    "exp": "Utilisation = Actual output ÷ Design capacity = 750 ÷ 1,000 = 75%."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Insurance companies",
+    "q": "In a life insurance company, the surplus or deficit in the life fund is found through:",
+    "o": [
+     "Physical verification",
+     "Actuarial valuation",
+     "Bank reconciliation",
+     "Stock taking"
+    ],
+    "ans": 1,
+    "why": "The life fund's liability for policies is measured by an actuary; the valuation balance sheet shows surplus or deficit.",
+    "trap": "Life insurance surplus is not simply revenue minus expenses.",
+    "source": "CMA Inter P10 – Insurance company accounts",
+    "exp": "The life fund's liability for policies is measured by an actuary; the valuation balance sheet shows surplus or deficit."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Dividend – Gordon model",
+    "q": "D1 ₹5, Ke 15%, g 5%. Price per share (Gordon) is:",
+    "o": [
+     "₹33.33",
+     "₹25",
+     "₹50",
+     "₹100"
+    ],
+    "ans": 2,
+    "why": "P = D1 ÷ (Ke − g) = 5 ÷ 0.10 = ₹50.",
+    "trap": "Dividing by Ke alone gives ₹33.33.",
+    "source": "CMA Inter P11 – Dividend decisions",
+    "exp": "P = D1 ÷ (Ke − g) = 5 ÷ 0.10 = ₹50."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Cash budget",
+    "q": "Depreciation is excluded from a cash budget because it is:",
+    "o": [
+     "Too small to matter",
+     "A capital receipt",
+     "Shown under financing",
+     "A non-cash expense"
+    ],
+    "ans": 3,
+    "why": "Cash budgets include only cash receipts and payments.",
+    "trap": "Depreciation reduces profit but not cash.",
+    "source": "CMA Inter P12 – Cash budget",
+    "exp": "Cash budgets include only cash receipts and payments."
+   }
+  ]
+ },
+ {
+  "day": 22,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Partnership – implied authority",
+    "q": "Under the Partnership Act, a partner's implied authority does NOT include:",
+    "o": [
+     "Buying goods for the firm's business",
+     "Receiving payments due to the firm",
+     "Submitting a firm dispute to arbitration",
+     "Engaging employees for the firm"
+    ],
+    "ans": 2,
+    "why": "Sec 19(2) lists acts outside implied authority, such as submitting a dispute to arbitration, opening a bank account in his own name, compromising a claim.",
+    "trap": "Day-to-day business acts are within implied authority.",
+    "source": "Indian Partnership Act, 1932 – Sec 19(2)",
+    "exp": "Sec 19(2) lists acts outside implied authority, such as submitting a dispute to arbitration, opening a bank account in his own name, compromising a claim."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Departmental accounts",
+    "q": "Common expense: rent of the whole building. It is best allocated between departments on the basis of:",
+    "o": [
+     "Floor area occupied",
+     "Sales",
+     "Number of employees",
+     "Purchases"
+    ],
+    "ans": 0,
+    "why": "Expenses are apportioned on the most logical basis – rent by floor area.",
+    "trap": "Sales basis suits selling expenses, not rent.",
+    "source": "CMA Inter P6 – Departmental accounts",
+    "exp": "Expenses are apportioned on the most logical basis – rent by floor area."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "Customs – taxable event (import)",
+    "q": "For goods imported for home consumption, the relevant date for rate of duty is:",
+    "o": [
+     "Date of shipment from abroad",
+     "Date of payment of duty",
+     "Date of sale in India",
+     "Date of filing the bill of entry (or entry inward, if later)"
+    ],
+    "ans": 3,
+    "why": "Rate of duty is that in force on the date of presentation of bill of entry, or date of entry inwards of the vessel if later.",
+    "trap": "Shipment date has no relevance for import duty rate.",
+    "source": "Customs Act, 1962 – Sec 15",
+    "exp": "Rate of duty is that in force on the date of presentation of bill of entry, or date of entry inwards of the vessel if later."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Reconciliation of profits",
+    "q": "Profit per cost accounts is lower than per financial accounts. A possible reason is:",
+    "o": [
+     "Overheads under-absorbed in cost accounts",
+     "Overheads over-absorbed in cost accounts",
+     "Bank interest received recorded only in cost accounts",
+     "Notional rent charged in financial accounts"
+    ],
+    "ans": 1,
+    "why": "If cost accounts absorb more overheads than actual (over-absorption), cost profit is lower than financial profit.",
+    "trap": "Notional charges appear only in cost accounts, not financial accounts.",
+    "source": "CMA Inter P8 – Reconciliation of cost and financial accounts",
+    "exp": "If cost accounts absorb more overheads than actual (over-absorption), cost profit is lower than financial profit."
+   }
+  ]
+ },
+ {
+  "day": 22,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Strategic control",
+    "q": "Monitoring whether the assumptions behind the strategy still hold is:",
+    "o": [
+     "Implementation control",
+     "Premise control",
+     "Special alert control",
+     "Operational control"
+    ],
+    "ans": 1,
+    "why": "Premise control checks the validity of planning premises (environment, industry).",
+    "trap": "Special alert control reacts to sudden unexpected events.",
+    "source": "CMA Inter P9 – Strategic control",
+    "exp": "Premise control checks the validity of planning premises (environment, industry)."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Audit evidence – external confirmation",
+    "q": "Confirmation of bank balances obtained directly by the auditor from the bank is:",
+    "o": [
+     "Internal evidence",
+     "Oral evidence",
+     "Analytical procedure",
+     "External confirmation – highly reliable"
+    ],
+    "ans": 3,
+    "why": "Evidence from independent external sources obtained directly by the auditor is more reliable.",
+    "trap": "Client-provided bank statement photocopies are less reliable.",
+    "source": "SA 505 – External Confirmations",
+    "exp": "Evidence from independent external sources obtained directly by the auditor is more reliable."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Excel – lookup",
+    "q": "Which Excel function finds a value in the first column of a table and returns a value from another column in the same row?",
+    "o": [
+     "VLOOKUP",
+     "SUMIF",
+     "CONCAT",
+     "ROUND"
+    ],
+    "ans": 0,
+    "why": "VLOOKUP searches vertically in the first column and returns from a specified column.",
+    "trap": "SUMIF adds values meeting a condition.",
+    "source": "CMA Inter P11 – Spreadsheet tools",
+    "exp": "VLOOKUP searches vertically in the first column and returns from a specified column."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Margin of safety",
+    "q": "Sales ₹8,00,000; BEP sales ₹5,00,000. Margin of safety ratio is:",
+    "o": [
+     "62.5%",
+     "60%",
+     "37.5%",
+     "3,00,000%"
+    ],
+    "ans": 2,
+    "why": "MOS = (8 − 5) ÷ 8 = 37.5%.",
+    "trap": "Dividing by BEP gives 60% – wrong base.",
+    "source": "CMA Inter P12 – CVP analysis",
+    "exp": "MOS = (8 − 5) ÷ 8 = 37.5%."
+   }
+  ]
+ },
+ {
+  "day": 23,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Ethics – conflict of interest",
+    "q": "A cost accountant is asked to audit the cost records of a company in which his brother holds a large stake and is the CFO. The principle mainly at risk is:",
+    "o": [
+     "Confidentiality",
+     "Professional competence",
+     "Professional behaviour",
+     "Objectivity"
+    ],
+    "ans": 3,
+    "why": "A close family relationship creates a familiarity/self-interest threat to objectivity and independence.",
+    "trap": "Confidentiality is about disclosing client information – not about relationships.",
+    "source": "ICMAI Code of Ethics – fundamental principles",
+    "exp": "A close family relationship creates a familiarity/self-interest threat to objectivity and independence."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "AS 9 – revenue recognition",
+    "q": "Goods sold on 'sale or return' basis; the buyer has not yet confirmed. Revenue is recognised:",
+    "o": [
+     "When goods are dispatched",
+     "When the invoice is raised",
+     "When the buyer accepts or the return period expires",
+     "Never, until cash is received"
+    ],
+    "ans": 2,
+    "why": "Significant risks and rewards pass only on acceptance or expiry of the return period.",
+    "trap": "Dispatch alone does not transfer risks and rewards here.",
+    "source": "AS 9 – Revenue Recognition",
+    "exp": "Significant risks and rewards pass only on acceptance or expiry of the return period."
+   },
+   {
+    "subject": "Direct Taxation (P7A)",
+    "topic": "Set-off – house property loss",
+    "q": "Under the old regime, loss under 'House Property' can be set off against other heads in the same year up to:",
+    "o": [
+     "Unlimited",
+     "₹2,00,000",
+     "₹1,50,000",
+     "Nil"
+    ],
+    "ans": 1,
+    "why": "Inter-head set-off of house property loss is limited to ₹2,00,000; the balance is carried forward for 8 years.",
+    "trap": "Under the default new regime, inter-head set-off of HP loss is not allowed.",
+    "source": "Income-tax Act – Sec 71(3A)",
+    "exp": "Inter-head set-off of house property loss is limited to ₹2,00,000; the balance is carried forward for 8 years."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Cost accounting standards",
+    "q": "CAS 4 deals with:",
+    "o": [
+     "Cost of production for captive consumption",
+     "Material cost",
+     "Employee cost",
+     "Overheads"
+    ],
+    "ans": 0,
+    "why": "CAS 4 – Cost of Production for Captive Consumption; CAS 6 material, CAS 7 employee cost, CAS 3 production overheads.",
+    "trap": "Number recall: 6 = material, 7 = employee.",
+    "source": "CAS 4 (ICMAI)",
+    "exp": "CAS 4 – Cost of Production for Captive Consumption; CAS 6 material, CAS 7 employee cost, CAS 3 production overheads."
+   }
+  ]
+ },
+ {
+  "day": 23,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Operations Management (P9A)",
+    "topic": "Assignment problem",
+    "q": "The assignment problem is solved by:",
+    "o": [
+     "Hungarian method",
+     "Simplex method only",
+     "Vogel's approximation method",
+     "North-West corner rule"
+    ],
+    "ans": 0,
+    "why": "The Hungarian method gives the optimal one-to-one assignment.",
+    "trap": "VAM and NW corner are for transportation problems.",
+    "source": "CMA Inter P9 – Assignment",
+    "exp": "The Hungarian method gives the optimal one-to-one assignment."
+   },
+   {
+    "subject": "Corporate Accounting (P10A)",
+    "topic": "Cash flow – financing",
+    "q": "Dividend paid by a non-financial company is shown under:",
+    "o": [
+     "Operating activities",
+     "Financing activities",
+     "Investing activities",
+     "Not shown"
+    ],
+    "ans": 1,
+    "why": "AS 3: dividends paid are financing cash outflows for non-financial enterprises.",
+    "trap": "Dividends received are investing.",
+    "source": "AS 3 – Cash Flow Statements",
+    "exp": "AS 3: dividends paid are financing cash outflows for non-financial enterprises."
+   },
+   {
+    "subject": "Financial Management (P11A)",
+    "topic": "Capital structure – MM",
+    "q": "Under MM (no taxes), the value of a firm is:",
+    "o": [
+     "Maximised at 100% debt",
+     "Maximised at zero debt",
+     "Independent of its capital structure",
+     "Highest at the optimum debt level only"
+    ],
+    "ans": 2,
+    "why": "MM without taxes: leverage does not affect firm value; cost of equity rises to offset cheaper debt.",
+    "trap": "With taxes, MM says value rises with debt.",
+    "source": "CMA Inter P11 – Capital structure theories",
+    "exp": "MM without taxes: leverage does not affect firm value; cost of equity rises to offset cheaper debt."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Pricing – skimming",
+    "q": "Setting a high initial price for a new innovative product is:",
+    "o": [
+     "Penetration pricing",
+     "Marginal cost pricing",
+     "Going-rate pricing",
+     "Price skimming"
+    ],
+    "ans": 3,
+    "why": "Skimming charges high early to capture early adopters, then lowers price.",
+    "trap": "Penetration starts low to win share.",
+    "source": "CMA Inter P12 – Pricing decisions",
+    "exp": "Skimming charges high early to capture early adopters, then lowers price."
+   }
+  ]
+ },
+ {
+  "day": 24,
+  "group": "Group 1",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Business Laws & Ethics (P5)",
+    "topic": "Companies Act – OPC",
+    "q": "A One Person Company (OPC) must have:",
+    "o": [
+     "At least two members",
+     "A minimum paid-up capital of ₹1 lakh",
+     "Only one member, who is a natural person and Indian citizen",
+     "Only a company as its member"
+    ],
+    "ans": 2,
+    "why": "An OPC has one member who must be a natural person and an Indian citizen (resident condition relaxed to 120 days stay); no minimum capital requirement applies.",
+    "trap": "Minimum paid-up capital requirements were removed in 2015.",
+    "source": "Companies Act, 2013 – Sec 2(62), 3(1)(c)",
+    "exp": "An OPC has one member who must be a natural person and an Indian citizen (resident condition relaxed to 120 days stay); no minimum capital requirement applies."
+   },
+   {
+    "subject": "Financial Accounting (P6)",
+    "topic": "Non-profit organisations",
+    "q": "A life membership fee received by a club is generally:",
+    "o": [
+     "Capitalised (shown in Capital Fund / Balance Sheet)",
+     "Shown as income in the year of receipt",
+     "Ignored",
+     "Treated as a liability to be repaid"
+    ],
+    "ans": 0,
+    "why": "Life membership fees are non-recurring and usually capitalised.",
+    "trap": "Annual subscriptions, not life membership, are revenue income.",
+    "source": "CMA Inter P6 – Not-for-profit organisations",
+    "exp": "Life membership fees are non-recurring and usually capitalised."
+   },
+   {
+    "subject": "Indirect Taxation (P7B)",
+    "topic": "GST – reverse charge on services",
+    "q": "Legal services by an advocate to a business entity (turnover above threshold) are taxed under:",
+    "o": [
+     "Forward charge – advocate pays",
+     "Exempt",
+     "Composition",
+     "Reverse charge – recipient pays GST"
+    ],
+    "ans": 3,
+    "why": "Services by an advocate/firm of advocates to a business entity are notified under reverse charge (Sec 9(3)).",
+    "trap": "Advocates' services to individuals (non-business) are exempt.",
+    "source": "Notification 13/2017-CT(R)",
+    "exp": "Services by an advocate/firm of advocates to a business entity are notified under reverse charge (Sec 9(3))."
+   },
+   {
+    "subject": "Cost Accounting (P8)",
+    "topic": "Activity-based costing",
+    "q": "In ABC, the factor that causes a change in the cost of an activity is called:",
+    "o": [
+     "Cost pool",
+     "Cost driver",
+     "Cost centre",
+     "Cost unit"
+    ],
+    "ans": 1,
+    "why": "A cost driver (e.g. number of set-ups) causes activity costs; a cost pool collects costs of an activity.",
+    "trap": "Cost pool is the bucket, driver is the cause.",
+    "source": "CMA Inter P8 – Activity-based costing",
+    "exp": "A cost driver (e.g. number of set-ups) causes activity costs; a cost pool collects costs of an activity."
+   }
+  ]
+ },
+ {
+  "day": 24,
+  "group": "Group 2",
+  "kind": "general",
+  "items": [
+   {
+    "subject": "Strategic Management (P9B)",
+    "topic": "Ansoff – diversification",
+    "q": "Entering a new market with a new product is:",
+    "o": [
+     "Market development",
+     "Diversification",
+     "Product development",
+     "Market penetration"
+    ],
+    "ans": 1,
+    "why": "New product + new market = diversification (highest risk).",
+    "trap": "Product development keeps the existing market.",
+    "source": "CMA Inter P9 – Ansoff matrix",
+    "exp": "New product + new market = diversification (highest risk)."
+   },
+   {
+    "subject": "Auditing (P10B)",
+    "topic": "Auditor's lien",
+    "q": "Can the auditor keep the client's books until fees are paid?",
+    "o": [
+     "No – never",
+     "Yes – general lien on all client assets",
+     "Only with court permission",
+     "Yes – a particular lien on documents he has worked on, if fees are unpaid"
+    ],
+    "ans": 3,
+    "why": "An auditor may exercise a particular lien over client documents in his possession on which work has been done, for unpaid fees (subject to statutory rights of access).",
+    "trap": "It is not a general lien over all assets.",
+    "source": "CMA Inter P10 – Auditor's rights",
+    "exp": "An auditor may exercise a particular lien over client documents in his possession on which work has been done, for unpaid fees (subject to statutory rights of access)."
+   },
+   {
+    "subject": "Business Data Analytics (P11B)",
+    "topic": "Dashboard / KPI",
+    "q": "A dashboard is mainly used to:",
+    "o": [
+     "Show key performance indicators at a glance",
+     "Store raw transaction data",
+     "Write source code",
+     "Replace accounting records"
+    ],
+    "ans": 0,
+    "why": "Dashboards summarise KPIs visually for quick decisions.",
+    "trap": "They display data; they do not store the raw data.",
+    "source": "CMA Inter P11 – Data visualisation",
+    "exp": "Dashboards summarise KPIs visually for quick decisions."
+   },
+   {
+    "subject": "Management Accounting (P12)",
+    "topic": "Uniform costing",
+    "q": "Using the same costing principles across firms in an industry is:",
+    "o": [
+     "Standard costing",
+     "Target costing",
+     "Uniform costing",
+     "Marginal costing"
+    ],
+    "ans": 2,
+    "why": "Uniform costing enables inter-firm comparison through common methods.",
+    "trap": "Standard costing sets standards within one firm.",
+    "source": "CMA Inter P12 – Uniform costing and inter-firm comparison",
+    "exp": "Uniform costing enables inter-firm comparison through common methods."
+   }
+  ]
  }
 ]
