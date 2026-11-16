@@ -1,0 +1,42 @@
+name: "18. Approvals – send requests to MCQ'S poll group, record ✅/❌"
+
+on:
+  push:
+    branches: [main]
+    paths: ["approvals/approvals.json"]
+  schedule:
+    - cron: "*/10 2-17 * * *"   # every 10 min, 7:30 AM – 11:30 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: approvals
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send / poll approvals
+        run: python approvals/approvals.py
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name mcq-bot
+          git config user.email mcq-bot@users.noreply.github.com
+          git add approvals/approvals.json
+          git diff --cached --quiet || git commit -m "Approvals state [skip ci]"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
