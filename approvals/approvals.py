@@ -111,7 +111,7 @@ def request_text(it):
     lines += [esc(x) for x in it.get("details", [])]
     if it.get("if_rejected"):
         lines += ["", f"<i>If rejected: {esc(it['if_rejected'])}</i>"]
-    lines += ["", "Tap ✅ Approve or ❌ Reject. To suggest a change, reply to this message."]
+    lines += ["", "Tap ✅ Approve or ❌ Reject (it is recorded within ~10 min and this message changes). To suggest a change, reply to this message."]
     return "\n".join(lines)[:4000]
 
 
@@ -158,6 +158,8 @@ def do_poll(d):
     ups = api("getUpdates", offset=offset, timeout=0, allowed_updates=["callback_query", "message"])
     by_id = {it["id"]: it for it in d["items"]}
     by_msg = {it.get("message_id"): it for it in d["items"] if it.get("message_id")}
+    print("updates:", [(u["update_id"], [k for k in u if k != "update_id"][0],
+                        (u.get("callback_query") or {}).get("data")) for u in ups])
     for u in ups:
         offset = max(offset, u["update_id"] + 1)
         cq = u.get("callback_query")
@@ -180,13 +182,7 @@ def do_poll(d):
             result = dispatch(it.get("on_approve") if ok else it.get("on_reject"))
             it["action_result"] = result
             mark = "✅ APPROVED" if ok else "❌ REJECTED"
-            stamp = dt.datetime.now(IST).strftime("%d %b %I:%M %p")
-            try:
-                api("editMessageText", chat_id=CHAT, message_id=it["message_id"], parse_mode="HTML",
-                    disable_web_page_preview=True,
-                    text=request_text(it).rsplit("\n\nTap", 1)[0] + f"\n\n<b>{mark}</b> by {esc(who)} – {stamp}")
-            except Exception as e:
-                print("edit failed", e)
+            it["shown"] = False
             safe("answerCallbackQuery", callback_query_id=cq["id"], text=f"{mark} – noted")
             print(iid, it["status"], who, result)
             changed = True
@@ -203,6 +199,32 @@ def do_poll(d):
                 changed = True
     if offset != d.get("update_offset", 0):
         d["update_offset"] = offset
+        changed = True
+    return changed
+
+
+def do_sync(d):
+    """Edit the request message to show the decision (taps and decisions recorded by Claude)."""
+    changed = False
+    for it in d["items"]:
+        if it.get("status") not in ("approved", "rejected") or it.get("shown", True) or not it.get("message_id"):
+            continue
+        mark = "✅ APPROVED" if it["status"] == "approved" else "❌ REJECTED"
+        when = it.get("decided_at", "")
+        try:
+            stamp = dt.datetime.fromisoformat(when).strftime("%d %b %I:%M %p")
+        except ValueError:
+            stamp = when
+        body = request_text(it).rsplit("\n\nTap", 1)[0] + f"\n\n<b>{mark}</b> by {esc(it.get('decided_by', ''))} – {stamp}"
+        try:
+            api("editMessageText", chat_id=CHAT, message_id=it["message_id"], parse_mode="HTML",
+                disable_web_page_preview=True, text=body)
+        except Exception as e:
+            print("edit failed", e)
+            if "not modified" not in str(e):
+                safe("sendMessage", chat_id=CHAT, reply_to_message_id=it["message_id"], parse_mode="HTML",
+                     text=f"<b>{mark}</b> – #{esc(it['id'])} by {esc(it.get('decided_by', ''))} – {stamp}")
+        it["shown"] = True
         changed = True
     return changed
 
@@ -227,6 +249,7 @@ if __name__ == "__main__":
     try:
         c = do_send(d)
         c = do_poll(d) or c
+        c = do_sync(d) or c
         c = do_remind(d) or c
     finally:
         save(d)  # always keep decisions already recorded
