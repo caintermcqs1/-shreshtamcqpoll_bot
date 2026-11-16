@@ -8,8 +8,12 @@
     "ca_answers",
     "cma_answers"
   ],
-  "fixed": [],
+  "fixed": [
+    "ca_answers",
+    "cma_answers"
+  ],
   "runs_reported": [
     43815006665
-  ]
+  ],
+  "summary_sent": true
 }
