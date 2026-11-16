@@ -174,5 +174,277 @@
    "body": "Account balances at year-end – 'Every Rupee Counts, Verify':\nE – Existence\nR – Rights and obligations\nC – Completeness\nV – Valuation and allocation\n\nTransactions during the year – 'Only Clever Auditors Check Carefully':\nO – Occurrence\nC – Completeness\nA – Accuracy\nC – Cut-off\nC – Classification\n\nPlus presentation and disclosure. Tip: existence → test from records to the asset; completeness → test from the source to the records.",
    "link": "Linked to today's case MCQ: Assertions"
   }
+ },
+ "2026-11-24": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Sec 2(41) – Financial year",
+   "body": "• If a company is incorporated on or after 1 January, its first financial year may end on 31 March of the following year.\n• ⚠️ Watch out: For incorporation before 1 January, the first FY ends on the coming 31 March.\n• 📖 Companies Act, 2013 – Sec 2(41)",
+   "link": "Linked to today's MCQ: Sec 2(41) – Financial year"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "SA 200 – Objective",
+   "body": "• SA 200: reasonable (not absolute) assurance and an opinion on whether the statements are prepared, in all material respects, per the framework.\n• ⚠️ Watch out: Absolute assurance is impossible due to inherent limitations.\n• 📖 SA 200 – Overall Objectives of the Independent Auditor",
+   "link": "Linked to today's MCQ: SA 200 – Objective"
+  }
+ },
+ "2026-11-25": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "LLP Act – Liability of partners",
+   "body": "• Sec 26 makes every partner an agent of the LLP, not of the other partners. Sec 28 says a partner is not personally liable for another partner's wrongful act, but is liable for his own.\n• ⚠️ Watch out: In a traditional partnership firm, partners are agents of each other. Don't carry that into LLPs.\n• 📖 LLP Act, 2008 – Sec 26, 28",
+   "link": "Linked to today's MCQ: LLP Act – Liability of partners"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "SA 570 – Going concern",
+   "body": "• SA 570 lists financial and operating events that may, individually or collectively, cast significant doubt. Management's plans must be evaluated, not simply accepted.\n• ⚠️ Watch out: Management's expectation of finance is not evidence.\n• 📖 SA 570 – Going Concern",
+   "link": "Linked to today's MCQ: SA 570 – Going concern"
+  }
+ },
+ "2026-11-26": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Taxation – GST",
+   "title": "Schedule III – neither goods nor services",
+   "body": "• Schedule III lists activities that are not supply, including services by an employee to the employer.\n• ⚠️ Watch out: Renting of commercial property is a taxable service.\n• 📖 CGST Act, 2017 – Schedule III",
+   "link": "Linked to today's MCQ: Schedule III – neither goods nor services"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Strategic Management",
+   "title": "Mission statement",
+   "body": "• Mission defines purpose and business; vision describes the future aspiration.\n• ⚠️ Watch out: Vision is about the future picture, mission about the present purpose.\n• 📖 ICAI Study Material – Strategic Intent",
+   "link": "Linked to today's MCQ: Mission statement"
+  }
+ },
+ "2026-11-27": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Sec 123 – Dividend account",
+   "body": "• Sec 123(4): the dividend amount must be deposited in a separate account with a scheduled bank within 5 days of declaration, and it can be used only for paying the dividend.\n• ⚠️ Watch out: A Board assurance to restore the money is irrelevant. The law prohibits the use itself.\n• 📖 Companies Act, 2013 – Sec 123(4)",
+   "link": "Linked to today's MCQ: Sec 123 – Dividend account"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "SA 500 – Reliability of evidence",
+   "body": "• SA 500: evidence is more reliable when controls are effective, when it is documentary rather than oral, and when it is original rather than a copy.\n• ⚠️ Watch out: Two weak sources do not add up to one strong source.\n• 📖 SA 500 – Audit Evidence",
+   "link": "Linked to today's MCQ: SA 500 – Reliability of evidence"
+  }
+ },
+ "2026-11-28": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Sec 4 – Memorandum",
+   "body": "• The Memorandum contains name, registered office, objects, liability, capital (and subscription) clauses.\n• ⚠️ Watch out: Internal management rules are in the Articles.\n• 📖 Companies Act, 2013 – Sec 4",
+   "link": "Linked to today's MCQ: Sec 4 – Memorandum"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "SA 240 – Fraud",
+   "body": "• SA 240: management and TCWG have primary responsibility; the auditor obtains reasonable assurance against material misstatement due to fraud.\n• ⚠️ Watch out: The auditor is not a guarantor against all fraud.\n• 📖 SA 240 – Auditor's Responsibilities Relating to Fraud",
+   "link": "Linked to today's MCQ: SA 240 – Fraud"
+  }
+ },
+ "2026-11-30": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Advanced Accounting",
+   "title": "AS 23 – Method of accounting",
+   "body": "• AS 23 requires the equity method for an associate in the consolidated financial statements.\n• ⚠️ Watch out: Proportionate consolidation is for jointly controlled entities (AS 27), not associates.\n• 📖 AS 23 – Accounting for Investments in Associates in CFS",
+   "link": "Linked to today's MCQ: AS 23 – Method of accounting"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "Code of Ethics – Fundamental principles",
+   "body": "• Being associated with misleading information is Integrity. Undue influence is Objectivity. Lack of skill and care is Professional Competence & Due Care. Unauthorised disclosure is Confidentiality.\n• ⚠️ Watch out: Pressure from management is an Objectivity issue, not Integrity.\n• 📖 ICAI Code of Ethics",
+   "link": "Linked to today's MCQ: Code of Ethics – Fundamental principles"
+  }
+ },
+ "2026-12-01": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Taxation – GST",
+   "title": "Time of supply – services",
+   "body": "• Sec 13(2)(a): earlier of the date of issue of invoice or receipt of payment, if the invoice is issued within time.\n• ⚠️ Watch out: For goods, advances are not taxed – for services they are.\n• 📖 CGST Act, 2017 – Sec 13",
+   "link": "Linked to today's MCQ: Time of supply – services"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Strategic Management",
+   "title": "Stability strategy",
+   "body": "• Stability: incremental improvement, same products/markets.\n• ⚠️ Watch out: Expansion adds markets/products.\n• 📖 ICAI Study Material – Corporate-level Strategies",
+   "link": "Linked to today's MCQ: Stability strategy"
+  }
+ },
+ "2026-12-02": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Sec 143(12) – Fraud reporting",
+   "body": "• For fraud below ₹1 crore, the auditor reports to the Audit Committee (or the Board), and the company discloses it in the Board's Report. Fraud of ₹1 crore or more goes to the Central Government in ADT-4.\n• ⚠️ Watch out: 'Below ₹1 crore' changes whom the auditor reports to. It does not remove the duty to report.\n• 📖 Companies Act, 2013 – Sec 143(12); Rule 13",
+   "link": "Linked to today's MCQ: Sec 143(12) – Fraud reporting"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Strategic Management",
+   "title": "Strategic control",
+   "body": "• Strategic surveillance is broad, general monitoring of events inside and outside the firm that may affect strategy. Premise control checks planning assumptions; special alert control reacts to sudden events.\n• ⚠️ Watch out: Premise control checks specific assumptions – surveillance is general monitoring.\n• 📖 ICAI Study Material – Strategic Control",
+   "link": "Linked to today's MCQ: Strategic control"
+  }
+ },
+ "2026-12-03": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Doctrine of indoor management",
+   "body": "• Royal British Bank v Turquand: outsiders acting in good faith need not inquire into internal regularity.\n• ⚠️ Watch out: Constructive notice works against outsiders; indoor management protects them.\n• 📖 Royal British Bank v Turquand",
+   "link": "Linked to today's MCQ: Doctrine of indoor management"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "SA 520 – Analytical procedures",
+   "body": "• Analytical procedures evaluate financial information through plausible relationships among data.\n• ⚠️ Watch out: Inspection examines records or assets.\n• 📖 SA 520 – Analytical Procedures",
+   "link": "Linked to today's MCQ: SA 520 – Analytical procedures"
+  }
+ },
+ "2026-12-04": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Taxation – Income Tax",
+   "title": "Total income – deductions",
+   "body": "• GTI = 9,50,000 + 40,000 = 9,90,000. Less 80C ₹1,50,000 and 80D ₹20,000 = ₹8,20,000.\n• ⚠️ Watch out: 80TTA does not cover FD interest.\n• 📖 Income-tax law – Deductions (old regime)",
+   "link": "Linked to today's MCQ: Total income – deductions"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Financial Management",
+   "title": "Working capital requirement",
+   "body": "• Daily cost ₹10,000. Net operating cycle = 30 + 20 + 40 − 30 = 60 days → ₹6 lakh.\n• ⚠️ Watch out: Forgetting to deduct creditors gives ₹9 lakh.\n• 📖 ICAI Study Material – Working Capital Management",
+   "link": "Linked to today's MCQ: Working capital requirement"
+  }
+ },
+ "2026-12-05": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Taxation – GST",
+   "title": "Composition – turnover limit",
+   "body": "• Limit is ₹1.5 crore (₹75 lakh in specified special category States); for service providers under Sec 10(2A), ₹50 lakh.\n• ⚠️ Watch out: ₹50 lakh is the services composition limit.\n• 📖 CGST Act, 2017 – Sec 10; Notification 14/2019-CT",
+   "link": "Linked to today's MCQ: Composition – turnover limit"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Strategic Management",
+   "title": "Concentric diversification",
+   "body": "• Related diversification adds businesses linked by technology or markets.\n• ⚠️ Watch out: Conglomerate = unrelated business.\n• 📖 ICAI Study Material – Diversification",
+   "link": "Linked to today's MCQ: Concentric diversification"
+  }
+ },
+ "2026-12-07": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Advanced Accounting",
+   "title": "AS 4 – Going concern after B/S date",
+   "body": "• AS 4: if events after the B/S date show the going concern assumption is no longer appropriate, the accounts are not prepared on going-concern basis.\n• ⚠️ Watch out: Usually a fire is non-adjusting – but not when it ends the going concern.\n• 📖 AS 4 – Events Occurring after the Balance Sheet Date",
+   "link": "Linked to today's MCQ: AS 4 – Going concern after B/S date"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Cost & Management Accounting",
+   "title": "Overhead absorption",
+   "body": "• Rate = ₹30/hour. Absorbed = 22,000 × 30 = 6,60,000. Actual 6,20,000 → over-absorbed ₹40,000.\n• ⚠️ Watch out: Comparing budget with actual (₹20,000) is wrong.\n• 📖 ICAI Study Material – Overheads",
+   "link": "Linked to today's MCQ: Overhead absorption"
+  }
+ },
+ "2026-12-08": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Sec 62 – Rights issue",
+   "body": "• Sec 62(1)(a)(i): offer by notice specifying the number of shares, open for not less than 15 days (or such lesser number of days as prescribed) and not exceeding 30 days.\n• ⚠️ Watch out: A shorter period is allowed only if prescribed.\n• 📖 Companies Act, 2013 – Sec 62",
+   "link": "Linked to today's MCQ: Sec 62 – Rights issue"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "SA 570 – Going concern indicator",
+   "body": "• Financial indicators include net liability position, inability to pay creditors, loan defaults.\n• ⚠️ Watch out: The other options strengthen going concern.\n• 📖 SA 570 – Going Concern",
+   "link": "Linked to today's MCQ: SA 570 – Going concern indicator"
+  }
+ },
+ "2026-12-09": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Taxation – Income Tax",
+   "title": "Clubbing – spouse remuneration",
+   "body": "• Remuneration to a spouse from a concern where the individual has substantial interest (≥20%) is clubbed unless it is due to the spouse's technical/professional knowledge.\n• ⚠️ Watch out: With qualifications, it would stay with the wife.\n• 📖 Income-tax law – Clubbing of income",
+   "link": "Linked to today's MCQ: Clubbing – spouse remuneration"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Financial Management",
+   "title": "Operating leverage",
+   "body": "• Contribution 4,00,000; EBIT 2,00,000; DOL = 2. EBIT change = 2 × 10% = 20%.\n• ⚠️ Watch out: DOL multiplies the % change in sales.\n• 📖 ICAI Study Material – Leverages",
+   "link": "Linked to today's MCQ: Operating leverage"
+  }
+ },
+ "2026-12-10": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Taxation – GST",
+   "title": "Payment – electronic credit ledger",
+   "body": "• IGST credit is used first for IGST, then for CGST and SGST/UTGST in any order (Sec 49 & Rule 88A).\n• ⚠️ Watch out: Credit ledger cannot be used for interest or late fee.\n• 📖 CGST Act, 2017 – Sec 49; Rule 88A",
+   "link": "Linked to today's MCQ: Payment – electronic credit ledger"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Strategic Management",
+   "title": "Organisation structure – SBU",
+   "body": "• SBUs are semi-autonomous units with their own mission, competitors and strategy.\n• ⚠️ Watch out: Functional structure groups by function, not business.\n• 📖 ICAI Study Material – Organisation Structure",
+   "link": "Linked to today's MCQ: Organisation structure – SBU"
+  }
+ },
+ "2026-12-11": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Advanced Accounting",
+   "title": "AS 16 – Qualifying asset",
+   "body": "• Interest 12 lakh less income on temporary investment of specific borrowings 1 lakh = ₹11 lakh.\n• ⚠️ Watch out: Temporary investment income must be deducted.\n• 📖 AS 16 – Borrowing Costs",
+   "link": "Linked to today's MCQ: AS 16 – Qualifying asset"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Cost & Management Accounting",
+   "title": "Joint products – physical units",
+   "body": "• P's share = 4,000 ÷ 6,000 × 1,20,000 = ₹80,000.\n• ⚠️ Watch out: Q gets ₹40,000.\n• 📖 ICAI Study Material – Joint Products",
+   "link": "Linked to today's MCQ: Joint products – physical units"
+  }
+ },
+ "2026-12-12": {
+  "g1": {
+   "format": "Quick Notes",
+   "subject": "Corporate & Other Laws",
+   "title": "Interpretation of Statutes – Proviso",
+   "body": "• A proviso qualifies or excepts something out of the main enactment.\n• ⚠️ Watch out: Definitions are in definition clauses, not provisos.\n• 📖 Interpretation of Statutes – Internal aids",
+   "link": "Linked to today's MCQ: Interpretation of Statutes – Proviso"
+  },
+  "g2": {
+   "format": "Quick Notes",
+   "subject": "Auditing & Ethics",
+   "title": "CARO 2020",
+   "body": "• CARO 2020 excludes banking/insurance companies, Sec 8 companies, OPCs, small companies and specified private companies.\n• ⚠️ Watch out: Private companies above thresholds are covered.\n• 📖 CARO 2020 – Para 1(2)",
+   "link": "Linked to today's MCQ: CARO 2020"
+  }
  }
 }
