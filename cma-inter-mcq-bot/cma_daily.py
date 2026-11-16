@@ -124,6 +124,9 @@ def notice():
     tg("sendMessage", {"chat_id": CHAT, "text": ann, "parse_mode": "HTML", "disable_web_page_preview": "true"})
 
 
+EXTRAS_STOP_FROM = "2026-12-10"
+
+
 def main():
     mode = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
     if mode == "notice":
@@ -140,6 +143,11 @@ def main():
         print("Sunday – no posts.")
         return
     key = today.isoformat()
+    # User (16 Nov): from the first exam day (10 Dec 2026) only the 10:30 MCQs + 8:30 answers continue –
+    # no countdown, study, fact/tip, night concept or Saturday recap.
+    if key >= EXTRAS_STOP_FROM:
+        print(f"Daily extras stopped from {EXTRAS_STOP_FROM} – only MCQs continue.")
+        return
     content = load("cma_daily_content.json", {})
     state = load("cma_daily_state.json", {})
     done = state.setdefault("done", {})
