@@ -1,7 +1,13 @@
 {
   "date": "2026-11-16",
-  "tries": {},
-  "alerted": [],
+  "tries": {
+    "ca_answers": 1,
+    "cma_answers": 1
+  },
+  "alerted": [
+    "ca_answers",
+    "cma_answers"
+  ],
   "fixed": [],
   "runs_reported": [
     43815006665
