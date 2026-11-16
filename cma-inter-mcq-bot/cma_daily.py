@@ -143,16 +143,16 @@ def main():
         print("Sunday – no posts.")
         return
     key = today.isoformat()
-    # User (16 Nov): from the first exam day (10 Dec 2026) only the 10:30 MCQs + 8:30 answers continue –
-    # no countdown, study, fact/tip, night concept or Saturday recap.
-    if key >= EXTRAS_STOP_FROM:
-        print(f"Daily extras stopped from {EXTRAS_STOP_FROM} – only MCQs continue.")
+    # User (16 Nov): from the first exam day (10 Dec 2026) the 9 AM countdown and the Saturday recap stop;
+    # MCQs, 4 PM study, 6 PM fact/tip and 9 PM concept continue (they post whenever content exists).
+    if key >= EXTRAS_STOP_FROM and mode in ("countdown", "recap"):
+        print(f"{mode} stopped from {EXTRAS_STOP_FROM}.")
         return
     content = load("cma_daily_content.json", {})
     state = load("cma_daily_state.json", {})
     done = state.setdefault("done", {})
     try:
-        for m in (["night", "recap"] if mode == "night" and today.weekday() == 5 else [mode]):
+        for m in (["night", "recap"] if mode == "night" and today.weekday() == 5 and key < EXTRAS_STOP_FROM else [mode]):
             if m == "recap" and wait and mode == "night":
                 wait_until(*times["recap"])
             for g in ("g1", "g2"):
