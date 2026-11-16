@@ -7,6 +7,7 @@ Bot guards in each script prevent double posts, so a re-run is always safe.
 import datetime as dt
 import json
 import os
+import re
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -76,6 +77,45 @@ cma = load("cma-inter-mcq-bot/state.json", {})
 cma_plan = load("cma-inter-mcq-bot/plan.json", [])
 cd_content = load("cma-inter-mcq-bot/cma_daily_content.json", {})
 cd_done = load("cma-inter-mcq-bot/cma_daily_state.json", {}).get("done", {})
+CAF_DIR = "upload_to_github/ca-final-audit-bot"
+caf_cfg = load(f"{CAF_DIR}/config.json", {})
+caf_day = load(f"{CAF_DIR}/state.json", {"days": {}}).get("days", {}).get(today)
+CMA_RECAP_STOP = "2026-12-10"  # same date as EXTRAS_STOP_FROM in cma_daily.py
+
+
+def caf_planned():
+    """Is a CA Final Audit set planned for today? (plan = Google Sheet, read through the bot's own code)."""
+    if today < caf_cfg.get("start_date", "9999"):
+        return False
+    if caf_day:
+        return True
+    try:
+        import importlib.util
+        import sys
+        spec = importlib.util.spec_from_file_location("caf_bot", os.path.join(ROOT, CAF_DIR, "bot.py"))
+        mod = importlib.util.module_from_spec(spec)
+        sys.path.insert(0, os.path.join(ROOT, CAF_DIR))
+        spec.loader.exec_module(mod)
+        return mod.day_for(mod.get_plan(caf_cfg), today) is not None
+    except Exception as e:
+        print("CA Final plan check failed:", e)
+        return False
+
+
+_caf_cache = {}
+
+
+def caf_applies():
+    if "v" not in _caf_cache:
+        _caf_cache["v"] = caf_planned()
+    return _caf_cache["v"]
+
+
+def cma_recap_applies():
+    if weekday != 5 or today >= CMA_RECAP_STOP:
+        return False
+    monday = (now - dt.timedelta(days=weekday)).date().isoformat()
+    return any(monday <= h.get("date", "") <= today for h in cma.get("history", []))
 
 
 def mcq_applies(st, plan):
@@ -121,7 +161,15 @@ CHECKS = [
      lambda: answers_ok(cma), "5-cma-post-answers.yml", None),
     ("cma_night", "CMA 9 PM concept + formula", (21, 0), lambda: cma_has("night"), lambda: cma_daily("night"),
      "11-cma-daily.yml", {"mode": "night"}),
+    ("cma_recap", "CMA Saturday 9:30 PM weekly recap", (21, 30), cma_recap_applies, lambda: cma_daily("recap"),
+     "11-cma-daily.yml", {"mode": "recap"}),
+    ("caf_mcq", "CA Final Audit 10:30 AM MCQs", (10, 30), caf_applies, lambda: bool(caf_day),
+     "14-ca-final-post-mcqs.yml", None),
+    ("caf_answers", "CA Final Audit 8:30 PM answers", (20, 30), caf_applies,
+     lambda: bool(caf_day and caf_day.get("answered")), "15-ca-final-post-answers.yml", None),
 ]
+
+SECTIONS = [("CA Inter", "ca_"), ("CMA Inter", "cma_"), ("CA Final Audit (FRATERNITY)", "caf_")]
 
 
 def main():
@@ -131,12 +179,16 @@ def main():
     tries, alerted, fixed = hs["tries"], hs["alerted"], hs["fixed"]
     lines_ok, lines_bad = [], []
 
-    if weekday != 6:  # Sunday: no scheduled posts to check
+    status = {}  # name -> True (posted) / False (missing)
+    if True:
         for name, label, (h, m), applies, ok, wf, inputs in CHECKS:
+            if weekday == 6 and not name.startswith("caf_"):
+                continue  # Sunday: CA Inter / CMA Inter holiday (CA Final follows its own plan)
             due = now.replace(hour=h, minute=m, second=0, microsecond=0)
             if now < due + GRACE or not applies():
                 continue
             if ok():
+                status[name] = True
                 lines_ok.append(label)
                 if name in tries and name not in fixed:
                     fixed.append(name)
@@ -150,8 +202,10 @@ def main():
                     alerted.append(name)
                     tg(f"⚠️ <b>Health check {now:%H:%M}:</b> {label} was NOT posted on time.\n"
                        f"{'🔁 Re-run started automatically – it will post now.' if started else '❌ Could not start the re-run.'}")
+                status[name] = False
                 lines_bad.append(f"{label} (re-run {n + 1})")
             else:
+                status[name] = False
                 lines_bad.append(f"{label} – still missing after {MAX_TRIES} re-runs")
                 if f"{name}:gaveup" not in alerted:
                     alerted.append(f"{name}:gaveup")
@@ -160,6 +214,8 @@ def main():
         # mirror (FRATERNITY) copies of today's MCQs
         for st, label in ((ca, "CA Inter"), (cma, "CMA Inter")):
             p = st.get("pending") or {}
+            if p.get("date") == today:
+                status[("ca_" if label == "CA Inter" else "cma_") + "mirror"] = all(s.get("mirrors") for s in p.get("sets", []))
             if p.get("date") == today and any(not s.get("mirrors") for s in p.get("sets", [])):
                 fixable = label == "CA Inter" and now.hour < 20 and tries.get("mirror_ca", 0) < 2
                 if fixable:
@@ -190,13 +246,37 @@ def main():
         except Exception as e:
             print("Run list failed:", e)
 
-    # one end-of-day summary
-    if now.hour * 60 + now.minute >= 21 * 60 + 30 and not hs.get("summary_sent") and weekday != 6:
+    # one end-of-day report in the MCQ'S poll group – every day (user, 16 Nov)
+    if now.hour * 60 + now.minute >= 21 * 60 + 35 and not hs.get("summary_sent"):
         hs["summary_sent"] = True
-        txt = f"📋 <b>Daily posting report – {now:%a %d %b}</b>\n"
-        txt += "".join(f"\n✅ {x}" for x in lines_ok) + "".join(f"\n❌ {x}" for x in lines_bad)
+        labels = {c[0]: c[1] for c in CHECKS}
+        labels["ca_mirror"] = "CA Inter MCQs copied to FRATERNITY"
+        labels["cma_mirror"] = "CMA Inter MCQs copied to FRATERNITY"
+        order = [c[0] for c in CHECKS]
+        order = order[:order.index("ca_study")] + ["ca_mirror", "cma_mirror"] + order[order.index("ca_study"):]
+        txt = f"📋 <b>Daily posting report – {now:%a %d %b %Y}</b>"
+        missing = 0
+        for title, pre in SECTIONS:
+            rows = [n for n in order if n.startswith(pre) and n in status]
+            txt += f"\n\n<b>{title}</b>"
+            if not rows:
+                if pre == "caf_" and today < caf_cfg.get("start_date", "9999"):
+                    txt += f"\n➖ Starts {dt.date.fromisoformat(caf_cfg['start_date']):%a %d %b}"
+                elif weekday == 6 and pre != "caf_":
+                    txt += "\n➖ Sunday holiday – no posts"
+                else:
+                    txt += "\n➖ No posts scheduled today"
+                continue
+            for n in rows:
+                ok = status[n]
+                missing += not ok
+                short = re.sub(r"^(CA Final Audit|CMA Inter|CA Inter|CMA) ", "", labels[n])
+                txt += f"\n{'✅' if ok else '❌'} {short}"
         if fixed:
-            txt += "\n\n🔁 Auto-fixed today: " + ", ".join(fixed)
+            txt += "\n\n🔁 Auto-fixed today: " + ", ".join(labels.get(x, x) for x in fixed)
+        txt += ("\n\n😴 No posts were scheduled today." if not status
+                else "\n\n🎉 <b>All posts went out today.</b>" if not missing
+                else f"\n\n⚠️ <b>{missing} post(s) missing</b> – auto re-run was tried. Please tell Claude.")
         tg(txt)
 
     print("OK:", lines_ok)
