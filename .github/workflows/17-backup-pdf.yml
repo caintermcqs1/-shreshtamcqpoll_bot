@@ -1,0 +1,40 @@
+name: "17. Backup PDF of all posts (to the MCQ test group)"
+
+on:
+  schedule:
+    - cron: "30 16 * * *"   # 10:00 PM IST daily: today's posts; on Sunday: the whole week (Mon–Sat)
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "From date (YYYY-MM-DD), or today / week / all"
+        default: "today"
+      end:
+        description: "To date (YYYY-MM-DD) – leave empty for the same as start (or today for week/all)"
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PDF tools
+        run: |
+          pip install reportlab
+          ls /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf || (sudo apt-get update && sudo apt-get install -y fonts-dejavu-core)
+      - name: Build and send the backup PDF
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "$(TZ=Asia/Kolkata date +%u)" = "7" ]; then python backup/make_backup.py week --send; else python backup/make_backup.py today --send; fi
+          else
+            python backup/make_backup.py ${{ inputs.start }} ${{ inputs.end }} --send
+          fi
