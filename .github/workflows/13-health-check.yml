@@ -3,6 +3,8 @@ name: "13. Health check – re-run any missed post and alert"
 on:
   schedule:
     - cron: "10,40 3-16 * * *"   # every 30 min, 8:40 AM – 10:10 PM IST
+    - cron: "15,45 16 * * *"     # 9:45 PM + 10:15 PM IST – daily posting report backups
+    - cron: "5,35 17 * * *"      # 10:35 PM + 11:05 PM IST – late backups (report is sent only once)
   workflow_dispatch:
 
 permissions:
