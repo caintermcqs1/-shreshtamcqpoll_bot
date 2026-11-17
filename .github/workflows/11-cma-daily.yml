@@ -22,7 +22,7 @@ on:
       mode:
         description: "What to post now"
         type: choice
-        options: [countdown, study, fact, night, recap, notice]
+        options: [countdown, study, fact, night, recap, notice, pinalert]
         default: countdown
 
 permissions:
