@@ -78,14 +78,14 @@ def send(text, preview=False, where="general"):
 
 
 def post_notice():
-    """Post notice.txt (trusted HTML written by us) and pin it."""
+    """Post notice.txt (trusted HTML written by us) and pin it with a notification to all members."""
     with open(os.path.join(HERE, "notice.txt"), encoding="utf-8") as f:
         text = f.read().strip()
     mid = send(text)
     req = urllib.request.Request(
         f"https://api.telegram.org/bot{TOKEN}/pinChatMessage",
         data=urllib.parse.urlencode({"chat_id": CHAT_ID, "message_id": mid,
-                                     "disable_notification": "true"}).encode(),
+                                     "disable_notification": "false"}).encode(),
     )
     with urllib.request.urlopen(req, timeout=30) as r:
         print("Pinned:", json.load(r).get("ok"))
