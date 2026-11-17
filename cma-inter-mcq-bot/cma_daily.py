@@ -5,6 +5,7 @@
   night     – 9:00 PM Concept of the Day + Formula/Section of the Day; on Saturday also the weekly recap at 9:30 PM
   recap     – weekly recap only (manual)
   notice    – edit the pinned welcome message and send a schedule announcement (manual)
+  pinalert  – re-pin the welcome message with a notification to all members (manual)
 Content: cma_daily_content.json (date-wise). State: cma_daily_state.json. Exam dates: ICMAI Dec 2026 time table.
 """
 import datetime as dt, html, json, os, sys, time, urllib.error, urllib.parse, urllib.request
@@ -144,10 +145,22 @@ def exam_day_texts(key):
     return days[key]
 
 
+def pin_alert():
+    """Re-pin the welcome message WITH notification so every member gets an alert (Telegram has no @all)."""
+    mid = load("cma_daily_state.json", {}).get("pinned_id", 722)
+    tg("unpinChatMessage", {"chat_id": CHAT, "message_id": mid})
+    res = tg("pinChatMessage", {"chat_id": CHAT, "message_id": mid, "disable_notification": "false"})
+    if not res.get("ok"):
+        raise RuntimeError(res)
+
+
 def main():
     mode = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
     if mode == "notice":
         notice()
+        return
+    if mode == "pinalert":
+        pin_alert()
         return
     wait = os.environ.get("WAIT", "") == "1"
     times = {"countdown": (9, 0), "study": (16, 0), "fact": (18, 0), "night": (21, 0), "recap": (21, 30)}
