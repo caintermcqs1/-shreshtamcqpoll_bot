@@ -1,5 +1,5 @@
 """CMA Inter daily posts (both G1 and G2 topics, Mon–Sat):
-  countdown – 9:00 AM exam countdown + today's revision target
+  countdown – 9:00 AM exam countdown + today's revision target (exam days 10–17 Dec: All the best + last-minute points)
   study     – 4:00 PM study content linked to today's MCQs
   fact      – 6:00 PM fun fact / study tip (alternate days)
   night     – 9:00 PM Concept of the Day + Formula/Section of the Day; on Saturday also the weekly recap at 9:30 PM
@@ -125,6 +125,23 @@ def notice():
 
 
 EXTRAS_STOP_FROM = "2026-12-10"
+# User (17 Nov): on exam days (10–17 Dec, Sunday 13 Dec included) the 9 AM slot posts "All the best + last-minute
+# points" for that day's paper (paper's group) and a "your next paper" note (other group). The content in
+# cma_exam_day.json goes live only after the approval request "cma-exam-day-posts" is approved in approvals.json.
+EXAM_DAY_FILE = "cma_exam_day.json"
+EXAM_DAY_APPROVAL = "cma-exam-day-posts"
+
+
+def exam_day_texts(key):
+    days = load(EXAM_DAY_FILE, {})
+    if key not in days:
+        return None
+    appr = load(os.path.join("..", "approvals", "approvals.json"), {})
+    item = next((i for i in appr.get("items", []) if i.get("id") == EXAM_DAY_APPROVAL), None)
+    if not item or item.get("status") != "approved":
+        print(f"{key}: exam-day post not approved yet ({item.get('status') if item else 'no request'}).")
+        return None
+    return days[key]
 
 
 def main():
@@ -139,10 +156,23 @@ def main():
     if wait:
         wait_until(*times[mode])
     today = dt.datetime.now(IST).date()
-    if today.weekday() == 6:
+    key = today.isoformat()
+    exam_texts = exam_day_texts(key) if mode == "countdown" else None
+    if today.weekday() == 6 and not exam_texts:
         print("Sunday – no posts.")
         return
-    key = today.isoformat()
+    if exam_texts:
+        state = load("cma_daily_state.json", {})
+        done = state.setdefault("done", {})
+        for g in ("g1", "g2"):
+            tag = f"{key}:examday:{g}"
+            if tag in done or not exam_texts.get(g):
+                print("Already posted or no text", tag)
+                continue
+            send(exam_texts[g], g)
+            done[tag] = True
+            save("cma_daily_state.json", state)
+        return
     # User (16 Nov): from the first exam day (10 Dec 2026) the 9 AM countdown and the Saturday recap stop;
     # MCQs, 4 PM study, 6 PM fact/tip and 9 PM concept continue (they post whenever content exists).
     if key >= EXTRAS_STOP_FROM and mode in ("countdown", "recap"):
