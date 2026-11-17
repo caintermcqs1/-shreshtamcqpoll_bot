@@ -180,7 +180,7 @@ def cma_has(mode):
 
 # name, label, due (h, m), applies, ok, workflow, inputs
 CHECKS = [
-    ("ca_concept", "CA Inter 9 AM Concept of the Day", (9, 0), lambda: today in concepts,
+    ("ca_concept", "CA Inter 9 AM Concept of the Day", (9, 0), lambda: today in concepts and today >= "2026-11-18",
      lambda: all(f"{today}:{g}" in concept_done for g in ("g1", "g2")), "19-ca-concept.yml", {"date": today}),
     ("cma_countdown", "CMA 9 AM countdown", (9, 0), lambda: cma_has("countdown"), lambda: cma_daily("countdown"),
      "11-cma-daily.yml", {"mode": "countdown"}),
