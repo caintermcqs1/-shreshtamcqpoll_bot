@@ -1,0 +1,22 @@
+name: "20. Send report to MCQ'S poll admin group (manual)"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send admin-report/report.txt
+        run: python admin-report/send_report.py
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
