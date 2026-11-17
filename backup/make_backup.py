@@ -148,7 +148,7 @@ def build(start, end, path):
                 blk.append(P(f"{L[k]}) {'<b>' if mark else ''}{esc(o)}{mark}{'</b>' if mark else ''}", "opt"))
             r = results[i] if i < len(results) else None
             res = (f" · Poll: {round(100 * r['correct'] / r['total'])}% correct ({r['total']} votes)" if r and r.get("total")
-                   else ("" if closed else " · Poll still open (answers at 8:30 PM)"))
+                   else ("" if closed else " · Poll still open (answers at 5:30 PM)"))
             blk.append(P(f"<b>Answer: {L[it['ans']]}</b>{esc(res)}"))
             blk.append(P(f"<b>Why:</b> {esc(it.get('why', ''))}"))
             if it.get("trap"):
@@ -190,7 +190,7 @@ def build(start, end, path):
         if ca_sets or ca_s or ca_ft.get(ds):
             story.append(P("CA INTER", "course"))
             if ca_sets:
-                story.append(P("10:30 AM – MCQ polls (answers posted at 8:30 PM)", "slot"))
+                story.append(P("10:30 AM – MCQ polls (answers posted at 5:30 PM)", "slot"))
                 for e, r, c in ca_sets:
                     story += mcq_block(e, r, c)
             if ca_s:
@@ -235,7 +235,7 @@ def build(start, end, path):
                         story.append(P(f"<b>{'Group 1' if g == 'g1' else 'Group 2'}</b><br/>" + from_html(txt)))
             daily("countdown")
             if cma_sets:
-                story.append(P("10:30 AM – MCQ polls (answers posted at 8:30 PM)", "slot"))
+                story.append(P("10:30 AM – MCQ polls (answers posted at 5:30 PM)", "slot"))
                 for e, r, c in cma_sets:
                     story += mcq_block(e, r, c)
             for mode in ("study", "fact", "night", "recap"):
