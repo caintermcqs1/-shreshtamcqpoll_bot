@@ -1,6 +1,6 @@
 {
   "fact_index": 1,
-  "last_fact_date": "2026-11-16",
+  "last_fact_date": "2026-11-17",
   "icai_fail_count": 0,
   "yt_channel_id": "UCWknnb47A6xz1vXUaheVm0g",
   "icai_seen": [
@@ -72,9 +72,9 @@
     "6Xjb98bcw9o",
     "WaHGIsi8RsI"
   ],
-  "next_kind_g1": "fact",
-  "next_kind_g2": "fact",
-  "fact_cycle": 5,
+  "next_kind_g1": "tip",
+  "next_kind_g2": "tip",
+  "fact_cycle": 6,
   "motivation_index": 7,
   "tip_index_g1": 4,
   "promo_index": 2,
@@ -82,8 +82,8 @@
   "study_last_date": "2026-11-17",
   "tip_index_g2": 3,
   "yt_page_seeded": true,
-  "fact_index_g1": 2,
-  "fact_index_g2": 2,
+  "fact_index_g1": 3,
+  "fact_index_g2": 3,
   "icai_seeded": [
     "https://www.icai.org/category/announcements",
     "https://www.icai.org/category/bos-important-announcements"
