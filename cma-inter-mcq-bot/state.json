@@ -1,56 +1,6 @@
 {
-  "next_index": 8,
-  "pending": {
-    "date": "2026-11-17",
-    "sets": [
-      {
-        "index": 8,
-        "case_message_id": 834,
-        "poll_message_ids": [
-          835,
-          836,
-          837,
-          838
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166244,
-            "case_message_id": 167003,
-            "poll_message_ids": [
-              167004,
-              167005,
-              167007,
-              167009
-            ]
-          }
-        ]
-      },
-      {
-        "index": 9,
-        "case_message_id": 840,
-        "poll_message_ids": [
-          841,
-          842,
-          843,
-          844
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166244,
-            "case_message_id": 167013,
-            "poll_message_ids": [
-              167014,
-              167016,
-              167018,
-              167020
-            ]
-          }
-        ]
-      }
-    ]
-  },
+  "next_index": 10,
+  "pending": null,
   "history": [
     {
       "date": "2026-11-12",
@@ -241,6 +191,54 @@
         {
           "total": 6,
           "correct": 6
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "day": 5,
+      "group": "Group 1",
+      "kind": "general",
+      "results": [
+        {
+          "total": 12,
+          "correct": 10
+        },
+        {
+          "total": 13,
+          "correct": 4
+        },
+        {
+          "total": 13,
+          "correct": 4
+        },
+        {
+          "total": 13,
+          "correct": 11
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "day": 5,
+      "group": "Group 2",
+      "kind": "general",
+      "results": [
+        {
+          "total": 7,
+          "correct": 7
+        },
+        {
+          "total": 9,
+          "correct": 6
+        },
+        {
+          "total": 8,
+          "correct": 4
+        },
+        {
+          "total": 8,
+          "correct": 7
         }
       ]
     }
