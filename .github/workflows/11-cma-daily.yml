@@ -5,6 +5,9 @@ on:
     - cron: "30 2 * * 1-6"   # countdown 9:00 AM IST (starts 8:00, waits)
     - cron: "50 2 * * 1-6"   # countdown backup
     - cron: "10 3 * * 1-6"   # countdown backup
+    - cron: "30 2 13 12 *"   # Sun 13 Dec exam-day post (P10) 9:00 AM IST
+    - cron: "50 2 13 12 *"   # Sun 13 Dec backup
+    - cron: "10 3 13 12 *"   # Sun 13 Dec backup
     - cron: "30 9 * * 1-6"   # study 4:00 PM IST
     - cron: "50 9 * * 1-6"   # study backup
     - cron: "10 10 * * 1-6"  # study backup
@@ -42,7 +45,7 @@ jobs:
         working-directory: .
         run: |
           case "${{ github.event.schedule }}" in
-            "30 2 * * 1-6"|"50 2 * * 1-6"|"10 3 * * 1-6") echo "mode=countdown" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
+            "30 2 * * 1-6"|"50 2 * * 1-6"|"10 3 * * 1-6"|"30 2 13 12 *"|"50 2 13 12 *"|"10 3 13 12 *") echo "mode=countdown" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
             "30 9 * * 1-6"|"50 9 * * 1-6"|"10 10 * * 1-6") echo "mode=study" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
             "30 11 * * 1-6"|"50 11 * * 1-6"|"10 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
             "30 14 * * 1-6"|"50 14 * * 1-6"|"10 15 * * 1-6") echo "mode=night" >> "$GITHUB_OUTPUT"; echo "wait=1" >> "$GITHUB_OUTPUT" ;;
