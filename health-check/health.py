@@ -24,6 +24,8 @@ MAX_TRIES = 3
 now = dt.datetime.now(IST)
 today = now.date().isoformat()
 weekday = now.weekday()  # Mon=0 … Sun=6
+# User (17 Nov 2026): MCQ answers move from 8:30 PM to 5:30 PM for CA Inter, CMA Inter and CA Final (from 18 Nov).
+ANS_DUE = (20, 30) if today <= "2026-11-17" else (17, 30)
 
 
 def load(rel, default):
@@ -155,9 +157,9 @@ CHECKS = [
      "11-cma-daily.yml", {"mode": "fact"}),
     ("ca_promo", "CA Inter 7 PM promotion (Tue/Thu)", (19, 0), lambda: weekday in (1, 3) and bool(promos),
      lambda: ex.get("last_promo_date") == today, "3-post-extras.yml", {"mode": "promo"}),
-    ("ca_answers", "CA Inter 8:30 PM answers", (20, 30), lambda: ca.get("last_post_date") == today,
+    ("ca_answers", "CA Inter 5:30 PM answers", ANS_DUE, lambda: ca.get("last_post_date") == today,
      lambda: answers_ok(ca), "2-post-answers.yml", None),
-    ("cma_answers", "CMA Inter 8:30 PM answers", (20, 30), lambda: cma.get("last_post_date") == today,
+    ("cma_answers", "CMA Inter 5:30 PM answers", ANS_DUE, lambda: cma.get("last_post_date") == today,
      lambda: answers_ok(cma), "5-cma-post-answers.yml", None),
     ("cma_night", "CMA 9 PM concept + formula", (21, 0), lambda: cma_has("night"), lambda: cma_daily("night"),
      "11-cma-daily.yml", {"mode": "night"}),
@@ -165,7 +167,7 @@ CHECKS = [
      "11-cma-daily.yml", {"mode": "recap"}),
     ("caf_mcq", "CA Final Audit 10:30 AM MCQs", (10, 30), caf_applies, lambda: bool(caf_day),
      "14-ca-final-post-mcqs.yml", None),
-    ("caf_answers", "CA Final Audit 8:30 PM answers", (20, 30), caf_applies,
+    ("caf_answers", "CA Final Audit 5:30 PM answers", ANS_DUE, caf_applies,
      lambda: bool(caf_day and caf_day.get("answered")), "15-ca-final-post-answers.yml", None),
 ]
 
@@ -217,7 +219,7 @@ def main():
             if p.get("date") == today:
                 status[("ca_" if label == "CA Inter" else "cma_") + "mirror"] = all(s.get("mirrors") for s in p.get("sets", []))
             if p.get("date") == today and any(not s.get("mirrors") for s in p.get("sets", [])):
-                fixable = label == "CA Inter" and now.hour < 20 and tries.get("mirror_ca", 0) < 2
+                fixable = label == "CA Inter" and now.hour * 60 + now.minute < ANS_DUE[0] * 60 + ANS_DUE[1] and tries.get("mirror_ca", 0) < 2
                 if fixable:
                     tries["mirror_ca"] = tries.get("mirror_ca", 0) + 1
                     started = dispatch("6-mirror-now.yml")
