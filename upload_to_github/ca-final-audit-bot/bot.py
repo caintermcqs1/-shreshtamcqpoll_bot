@@ -8,7 +8,7 @@ state.json : progress per date, so a re-run continues where it stopped and never
 
 Modes:
   post     – post today's questions (10:30 AM IST)
-  answers  – close today's polls and post the answers (8:30 PM IST)
+  answers  – close today's polls and post the answers (5:30 PM IST)
   preview  – print today's (or DATE=YYYY-MM-DD) posts without sending
   test     – send a day's posts to TEST_CHAT only (DATE=YYYY-MM-DD optional); saves nothing
 """
@@ -155,7 +155,8 @@ def day_for(plan, date):
 
 def send_item(t, m, cfg):
     if m["type"] == "text":
-        return api("sendMessage", **t, text=m["text"], disable_web_page_preview=True)["message_id"]
+        text = m["text"].replace("answers at 8:30 PM", "answers at " + cfg.get("answer_time_label", "5:30 PM"))
+        return api("sendMessage", **t, text=text, disable_web_page_preview=True)["message_id"]
     return api("sendPoll", **t, question=m["question"], options=[{"text": o} for o in m["options"]],
                is_anonymous=cfg.get("anonymous_polls", True), type="quiz",
                correct_option_id=m["correct"], explanation=(m.get("explanation") or "")[:200] or None)["message_id"]
