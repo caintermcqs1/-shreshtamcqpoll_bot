@@ -85,6 +85,45 @@ caf_day = load(f"{CAF_DIR}/state.json", {"days": {}}).get("days", {}).get(today)
 CMA_RECAP_STOP = "2026-12-10"  # same date as EXTRAS_STOP_FROM in cma_daily.py
 
 
+concepts = load("ca-inter-mcq-bot/concepts.json", {})
+concept_done = load("ca-inter-mcq-bot/concept_state.json", {}).get("posted", [])
+# Content runway (user, 17 Nov: posts must never stop). Last date covered by the content loaded in the repo.
+RUNWAY_TARGET = {"ca_mcq": "2027-01-01", "cma_mcq": "2026-12-17", "ca_concept": "2027-01-01"}
+
+
+def plan_last_date(plan, st):
+    days = []
+    for d in plan[st.get("next_index", 0):]:
+        if d.get("day") not in days:
+            days.append(d.get("day"))
+    x = now.date() if st.get("last_post_date") != today else now.date() + dt.timedelta(days=1)
+    last = now.date() if st.get("last_post_date") == today else now.date() - dt.timedelta(days=1)
+    for _ in days:
+        while x.weekday() == 6:
+            x += dt.timedelta(days=1)
+        last = x
+        x += dt.timedelta(days=1)
+    return last
+
+
+def runway_lines():
+    lasts = {"ca_mcq": plan_last_date(ca_plan, ca), "cma_mcq": plan_last_date(cma_plan, cma),
+             "ca_concept": dt.date.fromisoformat(max(concepts)) if concepts else now.date()}
+    names = {"ca_mcq": "CA Inter MCQs", "cma_mcq": "CMA Inter MCQs", "ca_concept": "CA Inter Concept of the Day"}
+    out, warn = [], False
+    for k, last in lasts.items():
+        target = dt.date.fromisoformat(RUNWAY_TARGET[k])
+        if last >= target:
+            out.append(f"✅ {names[k]}: ready till {target:%d %b} (complete)")
+        elif (last - now.date()).days < 7:
+            warn = True
+            out.append(f"⚠️ {names[k]}: content only till {last:%a %d %b} – Claude's weekly task (Thu/Sat 3:53 PM) adds the next week")
+        else:
+            out.append(f"✅ {names[k]}: ready till {last:%a %d %b}")
+    return out, warn
+
+
+
 def caf_planned():
     """Is a CA Final Audit set planned for today? (plan = Google Sheet, read through the bot's own code)."""
     if today < caf_cfg.get("start_date", "9999"):
@@ -141,6 +180,8 @@ def cma_has(mode):
 
 # name, label, due (h, m), applies, ok, workflow, inputs
 CHECKS = [
+    ("ca_concept", "CA Inter 9 AM Concept of the Day", (9, 0), lambda: today in concepts,
+     lambda: all(f"{today}:{g}" in concept_done for g in ("g1", "g2")), "19-ca-concept.yml", {"date": today}),
     ("cma_countdown", "CMA 9 AM countdown", (9, 0), lambda: cma_has("countdown"), lambda: cma_daily("countdown"),
      "11-cma-daily.yml", {"mode": "countdown"}),
     ("ca_mcq", "CA Inter 10:30 AM MCQs", (10, 30), lambda: mcq_applies(ca, ca_plan),
@@ -279,6 +320,8 @@ def main():
         txt += ("\n\n😴 No posts were scheduled today." if not status
                 else "\n\n🎉 <b>All posts went out today.</b>" if not missing
                 else f"\n\n⚠️ <b>{missing} post(s) missing</b> – auto re-run was tried. Please tell Claude.")
+        rl, _ = runway_lines()
+        txt += "\n\n<b>Content loaded ahead</b>\n" + "\n".join(rl)
         tg(txt)
 
     print("OK:", lines_ok)
