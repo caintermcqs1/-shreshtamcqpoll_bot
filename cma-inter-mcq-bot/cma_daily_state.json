@@ -47,6 +47,8 @@
     "2026-11-19:study:g1": true,
     "2026-11-19:study:g2": true,
     "2026-11-19:fact:g1": true,
-    "2026-11-19:fact:g2": true
+    "2026-11-19:fact:g2": true,
+    "2026-11-19:night:g1": true,
+    "2026-11-19:night:g2": true
   }
 }
