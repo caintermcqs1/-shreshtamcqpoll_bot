@@ -1,7 +1,11 @@
 {
   "date": "2026-11-19",
-  "tries": {},
-  "alerted": [],
+  "tries": {
+    "ca_promo": 1
+  },
+  "alerted": [
+    "ca_promo"
+  ],
   "fixed": [],
   "runs_reported": [
     43815006665
