@@ -6,7 +6,9 @@
   "alerted": [
     "ca_promo"
   ],
-  "fixed": [],
+  "fixed": [
+    "ca_promo"
+  ],
   "runs_reported": [
     43815006665
   ]
