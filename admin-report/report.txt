@@ -1,30 +1,208 @@
-📋 <b>CHANGES REPORT – Tue 17 Nov 2026 (CA Inter &amp; CMA Inter)</b>
+📦 <b>WEEKLY CONTENT BACKUP – Mon 23 Nov – Sat 28 Nov (already scheduled)</b>
 
-✅ <b>1. Answers time: 8:30 PM → 5:30 PM</b> (from Wed 18 Nov)
-• CA Inter, CMA Inter and CA Final Audit – all MCQ answers now post at 5:30 PM.
-• Today (17 Nov) answers still post at 8:30 PM, as already announced in today's MCQs.
-• Health check, daily posting report and backup PDF now check for 5:30 PM.
+CA Inter – Concept of the Day (9 AM, Mon–Sat). No CA or CMA MCQ plan additions were needed for this week.
+6 days × 2 groups = 12 concepts below.
+=====
+<b>📅 Mon 23 Nov – CA Inter Concept of the Day</b>
 
-📌 <b>2. Pinned messages + notification to all members</b>
-• CMA Inter: welcome message edited to 5:30 PM, a short announcement sent, and the message re-pinned with a notification to everyone (12:45 PM).
-• CA Inter: new schedule message posted in General and pinned with a notification to everyone (12:48 PM). The old "2:00 PM" notice was unpinned.
+<b>[Group 1]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 1</b>
+📘 <b>Advanced Accounting</b>
 
-🧠 <b>3. CA Inter – Concept of the Day (new)</b>
-• 9:00 AM, Mon–Sat, in both Group 1 and Group 2 topics. Starts Wed 18 Nov.
-• Content is ready till Sat 21 Nov. The next batch (from Mon 23 Nov) will come here for approval.
+<b>AS 13 – Current vs long-term investments</b>
 
-🍀 <b>4. CMA Inter – exam days 10–17 Dec (waiting for approval)</b>
-• On each paper day the 9 AM countdown is replaced by "All the best + last-minute points" for that paper. The other group gets its next paper and today's revision focus.
-• Includes Sun 13 Dec (P10). Posts only after ✅ Approve on request #cma-exam-day-posts.
+• <b>Cost</b> includes brokerage, fees and duties. Interest accrued before acquisition and bought cum-interest is NOT part of cost – it is a recovery of cost.
+• <b>Current investments:</b> lower of cost and fair value, computed category-wise or investment-wise – never on a global (overall portfolio) basis.
+• <b>Long-term investments:</b> at cost, less a provision for decline in value that is other than temporary.
+• <b>Reclassification:</b> long-term → current at the lower of cost and carrying amount; current → long-term at the lower of cost and fair value.
+• <b>Disposal:</b> the difference between carrying amount and net disposal proceeds goes to P&amp;L. On partial disposal, use the average carrying amount of the holding.
 
-🗓 <b>CA Inter daily schedule (Mon–Sat)</b>
-9:00 AM Concept · 10:30 AM MCQs · 4:00 PM Study · 5:30 PM Answers · 6:00 PM Tip/Fact
+📝 <b>Exam tip:</b> In 'ex-interest vs cum-interest' questions, split the price first: only the capital part goes into the cost of the investment.
 
-🗓 <b>CMA Inter daily schedule (Mon–Sat)</b>
-9:00 AM Countdown · 10:30 AM MCQs · 4:00 PM Study · 5:30 PM Answers · 6:00 PM Fact/Tip · 9:00 PM Concept + Formula · Sat 9:30 PM Recap
+🎯 <i>Revise it tonight, recall it in the exam hall.</i>
 
-⏭ <b>Pending</b>
-• ✅ Approve the CMA exam-day posts request.
-• CA Concept of the Day batch from 23 Nov → approval.
-• CA Inter MCQs after 12 Dec and CMA Inter MCQs from 10 Dec → approval.
-• CA Final Audit: confirm the sheet has questions from Thu 26 Nov.
+<b>[Group 2]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 2</b>
+📘 <b>Cost &amp; Management Accounting</b>
+
+<b>Marginal costing – P/V ratio, BEP and margin of safety</b>
+
+• <b>Contribution</b> = Sales − Variable cost = Fixed cost + Profit.
+• <b>P/V ratio</b> = Contribution ÷ Sales × 100 = Change in profit ÷ Change in sales × 100.
+• <b>BEP (units)</b> = Fixed cost ÷ Contribution per unit. <b>BEP (₹)</b> = Fixed cost ÷ P/V ratio.
+• <b>Margin of safety</b> = Actual sales − BEP sales = Profit ÷ P/V ratio.
+• <b>Sales for a target profit</b> = (Fixed cost + Target profit) ÷ P/V ratio.
+
+📝 <b>Exam tip:</b> When two periods' sales and profits are given, find the P/V ratio from the CHANGE first – everything else follows from it.
+
+🎯 <i>Revise it tonight, recall it in the exam hall.</i>
+=====
+<b>📅 Tue 24 Nov – CA Inter Concept of the Day</b>
+
+<b>[Group 1]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 1</b>
+📘 <b>Corporate &amp; Other Laws</b>
+
+<b>Private company – Sec 2(68) and how it differs from a public company</b>
+
+• A <b>private company</b> by its articles: (a) restricts the right to transfer its shares, (b) limits members to 200, and (c) prohibits any invitation to the public to subscribe to its securities.
+• The <b>200 limit excludes</b> present employee-members and ex-employees who were members while employed and continue as members. Joint holders count as one member.
+• <b>Minimum members:</b> 2 for a private company, 7 for a public company, 1 for an OPC.
+• <b>Minimum directors:</b> 2 for a private company, 3 for a public company, 1 for an OPC.
+• A private company that is a <b>subsidiary of a public company</b> is treated as a public company, even if its articles say it is private.
+
+📝 <b>Exam tip:</b> In case questions, check the subsidiary point first – it changes the answer to 'Is this a private company?'
+
+🎯 <i>One concept clear today = one question right in the exam.</i>
+
+<b>[Group 2]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 2</b>
+📘 <b>Auditing &amp; Ethics</b>
+
+<b>SA 530 – Audit sampling in one view</b>
+
+• <b>Sampling risk:</b> the risk that the auditor's conclusion from a sample differs from the conclusion if the whole population were tested.
+• <b>Non-sampling risk:</b> any other reason for a wrong conclusion – wrong procedure, misread evidence, missed misstatement.
+• <b>Selection methods:</b> random, systematic, monetary unit sampling and haphazard selection. Block selection is rarely appropriate.
+• <b>Stratification</b> splits the population into sub-groups with similar characteristics, so sample size can fall without raising risk.
+• <b>Evaluate:</b> project the misstatements found in the sample to the whole population and compare with tolerable misstatement. An <b>anomaly</b> is a misstatement shown not to represent the population.
+
+📝 <b>Exam tip:</b> If the auditor cannot perform a procedure on a selected item, treat it as a deviation or misstatement – do not simply pick another item.
+
+🎯 <i>One concept clear today = one question right in the exam.</i>
+=====
+<b>📅 Wed 25 Nov – CA Inter Concept of the Day</b>
+
+<b>[Group 1]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 1</b>
+📘 <b>Taxation – GST</b>
+
+<b>Sec 12 – Time of supply of goods</b>
+
+• <b>Forward charge:</b> the earlier of (a) date of issue of invoice (or the last date by which it should have been issued u/s 31) and (b) date of receipt of payment.
+• <b>Advances for goods:</b> by notification, GST is not payable on receipt of an advance for goods. It is paid when the invoice is issued (not available to composition taxpayers).
+• <b>Reverse charge – Sec 12(3):</b> the earliest of date of receipt of goods, date of payment, and the date immediately after 30 days from the supplier's invoice.
+• <b>Vouchers – Sec 12(4):</b> date of issue of the voucher if the supply is identifiable then; otherwise the date of redemption.
+• <b>Interest or late fee</b> for delayed payment: time of supply is the date the recipient pays it.
+
+📝 <b>Exam tip:</b> Up to ₹1,000 received in excess of the invoice amount: the supplier may treat the invoice date as the time of supply for that excess.
+
+🎯 <i>Small daily revisions build big marks in January.</i>
+
+<b>[Group 2]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 2</b>
+📘 <b>Financial Management</b>
+
+<b>Leverages – operating, financial and combined</b>
+
+• <b>DOL</b> = Contribution ÷ EBIT. It measures business risk from fixed operating costs.
+• <b>DFL</b> = EBIT ÷ EBT. With preference dividend: EBIT ÷ [EBT − Preference dividend ÷ (1 − t)].
+• <b>DCL</b> = DOL × DFL = Contribution ÷ EBT.
+• <b>Meaning:</b> a DOL of 3 means a 1% change in sales gives a 3% change in EBIT. A DFL of 2 means a 1% change in EBIT gives a 2% change in EPS.
+• <b>Operating BEP:</b> where EBIT = 0, DOL is undefined. Just above BEP, DOL is very high, so firms close to BEP carry high business risk.
+
+📝 <b>Exam tip:</b> High DOL and high DFL together = very high total risk. Examiners like asking which one to reduce first.
+
+🎯 <i>Small daily revisions build big marks in January.</i>
+=====
+<b>📅 Thu 26 Nov – CA Inter Concept of the Day</b>
+
+<b>[Group 1]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 1</b>
+📘 <b>Advanced Accounting</b>
+
+<b>AS 14 – Merger vs purchase</b>
+
+• <b>Amalgamation in the nature of merger</b> – ALL five conditions: all assets and liabilities transferred; holders of at least 90% of equity shares (by face value) become equity shareholders of the transferee; consideration only in equity shares (cash only for fractions); business continued; no adjustment to book values except for uniform accounting policies.
+• If any one condition fails, it is an <b>amalgamation in the nature of purchase</b>.
+• <b>Merger → pooling of interests:</b> assets, liabilities and reserves are recorded at book values. Any difference goes to reserves.
+• <b>Purchase → purchase method:</b> assets and liabilities at book or fair values. Excess of consideration over net assets = goodwill (amortised over not more than 5 years unless a longer period is justified); shortfall = capital reserve.
+• <b>Statutory reserves</b> in a purchase are preserved by crediting them and debiting the Amalgamation Adjustment Reserve.
+
+📝 <b>Exam tip:</b> Read the scheme for 'cash paid to shareholders' – one cash payment beyond fractions makes it a purchase.
+
+🎯 <i>Understand it once, and you won't need to mug it up.</i>
+
+<b>[Group 2]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 2</b>
+📘 <b>Strategic Management</b>
+
+<b>Porter's generic strategies</b>
+
+• <b>Cost leadership:</b> be the lowest-cost producer in the industry and compete on price or earn higher margins.
+• <b>Differentiation:</b> offer unique features (quality, brand, service) that customers will pay a premium for.
+• <b>Focus:</b> serve a narrow segment – either by cost focus or by differentiation focus.
+• <b>Risks:</b> cost leaders can be copied or hit by technology change; differentiators can be copied or lose the price premium; focusers can see the segment disappear.
+• <b>Stuck in the middle:</b> a firm that tries all strategies without achieving any of them usually earns below-average returns.
+
+📝 <b>Exam tip:</b> In a case, look for clue words: 'lowest price', 'premium', 'niche' – then name the strategy and justify it with the facts.
+
+🎯 <i>Understand it once, and you won't need to mug it up.</i>
+=====
+<b>📅 Fri 27 Nov – CA Inter Concept of the Day</b>
+
+<b>[Group 1]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 1</b>
+📘 <b>Taxation – Income Tax</b>
+
+<b>Capital gains – holding period and tax rates (A.Y. 2026-27)</b>
+
+• <b>Long-term</b> if held for more than <b>12 months</b> for listed securities and units of equity-oriented funds, and more than <b>24 months</b> for all other capital assets.
+• <b>STCG u/s 111A</b> (STT-paid equity shares and equity-oriented fund units): 20%.
+• <b>LTCG u/s 112A</b>: 12.5% on gains exceeding ₹1.25 lakh in the year.
+• <b>LTCG u/s 112</b> (other assets): 12.5% without indexation. For land or building acquired before 23 July 2024, a resident individual or HUF pays the lower of 12.5% without indexation and 20% with indexation.
+• <b>Always short-term:</b> depreciable assets (Sec 50), and specified mutual fund units and market-linked debentures (Sec 50AA).
+
+📝 <b>Exam tip:</b> Count the holding period from the date of acquisition to the date of transfer – then apply the right section before any rate.
+
+🎯 <i>Consistency beats intensity – see you tomorrow at 9 AM!</i>
+
+<b>[Group 2]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 2</b>
+📘 <b>Cost &amp; Management Accounting</b>
+
+<b>Standard costing – material variances</b>
+
+• <b>Material cost variance</b> = Standard cost for actual output − Actual cost.
+• <b>Price variance</b> = (Standard price − Actual price) × Actual quantity.
+• <b>Usage variance</b> = (Standard quantity for actual output − Actual quantity) × Standard price.
+• <b>Mix variance</b> = (Revised standard quantity − Actual quantity) × Standard price.
+• <b>Yield variance</b> = (Standard quantity for actual output − Revised standard quantity) × Standard price. Check: Mix + Yield = Usage.
+
+📝 <b>Exam tip:</b> Revised standard quantity = total actual quantity split in the STANDARD mix ratio.
+
+🎯 <i>Consistency beats intensity – see you tomorrow at 9 AM!</i>
+=====
+<b>📅 Sat 28 Nov – CA Inter Concept of the Day</b>
+
+<b>[Group 1]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 1</b>
+📘 <b>Corporate &amp; Other Laws</b>
+
+<b>FEMA – current account vs capital account transactions</b>
+
+• <b>Person resident in India – Sec 2(v):</b> resides in India for more than 182 days in the preceding financial year (with exclusions for those who leave India for employment, business or an uncertain period).
+• <b>Capital account transaction – Sec 2(e):</b> alters the assets or liabilities (including contingent liabilities) outside India of residents, or in India of non-residents.
+• <b>Current account transaction – Sec 2(j):</b> any transaction other than a capital account transaction, e.g. foreign trade payments, interest on loans, remittances for living expenses of family abroad, foreign travel, education and medical care.
+• <b>Sec 5:</b> current account transactions are freely allowed, subject to reasonable restrictions the Central Government may impose in public interest.
+• <b>Sec 6:</b> capital account transactions are allowed only as permitted – the Central Government regulates non-debt instruments and the RBI regulates debt instruments.
+
+📝 <b>Exam tip:</b> Ask one question: does it change an asset or liability across the border? Yes → capital account. No → current account.
+
+🎯 <i>Every concept you master is a mark you protect.</i>
+
+<b>[Group 2]</b>
+🧠 <b>CONCEPT OF THE DAY – Group 2</b>
+📘 <b>Auditing &amp; Ethics</b>
+
+<b>SA 580 – Written representations</b>
+
+• <b>Required:</b> management confirms it has prepared the financial statements per the framework, given the auditor all information and access, and recorded all transactions.
+• <b>Date:</b> as near as practicable to, but NOT after, the date of the auditor's report.
+• <b>Addressed</b> to the auditor, as a letter of representation signed by management.
+• <b>Not a substitute</b> for other audit evidence – it supports evidence, it does not replace it.
+• If management <b>refuses</b> the required representations, or the auditor doubts their reliability because of management's integrity, the auditor issues a <b>disclaimer of opinion</b>.
+
+📝 <b>Exam tip:</b> Written representations about specific items (e.g. intent to hold an investment) support, but never prove, the assertion.
+
+🎯 <i>Every concept you master is a mark you protect.</i>
