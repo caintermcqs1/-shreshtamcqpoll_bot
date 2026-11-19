@@ -1,56 +1,6 @@
 {
-  "next_index": 14,
-  "pending": {
-    "date": "2026-11-19",
-    "sets": [
-      {
-        "index": 14,
-        "case_message_id": 6039,
-        "poll_message_ids": [
-          6040,
-          6041,
-          6042,
-          6043
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166242,
-            "case_message_id": 167175,
-            "poll_message_ids": [
-              167177,
-              167179,
-              167181,
-              167182
-            ]
-          }
-        ]
-      },
-      {
-        "index": 15,
-        "case_message_id": 6045,
-        "poll_message_ids": [
-          6046,
-          6047,
-          6048,
-          6049
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166242,
-            "case_message_id": 167184,
-            "poll_message_ids": [
-              167186,
-              167188,
-              167190,
-              167192
-            ]
-          }
-        ]
-      }
-    ]
-  },
+  "next_index": 16,
+  "pending": null,
   "history": [
     {
       "date": "2026-11-10",
@@ -384,6 +334,54 @@
         {
           "total": 13,
           "correct": 7
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "day": 9,
+      "group": "Group 1",
+      "kind": "general",
+      "results": [
+        {
+          "total": 13,
+          "correct": 10
+        },
+        {
+          "total": 13,
+          "correct": 9
+        },
+        {
+          "total": 16,
+          "correct": 15
+        },
+        {
+          "total": 14,
+          "correct": 12
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "day": 9,
+      "group": "Group 2",
+      "kind": "general",
+      "results": [
+        {
+          "total": 15,
+          "correct": 11
+        },
+        {
+          "total": 23,
+          "correct": 20
+        },
+        {
+          "total": 19,
+          "correct": 18
+        },
+        {
+          "total": 23,
+          "correct": 17
         }
       ]
     }
