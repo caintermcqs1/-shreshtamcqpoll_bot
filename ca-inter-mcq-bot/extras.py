@@ -535,6 +535,11 @@ def main():
         finally:
             save_state(state)
         return
+    if mode == "promopreview":
+        # show the approved promos exactly as students get them, in the MCQ'S poll group (admin preview)
+        for p in load(os.path.join(HERE, "promos_v2.json"), {}).get("promos", []):
+            tg_send("-1004340727881", p["ca"])
+        return
     if mode == "notice":
         post_notice()
         return
