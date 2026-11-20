@@ -198,7 +198,7 @@ CHECKS = [
      lambda: ex.get("last_fact_date") == today, "3-post-extras.yml", {"mode": "fact"}),
     ("cma_fact", "CMA 6 PM tip/fact", (18, 0), lambda: cma_has("fact"), lambda: cma_daily("fact"),
      "11-cma-daily.yml", {"mode": "fact"}),
-    ("ca_promo", "7 PM promotion (Tue/Thu/Sat)", (19, 0), lambda: weekday in ((1, 3, 5) if promo_days_v2 else (1, 3)) and bool(promos),
+    ("ca_promo", "8 PM promotion (Tue/Thu/Sat)", (20, 0), lambda: weekday in ((1, 3, 5) if promo_days_v2 else (1, 3)) and bool(promos),
      lambda: ex.get("last_promo_date") == today, "3-post-extras.yml", {"mode": "promo"}),
     ("ca_answers", "CA Inter 5:30 PM answers", ANS_DUE, lambda: ca.get("last_post_date") == today,
      lambda: answers_ok(ca), "2-post-answers.yml", None),
