@@ -1,5 +1,5 @@
 {
-  "_how": "New promo set (approval item promos-v2-20nov). Posted Tue/Thu/Sat 7 PM to every target, rotating through 'promos'. Text is trusted HTML written by us.",
+  "_how": "New promo set (approval item promos-v2-20nov). Posted Tue/Thu/Sat 7 PM; the same text goes to every target, rotating through 'promos'. Text is trusted HTML written by us.",
   "targets": [
     {
       "id": "ca",
@@ -19,14 +19,14 @@
   ],
   "promos": [
     {
-      "ca": "🎓 <b>Preparing for CA Inter?</b>\n\nThe CA Ram Harsha YouTube Channel has regular CA Inter classes, concept videos and exam updates.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
-      "cma": "🎓 <b>Preparing for CMA Inter?</b>\n\nThe CA Ram Harsha YouTube Channel has regular classes, concept videos and exam updates for CMA Inter students too.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
-      "frat": "🎓 <b>CA &amp; CMA students – don't miss this!</b>\n\nThe CA Ram Harsha YouTube Channel has regular classes, concept videos, strategy sessions and exam updates.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!"
+      "ca": "🎓 <b>Looking for CA &amp; CMA classes?</b>\n\nAll of Sir's regular classes are on the SHRESHTA website. Visit the website, choose your course and start your classes today:\n\n🌐 https://www.shreshtaforcacma.com",
+      "cma": "🎓 <b>Looking for CA &amp; CMA classes?</b>\n\nAll of Sir's regular classes are on the SHRESHTA website. Visit the website, choose your course and start your classes today:\n\n🌐 https://www.shreshtaforcacma.com",
+      "frat": "🎓 <b>Looking for CA &amp; CMA classes?</b>\n\nAll of Sir's regular classes are on the SHRESHTA website. Visit the website, choose your course and start your classes today:\n\n🌐 https://www.shreshtaforcacma.com"
     },
     {
-      "ca": "📲 <b>Stay connected with CA Ram Harsha!</b>\n\nFollow Sir on Instagram for daily CA Inter updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
-      "cma": "📲 <b>Stay connected with CA Ram Harsha!</b>\n\nFollow Sir on Instagram for daily CMA Inter updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
-      "frat": "📲 <b>Stay connected with CA Ram Harsha!</b>\n\nFollow Sir on Instagram for daily updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!"
+      "ca": "📲 <b>Follow CA Ram Harsha on YouTube &amp; Instagram!</b>\n\n▶️ YouTube – marathons and useful videos for CA &amp; CMA students:\nhttps://www.youtube.com/@caramharsha\n\n📸 Instagram – daily updates, quick concepts and exam tips:\nhttps://www.instagram.com/caramharsha\n\n🔔 Follow both and turn on notifications so you never miss an update!",
+      "cma": "📲 <b>Follow CA Ram Harsha on YouTube &amp; Instagram!</b>\n\n▶️ YouTube – marathons and useful videos for CA &amp; CMA students:\nhttps://www.youtube.com/@caramharsha\n\n📸 Instagram – daily updates, quick concepts and exam tips:\nhttps://www.instagram.com/caramharsha\n\n🔔 Follow both and turn on notifications so you never miss an update!",
+      "frat": "📲 <b>Follow CA Ram Harsha on YouTube &amp; Instagram!</b>\n\n▶️ YouTube – marathons and useful videos for CA &amp; CMA students:\nhttps://www.youtube.com/@caramharsha\n\n📸 Instagram – daily updates, quick concepts and exam tips:\nhttps://www.instagram.com/caramharsha\n\n🔔 Follow both and turn on notifications so you never miss an update!"
     }
   ]
 }
