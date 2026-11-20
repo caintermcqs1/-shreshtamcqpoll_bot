@@ -1,0 +1,32 @@
+{
+  "_how": "New promo set (approval item promos-v2-20nov). Posted Tue/Thu/Sat 7 PM to every target, rotating through 'promos'. Text is trusted HTML written by us.",
+  "targets": [
+    {
+      "id": "ca",
+      "name": "CA Inter ENROLLED Students Group – General",
+      "chat_id": "main"
+    },
+    {
+      "id": "cma",
+      "name": "CMA Inter ENROLLED Course Students – General",
+      "chat_id": "-1002255328356"
+    },
+    {
+      "id": "frat",
+      "name": "SHRESHTA's FRATERNITY! – General",
+      "chat_id": "-1001311488542"
+    }
+  ],
+  "promos": [
+    {
+      "ca": "🎓 <b>Preparing for CA Inter?</b>\n\nThe CA Ram Harsha YouTube Channel has regular CA Inter classes, concept videos and exam updates.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
+      "cma": "🎓 <b>Preparing for CMA Inter?</b>\n\nThe CA Ram Harsha YouTube Channel has regular classes, concept videos and exam updates for CMA Inter students too.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
+      "frat": "🎓 <b>CA &amp; CMA students – don't miss this!</b>\n\nThe CA Ram Harsha YouTube Channel has regular classes, concept videos, strategy sessions and exam updates.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!"
+    },
+    {
+      "ca": "📲 <b>Stay connected with CA Ram Harsha!</b>\n\nFollow Sir on Instagram for daily CA Inter updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
+      "cma": "📲 <b>Stay connected with CA Ram Harsha!</b>\n\nFollow Sir on Instagram for daily CMA Inter updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!",
+      "frat": "📲 <b>Stay connected with CA Ram Harsha!</b>\n\nFollow Sir on Instagram for daily updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!"
+    }
+  ]
+}

@@ -209,14 +209,73 @@ def post_fact(state):
 
 
 # ---------------- promotion ----------------
+PROMO_V2_APPROVAL = "promos-v2-20nov"
+
+
+def tg_send(chat_id, text, preview=True):
+    """Send to another group's General (no topic)."""
+    data = {"chat_id": chat_id, "text": text, "parse_mode": "HTML",
+            "disable_web_page_preview": "false" if preview else "true"}
+    req = urllib.request.Request(f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+                                 data=urllib.parse.urlencode(data).encode())
+    with urllib.request.urlopen(req, timeout=30) as r:
+        res = json.load(r)
+    if not res.get("ok"):
+        raise RuntimeError(res)
+    print("Sent to", chat_id, ":", text.splitlines()[0][:60])
+
+
+def promo_v2_approved():
+    appr = load(os.path.join(HERE, "..", "approvals", "approvals.json"), {})
+    item = next((i for i in appr.get("items", []) if i.get("id") == PROMO_V2_APPROVAL), None)
+    return bool(item) and item.get("status") == "approved"
+
+
+def post_promo_v2(state):
+    """Tue/Thu/Sat 7 PM: the same promo (one per day, rotating) to CA Inter, CMA Inter and FRATERNITY General."""
+    cfg = load(os.path.join(HERE, "promos_v2.json"), {})
+    promos, targets = cfg.get("promos", []), cfg.get("targets", [])
+    if not promos or not targets:
+        return
+    if state.get("promo2_last_date") == today():
+        print("Promo (v2) already posted today")
+        return
+    i = state.get("promo2_index", 0) % len(promos)
+    done = [k for k in state.get("promo2_done", []) if k.startswith(today())]
+    for t in targets:
+        key = f"{today()}:{t['id']}"
+        text = promos[i].get(t["id"])
+        if key in done or not text:
+            continue
+        try:
+            if t["chat_id"] == "main":
+                send(text, preview=True)
+            else:
+                tg_send(t["chat_id"], text)
+            done.append(key)
+        except Exception as e:
+            print(f"Promo to {t['id']} failed (will retry in the backup run):", e)
+    state["promo2_done"] = done
+    if all(f"{today()}:{t['id']}" in done for t in targets if promos[i].get(t["id"])):
+        state["promo2_index"] = i + 1
+        state["promo2_last_date"] = today()
+        state["last_promo_date"] = today()   # health check looks at this
+
+
 def post_promo(state):
+    if promo_v2_approved():
+        post_promo_v2(state)
+        return
+    if dt.datetime.now(IST).weekday() == 5:
+        print("Saturday promo starts only with the new promo set (not approved yet)")
+        return
     if state.get("last_promo_date") == today():
         print("Promo already posted today")
         return
     promos = load(os.path.join(HERE, "promos.json"), [])
     if not promos:
         return
-    i = state.get("promo_index", 0) % len(promos)
+    i = 0   # old promo 2 has outdated timings (2 PM answers, "share with friends"), so until v2 is approved only promo 1 goes out
     send(promos[i]["text"], preview=True)  # promo text is trusted HTML written by us
     state["promo_index"] = i + 1
     state["last_promo_date"] = today()
