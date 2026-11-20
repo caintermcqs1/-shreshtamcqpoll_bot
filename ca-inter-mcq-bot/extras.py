@@ -241,6 +241,10 @@ def post_promo_v2(state):
         print("Promo (v2) already posted today")
         return
     i = state.get("promo2_index", 0) % len(promos)
+    day_map = cfg.get("day_map", {})   # fixed promo per weekday (Mon=0): Tue 1st, Thu 2nd, Sat 3rd
+    wd = str(dt.datetime.now(IST).weekday())
+    if wd in day_map:
+        i = day_map[wd] % len(promos)
     done = [k for k in state.get("promo2_done", []) if k.startswith(today())]
     for t in targets:
         key = f"{today()}:{t['id']}"

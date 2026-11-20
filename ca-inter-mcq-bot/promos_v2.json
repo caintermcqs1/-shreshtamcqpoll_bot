@@ -1,5 +1,5 @@
 {
-  "_how": "New promo set (approval item promos-v2-20nov). Posted Tue/Thu/Sat 7 PM; the same text goes to every target, rotating through 'promos'. Text is trusted HTML written by us.",
+  "_how": "Posted Tue/Thu/Sat 7 PM to every target (same text). day_map fixes the promo per weekday (Mon=0): Tue = promo 1 (website), Thu = promo 2 (YouTube + Instagram), Sat = promo 3 (all three). Text is trusted HTML written by us.",
   "targets": [
     {
       "id": "ca",
@@ -27,6 +27,16 @@
       "ca": "🔥 <b>Don't miss a single update!</b>\n\n▶️ <b>YouTube</b> – marathons &amp; must-watch videos for CA &amp; CMA students\n🔗 https://www.youtube.com/@caramharsha\n\n📸 <b>Instagram</b> – daily updates, quick concepts &amp; exam tips\n🔗 https://www.instagram.com/caramharsha\n\n🔔 Follow both &amp; turn on notifications – stay one step ahead! 💪",
       "cma": "🔥 <b>Don't miss a single update!</b>\n\n▶️ <b>YouTube</b> – marathons &amp; must-watch videos for CA &amp; CMA students\n🔗 https://www.youtube.com/@caramharsha\n\n📸 <b>Instagram</b> – daily updates, quick concepts &amp; exam tips\n🔗 https://www.instagram.com/caramharsha\n\n🔔 Follow both &amp; turn on notifications – stay one step ahead! 💪",
       "frat": "🔥 <b>Don't miss a single update!</b>\n\n▶️ <b>YouTube</b> – marathons &amp; must-watch videos for CA &amp; CMA students\n🔗 https://www.youtube.com/@caramharsha\n\n📸 <b>Instagram</b> – daily updates, quick concepts &amp; exam tips\n🔗 https://www.instagram.com/caramharsha\n\n🔔 Follow both &amp; turn on notifications – stay one step ahead! 💪"
+    },
+    {
+      "ca": "🌟 <b>Everything you need – all in one place!</b>\n\n🎓 <b>Classes</b> – regular, 3/4th strategy &amp; exam-oriented classes\n🌐 https://www.shreshtaforcacma.com\n\n▶️ <b>YouTube</b> – marathons &amp; must-watch videos\n🔗 https://www.youtube.com/@caramharsha\n\n📸 <b>Instagram</b> – daily updates, quick concepts &amp; exam tips\n🔗 https://www.instagram.com/caramharsha\n\n💪 Learn, revise and stay updated – your CA &amp; CMA journey, sorted!",
+      "cma": "🌟 <b>Everything you need – all in one place!</b>\n\n🎓 <b>Classes</b> – regular, 3/4th strategy &amp; exam-oriented classes\n🌐 https://www.shreshtaforcacma.com\n\n▶️ <b>YouTube</b> – marathons &amp; must-watch videos\n🔗 https://www.youtube.com/@caramharsha\n\n📸 <b>Instagram</b> – daily updates, quick concepts &amp; exam tips\n🔗 https://www.instagram.com/caramharsha\n\n💪 Learn, revise and stay updated – your CA &amp; CMA journey, sorted!",
+      "frat": "🌟 <b>Everything you need – all in one place!</b>\n\n🎓 <b>Classes</b> – regular, 3/4th strategy &amp; exam-oriented classes\n🌐 https://www.shreshtaforcacma.com\n\n▶️ <b>YouTube</b> – marathons &amp; must-watch videos\n🔗 https://www.youtube.com/@caramharsha\n\n📸 <b>Instagram</b> – daily updates, quick concepts &amp; exam tips\n🔗 https://www.instagram.com/caramharsha\n\n💪 Learn, revise and stay updated – your CA &amp; CMA journey, sorted!"
     }
-  ]
+  ],
+  "day_map": {
+    "1": 0,
+    "3": 1,
+    "5": 2
+  }
 }
