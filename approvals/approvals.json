@@ -65,26 +65,28 @@
   },
   {
    "id": "promos-v2-20nov",
-   "status": "pending",
-   "title": "Promotional messages – new Promo 2 + 3 days a week + CMA Inter & FRATERNITY groups",
+   "status": "new",
+   "title": "Promotional messages (UPDATED) – website promo + YouTube/Instagram promo, Tue/Thu/Sat, same text in 3 groups",
    "group": "CA Inter ENROLLED (General) + CMA Inter ENROLLED (General) + SHRESHTA's FRATERNITY! (General)",
    "goes_live": "From Sat 21 Nov, 7:00 PM – then every Tue, Thu, Sat at 7:00 PM",
    "details": [
-    "Promo 2 changed: 'Share this group with your friends' removed (the CA Inter group is only for enrolled students); Sir's Instagram page link added instead, with the YouTube link.",
-    "Promo 1: CA Inter text unchanged; CMA and FRATERNITY get their own wording.",
-    "3 times a week instead of 2: Tue, Thu and Sat, 7:00 PM.",
-    "Same promo goes to all 3 groups on a day; Promo 1 and Promo 2 take turns.",
-    "Full texts for every group are in the messages above."
+    "Promo 1: regular classes are on our website – visit www.shreshtaforcacma.com and take the classes.",
+    "Promo 2: follow the YouTube channel (marathons and useful videos) and the Instagram page.",
+    "No 'share this group' line (the CA Inter group is only for enrolled students).",
+    "Same message in all 3 groups: CA Inter General, CMA Inter General, SHRESHTA's FRATERNITY! General.",
+    "3 times a week: Tue, Thu and Sat, 7:00 PM. The two promos take turns.",
+    "This replaces the earlier request for the same item."
    ],
-   "if_rejected": "only the old Promo 1 keeps going to the CA Inter group on Tue and Thu (the old Promo 2 with '2 PM answers' is stopped either way).",
+   "if_rejected": "only the old Promo 1 (YouTube) keeps going to the CA Inter group on Tue and Thu (the old Promo 2 with '2 PM answers' stays stopped).",
    "attachment_text": [
-    "📄 #promos-v2-20nov – New promotional messages (preview)\n\nDays: every Tuesday, Thursday and Saturday at 7:00 PM.\nGroups: CA Inter group General + CMA Inter group General + SHRESHTA's FRATERNITY! General.\nOne promo per day, the two promos take turns. Each group gets its own wording (CA Inter / CMA Inter / all students).\n\nThe next 2 messages show exactly what each group will get.",
-    "📄 #promos-v2-20nov – PROMO 1 – YouTube channel (CA Inter text unchanged)\n\n━━━━━━━━━━━━━━\n👥 CA Inter ENROLLED group – General\n━━━━━━━━━━━━━━\n🎓 Preparing for CA Inter?\n\nThe CA Ram Harsha YouTube Channel has regular CA Inter classes, concept videos and exam updates.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!\n\n━━━━━━━━━━━━━━\n👥 CMA Inter ENROLLED group – General\n━━━━━━━━━━━━━━\n🎓 Preparing for CMA Inter?\n\nThe CA Ram Harsha YouTube Channel has regular classes, concept videos and exam updates for CMA Inter students too.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!\n\n━━━━━━━━━━━━━━\n👥 SHRESHTA's FRATERNITY! – General\n━━━━━━━━━━━━━━\n🎓 CA & CMA students – don't miss this!\n\nThe CA Ram Harsha YouTube Channel has regular classes, concept videos, strategy sessions and exam updates.\n\n▶️ Subscribe now: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!\n",
-    "📄 #promos-v2-20nov – PROMO 2 – Instagram + YouTube (NEW – replaces the old 'share this group' promo)\n\n━━━━━━━━━━━━━━\n👥 CA Inter ENROLLED group – General\n━━━━━━━━━━━━━━\n📲 Stay connected with CA Ram Harsha!\n\nFollow Sir on Instagram for daily CA Inter updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!\n\n━━━━━━━━━━━━━━\n👥 CMA Inter ENROLLED group – General\n━━━━━━━━━━━━━━\n📲 Stay connected with CA Ram Harsha!\n\nFollow Sir on Instagram for daily CMA Inter updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!\n\n━━━━━━━━━━━━━━\n👥 SHRESHTA's FRATERNITY! – General\n━━━━━━━━━━━━━━\n📲 Stay connected with CA Ram Harsha!\n\nFollow Sir on Instagram for daily updates, quick concepts, exam tips and reels:\n👉 https://www.instagram.com/caramharsha\n\n▶️ And don't forget the CA Ram Harsha YouTube Channel: https://www.youtube.com/@caramharsha\n🔔 Turn on notifications so you never miss an update!\n"
+    "📄 #promos-v2-20nov – UPDATED preview (replaces the earlier one)\n\nDays: every Tuesday, Thursday and Saturday at 7:00 PM.\nGroups: CA Inter group General + CMA Inter group General + SHRESHTA's FRATERNITY! General – the SAME message in all three.\nOne promo per day, the two promos take turns.\n\nThe next 2 messages are the exact texts.",
+    "📄 #promos-v2-20nov – PROMO 1 – Website (regular classes)\n━━━━━━━━━━━━━━\n\n🎓 Looking for CA & CMA classes?\n\nAll of Sir's regular classes are on the SHRESHTA website. Visit the website, choose your course and start your classes today:\n\n🌐 https://www.shreshtaforcacma.com",
+    "📄 #promos-v2-20nov – PROMO 2 – Follow YouTube + Instagram\n━━━━━━━━━━━━━━\n\n📲 Follow CA Ram Harsha on YouTube & Instagram!\n\n▶️ YouTube – marathons and useful videos for CA & CMA students:\nhttps://www.youtube.com/@caramharsha\n\n📸 Instagram – daily updates, quick concepts and exam tips:\nhttps://www.instagram.com/caramharsha\n\n🔔 Follow both and turn on notifications so you never miss an update!"
    ],
    "message_id": 174,
    "sent_at": "2026-11-20T08:55+05:30",
-   "last_reminder": "2026-11-20"
+   "last_reminder": "2026-11-20",
+   "previous_message_id": 174
   }
  ]
 }
