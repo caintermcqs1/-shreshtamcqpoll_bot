@@ -1,6 +1,6 @@
 {
  "_how": "Add a request with status \"new\" -> workflow 18 posts it to the MCQ'S poll group with Approve/Reject buttons. Decisions are written back here (status approved/rejected, decided_by, decided_at, comments).",
- "update_offset": 780398815,
+ "update_offset": 780398817,
  "items": [
   {
    "id": "cma-mcq-changes-16nov",
@@ -89,7 +89,14 @@
    "previous_message_id": 174,
    "decided_by": "user (confirmed in chat with Claude)",
    "decided_at": "2026-11-20T09:03+05:30",
-   "shown": false
+   "shown": true,
+   "comments": [
+    {
+     "by": "Vangala",
+     "at": "2026-11-20T09:05+05:30",
+     "text": "approve"
+    }
+   ]
   }
  ]
 }
