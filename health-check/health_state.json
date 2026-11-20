@@ -1,16 +1,9 @@
 {
-  "date": "2026-11-19",
-  "tries": {
-    "ca_promo": 1
-  },
-  "alerted": [
-    "ca_promo"
-  ],
-  "fixed": [
-    "ca_promo"
-  ],
+  "date": "2026-11-20",
+  "tries": {},
+  "alerted": [],
+  "fixed": [],
   "runs_reported": [
     43815006665
-  ],
-  "summary_sent": true
+  ]
 }
