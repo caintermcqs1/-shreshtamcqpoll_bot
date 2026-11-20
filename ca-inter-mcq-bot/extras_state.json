@@ -1,6 +1,6 @@
 {
   "fact_index": 1,
-  "last_fact_date": "2026-11-19",
+  "last_fact_date": "2026-11-20",
   "icai_fail_count": 0,
   "yt_channel_id": "UCWknnb47A6xz1vXUaheVm0g",
   "icai_seen": [
@@ -73,17 +73,18 @@
     "WaHGIsi8RsI",
     "VBnvqn79zgE",
     "CRQFtduJ3mg",
-    "YqHTY0sMvNU"
+    "YqHTY0sMvNU",
+    "poL1wYyR-BA"
   ],
-  "next_kind_g1": "tip",
-  "next_kind_g2": "tip",
-  "fact_cycle": 8,
-  "motivation_index": 9,
-  "tip_index_g1": 5,
+  "next_kind_g1": "fact",
+  "next_kind_g2": "fact",
+  "fact_cycle": 9,
+  "motivation_index": 11,
+  "tip_index_g1": 6,
   "promo_index": 2,
   "last_promo_date": "2026-11-19",
   "study_last_date": "2026-11-20",
-  "tip_index_g2": 4,
+  "tip_index_g2": 5,
   "yt_page_seeded": true,
   "fact_index_g1": 4,
   "fact_index_g2": 4,
@@ -122,6 +123,7 @@
     "x16hXJJNIxs",
     "WrEJYGQ1v8o",
     "TnYv7blI2-8",
-    "uKDnCKfQ7cY"
+    "uKDnCKfQ7cY",
+    "poL1wYyR-BA"
   ]
 }
