@@ -73,6 +73,8 @@
     "2026-11-23:study:g1": true,
     "2026-11-23:study:g2": true,
     "2026-11-23:fact:g1": true,
-    "2026-11-23:fact:g2": true
+    "2026-11-23:fact:g2": true,
+    "2026-11-23:night:g1": true,
+    "2026-11-23:night:g2": true
   }
 }
