@@ -266,6 +266,34 @@ def post_promo_v2(state):
         state["last_promo_date"] = today()   # health check looks at this
 
 
+def post_review(state):
+    """Sunday 8 PM: honest-review request (Play Store + Google) to every promo target."""
+    rv = load(os.path.join(HERE, "review.json"), {})
+    if not rv.get("active") or not rv.get("text"):
+        print("Review post is switched off")
+        return
+    if state.get("review_last_date") == today():
+        print("Review post already sent today")
+        return
+    targets = load(os.path.join(HERE, "promos_v2.json"), {}).get("targets", [])
+    done = [k for k in state.get("review_done", []) if k.startswith(today())]
+    for t in targets:
+        key = f"{today()}:{t['id']}"
+        if key in done:
+            continue
+        try:
+            if t["chat_id"] == "main":
+                send(rv["text"], preview=False)
+            else:
+                tg_send(t["chat_id"], rv["text"], preview=False)
+            done.append(key)
+        except Exception as e:
+            print(f"Review post to {t['id']} failed (will retry in the backup run):", e)
+    state["review_done"] = done
+    if targets and all(f"{today()}:{t['id']}" in done for t in targets):
+        state["review_last_date"] = today()
+
+
 def post_promo(state):
     if promo_v2_approved():
         post_promo_v2(state)
@@ -543,6 +571,15 @@ def main():
         # show the approved promos exactly as students get them, in the MCQ'S poll group (admin preview)
         for p in load(os.path.join(HERE, "promos_v2.json"), {}).get("promos", []):
             tg_send("-1004340727881", p["ca"])
+        return
+    if mode == "reviewpreview":
+        tg_send("-1004340727881", load(os.path.join(HERE, "review.json"), {}).get("text", ""), preview=False)
+        return
+    if mode == "review":
+        try:
+            post_review(state)
+        finally:
+            save_state(state)
         return
     if mode == "notice":
         post_notice()
