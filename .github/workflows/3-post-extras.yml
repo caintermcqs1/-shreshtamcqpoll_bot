@@ -14,6 +14,8 @@ on:
     - cron: "0 14 * * 2,4,6"   # 19:30 IST  8 PM promo (Tue/Thu/Sat, waits until 20:00)
     - cron: "30 12 * * 1-6"  # 18:00 IST  CA fact of the day (+ check)
     - cron: "30 14 * * 2,4,6"  # 20:00 IST  promotion backup (Tue, Thu, Sat)
+    - cron: "0 14 * * 0"     # 19:30 IST Sunday  8 PM review request (waits until 20:00)
+    - cron: "30 14 * * 0"    # 20:00 IST Sunday  review backup
     - cron: "30 15 * * *"    # 21:00 IST  check (all days)
     - cron: "15 2-17 * * *"  # every hour, 07:45-22:45 IST, all days: YouTube
   workflow_dispatch:
@@ -21,7 +23,7 @@ on:
       mode:
         description: "What to post"
         type: choice
-        options: [check, fact, study, promo, all, notice, announce, youtube, promopreview]
+        options: [check, fact, study, promo, all, notice, announce, youtube, promopreview, review, reviewpreview]
         default: check
 
 permissions:
@@ -54,6 +56,7 @@ jobs:
             "0 11 * * 1-6"|"45 11 * * 1-6"|"20 12 * * 1-6") echo "mode=fact" >> "$GITHUB_OUTPUT" ;;  # 6 PM tip/fact
             "0 14 * * 2,4,6") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
             "30 14 * * 2,4,6") echo "mode=promo" >> "$GITHUB_OUTPUT" ;;
+            "0 14 * * 0"|"30 14 * * 0") echo "mode=review" >> "$GITHUB_OUTPUT" ;;
             "15 2-17 * * *") echo "mode=youtube" >> "$GITHUB_OUTPUT" ;;
             "") echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
             *) echo "mode=check" >> "$GITHUB_OUTPUT" ;;
@@ -61,7 +64,7 @@ jobs:
       - name: Wait until post time
         if: github.event_name == 'schedule'
         run: |
-          python3 -c "import datetime as d,time;h={'study':16,'fact':18,'promo':20}.get('${{ steps.mode.outputs.mode }}');z=d.timezone(d.timedelta(hours=5,minutes=30));n=d.datetime.now(z);w=max(0,(n.replace(hour=h,minute=0,second=0,microsecond=0)-n).total_seconds()) if h else 0;print('Waiting',int(w),'seconds');time.sleep(w)"
+          python3 -c "import datetime as d,time;h={'study':16,'fact':18,'promo':20,'review':20}.get('${{ steps.mode.outputs.mode }}');z=d.timezone(d.timedelta(hours=5,minutes=30));n=d.datetime.now(z);w=max(0,(n.replace(hour=h,minute=0,second=0,microsecond=0)-n).total_seconds()) if h else 0;print('Waiting',int(w),'seconds');time.sleep(w)"
       - name: Run extras
         run: python extras.py ${{ steps.mode.outputs.mode }}
         env:
