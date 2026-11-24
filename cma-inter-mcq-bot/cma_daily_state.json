@@ -79,6 +79,8 @@
     "2026-11-24:countdown:g1": true,
     "2026-11-24:countdown:g2": true,
     "2026-11-24:study:g1": true,
-    "2026-11-24:study:g2": true
+    "2026-11-24:study:g2": true,
+    "2026-11-24:fact:g1": true,
+    "2026-11-24:fact:g2": true
   }
 }
