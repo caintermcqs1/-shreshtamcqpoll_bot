@@ -1,56 +1,6 @@
 {
-  "next_index": 24,
-  "pending": {
-    "date": "2026-11-25",
-    "sets": [
-      {
-        "index": 24,
-        "case_message_id": 6214,
-        "poll_message_ids": [
-          6216,
-          6218,
-          6220,
-          6222
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166242,
-            "case_message_id": 167622,
-            "poll_message_ids": [
-              167626,
-              167629,
-              167633,
-              167638
-            ]
-          }
-        ]
-      },
-      {
-        "index": 25,
-        "case_message_id": 6224,
-        "poll_message_ids": [
-          6226,
-          6228,
-          6230,
-          6232
-        ],
-        "mirrors": [
-          {
-            "chat_id": -1001311488542,
-            "thread": 166242,
-            "case_message_id": 167641,
-            "poll_message_ids": [
-              167643,
-              167645,
-              167647,
-              167649
-            ]
-          }
-        ]
-      }
-    ]
-  },
+  "next_index": 26,
+  "pending": null,
   "history": [
     {
       "date": "2026-11-10",
@@ -624,6 +574,54 @@
         {
           "total": 29,
           "correct": 29
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "day": 14,
+      "group": "Group 1",
+      "kind": "case",
+      "results": [
+        {
+          "total": 10,
+          "correct": 6
+        },
+        {
+          "total": 11,
+          "correct": 9
+        },
+        {
+          "total": 11,
+          "correct": 4
+        },
+        {
+          "total": 11,
+          "correct": 10
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "day": 14,
+      "group": "Group 2",
+      "kind": "case",
+      "results": [
+        {
+          "total": 8,
+          "correct": 5
+        },
+        {
+          "total": 11,
+          "correct": 10
+        },
+        {
+          "total": 7,
+          "correct": 6
+        },
+        {
+          "total": 12,
+          "correct": 7
         }
       ]
     }
