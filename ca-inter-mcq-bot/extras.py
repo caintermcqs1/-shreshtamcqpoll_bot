@@ -253,9 +253,9 @@ def post_promo_v2(state):
             continue
         try:
             if t["chat_id"] == "main":
-                send(text, preview=True)
+                send(text, preview=False)   # no link-preview card (the card did not open the site); the link line works
             else:
-                tg_send(t["chat_id"], text)
+                tg_send(t["chat_id"], text, preview=False)
             done.append(key)
         except Exception as e:
             print(f"Promo to {t['id']} failed (will retry in the backup run):", e)
@@ -570,7 +570,7 @@ def main():
     if mode == "promopreview":
         # show the approved promos exactly as students get them, in the MCQ'S poll group (admin preview)
         for p in load(os.path.join(HERE, "promos_v2.json"), {}).get("promos", []):
-            tg_send("-1004340727881", p["ca"])
+            tg_send("-1004340727881", p["ca"], preview=False)
         return
     if mode == "reviewpreview":
         tg_send("-1004340727881", load(os.path.join(HERE, "review.json"), {}).get("text", ""), preview=False)
