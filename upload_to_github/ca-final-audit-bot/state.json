@@ -25,7 +25,8 @@
           "correct": 2
         }
       ],
-      "head": 167615
+      "head": 167615,
+      "answered": true
     }
   }
 }
