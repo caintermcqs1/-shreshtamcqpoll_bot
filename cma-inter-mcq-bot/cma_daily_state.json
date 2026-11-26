@@ -95,6 +95,8 @@
     "2026-11-26:countdown:g1": true,
     "2026-11-26:countdown:g2": true,
     "2026-11-26:study:g1": true,
-    "2026-11-26:study:g2": true
+    "2026-11-26:study:g2": true,
+    "2026-11-26:fact:g1": true,
+    "2026-11-26:fact:g2": true
   }
 }
