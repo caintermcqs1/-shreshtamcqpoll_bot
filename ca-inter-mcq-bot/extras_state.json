@@ -90,7 +90,7 @@
   "motivation_index": 15,
   "tip_index_g1": 8,
   "promo_index": 2,
-  "last_promo_date": "2026-11-24",
+  "last_promo_date": "2026-11-26",
   "study_last_date": "2026-11-26",
   "tip_index_g2": 7,
   "yt_page_seeded": true,
@@ -138,10 +138,10 @@
     "xSahUVOTuuA"
   ],
   "promo2_done": [
-    "2026-11-24:ca",
-    "2026-11-24:cma",
-    "2026-11-24:frat"
+    "2026-11-26:ca",
+    "2026-11-26:cma",
+    "2026-11-26:frat"
   ],
-  "promo2_index": 1,
-  "promo2_last_date": "2026-11-24"
+  "promo2_index": 2,
+  "promo2_last_date": "2026-11-26"
 }
