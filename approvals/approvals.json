@@ -1,6 +1,6 @@
 {
  "_how": "Add a request with status \"new\" -> workflow 18 posts it to the MCQ'S poll group with Approve/Reject buttons. Decisions are written back here (status approved/rejected, decided_by, decided_at, comments).",
- "update_offset": 780399205,
+ "update_offset": 780399210,
  "items": [
   {
    "id": "cma-mcq-changes-16nov",
