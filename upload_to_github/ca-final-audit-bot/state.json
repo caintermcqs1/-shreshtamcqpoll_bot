@@ -73,7 +73,8 @@
           "correct": 2
         }
       ],
-      "head": 167741
+      "head": 167741,
+      "answered": true
     }
   }
 }
