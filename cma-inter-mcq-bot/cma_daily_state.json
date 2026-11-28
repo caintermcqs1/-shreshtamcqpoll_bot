@@ -101,6 +101,8 @@
     "2026-11-27:night:g1": true,
     "2026-11-27:night:g2": true,
     "2026-11-28:countdown:g1": true,
-    "2026-11-28:countdown:g2": true
+    "2026-11-28:countdown:g2": true,
+    "2026-11-28:study:g1": true,
+    "2026-11-28:study:g2": true
   }
 }
