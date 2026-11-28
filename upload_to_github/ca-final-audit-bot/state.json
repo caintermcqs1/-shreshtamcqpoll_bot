@@ -97,7 +97,8 @@
           "correct": 0
         }
       ],
-      "head": 167810
+      "head": 167810,
+      "answered": true
     }
   }
 }
